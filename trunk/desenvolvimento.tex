@@ -1,0 +1,102 @@
+\chapter{Desenvolvimento}
+
+Para o trabalho proposto, apenas os subprocessos 4 (Análise de Requisitos de
+Software), 5 (Projeto de Software) e 6 (Construção do Software) e suas
+respectivas tarefas de acessibilidade serão utilizados.
+
+\section{Subprocesso 4 - Análise de Requisitos de Software}
+
+O objetivo do subprocesso 4 é estabelecer os requisitos dos elementos de
+software do sistema. Elementos aqui são considerados interface e código
+\citep{maia:10}.
+
+O MTA insere duas tarefas de acessibilidade, conforme mostrado na figura
+\ref{fig:sub4}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth,height=200px]{./images/subprocesso4.png}
+\caption{Tarefas para o subprocesso de análise de requisitos do software
+\citep{maia:10}}
+\label{fig:sub4}
+\end{figure}
+ 
+ A saída da tarefa \textbf{Avaliar os requisitos de acessibilidade de software}
+ (Documento de requisitos de acessibilidade do software avaliados e aprovados)
+ passa por um tratamento, gerando um novo artefato. O artefato gerado é um
+ documento de requisitos no formato XML/XMI, que será utilizado nos passos
+ subsequentes para rastreamento dos requisitos de acessibilidade.
+ 
+ \textbf{COMO?}
+ 
+ \section{Subprocesso 5 - Projeto de Software}
+ 
+ O objetivo do subprocesso 5 é fornecer um projeto onde os requisitos do
+ software possam ser implementados e verificados \citep{maia:10}.
+ 
+ O MTA insere três tarefas de acessibilidade, conforme mostrado na figura
+\ref{fig:sub5}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth,height=200px]{./images/subprocesso5.png}
+\caption{Tarefas para o subprocesso de projeto de software \citep{maia:10}}
+\label{fig:sub5}
+\end{figure}
+
+As três tarefas deste subprocesso são de extrema importância, e impactam
+diretamente na acessibilidade do produto final. O artefato XML/XMI gerado no
+subprocesso anterior passará por cada tarefa deste subprocesso, de forma que,
+além da saída da tarefa \textbf{Avaliar a acessibilidade do projeto de software}
+gerar o artefato Projeto de software acessível, esta tarefa também gerará um
+artefato de projeto de software no formato XML/XMI, com elementos de
+acessibilidade embutidos.
+
+Uma observação interessante é que as subtarefas das tarefas pertencentes a esse
+subprocesso já começam a contar com critérios de sucesso do WCAG 2.0. Desta
+forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
+projeto de interface e navegação nos passos posteriores, principalmente porque
+um software automatizado não consegue fazer algumas verificações levando em
+consideração o contexto semântico (por exemplo, ordem de navegação).
+
+\section{Subprocesso 6 - Construção do Software}
+
+ O objetivo do subprocesso 6 é produzir unidades de software executáveis que
+ apropriadamente refletem o projeto de software \citep{maia:10}.
+ 
+ O MTA insere quatro tarefas de acessibilidade, conforme mostrado na figura
+\ref{fig:sub6}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth,height=350px]{./images/subprocesso6.png}
+\caption{Tarefas para o subprocesso de construção do software \citep{maia:10}}
+\label{fig:sub6}
+\end{figure}
+
+A tarefa 6.1 (Especificar Técnicas para Implementação da Acessibilidade da
+Interface e do Código) visa explicitar as técnicas de implementação de
+acessibilidade, refletidas no projeto de software. As técnicas variam de acordo
+com vários aspectos, como localidade, legislação, entre outros. Por exemplo, um
+desenvolvedor americano provavelmente considerará utilizar o WCAG 2.0
+em conjunto com as diretrizes da Section 508, por motivos legais. Um
+desenvolvedor brasileiro poderá considerar apenas o e-Mag 3.0. 
+
+Os modelos WCAG 2.0 e e-Mag 3.0 já possuem técnicas de acessibilidade presentes
+no documento. Esse é o momento de relacionar as especificidades do projeto de
+software com as técnicas de acessibilidade do modelo escolhido. Caso nenhum
+modelo conhecido ou algum modelo não usual tenha sido escolhido, as técnicas de
+implementação de acessibilidade deverão ser explicitamente relacionadas no
+projeto, o que não pode ser uma atividade fácil.
+
+Pelo contexto do trabalho, apesar de extrema importância, as tarefas
+\textbf{Planejar teste de acessibilidade para cada unidade de software} e
+\textbf{Executar teste de acessibilidade de cada unidade de software} não foram
+consideradas.
+
+A tarefa 6.2 (Codificar e documentar cada unidade de software de acordo com as
+técnicas de acessibilidade) recebe benefícios diretos dos passos anteriores,
+pois o projeto já contém os pontos críticos de acessibilidade explicitados. Mais ainda, com os artefatos XML/XMI é
+possível gerar o arcabouço do código, contendo as técnicas de acessibilidade que
+devem ser seguidas de uma forma rastreável \textbf{(COMENTÁRIOS, ANOTAÇÕES
+JAVA, OUTROS?)}

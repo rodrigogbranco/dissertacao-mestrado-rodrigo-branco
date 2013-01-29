@@ -1,0 +1,214 @@
+\chapter{Introdução}
+
+\section{Contexto e Motivação}
+
+A Receita Federal Brasileira informou que as declarações de Imposto de Renda
+do ano 2011 (ano de referência: 2010) só poderão ser entregues via internet
+\citep{irpf:11}. Essa decisão foi adotada pois a declaração feita em papel é
+mais vagarosa em todos os aspectos se comparados ao envio da declaração pela
+Internet e, além disso, é muito grande o número de declarações preenchidas 
+erroneamente usando os formulários impressos \citep{irpf_estacao:11}.
+
+Alguns Tribunais já instituíram a emissão de certidões apenas por meio
+eletrônico. Um exemplo é o Tribunal de Justiça do Estado do Ceará, que permite a
+emissão de Certidão Negativa Criminal por meio de seu \textit{site}
+\citep{tjce:11}. Segundo o próprio Tribunal, os motivos para adotar a emissão de
+Certidão \textit{online} implica em ``rapidez, transparência, amplo acesso, interatividade e significativa redução
+de custos materiais e humanos, contribuindo para os resultados de excelência que
+se pretende alcançar na prestação dos serviços do Judiciário à população''
+\citep{tjce_portaria:11}.
+
+O Conselho Monetário Nacional autorizou uma medida que permite que os bancos
+possam oferecer aos seus clientes uma conta movimentada exclusivamente por meios
+eletrônicos. Assim, o cliente ficará isento de cobranças de tarifas caso faça
+movimentações usando canais eletrônicos, como Internet, caixas
+eletrônicos e celular \citep{jc:11}.
+
+Os exemplos citados mostram a importância da Internet na disseminação de
+informação e fornecimento de diversos serviços. A Internet há muito tempo não é
+tratada mais como uma ferramenta de luxo ou acessória, mas sim como uma
+ferramenta essencial nas atividades do cotidiano das pessoas. Há várias
+vantagens em se usar a Internet para apoiar a comunicação e os negócios das
+empresas, por exemplo \citep{oliveira:11}:
+
+\begin{itemize}
+  \item Disponibilidade de 24 horas por dia;
+  \item Possibilidade de acesso de todas as partes do planeta;
+  \item Necessidade de espaço físico e de infra-estrutura reduzidos (ex: bancos)
+  para realizar as atividades;
+  \item Custo de investimento inicial baixo, etc.
+\end{itemize}
+
+Todos deveriam ter pleno acesso aos recursos
+fornecidos pela Internet. No entanto, devido a dificuldades e deficiências de
+determinados grupos de pessoas, o acesso aos recursos pode ficar comprometido
+sendo que em algumas situações sequer o acesso é possível. É necessário,
+portanto, fornecer maneiras de garantir a acessibilidade de informações e serviços da
+\textit{Internet}.
+
+\cite{5260918} definem Acessibilidade Digital como o requisito básico para
+fornecer um acesso equalitário à informação extraída da \textit{Internet},
+principalmente e especialmente por ser uma maneira vital de acesso ao conteúdo
+por grupos vulneráveis (principalmente pessoas com necessidades especiais).
+Necessidades especiais não se referem apenas a pessoas com deficiência física
+ou mental, mas também a pessoas com algum tipo de impossibilidade momentânea,
+como a navegação através de um \textit{browser} textual ou a visualização de um
+\textit{site} através de um \textit{smartphone}, que possui suas dimensões reduzidas.
+
+Entregar produtos acessíveis não é uma tarefa fácil. O assunto é
+considerado relativamente recente e está sendo alvo de muitas pesquisas
+\citep{lazar:04,brajnik:06,zeng:05}. A acessibilidade na \textit{web} também já
+é regulamentada em vários países, com diretivas e boas práticas que norteiam sua
+aplicação. Por isso, o papel da Engenharia de \textit{Software} neste contexto é
+fundamental. A falta de metodologia e processos bem definidos específicos para acessibilidade podem
+ocasionar em produtos não acessíveis. Os custos são menores quando a
+acessibilidade é considerada durante o processo de desenvolvimento do
+\textit{software} \citep{groves:11}. Em geral, os benefícios alcançados pela
+incorporação da acessibilidade nos processos são maiores do que os custos
+envolvidos necessários para a entrega do produto \citep{sherman:01}.
+
+Existem propostas para integrar usabilidade
+e acessibilidade nos processos de Engenharia de \textit{Software}
+\citep{springerlink:10.1007/978-3-642-02713-0,maia:10}. Outras propostas são
+específicas para determinadas plataformas \citep{microsoft:09}. Contudo, não são
+encontrados na literatura trabalhos que integram acessibilidade a modelos e
+\textit{frameworks} de desenvolvimento bem conhecidos, como \gls{up}
+\citep{Jacobson:1999:USD:309683}
+(ou sua extensão mais conhecida
+\gls{rup}\footnote{http://www-01.ibm.com/software/awdtools/rup/}), \gls{xp}
+\citep{Beck:1999:EPE:318762} ou \gls{scrum} \citep{DeGrace:1990:WPR:83202}.
+
+Tão importante quanto integrar acessibilidade no processo de desenvolvimento de
+\textit{software} são as competências técnicas do desenvolvedor. Devido a
+fatores como a recente exposição do tema e a deficiência no treinamento e formação do desenvolvedores,
+muitos deles sequer sabem como codificar para tornar seus produtos acessíveis
+\citep{1630123, alves:11}. As várias classes de problemas de acessibilidade
+contribuem para tornar o trabalho de codificação ainda mais difícil. A utilização de
+componentes de \textit{software} com atributos de qualidade embutidos (sistemas
+de gerenciamento de conteúdo e sistemas \textit{wiki} normalmente possuem um
+editor \gls{wysiwyg} que já são acessíveis, como o
+\textit{TinyMCE}\footnote{http://www.tinymce.com}) atenuam mas não eliminam o problema. A conscientização dos desenvolvedores vêm ocorrendo de forma gradual, mas poucas instituições de ensino brasileiras
+dedicam uma disciplina específica para Acessibilidade, ou dedicam pouco tempo em disciplinas de âmbito maior como Interface
+Humano-Computador, Hipermídia/Multimídia ou Engenharia de \textit{Software}
+(Exemplos de grades curriculares:
+Harvard\footnote{http://www.seas.harvard.edu/teaching-learning/undergraduate/computer-science/planning-and-courses},
+MIT\footnote{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/\#undergrad},
+USP\footnote{http://www.ime.usp.br/dcc/grad/grade},
+UFMS\footnote{http://www.sien.ufms.br/cursos/grade/1904} e
+IFMS\footnote{http://www.ifms.edu.br/rightsidebar/cursos/graduacao-2/tecnologia-em-sistemas-para-internet/}).
+
+Por isso, as ferramentas desempenham um papel fundamental no suporte ao
+desenvolvedor. Existem várias classes de ferramentas, que podem auxiliar os
+desenvolvedores de diversas formas. Destas, podem ser citadas:
+
+\begin{itemize}
+  \item simulador: a ferramenta simula uma deficiência/dificuldade, mostrando ao
+  desenvolvedor o problema do produto \citep{5358165};
+  \item validador: a ferramenta utiliza um conjunto de normas e padrões
+  pré-definidos e, através da validação objetiva, julga se o produto atende ou
+  não aos critérios definidos\footnote{Exemplo de validador da W3C:
+  http://validator.w3.org/};
+  \item avaliador: a ferramenta utiliza um validador, complementando com
+  informações, dicas e métricas, além de apresentar potenciais problemas que
+  devem ser verificados manualmente\footnote{Exemplo de avaliadores:
+  Hera(http://www.sidar.org/hera/) e daSilva(http://www.dasilva.org.br/)}.
+\end{itemize}
+
+Os avaliadores são ferramentas úteis, utilizados para fiscalização e
+auditoria de \textit{sites}. Porém, pesquisas mostram que os desenvolvedores não
+estão satisfeitos com os avaliadores disponíveis
+\citep{Trewin:2010:ACT:1805986.1806029}. As ferramentas nem sempre informam de
+forma objetiva as mudanças necessárias para fornecer um produto acessível
+\citep{groves:12}. Desenvolvedores iniciantes podem não entender as informações
+apresentadas na ferramenta. E, principalmente, os desenvolvedores estão
+insatisfeitos em utilizar ferramentas externas a seu ambiente de desenvolvimento
+para efetuar a avaliação \citep{Trewin:2010:ACT:1805986.1806029}.
+
+\section{Objetivos}
+
+O objetivo geral deste trabalho está relacionado à integração de acessibilidade
+ao processo de desenvolvimento de \textit{software}. Busca-se identificar pontos
+de integração entre as etapas de Engenharia de Requisitos e implementação de
+código e propor uma ferramenta (\textit{plugin} Eclipse) que represente esta
+integração. Os requisitos de acessibilidade se tornariam itens de
+acessibilidades testáveis pela ferramenta, que pudesse informar ao desenvolvedor
+se estão ou não sendo atendidos. A ferramenta apresentaria sugestões para que os
+itens de acessibilidade sejam implementados.
+
+Pretende-se desenvolver uma ferramenta de avaliação de
+acessibilidade diferente daquelas apresentadas na literatura. Com base na
+pesquisa de \cite{Trewin:2010:ACT:1805986.1806029}, pretende-se que a
+ferramenta:
+
+\begin{itemize}
+  \item seja orientada ao desenvolvedor (a apresentação dos resultados nas
+  ferramentas tradicionais são adequadas para avaliação e auditoria de
+  \textit{sites}, e não para desenvolvedores);
+  \item apresente informações objetivas (as ferramentas não conseguem avaliar
+  vários aspectos das diretrizes e normas e dessa forma apresentam ``aviso'' e
+  falso-positivos que podem atrapalhar os desenvolvedores. Essas informações devem ser omitidas);
+  \item auxiliem no processo de codificação (com mecanismos como
+  \textit{autocomplete});
+  \item seja integrada ao ambiente de desenvolvimento do desenvolvedor;
+  \item tenha relação direta entre os requisitos e casos de uso com a etapa de
+  codificação;
+  \item consiga identificar se os itens de acessibilidade descritos pelos
+  requisitos estão implementados no aplicativo.
+\end{itemize}
+
+O ambiente de desenvolvimento escolhido para integração da ferramenta é o
+\textit{Eclipse}\footnote{http://www.eclipse.org},  devido a diversos
+motivos:
+
+\begin{itemize}
+  \item é uma ferramenta \textit{open source};
+  \item é facilmente extensível;
+  \item suporta vários tipos de linguagens de programação e projetos;
+\end{itemize}
+
+A linguagem de programação escolhida para desenvolver os produtos no
+ambiente \textit{Eclipse} foi a \gls{php}\footnote{http://www.php.net},
+pelos seguintes motivos:
+
+\begin{itemize}
+  \item o autor do trabalho tem familiariade com a linguagem e já utilizou-a em
+  outros trabalhos \citep{branco:09};
+  \item é \textit{open source}, portanto é possível intervir no código para
+  alterar o comportamento padrão, se necessário;
+\end{itemize}
+
+As atividades necessárias para alcançar os objetivos proposto são:
+
+\begin{itemize}
+  \item estudar a literatura sobre o assunto;
+  \item identificar os pontos de integração entre as atividades de Engenharia de
+  Requisitos e geração de código;
+  \item estudar o processo de desenvolvimento de \textit{plugins} para o
+  \textit{Eclipse};
+  \item desenvolver a ferramenta;
+  \item efetuar um estudo de caso e pesquisa com desenvolvedores;
+  \item comparar os resultados com resultados presentes na literatura;
+\end{itemize}
+
+\section{Organização do Trabalho}
+
+Este trabalho está organizado em quatro capítulos. O primeiro capítulo
+contextualizou a acessibilidade no desenvolvimento de \textit{sites}, apresentou
+alguns desafios conhecidos na área e a motivação para o desenvolvimento do
+mesmo.
+
+O segundo capítulo apresenta os detalhes do domínio de acessibilidade na
+\textit{Internet}. Esse capítulo apresenta as tecnologias e conceitos que devem
+ser considerados para entregar produtos acessíveis. Também apresenta as
+iniciativas e legislações acerca de acessibilidade de produtos \textit{web}.
+Por fim, são apresentados os principais documentos, referências e diretrizes
+para que os \textit{sites} sejam acessíveis.
+
+O terceiro capítulo contém o levantamento bibliográfico realizado, com breves
+descrições de cada trabalho. O capítulo tem por objetivo mostrar quão amplo é o
+domínio de acessibilidade na \textit{Internet}, bem como as propostas sugeridas
+e os problemas ainda sem solução.
+
+O quarto e último capítulo apresenta a proposta do projeto, onde são
+abordados a descrição do projeto, a metodologia e o cronograma das
+atividades previstas.

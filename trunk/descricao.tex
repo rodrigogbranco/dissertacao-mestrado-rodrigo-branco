@@ -1,0 +1,164 @@
+\chapter{Estruturas Utilizadas}
+
+Utilizamos uma \textit{struct} e três classes, são elas, respectivamente: \textbf{NodeEdge}, \textbf{Vertex}, \textbf{Graph} e \textbf{Prim}.\\
+
+\section{A \textit{struct NodeEdge}:}
+Os objetos desta estrutura representam o peso entre um vértice e outro do grafo.\\
+
+\subsection{Suas propriedades:}
+
+\begin{tabular}{|p{0.2\linewidth}|p{0.2\linewidth}|p{0.6\linewidth}|}
+\hline
+Tipo & Nome & Descrição\\
+\hline
+const Vertex* & vertexPt & Aponta para o vértice ao qual o está ligado.\\
+\hline
+float & weight & Representa o peso da aresta que o liga à vertexPt.\\
+\hline
+\end{tabular}
+
+\clearpage
+
+\subsection{Seus operadores:}
+
+\begin{tabular}{|p{0.1\linewidth}|p{0.3\linewidth}|p{0.6\linewidth}|}
+\hline
+Tipo de retorno & Nome & Descrição\\
+\hline
+bool & operator$<$(nodeEdge n) & Sobrecarga do operador "menor que", fazendo com que compare o valor da propriedade weight.\\
+\hline
+bool & operator$>$(nodeEdge n) & Sobrecarga do operador "maior que", fazendo com que compare o valor da propriedade weight.\\
+\hline
+bool & operator$==$(nodeEdge n) & Sobrecarga do operador "igual a", fazendo com que compare o valor da propriedade weight.\\
+\hline
+bool & operator$\!=$(nodeEdge n) & Sobrecarga do operador "diferente de", fazendo com que compare o valor da propriedade weight.\\
+\hline
+bool & operator$>=$(nodeEdge n) & Sobrecarga do operador "maior ou igual a", fazendo com que compare o valor da propriedade weight.\\
+\hline
+bool & operator$<=$(nodeEdge n) & Sobrecarga do operador "menor ou igual a", fazendo com que compare o valor da propriedade weight.\\
+\hline
+\end{tabular}
+
+\clearpage
+
+\section{A classe \textit{Vertex}:}
+Classe que representa um vértice no grafo.\\
+
+\subsection{Seus atributos:}
+
+\begin{tabular}{|p{0.2\linewidth}|p{0.1\linewidth}|p{0.7\linewidth}|}
+\hline
+Tipo & Nome & Descrição\\
+\hline
+char & name[80] & Vetor de 80 posições para armazenar o nome do vértice.\\
+\hline
+std::list$<$ NodeEdge $>$ & adj & Lista dos vértices adjacentes, com o peso das suas respectivas arestas.\\
+\hline
+\end{tabular}
+
+\subsection{Seus métodos:}
+\begin{tabular}{|p{0.2\linewidth}|p{0.3\linewidth}|p{0.5\linewidth}|}
+\hline
+Tipo de retorno & Nome & Descrição\\
+\hline
+- & Vertex() & Método construtor padrão, apenas instância um objeto da classe, sem definir nada.\\
+\hline
+- & Vertex(const char* nome) & Método construtor, que atribui nome ao atributo de classe name.\\
+\hline
+- & {\Large $\tilde{}$}Vertex() & Método destrutor.\\
+\hline
+void & setName(char* nome) & Método que atribui nome ao atributo de classe name.\\
+\hline
+void & setAdj(Vertex* pt, float w) & Método que adiciona pt ao atributo de classe adj.\\
+\hline
+const std::list$<$ NodeEdge $>$* & getAdj() & Método que retorna o atributo de classe adj.\\
+\hline
+const char* & getName() & Método que retorna o valor do atributo de classe name.\\
+\hline
+float & weight(const char* nome) & Método que retorna o peso de uma aresta que incide nesse vértice.\\
+\hline
+\end{tabular}
+
+\clearpage
+
+\section{A classe \textit{Graph}:}
+Classe que representa o grafo.\\
+
+\subsection{Seus atributos:}
+
+\begin{tabular}{|p{0.3\linewidth}|p{0.1\linewidth}|p{0.6\linewidth}|}
+\hline
+Tipo & Nome & Descrição\\
+\hline
+std::vector$<$ Vertex $>$ & vert & Vetor com os vértices que pertencem ao grafo.\\
+\hline
+int & current & Atributo necessário para o operador de incremento ( operator++ ).\\
+\hline
+\end{tabular}
+
+\subsection{Seus métodos:}
+\begin{tabular}{|p{0.1\linewidth}|p{0.3\linewidth}|p{0.6\linewidth}|}
+\hline
+Tipo de retorno & Nome & Descrição\\
+\hline
+- & Graph() & Método construtor padrão, apenas instância um objeto da classe, sem definir nada.\\
+\hline
+- & Graph(int size) & Método construtor, que inicia o grafo alocando size posições para o atributo de classe vert.\\
+\hline
+void & addVertex(const char* nome) & Método que adiciona um vértice nome ao grafo.\\
+\hline
+int & searchElement(const char* nome) & Método que busca e retorna a posição do vértice nome no grafo.\\
+\hline
+bool & addEdge(const char*, const char*, float) & Método que adiciona uma aresta ao grafo.\\
+\hline
+float & weight(const char*, const char*) & Método que retorna o peso da aresta que liga os vértices cujo nome é passado como parâmetro.\\
+\hline
+const char* & getName() & Método que retorna o valor do atributo de classe name.\\
+\hline
+const Vertex* & operator++ & Sobrecarga do operador incremento, para que ele percorra o vetor de vértices.\\
+\hline
+\end{tabular}
+
+\clearpage
+
+\section{O tipo vecKey:}
+Tipo definido para facilitar a referência a uma estrutura de dados mais complexa.\\
+Serve como um "apelido" para std::vector $<$ NodeEdge $>$.\\
+
+\section{A classe \textit{Prim}:}
+Classe responsável por executar todas as operações necessárias para a utilização do Algoritmo de Prim, bem como o próprio algoritmo.\\
+
+\subsection{Seus atributos:}
+
+\begin{tabular}{|p{0.2\linewidth}|p{0.1\linewidth}|p{0.7\linewidth}|}
+\hline
+Tipo & Nome & Descrição\\
+\hline
+vecKey* & fact & Vetor que armazena os vértices com peso já "relaxado".\\
+\hline
+vecKey* & key & Vetor que armazena os vértices com peso "infinito".\\
+\hline
+Graph* & g & Armazena o grafo.\\
+\hline
+int & size & Número de vértices do grafo.\\
+\hline
+\end{tabular}
+
+\subsection{Seus métodos:}
+\begin{tabular}{|p{0.1\linewidth}|p{0.2\linewidth}|p{0.7\linewidth}|}
+\hline
+Tipo de retorno & Nome & Descrição\\
+\hline
+- & Prim() & Método construtor, faz leitura das informações, tais como a raiz e o número de vértices, além de inicializar os atributos da classe.\\
+\hline
+- & {\Large $\tilde{}$}Prim() & Método destrutor, desaloca todas as estruturas utilizadas.\\
+\hline
+bool & makeGraph() & Método que constói o grafo, fazendo a leitura das informações restantes.\\
+\hline
+float & algoritmPrim() & Método que retorna o peso da árvore geradora mínima, executando o Algoritmo de Prim.\\
+\hline
+const Vertex* & extraiMinimo() & Método que compara todos os elementos do atributo de classe key, retirando deste atributo o que possuir menor peso, e depois inserindo-o no atributo de classe fact e retornando sua posição.\\
+\hline
+int & searchKey(const char*) & Método que retorna a posição do vértice de nome passado como parâmetro, caso não encontre, retorna -1.\\
+\hline
+\end{tabular}
