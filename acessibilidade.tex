@@ -1,0 +1,448 @@
+\chapter{Acessibilidade na Web}
+
+\section{Considerações Iniciais}
+
+O modo de vida das pessoas começou a mudar radicalmente depois que Tim
+Berners-Lee criou a \gls{www}, mais conhecida como
+\textit{Web}. A \textit{Web} é um ambiente de documentos e dados interconectados globalmente
+através da Internet \citep{mcpherson2009tim}. Em sua
+concepção inicial, a \textit{Web} foi explicitamente criada para poder ser utilizada sem o mouse, e
+até sem usar os olhos, se necessário \citep{thatcher:06}. Portanto, a maneira
+como o usuário acessa o recurso na \textit{Web} pouco ou nada pode influenciar
+na aquisição da informação.
+
+A fim de tornar os \textit{sites} mais atrativos, várias tecnologias surgiram,
+como \textit{JavaScript}\footnote{http://www.w3schools.com/js/}, \textit{Flash}
+\footnote{http://www.adobe.com/br/flashplataform/}, etc.
+Todavia, o uso indiscriminado dessas tecnologias podem, ao mesmo tempo, facilitar, inibir ou impedir o acesso aos
+recursos de alguns usuários, principalmente dos usuários com algum tipo de
+deficiência.
+
+Obrigados por regulamentações e leis específicas ou não, os desenvolvedores
+gradualmente estão adaptando seus \textit{sites} e produtos para as necessidades
+dos usuários. O grande entrave para a disseminação da cultura de acessibilidade
+na \textit{Web} está na conscientização dos desenvolvedores sobre a importância
+do tema, e sobre as consequências trazidas pela utilização de tecnologias que se
+tornam barreiras para o acesso ao conteúdo disponibilizado na Web
+\citep{freire:08}.
+
+O objetivo deste capítulo é apresentar os conceitos relevantes que devem ser
+considerados para que os serviços \textit{Web} entregues sejam acessíveis. Serão
+apresentadas as tecnologias assistivas que auxiliam pessoas com deficiência, as
+iniciativas para o desenvolvimento de sistemas \textit{Web} acessíveis, a
+legislação e leis que asseguram a acessibilidade na \textit{Web}, as diretrizes que guiam o
+desenvolvimento de produtos \textit{Web} acessíveis e questões referentes a
+avaliação de acessibilidade de produtos \textit{Web}.
+
+\section{Tecnologias Assistivas e \textit{Design Universal}}
+
+Pesquisadores da Universidade Estadual da Carolina do Norte definem
+\textit{Design Universal} como o \textit{design} de produtos e ambientes usáveis por todas as pessoas, sem
+precisar de adaptações ou \textit{design} especializados. Também propõem sete
+princípios básicos para o \textit{design} de produtos, de forma  que esse
+objetivo seja alcançado. São eles \citep{ncuniversity:11}:
+
+\begin{itemize}
+  \item utilização equalitária: o produto é útil e
+  comercializável às pessoas com diversas habilidades;
+  \item utilização flexível: o produto suporta uma grande variedade de
+preferências individuais e habilidades;
+  \item utilização simples e intuitiva: o uso do produto é fácil, independentemente da experiência do usuário,
+nível de conhecimento, competências linguísticas, ou educação;
+  \item informação perceptível: o produto transmite a informação
+  necessária eficazmente para o utilizador, independentemente do ambiente,
+condições ou habilidades sensoriais do usuário;
+  \item tolerância a erros: o produto minimiza perigos e as
+consequências adversas de ações involuntárias ou acidentais;
+  \item esforço físico mínimo: o produto pode ser usado de forma eficiente e
+  confortável e com um mínimo de fadiga;
+  \item espaço e tamanho adequado para aproximação e utilização: o tamanho
+  apropriado e do espaço para utilização do produto é suficiente para abordagem,
+  alcance, manipulação e uso independentemente do corpo do usuário; tamanho,
+  postura ou mobilidade.
+\end{itemize}
+
+Esses princípios, obviamente, não são especificamente voltados para o
+desenvolvimento de sistemas \textit{Web}, mas podem ser facilmente adaptados
+para tal. Ainda assim, desenvolver sistemas \textit{Web} completamente
+acessíveis é uma tarefa difícil. Deve-se considerar também que alguns dispositivos
+são intrinsicamente inacessíveis para certos tipos de usuários, por exemplo, um
+usuário cego não conseguirá extrair informações de um monitor tradicional.
+
+Diante desse fato, é necessário fornecer aos usuários tecnologias intermediárias
+para interceptar ou transformar a informação, apresentado-a de uma maneira que o
+usuário consiga entender. Essas tecnologias são denominadas tecnologias
+assistivas.
+Tecnologia assistiva é, portanto, o conjunto de equipamentos, serviços,
+estratégias e práticas concebidas para atenuar os problemas encontrados pelas pessoas com necessidades especiais \citep{cook:95}.
+
+Existem diversos tipos de tecnologias assistivas, dependendo da necessidade do
+usuário. É importante considerar que a dificuldade no acesso pode ser
+permanente ou momentânea. A seguir serão apresentadas algumas tecnologias
+assistivas para certas deficiências:
+
+\begin{itemize}
+  \item Cegueira
+  	\begin{itemize}
+  	  \item Leitor de tela: software que lê o que está na tela do computador e
+  	  informa a saída, seja em um sintetizador de voz, ou um display \textit{braille}. Ex:
+	  \textit{JAWS}
+	 \footnote{http://www.freedomscientific.com/jaws-hq.asp} e \textit{DOSVOX}
+	 \footnote{http://intervox.nce.ufrj.br/dosvox/}
+  	  \item Navegador textual: navegador que não carrega imagens. Deve ser usado
+  	  em conjunto com o Leitor de Tela. Ex: \textit{Lynx}
+  	 \footnote{http://lynx.browser.org/}
+  	  \item Navegador com voz: Permite a navegação por meio da voz. Ex:
+  	  \textit{Opera}\footnote{http://www.opera.com/docs/history/\#o10} e
+  	  \textit{Firefox} com o plugin \textit{Text to Voice}
+  	 \footnote{https://addons.mozilla.org/pt-br/firefox/addon/text-to-voice/}
+  	\end{itemize}
+  \item Baixa visão
+  	\begin{itemize}
+  	  \item Ampliador de tela: software que amplia o conteúdo da página para
+  	  facilitar a leitura. Ex:
+  	  \textit{MAGic Screen Magnification}
+  	 \footnote{http://www.freedomscientific.com/jaws-hq.asp}
+  	\end{itemize}
+  \item Deficiência física
+  	\begin{itemize}
+  	  \item \textit{Eye-tracking}: capta as ações por meio do movimento dos
+  	  olhos.
+  	  Ex: \textit{LEA}
+  	 \footnote{http://lea-eyetracking.sourceforge.net/}
+  	  \item Teclado alternativo: dependendo da deficiência do usuário ou do
+  	  dispositivo, um teclado alternativo pode ser inserido no contexto. Para deficientes visuais,
+  	  teclados \textit{braille} são indicados \citep{4809825}. Para usuários com
+  	  dispositivos móveis, um teclado virtual pode ser a melhor solução
+  	  \citep{5469165}.
+  	\end{itemize}
+\end{itemize}
+
+\section{Legislação sobre acessibilidade na \textit{Internet}}
+
+A primeira Lei sobre acessibilidade na \textit{Internet} foi a \textit{Section
+508}, em 1998, criada pelo Governo dos Estados Unidos \citep{section508:98}.
+Segundo essa lei, a tecnologia inacessível interfere na capacidade individual de
+adquirir e usar a informação de maneira rápida e fácil. A \textit{Section 508}
+foi decretada para eliminar barreiras na tecnologia da informação,
+disponibilizando novas oportunidades para as pessoas com necessidades especiais
+e incentivando o desenvolvimento de tecnologias que as auxiliem a atingir esses
+objetivos \citep{freire:08}.
+
+Após essa iniciativa, países em todo o mundo começaram a incorporar tópicos de
+acessibilidade no meio digital em suas leis já existentes, ou até mesmo
+confeccionar novas. Por exemplo, a Lei \gls{dda}, instituída pelo governo
+britânico em 1995 \citep{dda:95}, foi alterada em 1999 e passou a possuir uma seção especificamente sobre \textit{websites}
+\citep{webcredible:11}. É válido mencionar que o ``nível'' de acessibilidade do
+\textit{site} não é mencionado: o DDA requer que sejam realizadas ``adaptações
+razoáveis'' para garantir que uma pessoa com deficiência possa acessar o mesmo.
+
+No Brasil, as Leis
+10.048/2000\footnote{http://www.planalto.gov.br/ccivil\_03/Leis/L10048.htm} e
+10.098/2000\footnote{http://www.planalto.gov.br/ccivil\_03/Leis/L10098.htm},
+regulamentadas pelo Decreto
+5.296/2004\footnote{http://www.planalto.gov.br/ccivil/\_ato2004-2006/2004/decreto/d5296.htm},
+tornam obrigatória a acessibilidade nos websites da administração pública para o uso das pessoas com necessidades especiais para garantir o pleno acesso às informações.
+
+\section{Documentos e padrões}
+
+Existem dois grandes órgãos que documentam e fornecem diversas especificações e
+recomendações para os padrões e novas tendências da \textit{Internet}. Um deles
+é o \gls{ietf}\footnote{http://www.ietf.org/} que tem
+um caráter mais arquitetural, preocupado principalmente com os protocolos e
+recursos utilizados na \textit{Internet}. O outro é o \gls{w3c}
+\footnote{http://www.w3.org/} que tem um caráter voltado para \textit{front end}
+e aplicações. Este último possui uma ramificação denominada \gls{wai}
+\footnote{http://www.w3.org/WAI/}, que se preocupa com as questões referentes à
+acessibilidade na \textit{Internet}.
+
+Quando se trata de padrões e recomendações de acessibilidade na
+\textit{Internet}, a \gls{w3c-wai} é referência internacional. Todo
+tipo de trabalho sobre acessibilidade na \textit{Internet} está
+relacionado (direta ou indiretamente) aos documentos da \gls{w3c-wai}. A
+Figura \ref{fig:relation} mostra quais documentos devem ser consultados pelos
+desenvolvedores para atingir seus objetivos sobre acessibilidade.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/relation}
+\caption{Relação de interesses entre os desenvolvedores e a documentação
+\gls{w3c-wai}: \gls{wcag}, \gls{atag}, \gls{wai-aria},
+\gls{uaag} e \gls{earl}}
+\label{fig:relation}
+\end{figure}
+
+A seguir, serão apresentados os cinco principais documentos de
+referência publicados pela \gls{w3c-wai}.
+
+\subsection{WCAG}
+
+O \gls{wcag} é um documento que
+fornece diretrizes e recomendações para implementação de acessibilidade em \textit{sites}
+\footnote{http://www.w3.org/WAI/intro/wcag}. A versão 1.0 do \gls{wcag} foi
+publicada em 1999\footnote{http://www.w3.org/TR/WCAG10/}. O documento é
+dividido em 14 diretrizes, cada uma com seus respectivos \textit{checkpoints}.
+Cada \textit{checkpoint} por sua vez possui uma prioridade.
+
+As prioridades são divididas em grupos: as prioridades nível 1 (devem ser
+atendidas), as prioridades nível 2 (deveriam ser atendidas) e as prioridades
+nível 3 (poderiam ser atendidas). Se alguma prioridade nível 1 não for atendida,
+um ou mais grupos de usuários ficarão impossibilitados de acessar as informações
+do documento. Se alguma prioridade nível 2 não for atendida, um ou mais grupos
+de usuários terão dificuldades em acessar as informações em qualquer parte
+documento.
+Se alguma prioridade nível 3 não for atendida, um ou mais grupos de usuários terão
+dificuldades em acessar alguma informação em partes específicas do documento.
+
+Se todos os \textit{checkpoints} com prioridade 1 forem atendidos, o documento
+possui nível de conformidade ``A''. Se todos os \textit{checkpoints} com
+prioridade 1 e 2 forem atendidos, o documento possui nível de conformidade
+``AA''. Por fim, se todos os \textit{checkpoints} forem atendidos, o documento
+possui o nível de prioridade ``AAA''. A Tabela \ref{tab:wcag} relaciona as
+informações descritas até agora para os níveis de prioridade do \gls{wcag}
+1.0.
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{4cm}|}%|c|c|c|c|}
+\hline
+\textbf{Prioridade} & \textbf{Recomendação} & \textbf{Nível de Conformidade} &
+\textbf{Impacto (para determinado grupo de usuários)} \\ \hline Nível 1 &
+devem ser atendidas & A (Nível 1) & impossibilidade de acesso ao documento \\ \hline Nível 2 & deveriam ser atendidas & AA (Nível 1 e 2) & dificuldade no acesso ao documento \\ \hline
+Nível 3 & poderiam ser atendidas & AAA (Nível 1, 2 e 3) & dificuldade no acesso
+de partes específicas do documento casos não seja atendida \\ \hline
+\end{tabular}
+\end{center}
+\caption{Níveis de Conformidade do \gls{wcag} 1.0}
+\label{tab:wcag}
+\end{table}
+
+Em 2008, o \gls{w3c-wai} liberou a segunda versão do
+\gls{wcag}\footnote{http://www.w3.org/TR/WCAG20/}.
+Segundo a \textit{WAI}, ``O \gls{wcag} 2.0 aplica-se amplamente a tecnologias mais avançadas; é mais fácil de usar e entender; é
+precisamente validado com testes automáticos e avaliação humana''. O documento possui 12 diretrizes, organizadas em 4
+princípios:
+percepção, compreensão, operação e robustez. Cada diretriz possui critérios de
+sucesso testáveis, nas mesmas prioridades do \gls{wcag} 1.0. A \textit{WAI}
+recomenda a utilização do \gls{wcag} 2.0 e, devido às semelhanças com o
+\gls{wcag} 1.0, sabe-se que a maioria dos sites em conformidade com o
+\gls{wcag} 1.0 não requerem mudanças significativas para estar em conformidade com o \gls{wcag} 2.0 e alguns nem mesmo necessitam de
+mudanças. As principais diferenças podem ser vistas no site da \textit{WAI}, na
+página específica sobre o assunto
+\footnote{http://www.w3.org/WAI/WCAG20/from10/diff.php}. \cite{branco:09} fez um breve comparativo dos dois documentos e constatou que a Tabela \ref{tab:wcag} é
+válida para o \gls{wcag} 2.0 e que, principalmente, as orientações de cada
+\textit{guideline} se tornaram mais claras e fáceis de testar.
+
+É válido observar que nem todos os desenvolvedores concordam com as
+diretrizes ou recomendações do \gls{wcag} 1.0 ou mesmo \gls{wcag} 2.0
+\citep{clark:11}. De fato, um grupo fechado de desenvolvedores preparou uma
+versão de extensão/atualização/correção não oficial do \gls{wcag} 1.0,
+denominada \gls{wcag} Samurai \citep{wcagsamurai:11}.
+
+Existem diversas diretrizes de acessibilidade, cada qual com suas
+particularidades e voltadas para realidades específicas. Alguns exemplos são:
+\gls{clf}, do Canadá
+\footnote{http://www.tbs-sct.gc.ca/clf2-nsi2/index-eng.asp}, \gls{nda}, da
+Irlanda\footnote{http://www.nda.ie/} e as diretrizes de \textit{design} de
+acessibilidade da \textit{Microsoft}
+\footnote{http://books.google.com.br/books?id=LVnfMYuHaoYC}.
+
+O Governo brasileiro possui um padrão próprio, denominado \gls{emag}.
+Atualmente na sua terceira versão
+\footnote{http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG}, o \gls{emag} é baseado no \gls{wcag} 2.0, mas
+voltado para a realidade local. Em relação a versão anterior, o documento passou
+por mudanças sutis, por exemplo, a eliminação das divisões de visão técnica e visão do cidadão. Apesar desse modelo poder ser usado em
+outras iniciativas, é explicitado que o mesmo deve ser seguido para os
+\textit{sites} governamentais. Por isso, não existem mais níveis de prioridade
+(todas as recomendações devem ser cumpridas) e uma seção especial foi incluída
+com o objetivo de padronizar elementos de acessibilidade que devem existir em
+todos os \textit{sites} e portais governamentais.
+
+Um estudo comparativo entre o documento \gls{emag} 2.0 e o \gls{wcag}
+1.0 foi efetuado, com o intuito de adaptar a ferramenta \textit{Hera}
+\footnote{http://www.sidar.org/hera/} para que a mesma fosse capaz de avaliar \textit{sites} através das diretrizes do
+\gls{emag} \citep{branco:09}. A ferramenta passou a considerar algumas
+métricas de acessibilidade na análise.
+
+Utilizando a modificação da ferramenta descrita anteriormente (\textit{Hera} +
+avaliação \gls{emag} 2.0 + métricas de acessibilidade), um estudo foi
+feito analisando a acessibilidade dos \textit{sites} das prefeituras brasileiras
+\citep{branco:11}. A premissa era que o \gls{idh}
+fosse diretamente proporcional ao nível de acessibilidade fornecido pelo
+\textit{site}. Os autores concluíram que não havia tal relação entre os
+indicadores. Foi observado que \textit{sites} que utilizavam \gls{cms}
+obtiveram um melhor resultado, mas somente esse parâmetro não foi suficiente para explicar os resultados do
+trabalho.
+
+
+\subsection{\textit{WAI-ARIA}}
+
+Estamos em plena era da \textit{Web 2.0}, com \textit{sites} complexos e
+dinâmicos e, consequentemente, controles da interface de usuário mais complexos
+também. As tecnologias assistivas precisam interagir com esses controles para
+que a experiência de utilização seja positiva para usuários com deficiência.
+Contudo, as informações que as tecnologias assistivas necessitam para poder
+manipular esses elementos complexos normalmente não estão presente na maioria
+das tecnologias \textit{Web}.
+
+Tecnologias \textit{Web 2.0} podem ser inacessíveis até para usuários que não
+possuem nenhum tipo de deficiência, mas possuem alguma barreira tecnológica, por exemplo, um menu
+\textit{drag-and-drop} para o usuário que não possui um \textit{mouse}.
+A atualização de determinadas regiões do \textit{site} pelas tecnologias citadas
+também são um grande problema para as tecnologias assistivas (principalmente para o
+\textit{Screen Reader}). Exemplos de tecnologias desse tipo são: \gls{ajax}
+\footnote{http://www.w3schools.com/ajax/default.asp} e \gls{dhtml}
+\footnote{http://www.w3schools.com/dhtml/}.
+
+O documento \gls{wai-aria} pretende
+resolver esses desafios de acessibilidade definindo como a informação sobre a
+funcionalidade do elemento deve ser entregue à tecnologia assistiva,
+adicionando atributos, técnicas de navegação, marcação de regiões, entre
+outras\footnote{http://www.w3.org/WAI/intro/aria.php}.
+
+O \gls{wai-aria} é, portanto, um \textit{framework} que indica aos
+desenvolvedores:
+
+\begin{itemize}
+  \item papéis que descrevem o tipo do elemento apresentado;
+  \item papéis que descrevem a estrutura da página;
+  \item propriedades que descrevem o \textit{status} do elemento;
+  \item propriedades que definem as ``regiões vivas'' (dinâmicas);
+  \item propriedades para elementos \textit{drag-and-drop};
+  \item uma maneira para navegar e interagir com os elementos citados.
+\end{itemize}
+
+A documentação não está inteiramente completa. Ao final do ano de 2011, a
+versão definitiva do documento ainda não havia sido liberada. Como as
+especificações do \gls{html}5 e do \gls{wai-aria} ainda não estão
+completamente definidas, algumas marcações ficam sobrepostas
+\citep{html5aria:11}. Contudo, desenvolvedores influentes afirmam que o padrão
+\gls{html}5 não vai tornar o uso do \gls{wai-aria} redundante
+\citep{irish:11,faulkner:11}.
+
+Esta documentação é voltada principalmente para desenvolvedores \textit{Web},
+desenvolvedores de tecnologias \textit{Web 2.0} e desenvolvedores de
+\textit{Javascript frameworks} como \textit{jQuery}\footnote{http://jquery.com},
+\textit{Dojo}\footnote{http://dojotoolkit.org/},
+\textit{MooTools}\footnote{http://mootools.net/},
+\textit{Prototype}\footnote{http://www.prototypejs.org/}, entre outros.
+
+\subsection{\textit{ATAG}}
+
+\textit{Authoring Tools} (Ferramentas de autoria) são \textit{softwares} e
+serviços que permitem a qualquer pessoa produzir \textit{sites} e conteúdo
+\textit{web}. Esse tipo de ferramenta geralmente possui uma \textit{engine} que exibe o conteúdo fornecido pelo
+usuário utilizando padrões e \textit{templates} previamente configurados
+na ferramenta. Pela facilidade e rapidez de ``postar'' conteúdo, muitos
+usúarios (principalmente usuários leigos em computação) utilizam ferramentas desse tipo.
+
+Existem várias ferramentas de autoria, e cada uma tem sua
+particularidade. Existem ferramentas para produção de \textit{blogs}, para
+produção de portais chamadas \gls{cms}, de criação
+de páginas \textit{wiki}, entre várias outras. Alguns exemplos de ferramentas
+são: \textit{Wordpress}\footnote{http://br.wordpress.org/},
+\textit{Joomla}\footnote{http://www.joomla.org/},
+\textit{Drupal}\footnote{http://drupal-br.org/},
+\textit{Plone}\footnote{http://plone.org/}, Sistemas
+\textit{Wiki}\footnote{http://en.wikipedia.org/wiki/List\_of\_wiki\_software} e
+\textit{Moodle}\footnote{http://moodle.org/}.
+
+Não raro, empresas e organizações desenvolvem suas próprias ferramentas de
+autoria, principalmente quando o tipo de conteúdo a ser postado é muito
+específico, ou quando a regra de negócios é diferente das ferramentas
+convencionais. A Universidade Federal de Mato Grosso do Sul (UFMS) possui
+ferramentas de autoria própria, chamadas \textit{Titan} \citep{Carromeu:2010:CAE:1796182.1796987},
+\textit{Pantaneiro} \citep{sandim:09} e \textit{Pantaneiro acessível}
+\citep{maia:10}.
+
+É um desafio prover total acessibilidade para o conteúdo gerado por essas
+ferramentas, visto que este é fornecido pelo usuário que normalmente é
+leigo no assunto. A \gls{w3c-wai} publicou um documento destinado a produção
+de ferramentas de autoria, denominado
+\gls{atag}\footnote{http://www.w3.org/WAI/intro/atag.php} e o objetivo deste documento é definir como as ferramentas de autoria deveriam ajudar os desenvolvedores a fornecer conteúdo
+em conformidade com o \gls{wcag}. Mais do que isso, este documento explica
+como tornar as ferramentas de autoria acessíveis para que pessoas com deficiência possam produzir seu próprio conteúdo.
+
+O documento \gls{atag}, assim como o \gls{wcag}, possui diretrizes e
+\textit{checkpoints} para alcançar o resultado previsto. A versão 1.0, de
+Fevereiro de 2000\footnote{http://www.w3.org/TR/ATAG10/}, possui 28
+\textit{checkpoints} e norteia o desenvolvimento de ferramentas de autoria levando em consideração:
+
+\begin{itemize}
+  \item produzir o \textit{site} em conformidade com as diretrizes de
+  acessibilidade;
+  \item ajudar o usuário da ferramenta de autoria com informações relativas a
+  acessibilidade do \textit{site};
+  \item prover maneiras de checar e corrigir conteúdo inacessível;
+  \item integrar acessibilidade com ajuda, documentação e percepção; e
+  \item tornar a própria ferramenta de autoria acessível para deficientes.
+\end{itemize}
+
+A versão 2.0 do documento ainda está em
+desenvolvimento\footnote{http://www.w3.org/TR/ATAG20/}. A novidade é que na nova versão, cada diretriz está relacionada a um princípio,
+perceptível ao desenvolvedor.
+
+O documento \gls{atag} é voltado principalmente para desenvolvedores de
+ferramentas de autoria, incluindo:
+
+\begin{itemize}
+  \item ferramentas de edição \gls{wysiwyg};
+  editores \gls{html} e \gls{xml});
+  \item ferramentas que transformam documentos em formatos \textit{web} (por
+  exemplo, transformação \textit{.doc} para \textit{.html});
+  \item ferramenta de produção multimídia \text{web} (ferramentas de autoria
+  \gls{smil})\footnote{http://www.w3.org/TR/smil/};
+  \item ferramentas de publicação e \gls{cms};
+  \item ferramentas de gerenciamento de \textit{layout};
+  \item qualquer ferramenta que permite aos usuários publicar e compartilhar
+  conteúdo.
+\end{itemize}
+
+\subsection{\textit{UAAG}}
+
+As ferramentas que permitem ao usuário acessar o conteúdo \textit{Web} são
+chamadas \textit{User Agents}, ou Agentes de Usuário. Essas ferramentas incluem
+navegadores, \textit{media players} e tecnologias assistivas.
+
+A \gls{w3c-wai} possui um documento voltado para os desenvolvedores de
+\textit{User Agents} chamado
+\gls{uaag}\footnote{http://www.w3.org/WAI/intro/uaag.php}. A versão 1.0 do
+documento, de Dezembro de
+2002\footnote{http://www.w3.org/TR/UAAG10/guidelines.html\#Guidelines}, possui 12 diretrizes de acessibilidade.
+A versão 2.0\footnote{http://www.w3.org/TR/UAAG20/} ainda não foi finalizada.
+
+O conjunto de \textit{checkpoints} que o \gls{uaag} 1.0 cobrem são:
+
+\begin{itemize}
+  \item acesso a todo o conteúdo, incluindo conteúdo amarrado a eventos
+  disparados por ações de teclado e \textit{mouse};
+  \item controle de usuário sobre a maneira como o conteúdo é
+  renderizado\footnote{Renderização é o processo de geração de uma imagem
+  através do processamento de um modelo computacional};
+  \item controle de usuário sobre a interface, com informações sobre as
+  características de acessibilidade;
+  \item interface de programação padrão, para prover interação com tecnologias
+  assistivas.
+\end{itemize}
+
+O documento é destinado a desenvolvedores de \textit{User
+Agents}.
+
+\subsection{\textit{EARL}}
+
+O documento \gls{earl} é na verdade um
+formato definido para expressar resultados de testes, principalmente os
+resultados gerados automaticamente por ferramentas de
+avaliação\footnote{http://www.w3.org/WAI/intro/earl}.
+Este documento utiliza \gls{rdf}\footnote{http://www.w3.org/RDF/} para definir
+os termos que expressarão os resultados dos testes.
+
+A versão 1.0 do documento ainda está em
+desenvolvimento\footnote{http://www.w3.org/TR/EARL10-Schema/} e tem o objetivo de tratar de os resultados de testes das seguintes ferramentas:
+
+\begin{itemize}
+	\item ferramentas de avaliação de acessibilidade;
+	\item ferramentas de garantia de qualidade e validação;
+	\item ferramentas de autoria e desenvolvimento; e
+	\item descrição de conteúdo Web.
+\end{itemize}

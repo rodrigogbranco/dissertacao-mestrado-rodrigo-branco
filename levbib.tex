@@ -1,0 +1,389 @@
+\chapter{Pesquisa Bibliográfica}
+
+Para realizar este trabalho, uma pesquisa bibliográfica foi executada com o
+intuito de verificar as principais áreas de interesse no assunto, bem como a
+motivação dos pesquisadores e os resultados alcançados. Os artigos estudados
+levaram em conta o assunto de acessibilidade no contexto de Engenharia de
+\textit{Software}, destacando-se algumas fases e atividades do processo de
+desenvolvimento de \textit{software} indicados a seguir:
+
+\begin{itemize}
+  \item Requisitos
+  \item Arquitetura
+  \item Navegação
+  \item Interface
+  \item Conteúdo
+  \item Avaliação
+\end{itemize}
+
+Foram analisadas também \textit{surveys} que indicavam o estado da arte e da
+prática em relação ao assunto.
+
+Os resultados da pesquisa bibliográfica são apresentados a seguir. Para melhor
+entendimento, os artigos estão organizados em seções de acordo com os itens
+descritos anteriormente (alguns artigos poderiam ser encaixados em mais de um
+item, dessa forma optou-se por deixar no item de maior relação com
+este trabalho).
+
+\section{Requisitos}
+
+\cite{Trewin:2010:ACT:1805986.1806029} realizaram uma pesquisa
+com os desenvolvedores da \textit{IBM}. O objetivo da pesquisa foi
+verificar como as ferramentas de apoio a acessibilidade podem ajudar os desenvolvedores.
+Quando acessibilidade é envolvida no projeto, algumas estatísticas de
+consumo de tempo foram levantadas nas etapas.
+
+Os desenvolvedores explicaram que as ferramentas atuais de apoio a
+acessibilidade atrapalham o desenvolvimento, tornando o processo moroso.
+Questões importantes sobre as ferramentas de apoio foram levantadas, tais como:
+
+\begin{itemize}
+  \item Quais funcionalidade a ferramenta de apoio deve oferecer?
+  \item A ferramenta de apoio deve ou não ser integrada à ferramenta de
+  desenvolvimento?
+\end{itemize}
+
+\cite{analuizadias:2010} estudaram o estágio da
+inserção de acessibilidade nas etapas de desenvolvimento de \textit{software}.
+Para isso, foram buscados artigos nos portais \textit{Springer, ACM,
+IEEE, Elsevier, Wiley e Scielo}.
+
+Os artigos relevantes foram classificados de acordo com a norma \textit{ISO/IEC
+12207:1998} (Requisitos, Projeto, Construção, etc) \citep{iso12207:98}. Uma das
+observações dos autores é que a maioria das pesquisas se refere a testes com
+usuários, enquanto nenhuma contempla instalação de \textit{software}. Isso é uma
+constatação interessante, visto que usuários com deficiência visual conseguem
+instalar completamente um sistema operacional
+\textit{Linux}\footnote{https://help.ubuntu.com/community/Accessibility
+e http://www.linuxacessivel.org/}, mas há vários requisitos anteriores que devem ser considerados para que o usuário consiga executar a tarefa de forma adequada (por exemplo, baixar a imagem do Sistema Operacional e gravar em um CD/DVD ou
+\textit{pen drive}). Nada foi encontrado na literatura sobre a instalação de
+outros sistemas operacionais (por exemplo, \textit{Windows}) por deficientes
+visuais.
+
+\cite{4756193} propôs uma ferramenta para
+especificação de requisitos de acessibilidade. Sua proposta é unir os
+requisitos das diretrizes de acessibilidade com os requerimentos da engenharia
+de \textit{software} tradicional, incluindo requerimentos específicos de
+acessibilidade no Documento de Requisitos.
+
+O trabalho é baseado nos \textit{checklists} e \textit{checkpoints}
+das diretrizes de acessibilidade mais conhecidas. 
+ 
+A ferramenta, nomeada \textit{AccessOnto}, aproveita a saída de algumas
+ferramentas \textit{CASE} tais como
+\textit{SELECT}\footnote{http://www.selectbs.com/analysis-and-design/select-architect}
+e prevê integração com o \textit{IBM Rational Policy Tester
+Accessibility}\footnote{http://www-01.ibm.com/software/awdtools/tester/policy/accessibility/}.
+Um \textit{XML Schema} provê as descrições, regras e classes, descrevendo as diretrizes, características do usuário e
+objetos no ambiente de interação. A ferramenta é usada para intervir em
+diagramas de caso de uso, diagramas de classes e diagramas de transição de
+estados.
+
+\cite{4196334} discutiram as iniciativas de
+padronização de acessibilidade no domínio \textit{e-Learning}. De acordo com os
+autores, há muitas instituições trabalhando na padronização de tecnologias
+\textit{e-Learning}, nos seguintes subdomínios: metadados, agregação de
+conteúdo, informações do estudante, acessibilidade e \textit{Runtime}.
+
+Os autores aprofundaram seus estudos nos padrões \gls{lip}, \gls{acclip} e
+\gls{accmd}\footnote{http://wiki.cetis.ac.uk/ACCMD\_Briefing}, propostos pela
+\gls{ims}\footnote{http://www.imsglobal.org/accessibility/}, e explicaram a
+proposta de \gls{dp}, estendendo os padrões mencionados.
+
+\cite{5260918} estudaram os princípios e conceitos de
+acessibilidade em \textit{sites} educacionais. Os autores descrevem a
+heteregeonidade dos estudantes (questões como deficiências, equipamentos,
+habilidades, idade, entre outras).
+
+Os autores sugerem que alguns princípios de \textit{design} devem ser assumidos
+(flexibilidade, simplicidade e tolerância a erros. Também sugerem
+aplicar um processo de desenvolvimento \textit{top-down} (Definição $>$ Análise $>$ Protótipo $>$ Testes $>$ Integração $>$ Liberação e
+Manutenção) para atingir os objetivos e prover um produto acessível.
+
+\cite{springerlink:10.1007/978-3-642-02713-0_67} estudaram como incorporar acessibilidade junto a
+análise de requisitos. Uma pesquisa inicial foi feita para verificar em que
+estágio de desenvolvimento a acessibilidade é considerada e quanto tempo é
+dedicado a esse fim. Há uma discussão se requisitos de acessibilidade devem
+ser considerados requisitos funcionais ou requisitos não funcionais, já que
+alguns autores consideram acessibilidade como um sub-área de usabilidade.
+
+Os autores trataram requisitos de acessibilidade como requisitos não funcionais.
+Dessa forma, uma alteração no \gls{nfr} \textit{goal graph} foi feita, o transformando em um
+\gls{ar} \textit{graph}. O diagrama de
+casos de uso é alterado para comportar a acessibilidade.
+
+\cite{Akhter:2009:CFE:1632189.1632275} propuseram um \textit{framework}
+conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam leitores de tela.
+
+Algumas diretrizes são propostas, tais como:
+\begin{itemize}
+  \item informar que o usuário está em uma página segura (\gls{https});
+  \item apresentar, assim que possível, informações sobre certificados e, se
+  necessário, duplicar a informação;
+  \item informar imediatamente se uma página é recarregada, possível através
+  de regiões \gls{wai-aria}.
+\end{itemize}
+
+\section{Arquitetura}
+
+\cite{Fuertes:2011:DHW:1969289.1969294} apresentaram o projeto da
+ferramenta \textit{Hera-FFX}, um plugin para o navegador \textit{Firefox}. O
+projeto tem por objetivo eliminar as limitações da ferramenta \textit{Hera 1.0}
+\footnote{http://www.sidar.org/hera/} e estender sua funcionalidade, realizando as avaliações
+utilizando o \gls{wcag} 2.0.
+
+O trabalho é interessante por fazer comparações com outras ferramentas de
+avaliação, e mostra quais características seriam desejáveis que uma
+ferramenta desse tipo contivesse.
+
+A última versão da ferramenta (\textit{Hera-FFX
+1.7}\footnote{http://www.sidar.org/recur/aplica/heraffx.php}) não é compatível com as versões mais novas do navegador \textit{Firefox} (versão 8 ou
+superior).
+Segundo o manual do usuário, o \textit{plugin} foi testado com sucesso nas
+versões 2 e 3 do navegador.
+
+\cite{Stringer:2007:ETW:1286240.1286249} partiram da
+hipótese que analisando o tráfego de rede, atualizações nas páginas podem ser encontradas, mas o leitor de tela não conseguirá identificá-las, pois
+a leitura da tela normalmente ocorre de cima para baixo, e as atualizações
+ocorrem em qualquer parte do documento.  O tráfego de rede foi analisado usando
+ferramentas conhecidas como
+\textit{wireshark}\footnote{http://www.wireshark.org/}. Os autores questionam ainda que, mesmo que o leitor de tela consiga capturar a atualização, como ele apresentará o
+resultado ao usuário?
+
+O trabalho possui algumas limitações instrínsecas desse tipo de análise. A
+utilização de \textit{cache} e todo processamento \textit{client-side} não geram
+tráfego algum na rede, e podem atualizar o agente do usuário alvo. Intervenções
+de segurança nas requisições do cliente podem afetar a análise do tráfego
+também.
+
+Apesar de não ser tratado no artigo, pode-se observar que o documento
+\gls{wai-aria} tenta endereçar esse problema, definindo papéis para essas
+regiões passíveis de atualização.
+
+\cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta em que usuários
+finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
+\textit{WebAnywhere}\footnote{http://webanywhere.cs.washington.edu/}.
+
+Um script \textit{server-side} guarda o conjunto de ações de usuário,
+permitindo ao desenvolvedor reproduzi-las posteriormente. Essa ferramenta é útil
+para compensar a deficiência das ferramentas de avaliação automática, que não
+conseguem resolver completamente os problemas presentes no \textit{site}.
+
+\cite{5564560} estudaram acessibilidade envolvendo
+\textit{web services}. O estudo é baseado na forma como os \textit{web services}
+se comunicam, através do protocolo
+\textit{SOAP}\footnote{http://www.w3.org/TR/2003/REC-soap12-part0-20030624/}.
+
+Antes de entregar o conteúdo, o \textit{web service} ``desempacota'' o mesmo e
+analisa utilizando as diretrizes \gls{wcag}. Por esse motivo, as
+funcionalidades são definidas em classes, assim como os níveis de conformidade
+do \gls{wcag}. Um módulo de validação foi desenvolvido, gerando relatórios
+\gls{earl}.
+
+\cite{Schaik:2008:MUE:1367153.1367461} estudaram
+a percepção do usuário em relação à qualidade do \textit{site}. Foi realizada uma pesquisa para verificar a percepção do
+usuário com alguns \textit{sites} pré-definidos. Os elementos do \textit{site} eram
+reordenados e seu layout foi modificado. Dessa maneira, os usuários davam
+seu parecer antes e depois da utilização do mesmo.
+
+A pesquisa considerou alguns princípios básicos, como beleza e qualidade,
+tratando-os como variáveis aleatórias para proceder com o estudo estatístico. O
+estudo mostrou que a variável aleatória \textit{beleza} é mais estável do que,
+por exemplo, a percepção do usuário sobre qualidade. A base de conhecimento
+resultante pode ser usada para produzir um guia de \textit{design} na forma de
+padrões de \textit{design} para facilitar a compreensão e aplicação.
+
+\cite{Buzzi:2008:MWE:1463160.1463210} propuseram modificações na \textit{Wikipedia} de forma
+que a mesma se torne acessível para contribuição de usuários cegos.
+
+Os objetivos foram alcançados através das seguintes alterações:
+\begin{itemize}
+  \item utilização de regiões \gls{wai-aria}, principalmente para
+questões como foco nos elementos;
+  \item alteração da barra de ferramentas (de \textit{javascript} para
+\gls{xhtml});
+  \item mudança na forma de escolha de símbolos especiais.
+\end{itemize}
+
+\section{Navegação}
+
+\cite{5358165} construíram um \textit{plugin}
+para \textit{NetBeans} que simula algumas deficiências visuais, para testar
+principalmente aplicações \textit{Java Swing}.
+
+Os autores mencionam que existem vários simuladores de deficiências físicas na
+literatura, sendo que o simulador proposto por eles cobre vários tipos de
+deficiência visual (tais como catarata, hipermetropia, entre outras). Os resultados obtidos foram comparados com outros
+simuladores da mesma categoria. A implementação foi projetada usando um design
+centrado no usuário, justamente para entender suas maiores dificuldades.
+
+\cite{4437943} propuseram a personalização da
+interface do usuário, tornando assim o conteúdo acessível. A proposta permite
+que os usuários definam como o conteúdo deve ser apresentado.
+
+Os requisitos que devem ser considerados para alcançar esse grau de
+flexibilidade são:
+apresentação do conteúdo, navegação e busca. Como exemplo, os autores demonstraram as possibilidades da
+abordagem montando uma linguagem descritiva em
+\gls{javacc}\footnote{http://javacc.java.net/} para mídia
+\gls{rss}\footnote{http://www.rss-specifications.com/rss-specifications.htm}.
+
+Os autores detalharam como a transformação ocorre
+\citep{Encelle:2007:PUI:1243441.1243459}, usando
+\gls{xpath}\footnote{http://www.w3schools.com/xpath/ xpath\_intro.asp},
+\gls{smil} e \gls{xslt}\footnote{http://www.w3.org/TR/xslt}. Segundo os
+autores, é relativamente simples utilizar a proposta sugerida, bastando apenas 3
+utilizações para o usuário conseguir dominar a ferramenta.
+
+\cite{Ferres:2007:IAS:1296843.1296857} propuseram um
+método para tornar gráficos acessíveis. A acessibilidade é alcançada da seguinte
+maneira: os gráficos são confeccionados no \textit{Excel}, através de um \textit{plugin} feito para esse fim. Depois de publicado, um \textit{plugin} instalado no
+navegador reconhece o gráfico acessível, fornecendo a interação necessária para que o
+usuário consiga extrair toda a informação necessária.
+
+A navegação no gráfico foi inspirada em leitores de tela, portanto é feita
+através do teclado. Além disso, o \textit{software} de leitura do gráfico possui
+um sintetizador de voz embutido.
+
+\cite{Michail:2007:ABS:1547550.1547666} propuseram a
+personalização da navegação nativa dos \textit{sites}, de acordo com as
+preferências do usuário, através de um \textit{framework} que estende o
+\textit{SeEBrowser}\footnote{http://seebrowser.it.teithe.gr/?q=en/node/32}. O
+framework permite guardar anotações de acessibilidade através de comandos
+\textit{POST} e \textit{GET} do protocolo \gls{http}. As anotações são
+armazenadas no formato \gls{rdf}.
+
+O \textit{software} possui algumas métricas para avaliar o nível dos atalhos
+fornecidos ao usuário, contando pressionamento das teclas, tempo gasto em cada
+página, entre outras. A navegação é reordenada baseada na relevância das
+informações previamente cadastradas, através das estatísticas coletadas.
+
+\section{Interface}
+
+\cite{5338903} propuseram a possibilidade de alteração
+das interfaces de aplicativos \textit{web} (baseados em \gls{html} e
+\gls{css}) de celulares de acordo com as preferências do usuário. Dessa
+maneira, usuários com deficiência têm a possibilidade de customizar a interface
+para aumentar a acessibilidade.
+
+A grande diferença dessa proposta é que, utilizando \textit{Java Card} e
+\gls{j2me}, as preferências são gravadas no \textit{chip SIM}, e não na
+memória do celular, como a maioria das aplicações fazem. Dessa forma, é possível
+alterar o aparelho físico, mas as informações da interface não são perdidas.
+
+\cite{Pauwels:2009:EPO:1618879.1619082} questionaram a
+melhor forma de evidenciar campos obrigatórios em formulários. Vários
+pesquisadores afirmam que campos obrigatórios de um formulário devem aparecer
+logo no início, destacados. A \textit{Apple} prefere a abordagem de usar
+asteriscos, e só destacar os campos que o usuário errou após o usuário
+submeter a ação.
+
+Em termos de acessibilidade, a pesquisa mostra que a abordagem de campos
+coloridos é melhor do que a de asterisco, mas leitores de tela não são sensíveis a esse contexto.
+Aparentemente, é bom utilizar as duas abordagens. Apesar disso, os autores não conseguiram
+concluir qual cor deve ser utilizada, informando apenas que a cor utilizada para
+seus testes foi a amarela.
+
+\cite{Halbach:2010:TCA:1747589.1747607} trataram da
+deficiência cognitiva (problemas com foco, dificuldade de leitura, entendimento,
+memória, entre outros). Os documentos \gls{wcag} 1.0 e 2.0 cobrem uma área
+limitada dos problemas que a deficiência cognitiva podem trazer.
+
+O autor propõe um conjunto de princípios de \textit{design} para cada sub-área
+e desenvolveu uma solução baseada no estudo de caso do
+\textit{site} de serviços públicos da Noruega. Nesse \textit{site}, 33\% dos chamados do \textit{Help
+Desk} eram relativos a tela de \textit{login}. A solução apresentada é
+interessante pois usa padrões de \textit{design} pouco usuais em desenvolvimento
+de \textit{sites}, como por exemplo usar uma área informando o que o usuário
+está fazendo no momento, e quais são os próximos passos. Isso auxilia pessoas
+com problemas de mémoria, principalmente idosos.
+
+\section{Conteúdo}
+
+\cite{Ferretti:2008:EYW:1368044.1368070} propuseram, através de objetos
+\gls{accmd}, uma forma
+compartilhada de prover acessibilidade em ambientes \textit{e-Learning 2.0}, principalmente para objetos multimídia
+\gls{smil}.
+
+No ambiente virtual, o tutor disponibiliza o conteúdo, que depois pode ser
+acrescido de recursos pelas partes interessadas (tutor, estudantes, etc). A
+edição colaborativa é feita por uma interface \textit{wiki-like}, na qual as
+``camadas'' de acessibilidade são adicionadas aos objetos de aprendizagem, sob
+supervisão do tutor.
+
+\cite{MartinGarcia:2009:PAE:1535654.1535665} estudaram a relação entre os \textit{Prosumers} e acessibilidade do conteúdo
+por eles disponibilizado. Deve ser levado em conta que
+\textit{Prosumers}\footnote{Prosumers são usuários que, apesar de publicarem
+conteúdo na Internet, são leigos em desenvolvimento de sistemas e são
+auxiliados por ferramentas de autoria} não são profissionais em construção de
+\textit{sites}, muito menos em acessibilidade.
+
+A inclusão de acessibilidade no \gls{ugc} deve ser
+feita, portanto, de forma transparente ao \textit{prosumer} (usuários
+geralmente leigos que utilizam ferramentas de autoria para publicar
+informações \textit{online}).
+Os autores explicitam algumas formas de tornar esse processo possível:
+
+\begin{itemize}
+  \item acessibilidade orientada a plataforma (restrição na geração, utilização
+  de templates, etc);
+  \item acessibilidade dependente do criador (permitir a ferramenta ``sugerir''
+  as questões de acessibilidade);
+  \item acessibilidade auxiliada pela comunidade (treinamentos, compartilhamento
+  de autoria, moderação, etc).
+\end{itemize}
+
+\section{Avaliação}
+
+\cite{Vigo:2011:AWA:1963660.1963798} trataram de
+questões relativas a métricas de acessibilidade. Existem muitas métricas propostas na literatura, tais como
+\gls{uwem} \citep{cluster2:09}, \gls{waqm} \citep{vigo:07}, \textit{A3}
+\citep{buhler:06}, \textit{$T^1$} \citep{t1:09}, \gls{wab} \citep{martinez:09},
+\gls{pm} \citep{4380248}, entre outras. Os autores questionam qual é a
+``qualidade'' de cada uma delas.
+
+Por qualidade, pode-se considerar a validade, confiabilidade, sensibilidade,
+complexidade, entre outros parâmetros. Esses parâmetros devem ser considerados
+para determinar em que cenário elas devem ser usadas (validadores desktop,
+validadores \textit{online}, \textit{engine} de busca, etc). O motor de busca do \textit{Google} já utiliza métricas de acessibilidade
+para ``rankear'' os sites (essa métrica não é de conhecimento público)
+\footnote{http://www.google.com/accessibility/labs/search/}.
+
+Algumas métricas são difíceis de implementar e testar por ferramentas
+automáticas. Os autores reforçam que há vários aspectos que devem ser levados em
+conta ao realizar um estudo comparativo entre as métricas. Contudo, mesmo
+estando abaixo de um comportamento ótimo, as métricas presentes na literatura
+que melhor se comportaram foram: \gls{waqm}, \gls{pm} e \gls{wab}.
+
+\cite{Brajnik:2009:VRW:1639642.1639666} questionou a
+validade das diretrizes de acessibilidade. O principal questionamento do
+trabalho é: um mesmo conjunto de diretrizes de acessibilidade produzirá os mesmos resultados, se conduzido por pessoas ou
+ferramentas diferentes?
+
+Mesmo que a resposta para a pergunta anterior seja positiva, pode-se
+perguntar qual é a qualidade dos métodos de avaliação utilizados e o quão
+``testáveis'' são as diretrizes de acessibilidade.
+
+O autor concluiu que as diretrizes do \gls{wcag} 1.0 são mais confiáveis do
+que as diretrizes do \gls{wcag} 2.0. Ainda assim, a confiabilidade não passou
+dos 80\%.
+
+\section{Conclusões}
+
+A pesquisa bibliográfica mostrou que o tema acessibilidade, inserido no contexto
+de desenvolvimento \textit{web}, possui várias possibilidades de pesquisa. O
+tema é amplo, novo e sua importância tem sido reforçada a cada dia.
+
+As áreas de pesquisa podem ser desenvolvidas em toda as etapas de
+desenvolvimento do produto (desde a análise de requisitos até a manutenção do
+sistema). As pesquisas podem ser aplicadas em nichos específicos, como
+\textit{hardware}, tecnologias assistivas e, principalmente, projetos de
+arquitetura, navegação e interface dos produtos. Contudo, notou-se que as
+pesquisas são esparsas, e tentam endereçar problemas específicos, havendo pouca
+integração entre os trabalhos pesquisados.
+
+Enquanto outras áreas já adaptam \textit{frameworks} e processos de
+desenvolvimento de \textit{software} com requisitos específicos (por exemplo,
+segurança da informação \citep{5068459}), os requisitos de acessibilidade ainda são
+negligenciados no processo de desenvolvimento de sistemas e no escopo de
+Engenharia de \textit{Software}.

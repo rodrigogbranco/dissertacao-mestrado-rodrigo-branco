@@ -1,0 +1,111 @@
+%-----
+% Define o uso do modelo colorido ou preto e branco (escolha uma e descomente)
+% Mais abaixo, defina a figura de acordo com a escolha feita.
+%-----
+\documentclass{dct-class}
+
+\usepackage{hyperref}
+\usepackage[round]{natbib}
+\usepackage{plain}
+\usepackage[toc]{glossaries}
+
+\makeglossaries
+
+\begin{document}
+\thispagestyle{empty}
+%----- As informações abaixo são obrigatórias  ----------------------
+%\titulo{Acessibilidade no domínio de eGov}
+\titulo{Acessibilidade nas fases de Engenharia de Requisitos e Codificação de
+Software: Uma ferramenta de apoio}
+\autor{Rodrigo Gonçalves de Branco}
+\doctipo{Qualificação de Mestrado}{}
+% Observe que a macro doctipo acima tem 2 parâmetros
+% O primeiro refere-se ao nome do documento
+% O segundo é sua identificação numérica, quando ela existir.
+% Use a sintaxe \doctipo{XXXXX}{} quando não for
+% necessária a identificação numérica--------------------------------
+%--------------------------------------------------------------------
+%--------------------------------------------------------------------
+%----- As informações abaixo são opcionais  -------------------------
+\orientacao{ Prof$^a$. Dr$^a$. Débora Maria Barroso Paiva}
+\docarea{Acessibilidade Digital - Engenharia de Software}
+\textofree{}
+%-----
+% Se você usa o latex para compilar, comente as figuras do pdflatex
+% Defina a figura do grafo a ser utilizada (escolha uma e descomente)
+% Faça essa escolha de acordo com a classe escolhida (dct-class_bw ou
+% dct-class)
+%-----
+%\vfill \centerline{\includegraphics[scale=0.8]{logo_dct_bw.mps}}
+%\vfill \centerline{\includegraphics[scale=0.8]{logo_dct_color.mps}}
+%-----
+% Se você usa o pdflatex para compilar, comente as figuras do latex
+% Defina a figura do grafo a ser utilizada (escolha uma e descomente)
+% Faça essa escolha de acordo com a classe escolhida (dct-class_bw ou
+% dct-class)
+%-----
+%\vfill \centerline{\includegraphics[scale=0.8]{logo_dct_bw-pdflatex.mps}}
+%\vfill \centerline{\includegraphics[scale=0.8]{logo_dct_color-pdflatex.mps}}
+
+\vfill \centerline{\includegraphics[scale=0.5]{logo_dct.jpg}}
+
+%--------------------------------------------------------------------
+% O trecho seguinte não pode ser mudado ou retirado -----------------
+\vskip 0.5cm
+\begin{center}
+        Faculdade de Computação - FACOM\\
+        Universidade Federal de Mato Grosso do Sul\\
+        \today
+\end{center}
+\newpage
+
+\include{resumo}
+\include{abstract}
+
+%--------------------------------------------------------------------
+% Aqui começa a inclusão dos seus textos
+%
+\renewcommand{\contentsname}{Sumário} % renomeando o contentsname
+\renewcommand*{\glossaryname}{Glossário}
+\deftranslation{Glossary}{Glossário}
+\tableofcontents
+%---- O comando abaixo deve ser usado caso queira incluir o conteúdo
+%como bookmark, visando facilitar a navegação no Acrobat Reader
+%---------------------------------------------------------------------
+\addcontentsline{toc}{chapter}{Sumário}\label{sumario}
+%---------------------------------------------------------------------
+%------ Aqui devem ser incluídos os capítulos ------------------------
+
+\include{glossary}
+
+%\addcontentsline{toc}{chapter}{Glossário}\label{glossario}
+
+\printglossary
+
+\include{introducao}
+\include{acessibilidade}
+\include{levbib}
+\include{mta}
+\include{desenvolvimento}
+\include{proposta}
+%---------------------------------------------------------------------
+% Aqui está um exemplo de bibliografia
+% Veja o arquivo bibi_exemplo.bib
+% Para você ter um " GUIA "
+%---------------------------------------------------------------------
+\refstepcounter{chapter}
+\refstepcounter{chapter}% Adiciona 1 to chapter ou seja (\thechapter=\thechapter+1)
+
+\addcontentsline{toc}{chapter}{Bibliografia}\label{bibliografia}
+%\nocite{*}
+
+%-----
+% Define o estilo das referências bibliográficas
+%-----
+\bibliographystyle{apalike}
+%
+%\nocite{*}
+
+\bibliography{sbc-template}
+%--------------------------------------------------------------------
+\end{document}

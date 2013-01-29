@@ -1,0 +1,98 @@
+\chapter{MTA - Modelo de Tarefas de Acessibilidade}
+
+\citet{Melo:2006:DPI:1298023.1298026} consideram importante apoiar o
+desenvolvimento de sistemas acessíveis utilizando métodos e técnicas que possam
+explicitá-los e representá-los. Com o objetivo de amparar o desenvolvimento de
+softwares seguindo padrões e \textit{frameworks} de desenvolvimento já existentes, \citet{maia:10} propôs o
+MTA (Modelo de Tarefas de Acessibilidade).
+
+O modelo proposto sugere tarefas de acessibilidade a serem empregadas nos
+subprocessos do Processo de Desenvolvimento da Norma ISO/IEC
+12207\footnote{Acessível em
+http://www.iso.org/iso/catalogue\_detail?csnumber=43447}. A proposta apresentada
+é que, alterando e adaptando esses subprocessos específicos, a acessibilidade
+do produto final seja garantida.
+
+\section{ISO/IEC 12207}
+
+A norma ISO/IEC 12007 \citep{ieeeeia12207:1998} tem como objetivo prover um
+padrão para desenvolvimento e acompanhamento dos processos do ciclo de vida de
+softwares. Os processos são separados por fundamentais, de apoio,
+organizacionais e de adaptação.
+
+Os processos são divididos em atividades ou subprocessos e esses, por sua vez,
+são divididos em tarefas. É importante mencionar que a norma não descreve as
+técnicas específicas utilizadas para a realização das atividades, mas sim um
+\textit{framework} de tal forma que é possível planejar e entender o processo de
+desenvolvimento do software.
+
+Apesar de a norma poder ser utilizada parcialmente, algumas atividades dos
+processos se relacionam com outros processos. Pode-se citar, por exemplo, tarefas do Processo de
+Desenvolvimento que requeiram a documentaçaõ de suas saídas, e portanto, o
+Processo de Documentação deveria ser utilizado \citep{maia:10}.
+
+O MTA foi desenvolvido focado no Processo de Desenvolvimento. Neste processo,
+iremos encontrar os seguintes subprocessos:
+
+\begin{enumerate}
+  \item Eliciação dos requisitos do sistema;
+  \item Análise dos requisitos do sistema;
+  \item Projeto Arquitetural do sistema;
+  \item Análise de Requisitos do software;
+  \item Projeto de software;
+  \item Construção do software (código e teste de unidade);
+  \item Integração do software;
+  \item Teste do software;
+  \item Integração do sistema; e
+  \item Teste do sistema.
+\end{enumerate}
+
+\section{MTA integrado ao Processo de Desenvolvimento - ISO/IEC 12007}
+
+Em cada subprocesso do Processo de Desenvolvimento, foram inseridas uma ou mais
+tarefas de acessibilidade. A tabela \ref{table:isomta} relaciona os subprocessos
+e as tarefas de acessibilidade relacionadas. \citet{maia:10} descreve os
+subprocessos e como as tarefas de acessibilidade devem ser desenvolvidas.
+
+\begin{table}[htbp]
+\begin{center}
+\tiny
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Subprocessos} & \textbf{Tarefas de acessibilidade} \\ \hline
+1. Elicitação dos requisitos do sistema & 1.1 Identificar os requisitos de
+acessibilidade do sistema \\ \hline \multicolumn{ 1}{|l|}{2. Análise de
+requisitos do sistema} & 2.1 Especificar os requisitos de acessibilidade do sistema \\ \cline{ 2- 2} \multicolumn{ 1}{|l|}{}
+& 2.2 Avaliar os requisitos de acessibilidade do sistema \\ \hline \multicolumn{
+1}{|l|}{3. Projeto arquitetural do sistema} & 3.1 Alocar os requisitos de
+acessibilidade aos elementos do sistema \\ \cline{ 2- 2} \multicolumn{ 1}{|l|}{}
+& 3.2 Avaliar o projeto arquitetural do sistema com relação aos requisitos de
+acessibilidade \\ \hline \multicolumn{ 1}{|l|}{4. Análise de requisitos do
+software} & 4.1 Estabelecer os requisitos de acessibilidade do software \\
+\cline{ 2- 2} \multicolumn{ 1}{|l|}{} & 4.2 Avaliar os requisitos de
+acessibilidade do software \\ \hline \multicolumn{ 1}{|l|}{5. Projeto de
+software} & 5.1 Projetar as interfaces externas acessíveis \\ \cline{ 2- 2}
+\multicolumn{ 1}{|l|}{} & 5.2 Realizar o projeto navegacional acessível \\
+\cline{ 2- 2} \multicolumn{ 1}{|l|}{} & 5.3 Avaliar acessibilidade do projeto de
+software \\ \hline \multicolumn{ 1}{|l|}{6. Construção do Software
+(código e teste de unidade)} & 6.1 Especificar técnicas para implementação da
+acessibilidade da interface e do código \\ \cline{ 2- 2}
+\multicolumn{ 1}{|l|}{} & 6.2 Codificar cada unidade de software de acordo com
+as técnicas de acessibilidade \\ \cline{ 2- 2}
+\multicolumn{ 1}{|l|}{} & 6.3 Planejar teste de acessibilidade para cada unidade
+de software \\ \cline{ 2- 2} \multicolumn{ 1}{|l|}{} & 6.4 Executar testes de
+acessibilidade de cada unidade de software \\ \hline 7. Integração do software &
+7.1 Planejar teste de acessibilidade do software integrado \\ \hline
+\multicolumn{ 1}{|l|}{8. Teste do software} & 8.1 Conduzir testes de
+acessibilidade do software \\ \cline{ 2- 2} \multicolumn{ 1}{|l|}{} & 8.2
+Avaliar o resultado do teste de acessibilidade \\ \hline \multicolumn{
+1}{|l|}{9. Integração do sistema} & 9.1 Realizar testes de acessibilidade no
+sistema \\ \cline{ 2- 2} \multicolumn{ 1}{|l|}{} & 9.2 Avaliar os resultados dos
+testes de acessibilidade do sistema \\ \hline 10. Teste do sistema & 10.1
+Certificar a conformidade com os requisitos do sistema \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Subprocessos e tarefas de acessibilidade do MTA}
+\label{table:isomta}
+\end{table}
