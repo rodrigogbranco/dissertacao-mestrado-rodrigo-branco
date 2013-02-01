@@ -82,7 +82,7 @@ o artefato para as fases de projeto e codificação.
  pode ser gerada para adequar ao quadro atual do projeto.
  
  Embora existam iniciativas de transformar um documento de requisitos em
- linguagem natural para artefatos \gls{uml} através de ferramentas automatizadas
+ linguagem natural para artefatos \gls{uml} \citep{trove.nla.gov.au/work/7376771} através de ferramentas automatizadas
  \citep{Deeptimahanti:2009:ATG:1747491.1747583,Kumar:2008:SUM:1487741.1488136},
  essa abordagem não será utilizada, exigindo que o especialista em
  acessibilidade faça os lançamentos manuais na ferramenta \gls{case}.
@@ -238,7 +238,20 @@ consideradas.
 
 A tarefa 6.2 (Codificar e documentar cada unidade de software de acordo com as
 técnicas de acessibilidade) recebe benefícios diretos dos passos anteriores,
-pois o projeto já contém os pontos críticos de acessibilidade explicitados. Mais ainda, com os artefatos XML/XMI é
-possível gerar o arcabouço do código, contendo as técnicas de acessibilidade que
-devem ser seguidas de uma forma rastreável \textbf{(COMENTÁRIOS, ANOTAÇÕES
-JAVA, OUTROS?)}
+pois o projeto já contém os pontos críticos de acessibilidade explicitados. 
+Ferramentas case, neste ponto, comumente geram código (\textit{stub} \footnote{http://en.wikipedia.org/wiki/Method\_stub}), 
+utilizando artefatos como diagramas de classe, de sequência e casos de uso. O código
+gerado já poderia conter traços de documentação associados aos requisitos de acessibilidade.
+Uma maneira imediata de documentar código é adicionando comentários padronizados, de forma que os requisitos
+de acessibilidade possam ser localizados.
+
+Para incorporar a rastreabilidade
+dos requisitos no código gerado pelas ferramentas em forma de comentário de código, temos as seguintes abordagens:
+
+\begin{enumerate}
+  \item A ferramenta de modelagem gera os códigos, e a partir destes, a ferramenta \gls{case} proposta incluiria os comentários
+  de rastreabilidade
+  \item A ferramenta \gls{case} proposta substituiria o gerador de código, realizando todo o trabalho e gerando o código já documentado.
+\end{enumerate}
+
+\textbf{AVALIAÇÃO DE COMPLEXIDADE?}
