@@ -12,13 +12,13 @@ Os requisitos de acessibilidade devem ser propagados desde o início do processo
 codificação e testes de forma consistente.
 
 Para o trabalho proposto, definimos como escopo apenas os subprocessos 4
-(Análise de Requisitos de Software), 5 (Projeto de Software) e 6 (Construção do Software) e suas
-respectivas tarefas de acessibilidade. As tarefas de testes, presentes no
-subprocesso 6 não serão levadas em consideração.
+(Análise de Requisitos de Software), 5 (Projeto de Software) e 6 (Construção do
+Software) e suas respectivas tarefas de acessibilidade. As tarefas de testes,
+presentes no subprocesso 6 não serão levadas em consideração.
 
 Essa abordagem foi adotada pois, embora as definições de acessibilidade já
-começam no subprocesso 1, é no subprocesso 4 que os requisitos são
-``lapidados'' e o artefato de entrada das fases de projeto é gerado.
+começam no subprocesso 1, é no subprocesso 4 que os requisitos são ``lapidados''
+e o artefato de entrada das fases de projeto é gerado.
 
 A seguir, mostraremos como relacionar os subprocessos citados com o rastreio dos
 requisitos de acessibilidade.
@@ -47,8 +47,7 @@ software do sistema. Elementos aqui são considerados interface e código
 O MTA insere duas tarefas de acessibilidade, conforme mostrado na figura
 \ref{fig:sub4}.
 
-\begin{figure}[ht]
-\centering
+\begin{figure}[ht] \centering
 \includegraphics[width=.8\textwidth,height=200px]{./images/subprocesso4.png}
 \caption{Tarefas para o subprocesso de análise de requisitos do software
 \citep{maia:10}}
@@ -63,8 +62,8 @@ o artefato para as fases de projeto e codificação.
  A saída da tarefa \textbf{Avaliar os requisitos de acessibilidade de software}
  (Documento de requisitos de acessibilidade do software avaliados e aprovados)
  passa por um tratamento, gerando um novo artefato. A proposta é que mais um
- artefato seja gerado, sendo um documento de requisitos em um formato
- legível por máquina, não ambiguo e que possa ser gerenciado por uma ferramenta
+ artefato seja gerado, sendo um documento de requisitos em um formato legível
+ por máquina, não ambiguo e que possa ser gerenciado por uma ferramenta
  \gls{case}, que será utilizado nos passos subsequentes para rastreamento dos
  requisitos de acessibilidade. A escolha adotada neste trabalho é o formato
  XMI/XML, principalmente por ser o principal formato para descrever elementos
@@ -85,15 +84,44 @@ o artefato para as fases de projeto e codificação.
  Embora existam iniciativas de transformar um documento de requisitos em
  linguagem natural para artefatos \gls{uml} através de ferramentas automatizadas
  \citep{Deeptimahanti:2009:ATG:1747491.1747583,Kumar:2008:SUM:1487741.1488136},
- essa abordagem não será utilizada, exigindo que o especialista em acessibilidade faça os lançamentos
- manuais na ferramenta \gls{case}.
+ essa abordagem não será utilizada, exigindo que o especialista em
+ acessibilidade faça os lançamentos manuais na ferramenta \gls{case}.
  
  A \gls{uml} normalmente é utilizada para discriminar os artefatos posteriores
  ao documento de requisitos, como casos de uso, diagramas de classe, diagramas
  de sequência, diagramas de atividade, entre outros. É comum que tais diagramas
  sejam descritos, através de ferramentas \gls{case}, em XML. Portanto, é
  possível utilizar um elemento \gls{uml} não intrusivo nos artefatos para
- associar os requisitos ao elemento alvo do artefato. 
+ associar os requisitos ao elemento alvo do artefato. O elemento em questão é a
+ \textit{Nota} (ou anotações)
+ \footnote{http://www.agilemodeling.com/style/note.htm}, que não possui nenhum
+ valor semântico real para o modelo, mas serve para adicionar mais informações
+ sobre um objeto ou situação específica e pode ser ancorada a um elemento
+ \gls{uml} para mostrar que tal nota está associada ao contexto específico. É possível verificar
+ a utilização de notas \gls{uml} para rastreabilidade no trabalho de \citet{Joonhoon:09}, apesar do contexto
+ ser diferente.
+ 
+ Definindo uma sintaxe para as notas, é possível associar os elementos \gls{uml}
+ dos artefatos aos requisitos.
+ A princípio, isso pode ser feito de duas formas:
+ 
+ \begin{enumerate}
+   \item A ferramenta \gls{case} descrita leria os modelos (XML), efetuaria o \textit{parser} e incluiria as notas 
+   no arquivo XML.
+   \item O especialista em acessibilidade, através de ferramentas próprias de modelagem utilizadas no projeto, incluiria
+   as notas, que posteriormente seriam associados utilizando a ferramenta \gls{case} descrita anteriormente.
+ \end{enumerate}
+ 
+ O principal problema da primeira abordagem é que as ferramentas de modelagem
+ geram modelos \gls{uml} com formato \gls{xml} variado, e quase sempre
+ incompatíveis. Assim, a ferramenta \gls{case} precisa se especializar em uma ou
+ mais ferramentas de modelagem específicas, uma abordagem desafiadora, devido a
+ quantidade de ferramentas de modelagem disponíveis no mercado. O problema da
+ segunda abordagem é que o especialista de acessibilidade precisa utilizar a
+ ferramenta \gls{case} de modelagem e incluir as notas na sintaxe específica.
+ Contudo, essa é maneira que menos pertuba os modelos e os mantém íntegros,
+ portanto, essa será a forma abordada neste trabalho.
+ 
  
  \section{Subprocesso 5 - Projeto de Software}
  
@@ -162,7 +190,11 @@ navegadores textuais, lentes de aumento, WAI/ARIA, entre outros. É possível
 navegar pelas ontologias via navegador
 \footnote{http://160.40.50.89/Accessible\_Ontology/Version5.1/AccessibleOntologyOWLDoc/index.html},
 ou explorar os arquivos confortavelmente através do software \textit{Protegé}
-\citep{Noy01creatingsemantic};
+\citep{Noy01creatingsemantic}.
+
+Ao final deste subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
+itens de interface e navegação (já incluindo a associação com o WCAG 2.0), bem como os outros artefatos modelados 
+no subprocesso anterior. A matriz de rastreabilidade pode ser gerada novamente, dessa vez mais completa.
 
 \section{Subprocesso 6 - Construção do Software}
 
@@ -181,18 +213,23 @@ ou explorar os arquivos confortavelmente através do software \textit{Protegé}
 
 A tarefa 6.1 (Especificar Técnicas para Implementação da Acessibilidade da
 Interface e do Código) visa explicitar as técnicas de implementação de
-acessibilidade, refletidas no projeto de software. As técnicas variam de acordo
-com vários aspectos, como localidade, legislação, entre outros. Por exemplo, um
-desenvolvedor americano provavelmente considerará utilizar o WCAG 2.0
-em conjunto com as diretrizes da Section 508, por motivos legais. Um
-desenvolvedor brasileiro poderá considerar apenas o e-Mag 3.0. 
+acessibilidade, refletidas no projeto de software. Como dito anteriormente, o
+padrão de conformidade já deve ter sido escolhido no subprocesso 1. Apesar dos padrões
+de acessibilidade serem diferentes em essência, existe uma grande intersecção no que se
+refere as técnicas utilizadas para implementação efetiva da acessibilidade no produto.
+As regras para implementação do padrão e-Mag 3.0 são muito parecidas com as do padrão WCAG 2.0,
+e a tendência é que haja uma homogeneização dos esforços em desenvolver produtos acessíveis, principalmente
+como a evolução do \gls{html} 5. 
 
 Os modelos WCAG 2.0 e e-Mag 3.0 já possuem técnicas de acessibilidade presentes
-no documento. Esse é o momento de relacionar as especificidades do projeto de
+em seus respectivos documento. Esse é o momento de relacionar as especificidades do projeto de
 software com as técnicas de acessibilidade do modelo escolhido. Caso nenhum
 modelo conhecido ou algum modelo não usual tenha sido escolhido, as técnicas de
 implementação de acessibilidade deverão ser explicitamente relacionadas no
 projeto, o que não pode ser uma atividade fácil.
+
+Por conveniência, as técnicas utilizadas serão as do WCAG 2.0, pelo fato de já estarem mapeadas nos arquivos
+\gls{owl} descritos anteriormente.
 
 Pelo contexto do trabalho, apesar de extrema importância, as tarefas
 \textbf{Planejar teste de acessibilidade para cada unidade de software} e
