@@ -1,8 +1,42 @@
 \chapter{Desenvolvimento}
 
-Para o trabalho proposto, apenas os subprocessos 4 (Análise de Requisitos de
-Software), 5 (Projeto de Software) e 6 (Construção do Software) e suas
-respectivas tarefas de acessibilidade serão utilizados.
+O MTA, como extensão de um processo de desenvolvimento de \textit{software}, não
+especifica qual é a maneira correta de executar as tarefas e atividades
+propostas. É um desafio partir dos requisitos de acessibilidade e conseguir
+entregar um produto acessível. Por isso, é fundamental haver um método de
+rastreabilidade desses requisitos, de forma que exista uma garantia a
+implementação está sendo feito de forma correta.
+
+Os requisitos de acessibilidade devem ser propagados desde o início do processo
+(levantamento e confecção do documento de requisitos) até as etapas finais de
+codificação e testes de forma consistente.
+
+Para o trabalho proposto, definimos como escopo apenas os subprocessos 4
+(Análise de Requisitos de Software), 5 (Projeto de Software) e 6 (Construção do Software) e suas
+respectivas tarefas de acessibilidade. As tarefas de testes, presentes no
+subprocesso 6 não serão levadas em consideração.
+
+Essa abordagem foi adotada pois, embora as definições de acessibilidade já
+começam no subprocesso 1, é no subprocesso 4 que os requisitos são
+``lapidados'' e o artefato de entrada das fases de projeto é gerado.
+
+A seguir, mostraremos como relacionar os subprocessos citados com o rastreio dos
+requisitos de acessibilidade.
+
+\section{Entendimento do problema}
+
+O especialista em acessibilidade é fundamental em todas as etapas descritas a
+seguir, como já reforça o modelo MTA. Ele deve ter a experiência e maturidade
+para capturar os requisitos de acessibilidade no momento conveniente. Isso pode
+ocorrer (e é desejável) no levantamento de requisitos de forma explícita
+(sugerindo possivelmente um requisito funcional), de forma genérica e não
+específica (sugerindo possivelmente um requisito não funcional) ou não aparecer.
+
+Requisitos funcionais e não funcionais são abordados no subprocesso 4, ponto de
+partida deste trabalho no modelo MTA. Caso os requisitos não sejam identificados
+nesta etapa, o especialista de acessibilidade deverá, no subprocesso 5,
+especificar nos projetos de interface e navegação os itens que merecem um
+tratamento de acessibilidade específico.
 
 \section{Subprocesso 4 - Análise de Requisitos de Software}
 
@@ -20,14 +54,39 @@ O MTA insere duas tarefas de acessibilidade, conforme mostrado na figura
 \citep{maia:10}}
 \label{fig:sub4}
 \end{figure}
- 
+
+É importante ressaltar que os requisitos já são parcialmente coletados em
+subprocessos anteriores, mas é apenas nesse subprocesso que os requisitos de
+interface e código são considerados. É nesse subprocesso também que irá originar
+o artefato para as fases de projeto e codificação.
+
  A saída da tarefa \textbf{Avaliar os requisitos de acessibilidade de software}
  (Documento de requisitos de acessibilidade do software avaliados e aprovados)
- passa por um tratamento, gerando um novo artefato. O artefato gerado é um
- documento de requisitos no formato XML/XMI, que será utilizado nos passos
- subsequentes para rastreamento dos requisitos de acessibilidade.
+ passa por um tratamento, gerando um novo artefato. A proposta é que mais um
+ artefato seja gerado, sendo um documento de requisitos em um formato
+ legível por máquina, não ambiguo e que possa ser gerenciado por uma ferramenta
+ \gls{case}, que será utilizado nos passos subsequentes para rastreamento dos
+ requisitos de acessibilidade. A escolha adotada neste trabalho é o formato
+ XMI/XML, principalmente por ser o principal formato para descrever elementos
+ \gls{uml}. A partir de agora, apesar de ser possível a utilização de outros
+ formatos para atingir o mesmo objetivo, devido as características deste
+ trabalho bem como das ferramentas utilizadas que serão elencadas
+ posteriormente, o formato XMI/XML será o formato utilizado para descrever os
+ artefatos aqui definidos.
  
- \textbf{COMO?}
+ A ferramenta \gls{case} pode gerar o esqueleto da matriz de rastreabilidade
+ para os requisitos de acessibilidade. A matriz de rastreabiliade é um método
+ estático para rastreabilidade de requisitos
+ \citep{guo:2009:OBI:1681515.1682933}. Embora exista métodos dinâmicos
+ \citep{Cleland-Huang:2005:USE:1099549.1100625}, estes não são considerados
+ neste trabalho. Conforme os artefatos vão sendo gerados/atualizados, a matriz
+ pode ser gerada para adequar ao quadro atual do projeto.
+ 
+ Embora existam iniciativas de transformar um documento de requisitos em
+ linguagem natural para artefatos \gls{uml} através de ferramentas automatizadas
+ \citep{Deeptimahanti:2009:ATG:1747491.1747583}, essa abordagem não será
+ utilizada, exigindo que o especialista em acessibilidade faça os lançamentos
+ manuais na ferramenta \gls{case}.
  
  \section{Subprocesso 5 - Projeto de Software}
  
@@ -52,12 +111,44 @@ gerar o artefato Projeto de software acessível, esta tarefa também gerará um
 artefato de projeto de software no formato XML/XMI, com elementos de
 acessibilidade embutidos.
 
-Uma observação interessante é que as subtarefas das tarefas pertencentes a esse
-subprocesso já começam a contar com critérios de sucesso do WCAG 2.0. Desta
+A proposta deste trabalho enseja que as subtarefas das tarefas pertencentes a
+esse subprocesso já começam a contar com critérios de sucesso do WCAG 2.0. Desta
 forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
 projeto de interface e navegação nos passos posteriores, principalmente porque
 um software automatizado não consegue fazer algumas verificações levando em
 consideração o contexto semântico (por exemplo, ordem de navegação).
+
+Além disso, é necessário esclarecer que o padrão de conformidade para o projeto
+é definido na tarefa 1.1 do subprocesso 1. Contudo, os padrões e ferramentas
+disponíveis levam em consideração o reconhecido padrão WCAG 2.0. Portanto, ferramentas que seguem
+o padrão WCAG 2.0 deveriam ser acessíveis, mas a necessidade de conformidade com
+outros padrões leva a necessidade de um monitoramento constante por parte do
+especialista em acessibilidade.
+
+O especialista em acessibilidade deve associar os elementos de interface e
+navegação, através da ferramenta \gls{case}, os requisitos provenientes da etapa
+anterior. Além disso é possível mapear, se aplicável, técnicas de implementação
+de acessibilidade.
+
+Um projeto útil para essa finalidade é \textit{AEGIS Ontology}
+\footnote{http://www.aegis-project.eu/index.php?option=com\_content\&view=article\&id=107\&Itemid=65},
+que define ontologias de acessibilidade na \textit{Web}. O principal objetivo do
+projeto é mapear os conceitos de acessibilidade, e como eles podem ser mapeados
+dentro de um cenário de acessibilidade.
+
+O projeto é apoiado pelo \textit{Accessible Consortium}
+\footnote{http://www.accessible-eu.org/index.php/consortium.html}, que
+disponibiliza uma página para a consulta das novidades da iniciativa
+\footnote{http://www.accessible-eu.org/index.php/ontology.html}. A versão atual
+é a 5.1
+
+As ontologias são descritas no formato \gls{owl}, padrão definido pela \gls{w3c}
+em 2004 \footnote{http://www.w3.org/TR/owl-features/}, que está na versão 1.0
+mas já possui uma versão candidata à 2.0, lançada em 2012
+\footnote{http://www.w3.org/TR/owl2-overview/}. As ontologias descritas aqui
+estão no padrão 1.0.
+
+
 
 \section{Subprocesso 6 - Construção do Software}
 
