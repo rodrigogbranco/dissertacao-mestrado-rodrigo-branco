@@ -266,6 +266,13 @@ Kavcic, A. (2005).
 \newblock In {\em Computer as a Tool, 2005. EUROCON 2005.The International
   Conference on}, volume~2, pages 1024 --1027.
 
+\bibitem[Kumar and Sanyal, 2008]{Kumar:2008:SUM:1487741.1488136}
+Kumar, D.~D. and Sanyal, R. (2008).
+\newblock Static uml model generator from analysis of requirements (sugar).
+\newblock In {\em Proceedings of the 2008 Advanced Software Engineering and Its
+  Applications}, ASEA '08, pages 77--84, Washington, DC, USA. IEEE Computer
+  Society.
+
 \bibitem[Lazar et~al., 2004]{lazar:04}
 Lazar, J., Dudley-Sponaugle, A., and Greenidge, K.-D. (2004).
 \newblock {Improving web accessibility: a study of webmaster perceptions}.
@@ -347,6 +354,12 @@ NCSU (2011).
 \newblock New ``principles of universal'' design posters available.
 \newblock
   http://www.ncsu.edu/project/design-projects/udi/2011/05/09/newprinciplesposters/.
+
+\bibitem[Noy et~al., 2001]{Noy01creatingsemantic}
+Noy, N.~F., Sintek, M., Decker, S., Crubezy, M., Fergerson, R.~W., and Musen,
+  M.~A. (2001).
+\newblock Creating semantic web contents with protege-2000.
+\newblock In {\em Protégé-2000. IEEE Intelligent Systems (2001}, pages 60--71.
 
 \bibitem[Oliveira, 2011]{oliveira:11}
 Oliveira, B. (2011).

@@ -84,9 +84,16 @@ o artefato para as fases de projeto e codificação.
  
  Embora existam iniciativas de transformar um documento de requisitos em
  linguagem natural para artefatos \gls{uml} através de ferramentas automatizadas
- \citep{Deeptimahanti:2009:ATG:1747491.1747583}, essa abordagem não será
- utilizada, exigindo que o especialista em acessibilidade faça os lançamentos
+ \citep{Deeptimahanti:2009:ATG:1747491.1747583,Kumar:2008:SUM:1487741.1488136},
+ essa abordagem não será utilizada, exigindo que o especialista em acessibilidade faça os lançamentos
  manuais na ferramenta \gls{case}.
+ 
+ A \gls{uml} normalmente é utilizada para discriminar os artefatos posteriores
+ ao documento de requisitos, como casos de uso, diagramas de classe, diagramas
+ de sequência, diagramas de atividade, entre outros. É comum que tais diagramas
+ sejam descritos, através de ferramentas \gls{case}, em XML. Portanto, é
+ possível utilizar um elemento \gls{uml} não intrusivo nos artefatos para
+ associar os requisitos ao elemento alvo do artefato. 
  
  \section{Subprocesso 5 - Projeto de Software}
  
@@ -148,7 +155,14 @@ mas já possui uma versão candidata à 2.0, lançada em 2012
 \footnote{http://www.w3.org/TR/owl2-overview/}. As ontologias descritas aqui
 estão no padrão 1.0.
 
-
+O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
+cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
+técnicas de implementação, critérios de sucesso e falha, etc), leitores de tela,
+navegadores textuais, lentes de aumento, WAI/ARIA, entre outros. É possível
+navegar pelas ontologias via navegador
+\footnote{http://160.40.50.89/Accessible\_Ontology/Version5.1/AccessibleOntologyOWLDoc/index.html},
+ou explorar os arquivos confortavelmente através do software \textit{Protegé}
+\citep{Noy01creatingsemantic};
 
 \section{Subprocesso 6 - Construção do Software}
 
