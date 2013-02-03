@@ -39,6 +39,7 @@ especificar nos projetos de interface e navegação os itens que merecem um
 tratamento de acessibilidade específico.
 
 \section{Subprocesso 4 - Análise de Requisitos de Software}
+\label{linktocase}
 
 O objetivo do subprocesso 4 é estabelecer os requisitos dos elementos de
 software do sistema. Elementos aqui são considerados interface e código
@@ -94,12 +95,12 @@ o artefato para as fases de projeto e codificação.
  possível utilizar um elemento \gls{uml} não intrusivo nos artefatos para
  associar os requisitos ao elemento alvo do artefato. O elemento em questão é a
  \textit{Nota} (ou anotações)
- \footnote{http://www.agilemodeling.com/style/note.htm}, que não possui nenhum
+\footnote{http://www.agilemodeling.com/style/note.htm}, que não possui nenhum
  valor semântico real para o modelo, mas serve para adicionar mais informações
  sobre um objeto ou situação específica e pode ser ancorada a um elemento
  \gls{uml} para mostrar que tal nota está associada ao contexto específico. É possível verificar
  a utilização de notas \gls{uml} para rastreabilidade no trabalho de \citet{Joonhoon:09}, apesar do contexto
- ser diferente.
+ ser diferente. 
  
  Definindo uma sintaxe para as notas, é possível associar os elementos \gls{uml}
  dos artefatos aos requisitos.
@@ -107,15 +108,19 @@ o artefato para as fases de projeto e codificação.
  
  \begin{enumerate}
    \item A ferramenta \gls{case} descrita leria os modelos (XML), efetuaria o \textit{parser} e incluiria as notas 
-   no arquivo XML.
+   no arquivo XML;
    \item O especialista em acessibilidade, através de ferramentas próprias de modelagem utilizadas no projeto, incluiria
    as notas, que posteriormente seriam associados utilizando a ferramenta \gls{case} descrita anteriormente.
  \end{enumerate}
  
  O principal problema da primeira abordagem é que as ferramentas de modelagem
- geram modelos \gls{uml} com formato \gls{xml} variado, e quase sempre
- incompatíveis. Assim, a ferramenta \gls{case} precisa se especializar em uma ou
- mais ferramentas de modelagem específicas, uma abordagem desafiadora, devido a
+ geram modelos \gls{uml} com formato \gls{xml} variado e quase sempre
+ incompatíveis, isso quando permitem a exportação do modelo para o formato
+ \gls{xml} (Os arquivos analisados foram gerados pelas ferramentas
+ \textit{Astash Professional}\footnote{http://astah.net/download},
+ \gls{emf}\footnote{http://www.eclipse.org/modeling/emf/} e \textit{Visual
+ Paradigm}\footnote{http://www.visual-paradigm.com/}).
+ Assim, a ferramenta \gls{case} precisa se especializar em uma ou mais ferramentas de modelagem específicas, uma abordagem desafiadora, devido a
  quantidade de ferramentas de modelagem disponíveis no mercado. O problema da
  segunda abordagem é que o especialista de acessibilidade precisa utilizar a
  ferramenta \gls{case} de modelagem e incluir as notas na sintaxe específica.
@@ -178,7 +183,7 @@ disponibiliza uma página para a consulta das novidades da iniciativa
 é a 5.1
 
 As ontologias são descritas no formato \gls{owl}, padrão definido pela \gls{w3c}
-em 2004 \footnote{http://www.w3.org/TR/owl-features/}, que está na versão 1.0
+em 2004\footnote{http://www.w3.org/TR/owl-features/}, que está na versão 1.0
 mas já possui uma versão candidata à 2.0, lançada em 2012
 \footnote{http://www.w3.org/TR/owl2-overview/}. As ontologias descritas aqui
 estão no padrão 1.0.
@@ -239,7 +244,7 @@ consideradas.
 A tarefa 6.2 (Codificar e documentar cada unidade de software de acordo com as
 técnicas de acessibilidade) recebe benefícios diretos dos passos anteriores,
 pois o projeto já contém os pontos críticos de acessibilidade explicitados. 
-Ferramentas case, neste ponto, comumente geram código (\textit{stub} \footnote{http://en.wikipedia.org/wiki/Method\_stub}), 
+Ferramentas case, neste ponto, comumente geram código (\textit{stub}\footnote{http://en.wikipedia.org/wiki/Method\_stub}), 
 utilizando artefatos como diagramas de classe, de sequência e casos de uso. O código
 gerado já poderia conter traços de documentação associados aos requisitos de acessibilidade.
 Uma maneira imediata de documentar código é adicionando comentários padronizados, de forma que os requisitos
@@ -250,8 +255,40 @@ dos requisitos no código gerado pelas ferramentas em forma de comentário de códi
 
 \begin{enumerate}
   \item A ferramenta de modelagem gera os códigos, e a partir destes, a ferramenta \gls{case} proposta incluiria os comentários
-  de rastreabilidade
+  de rastreabilidade;
   \item A ferramenta \gls{case} proposta substituiria o gerador de código, realizando todo o trabalho e gerando o código já documentado.
 \end{enumerate}
 
-\textbf{AVALIAÇÃO DE COMPLEXIDADE?}
+Como implementar uma nova ferramenta de geração de código foge do escopo deste
+trabalho, a primeira abordagem se mostrou mais atraente.
+
+\section{Escolha das Ferramentas e Tecnologias}
+
+A proposta deste trabalho é demonstrar a rastreabilidade dos requisitos de
+acessibilidade no processo de desenvolvimento de \textit{software},
+independente de ferramenta ou tecnologia adotada pelos analistas e
+desenvolvedores.
+
+Já existem iniciativas, principalmente corporativas, que permitem agregar aos
+artefatos do processo de desenvolvimento os requisitos levantados.
+\citet{hovater:08} mostra como construir relatórios de rastreabilidade usando os
+programas \textit{IBM Rational Software Architect}\footnote{http://www-142.ibm.com/software/products/br/pt/ratisoftarch/},
+\textit{IBM Rational RequisitePro}\footnote{http://www-142.ibm.com/software/products/br/pt/reqpro/} e \gls{birt}
+para \textit{WebSphere}\footnote{http://www-01.ibm.com/software/websphere/}.
+
+O software \textit{Enterprise Architect} da empresa \textit{Sparx Systems}\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/index.html}
+permite utilizar diagramas de requisitos\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/modeling\_languages/requirements\_diagram.html},
+que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a
+rastreabilidade do
+modelo\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/navigate\_search\_and\_trace/traceability.html}.
+
+Contudo, não foi encontrado na literatura trabalhos que tratem especificamente
+da rastreabilidade dos requisitos de acessibilidade dentro do processo de um
+desenvolvimento de \textit{software}. É possível especular que os
+\textit{softwares} da \gls{ibm} trabalhem bem com o \gls{rup}, embora isso não
+foi verificado pelo simples fato de não termos usado as ferramentas descritas.
+
+Dessa forma, para demonstrar a proposta deste trabalho, construiremos uma
+ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}.
+
+
