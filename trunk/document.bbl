@@ -46,6 +46,15 @@ Bigham, J.~P., Brudvik, J.~T., and Zhang, B. (2010).
   conference on Computers and accessibility}, ASSETS '10, pages 35--42, New
   York, NY, USA. ACM.
 
+\bibitem[Booch et~al., 1996]{trove.nla.gov.au/work/7376771}
+Booch, G., Rumbaugh, J., Jacobson, I., for Computing~Machinery, A.,
+  Communications, U.~V., Object-oriented Programming~Systems, L., Applications.
+  Conference~(11th :~1996 : San~Jose, C., and on~Programming~Languages, A. S.
+  I.~G. (1996).
+\newblock The unified modeling language : selections from oopsla'96 / grady
+  booch, ivar jacobson, jim rumbaugh. [videorecording].
+\newblock Tutorial 37 presented by Grady Booch, Ivar Jacobson and Jim Rumbaugh.
+
 \bibitem[Brajnik, 2006]{brajnik:06}
 Brajnik, G. (2006).
 \newblock Web accessibility testing: When the method is the culprit.
@@ -225,6 +234,11 @@ Halbach, T. (2010).
   Advances in Computer-Human Interactions}, ACHI '10, pages 19--24, Washington,
   DC, USA. IEEE Computer Society.
 
+\bibitem[Hovater, 2008]{hovater:08}
+Hovater, S. (2008).
+\newblock Uml-requirements traceability using ibm rational requisitepro, ibm
+  rational software architect, and birt, part 1: Reporting requirements.
+
 \bibitem[IEEE/EIA, 1998]{ieeeeia12207:1998}
 IEEE/EIA (1998).
 \newblock Ieee/eia 12207 - industry implementation of international standard
@@ -278,6 +292,14 @@ Lazar, J., Dudley-Sponaugle, A., and Greenidge, K.-D. (2004).
 \newblock {Improving web accessibility: a study of webmaster perceptions}.
 \newblock {\em Computers in Human Behavior}, 20(2):269--288.
 
+\bibitem[Lee et~al., 2009]{Joonhoon:09}
+Lee, J., Cho, B., Youn, H., and Lee, E. (2009).
+\newblock Reliability analysis method for supporting traceability using uml.
+\newblock In Slezak, D., Kim, T.-h., Kiumi, A., Jiang, T., Verner, J., and
+  AbrahÃ£o, S., editors, {\em Advances in Software Engineering}, volume~59 of
+  {\em Communications in Computer and Information Science}, pages 94--101.
+  Springer Berlin Heidelberg.
+
 \bibitem[Maia, 2010]{maia:10}
 Maia, L.~S. (2010).
 \newblock Um processo para o desenvolvimento de aplicações web acessíveis.
@@ -318,7 +340,7 @@ Masuwa-Morgan, K. (2008).
 
 \bibitem[Melo and Baranauskas, 2006]{Melo:2006:DPI:1298023.1298026}
 Melo, A.~M. and Baranauskas, M. C.~C. (2006).
-\newblock Design para a inclusão: desafios e proposta.
+\newblock Design para a inclusÃ£o: desafios e proposta.
 \newblock In {\em Proceedings of VII Brazilian symposium on Human factors in
   computing systems}, IHC '06, pages 11--20, New York, NY, USA. ACM.
 
@@ -359,7 +381,7 @@ NCSU (2011).
 Noy, N.~F., Sintek, M., Decker, S., Crubezy, M., Fergerson, R.~W., and Musen,
   M.~A. (2001).
 \newblock Creating semantic web contents with protege-2000.
-\newblock In {\em Protégé-2000. IEEE Intelligent Systems (2001}, pages 60--71.
+\newblock In {\em ProtegÃ©-2000. IEEE Intelligent Systems (2001}, pages 60--71.
 
 \bibitem[Oliveira, 2011]{oliveira:11}
 Oliveira, B. (2011).
