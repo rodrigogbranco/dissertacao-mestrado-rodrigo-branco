@@ -291,7 +291,29 @@ foi verificado pelo simples fato de não termos usado as ferramentas descritas.
 Dessa forma, para demonstrar a proposta deste trabalho, construiremos uma
 ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}.
 
-A ferramenta de modelagem será o \gls{emf}, por ser um \textit{puglin} da \gls{ide} \textit{Eclipse} 
-sobre a licensa \textit{Eclipse Public License v 1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}. 
+A ferramenta de gerenciamento de requisitos alvo será o \gls{rmf}\ldots
+
+A ferramenta de modelagem alvo será o \gls{emf}, por ser um \textit{puglin} da
+\gls{ide} \textit{Eclipse} sobre a licensa \textit{Eclipse Public License v
+1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, o que permite
+a verificação do código e possíveis intervenções. Os artefados são gerados no
+formato \gls{xml}, se adequando assim ao padrão inicial de linguagem legível por
+máquina proposto. Portanto, a ferramente \gls{case} proposta desenvolvida com o
+objetivo de manipular os objetos de saída do \gls{emf}.
+
+Dessa forma, é possível realizar o levantamento tecnológico das ferramentas
+propostas:
+
+\begin{itemize}
+  \item \gls{mta} - Processo de Desenvolvimento de Software acessível
+  \item Eclipse - \gls{ide}
+  \item \gls{rmf} - Conjunto de ferramentas \gls{case} de Gerenciamento de
+  Requisitos para Eclipse
+  \item \gls{emf} - Conjunto de ferramentas \gls{case} de Modelagem \gls{uml}
+  \item Ferramenta \gls{case} de rastreabilidade de requisitos de
+  acessibilidade\footnote{Ferramenta de apoio proposta por este trabalho}
+  \item Java - Linguagem para desenvolvimento de \textit{plugins} para o Eclipse
+  \item Ontologias para implementação das diretrizes do \gls{wcag} 2.0.
+\end{itemize}
 
 

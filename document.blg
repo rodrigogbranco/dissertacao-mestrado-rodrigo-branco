@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: glossary.aux
+A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: acessibilidade.aux
+A level-1 auxiliary file: levbib.aux
+A level-1 auxiliary file: mta.aux
+A level-1 auxiliary file: desenvolvimento.aux
+A level-1 auxiliary file: proposta.aux
+The style file: apalike.bst
+Database file #1: sbc-template.bib
+Name 6 in "Booch, Grady and Rumbaugh, James and Jacobson, Ivar and Association for Computing Machinery and University Video Communications and Object-oriented Programming Systems, Languages, and Applications. Conference (11th : 1996 : San Jose, Calif.) and ACM Special Interest Group on Programming Languages" has a comma at the end for entry trove.nla.gov.au/work/7376771
+while executing---line 1020 of file apalike.bst
+Name 6 in "Booch, Grady and Rumbaugh, James and Jacobson, Ivar and Association for Computing Machinery and University Video Communications and Object-oriented Programming Systems, Languages, and Applications. Conference (11th : 1996 : San Jose, Calif.) and ACM Special Interest Group on Programming Languages" has a comma at the end for entry trove.nla.gov.au/work/7376771
+while executing---line 1095 of file apalike.bst
+(There were 2 error messages)
