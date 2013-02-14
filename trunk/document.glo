@@ -142,12 +142,6 @@
 \glossaryentry{IBM?\glossaryentryfield{ibm}{\glsnamefont{IBM}}{International Business Machines}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{RUP?\glossaryentryfield{rup}{\glsnamefont{RUP}}{Rational Unified Process}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
@@ -157,3 +151,10 @@
 \glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}

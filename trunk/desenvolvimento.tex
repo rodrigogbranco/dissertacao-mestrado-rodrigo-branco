@@ -289,20 +289,8 @@ desenvolvimento de \textit{software}. É possível especular que os
 foi verificado pelo simples fato de não termos usado as ferramentas descritas.
 
 Dessa forma, para demonstrar a proposta deste trabalho, construiremos uma
-ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}.
-
-A ferramenta de gerenciamento de requisitos alvo será o \gls{rmf}\ldots
-
-A ferramenta de modelagem alvo será o \gls{emf}, por ser um \textit{puglin} da
-\gls{ide} \textit{Eclipse} sobre a licensa \textit{Eclipse Public License v
-1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, o que permite
-a verificação do código e possíveis intervenções. Os artefados são gerados no
-formato \gls{xml}, se adequando assim ao padrão inicial de linguagem legível por
-máquina proposto. Portanto, a ferramente \gls{case} proposta desenvolvida com o
-objetivo de manipular os objetos de saída do \gls{emf}.
-
-Dessa forma, é possível realizar o levantamento tecnológico das ferramentas
-propostas:
+ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}. A seguir
+é elencado os principais elementos usados para a demostração deste trabalho.
 
 \begin{itemize}
   \item \gls{mta} - Processo de Desenvolvimento de Software acessível
@@ -316,4 +304,18 @@ propostas:
   \item Ontologias para implementação das diretrizes do \gls{wcag} 2.0.
 \end{itemize}
 
+O \textit{Eclipse} é uma plataforma madura foi escolhido como \gls{ide} por
+vários motivos.
+O principal deles é que as duas ferramentas \gls{case} usadas (\gls{rmf} e \gls{emf}) são
+\textit{plugins} para a plataforma. O projeto utiliza a licença \textit{Eclipse Public License v
+1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, o que permite
+a verificação do código e possíveis intervenções. As ferramentas \gls{case}
+gerenciam seus artefatos usando arquivos \gls{xml}, formato legível por máquina
+escolhido para este trabalho. O desenvolvimento da ferramenta \gls{case}
+proposta é feita no próprio ambiente (desenvolvimento de \textit{plugin}),
+facilitando bastante este trabalho\footnote{Um tutorial de desenvolvimento de plugins para o Eclipse
+pode ser encontrado em http://www.ibm.com/developerworks/br/library/os-ecplug/}.
+Por fim, o desenvolvimento do respectivo \textit{plugin} é feito na linguagem
+Java, a linguagem nativa do ambiente. O trabalho foi desenvolvido usando a
+versão \textit{VIndigo Service Release 2} do \textit{Eclipse}.
 
