@@ -281,41 +281,55 @@ permite utilizar diagramas de requisitos\footnote{http://www.sparxsystems.com/en
 que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a
 rastreabilidade do
 modelo\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/navigate\_search\_and\_trace/traceability.html}.
-
 Contudo, não foi encontrado na literatura trabalhos que tratem especificamente
 da rastreabilidade dos requisitos de acessibilidade dentro do processo de um
-desenvolvimento de \textit{software}. É possível especular que os
-\textit{softwares} da \gls{ibm} trabalhem bem com o \gls{rup}, embora isso não
-foi verificado pelo simples fato de não termos usado as ferramentas descritas.
+desenvolvimento de \textit{software}.
 
 Dessa forma, para demonstrar a proposta deste trabalho, construiremos uma
 ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}. A seguir
 é elencado os principais elementos usados para a demostração deste trabalho.
 
 \begin{itemize}
-  \item \gls{mta} - Processo de Desenvolvimento de Software acessível
-  \item Eclipse - \gls{ide}
-  \item \gls{rmf} - Conjunto de ferramentas \gls{case} de Gerenciamento de
-  Requisitos para Eclipse
-  \item \gls{emf} - Conjunto de ferramentas \gls{case} de Modelagem \gls{uml}
-  \item Ferramenta \gls{case} de rastreabilidade de requisitos de
-  acessibilidade\footnote{Ferramenta de apoio proposta por este trabalho}
-  \item Java - Linguagem para desenvolvimento de \textit{plugins} para o Eclipse
+  \item \gls{mta} - Processo de Desenvolvimento de \textit{Software} acessível
+  \item \textit{Eclipse Juno} - \gls{ide}
+  \item \textit{Requirement Designer v0.8.0}\footnote{http://marketplace.eclipse.org/node/407399\#.UR43GaXC1VJ} - 
+  \textit{plugin} de gerenciamento de
+  requisitos
+  \item \textit{UML Designer v2.1.0}\footnote{http://marketplace.eclipse.org/content/uml-designer-indigo-version\#.UR43OaXC1VI} - 
+  \textit{plugin} de modelagem \gls{uml}
+  \item \textit{UML to Java Generator v1.0.2}\footnote{http://marketplace.eclipse.org/content/uml-java-generator\#.UR44XKXC1VI} - 
+  \textit{plugin} de geração de código 
+  \item \textit{Java JRE7 e JDK1.7}\footnote{http://www.oracle.com/technetwork/java/index.html} 
+  - Linguagem para desenvolvimento de \textit{plugins} e código final do produto
   \item Ontologias para implementação das diretrizes do \gls{wcag} 2.0.
 \end{itemize}
 
-O \textit{Eclipse} é uma plataforma madura foi escolhido como \gls{ide} por
-vários motivos.
-O principal deles é que as duas ferramentas \gls{case} usadas (\gls{rmf} e \gls{emf}) são
-\textit{plugins} para a plataforma. O projeto utiliza a licença \textit{Eclipse Public License v
-1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, o que permite
-a verificação do código e possíveis intervenções. As ferramentas \gls{case}
-gerenciam seus artefatos usando arquivos \gls{xml}, formato legível por máquina
-escolhido para este trabalho. O desenvolvimento da ferramenta \gls{case}
-proposta é feita no próprio ambiente (desenvolvimento de \textit{plugin}),
-facilitando bastante este trabalho\footnote{Um tutorial de desenvolvimento de plugins para o Eclipse
-pode ser encontrado em http://www.ibm.com/developerworks/br/library/os-ecplug/}.
-Por fim, o desenvolvimento do respectivo \textit{plugin} é feito na linguagem
-Java, a linguagem nativa do ambiente. O trabalho foi desenvolvido usando a
-versão \textit{VIndigo Service Release 2} do \textit{Eclipse}.
+O \textit{Eclipse} é uma plataforma madura e foi escolhido como \gls{ide} por
+vários motivos. Ele serve como base para para diversos produtos e tecnologias baseadas em uma \gls{ide},
+provendo uma \gls{api} para facilitar a integração \citep{5386785}.
+O desenvolvimento de \textit{plugins} para o \textit{Eclipse} é feito diretamente na \gls{ide}, de forma prática e 
+transparente\footnote{Um tutorial de desenvolvimento de plugins para o Eclipse
+pode ser encontrado em http://www.ibm.com/developerworks/br/library/os-ecplug/}, tendo ampla documentação a respeito. 
+A linguagem utilizada para o desenvolvimento do \textit{plugin} é linguagem \textit{Java}, assim como o código gerado 
+pelo \textit{plugin} de exportação.
+
+O pacote de modelagem inicialmente instalado foram os \textit{plugins} \gls{emf} propostos pelo \textit{Eclipse}, notadamente
+o \textit{Ecore Tools}\footnote{http://www.eclipse.org/modeling/emft/?project=ecoretools}, parte integrante do \gls{emft}. Contudo,
+os diagramas fornecidos por \textit{default} não satisfizeram aos anseios de modelagem, pois não contemplavam diagramas de sequência ou de 
+casos de uso, por exemplo. Por esse motivo, o \textit{plugin} escolhido foi o \textit{UML Designer}, que utiliza como base o pacote \gls{emf} (portanto gera modelos \gls{emf}), 
+mas extende os modelos existentes para que se adequem aos modelos \gls{uml} na sua versão 2.4. 
+
+O \textit{plugin} inicialmente escolhido para o gerenciamento de requisitos foi o \textit{ProR}\footnote{http://www.eclipse.org/rmf/pror/},
+que por sua vez é parte do projeto \gls{rmf} e \gls{emf} do \textit{Eclipse}. O objetivo do projeto \gls{rmf} é implementar o 
+padrão \textit{OMG ReqIF}\footnote{http://www.omg.org/spec/ReqIF/}
+em forma de modelos \gls{emf}. Contudo, o \gls{rmf} se encontra atualmente na 0.6.0, e o \textit{plugin} não fornecia a 
+funcionalidade de ligação entre os modelos e os requisitos. Assim, modos alternativos de relacionamento entre os modelos e os requisitos
+deveriam ser implementados, tornando inviável o desenvolvimento do trabalho. Portanto, o \textit{plugin} escolhido para o gerenciamento
+de requisitos foi o \textit{Requirement Designer}, que permite realizar a associação dos requisitos com qualquer modelo \gls{emf}.
+
+Os \textit{plugins} de modelagem e gerenciamento de requisitos são desenvolvidos pela \textit{Obeo}\footnote{http://www.eclipse.org/membership/showMember.php?member\_id=863},
+portanto, para permitir uma integração suave entre as ferramentas, o \textit{plugin} escolhido para geração de código foi o 
+\textit{UML to Java Generator}, desenvolvido pela mesma empresa. Os \textit{plugins} são disponibilizados sob a licença \textit{Eclipse Public License v
+1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, assim como a própria \gls{ide}. Dessa forma, é possível
+estudar, alterar e customizar seus componentes para atingir aos objetivos do trabalho.
 
