@@ -6,11 +6,12 @@ A utilização de sistemas para internet é cada vez mais comum. Atividades que
 antes eram realizadas presencialmente estão migrando para serviços virtuais que
 podem ser acessados a partir de qualquer dispositivo com acesso à internet.
 
-A Receita Federal Brasileira, por exemplo, informou que as declarações de
-Imposto de Renda do ano 2011 (ano de referência: 2010) só poderão ser entregues via internet
-\citep{irpf:11}. Essa decisão foi adotada pois a declaração feita em papel é
-mais vagarosa em todos os aspectos se comparados ao envio da declaração pela
-Internet e, além disso, é muito grande o número de declarações preenchidas 
+A Receita Federal Brasileira, por exemplo, só recebe as declarações de Imposto
+de Renda via internet, e as declarações de 2013 (ano de referência: 2012) não
+foi diferente \citep{irpf:13}. As declarações emitidas em
+papel foram completamente abandonadas no ano de 2011
+\citep{irpf:11}. Essa decisão foi tomada pois a declaração feita em papel é mais
+vagarosa em todos os aspectos se comparados ao envio da declaração pela Internet e, além disso, é muito grande o número de declarações preenchidas 
 erroneamente usando os formulários impressos \citep{irpf_estacao:11}.
 
 Alguns Tribunais já instituíram a emissão de certidões apenas por meio
@@ -45,7 +46,7 @@ empresas, por exemplo \citep{oliveira:11}:
 
 Todos deveriam ter pleno acesso aos recursos
 fornecidos pela Internet. No entanto, devido a dificuldades e deficiências de
-determinados grupos de pessoas, o acesso aos recursos pode ficar comprometido
+determinados grupos de pessoas, o acesso aos recursos pode ficar comprometido,
 sendo que em algumas situações sequer o acesso é possível. É necessário,
 portanto, fornecer maneiras de garantir a acessibilidade de informações e serviços da
 \textit{Internet}.
@@ -83,8 +84,9 @@ encontrados na literatura trabalhos que integram acessibilidade a modelos e
 \citep{Beck:1999:EPE:318762} ou \gls{scrum} \citep{DeGrace:1990:WPR:83202}.
 
 Tão importante quanto integrar acessibilidade no processo de desenvolvimento de
-\textit{software} são as competências técnicas do desenvolvedor. Devido a
-fatores como a recente exposição do tema e a deficiência no treinamento e formação do desenvolvedores,
+\textit{software} são as competências técnicas do Engenheiro de
+Software, Analista de Sistemas, Projetista e Desenvolvedor.
+Devido a fatores como a recente exposição do tema e a deficiência no treinamento e formação do desenvolvedores,
 muitos deles sequer sabem como codificar para tornar seus produtos acessíveis
 \citep{1630123, alves:11}. As várias classes de problemas de acessibilidade
 contribuem para tornar o trabalho de codificação ainda mais difícil. A utilização de
@@ -101,9 +103,13 @@ USP\footnote{http://www.ime.usp.br/dcc/grad/grade},
 UFMS\footnote{http://www.sien.ufms.br/cursos/grade/1904} e
 IFMS\footnote{http://www.ifms.edu.br/rightsidebar/cursos/graduacao-2/tecnologia-em-sistemas-para-internet/}).
 
-Por isso, as ferramentas desempenham um papel fundamental no suporte ao
-desenvolvedor. Existem várias classes de ferramentas, que podem auxiliar os
-desenvolvedores de diversas formas. Destas, podem ser citadas:
+A utilização de ferramentas que apóiam os profissionais na construção de boas
+soluções acessíveis é muito comum, pois aumentam a produtividade, retirando boa
+parte do esforço necessário e diminuindo passos repetivivos que seriam
+necessários sem o auxílio de tais ferramentas. Em geral, são utilizadas
+ferramentas \textit{CASE, IDEs e frameworks}, mas existem algumas ferramentas
+específicas para o contexto de acessibilidade. Existem várias classes destas
+ferramentas específicas, entre elas:
 
 \begin{itemize}
   \item simulador: a ferramenta simula uma deficiência/dificuldade, mostrando ao
@@ -134,10 +140,10 @@ O objetivo geral deste trabalho está relacionado à integração de acessibilidade
 ao processo de desenvolvimento de \textit{software}. Busca-se identificar pontos
 de integração entre as etapas de Engenharia de Requisitos e implementação de
 código e propor uma ferramenta (\textit{plugin} Eclipse) que represente esta
-integração. Os requisitos de acessibilidade se tornariam itens de
-acessibilidades testáveis pela ferramenta, que pudesse informar ao desenvolvedor
-se estão ou não sendo atendidos. A ferramenta apresentaria sugestões para que os
-itens de acessibilidade sejam implementados.
+integração. Assim, pretende-se que os requisitos de acessibilidade se tornem
+itens de acessibilidades testáveis pela ferramenta, e o desenvolvedor deverá ser
+informado se estão ou não sendo atendidos. A ferramenta deverá apresentar
+sugestões para que os itens de acessibilidade sejam implementados.
 
 Pretende-se desenvolver uma ferramenta de avaliação de
 acessibilidade diferente daquelas apresentadas na literatura. Com base na
@@ -161,7 +167,7 @@ ferramenta:
 \end{itemize}
 
 O ambiente de desenvolvimento escolhido para integração da ferramenta é o
-\textit{Eclipse}\footnote{http://www.eclipse.org},  devido a diversos
+\textit{Eclipse}\footnote{http://www.eclipse.org},  devido a alguns
 motivos:
 
 \begin{itemize}
@@ -176,12 +182,12 @@ pelos seguintes motivos:
 
 \begin{itemize}
   \item o autor do trabalho tem familiariade com a linguagem e já utilizou-a em
-  outros trabalhos \citep{branco:09};
+  outros trabalhos na área de acessibilidade \citep{branco:09};
   \item é \textit{open source}, portanto é possível intervir no código para
   alterar o comportamento padrão, se necessário;
 \end{itemize}
 
-As atividades necessárias para alcançar os objetivos proposto são:
+As atividades necessárias para alcançar os objetivos propostos são:
 
 \begin{itemize}
   \item estudar a literatura sobre o assunto;
@@ -193,6 +199,8 @@ As atividades necessárias para alcançar os objetivos proposto são:
   \item efetuar um estudo de caso e pesquisa com desenvolvedores;
   \item comparar os resultados com resultados presentes na literatura;
 \end{itemize}
+
+\section{Metodologia}
 
 \section{Organização do Trabalho}
 
