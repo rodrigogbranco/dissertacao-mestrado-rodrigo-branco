@@ -134,20 +134,35 @@ apresentadas na ferramenta. E, principalmente, os desenvolvedores estão
 insatisfeitos em utilizar ferramentas externas a seu ambiente de desenvolvimento
 para efetuar a avaliação \citep{Trewin:2010:ACT:1805986.1806029}.
 
+A situação é agravada pela constatação de que há poucos estudos que abordam a
+engenharia de requisitos e rastreabilidade dos mesmo do ponto de vista do tópico
+acessibilidade \cite{analuizadias:2010}.
+
 \section{Objetivos}
 
-O objetivo geral deste trabalho está relacionado à integração de acessibilidade
-ao processo de desenvolvimento de \textit{software}. Busca-se identificar pontos
-de integração entre as etapas de Engenharia de Requisitos e implementação de
-código e propor uma ferramenta (\textit{plugin} Eclipse) que represente esta
-integração. Assim, pretende-se que os requisitos de acessibilidade se tornem
-itens de acessibilidades testáveis pela ferramenta, e o desenvolvedor deverá ser
-informado se estão ou não sendo atendidos. A ferramenta deverá apresentar
-sugestões para que os itens de acessibilidade sejam implementados.
+Diante do exposto, os objetivos gerais deste trabalho são:
 
-Pretende-se desenvolver uma ferramenta de avaliação de
-acessibilidade diferente daquelas apresentadas na literatura. Com base na
-pesquisa de \cite{Trewin:2010:ACT:1805986.1806029}, pretende-se que a
+\begin{enumerate}
+  \item Estender o modelo \gls{mta} (tratado na seção \ref{chapter:mta}),
+  propondo uma metologia para a rastreabilidade dos requisitos de acessibilidade
+  através do processo de desenvolvimento de \textit{sofware};
+  \item Permitir a associação explícita entre os requisitos de
+  acessibilidade e os artefatos de documentação e para cada associação,
+  especificar um ou mais técnicas de implementação de acessibilidade em
+  conformidade com o documento de conformidade em acessibilidade escolhido;
+  \item Implementar uma ferramenta de suporte que é integrada ao ambiente de
+  desenvolvimento e que implemente os objetivos listados acima como estudo de
+  caso.
+\end{enumerate}
+
+Busca-se identificar pontos de integração entre as etapas de Engenharia de
+Requisitos e implementação de código e propor uma ferramenta (\textit{plugin} Eclipse) que represente esta
+integração. Assim, pretende-se que os requisitos de acessibilidade se tornem
+itens de acessibilidades verificáveis, e o desenvolvedor deverá ser
+informado se a associação está ou não sendo feita. A ferramenta deverá
+apresentar sugestões para que os itens de acessibilidade sejam implementados.
+Com isso, pretende-se desenvolver uma ferramenta de apoio à acessibilidade
+diferente daquelas apresentadas na literatura. Com base na pesquisa de \cite{Trewin:2010:ACT:1805986.1806029}, pretende-se que a
 ferramenta:
 
 \begin{itemize}
@@ -166,30 +181,11 @@ ferramenta:
   requisitos estão implementados no aplicativo.
 \end{itemize}
 
-O ambiente de desenvolvimento escolhido para integração da ferramenta é o
-\textit{Eclipse}\footnote{http://www.eclipse.org},  devido a alguns
-motivos:
-
-\begin{itemize}
-  \item é uma ferramenta \textit{open source};
-  \item é facilmente extensível;
-  \item suporta vários tipos de linguagens de programação e projetos;
-\end{itemize}
-
-A linguagem de programação escolhida para desenvolver os produtos no
-ambiente \textit{Eclipse} foi a \gls{php}\footnote{http://www.php.net},
-pelos seguintes motivos:
-
-\begin{itemize}
-  \item o autor do trabalho tem familiariade com a linguagem e já utilizou-a em
-  outros trabalhos na área de acessibilidade \citep{branco:09};
-  \item é \textit{open source}, portanto é possível intervir no código para
-  alterar o comportamento padrão, se necessário;
-\end{itemize}
+\section{Metodologia}
 
 As atividades necessárias para alcançar os objetivos propostos são:
 
-\begin{itemize}
+\begin{enumerate}
   \item estudar a literatura sobre o assunto;
   \item identificar os pontos de integração entre as atividades de Engenharia de
   Requisitos e geração de código;
@@ -198,9 +194,7 @@ As atividades necessárias para alcançar os objetivos propostos são:
   \item desenvolver a ferramenta;
   \item efetuar um estudo de caso e pesquisa com desenvolvedores;
   \item comparar os resultados com resultados presentes na literatura;
-\end{itemize}
-
-\section{Metodologia}
+\end{enumerate}
 
 \section{Organização do Trabalho}
 
