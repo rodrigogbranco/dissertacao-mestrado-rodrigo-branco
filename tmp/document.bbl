@@ -46,15 +46,6 @@ Bigham, J.~P., Brudvik, J.~T., and Zhang, B. (2010).
   conference on Computers and accessibility}, ASSETS '10, pages 35--42, New
   York, NY, USA. ACM.
 
-\bibitem[Booch et~al., 1996]{trove.nla.gov.au/work/7376771}
-Booch, G., Rumbaugh, J., Jacobson, I., for Computing~Machinery, A.,
-  Communications, U.~V., Object-oriented Programming~Systems, L., Applications.
-  Conference~(11th :~1996 : San~Jose, C., and on~Programming~Languages, A. S.
-  I.~G. (1996).
-\newblock The unified modeling language : selections from oopsla'96 / grady
-  booch, ivar jacobson, jim rumbaugh. [videorecording].
-\newblock Tutorial 37 presented by Grady Booch, Ivar Jacobson and Jim Rumbaugh.
-
 \bibitem[Brajnik, 2006]{brajnik:06}
 Brajnik, G. (2006).
 \newblock Web accessibility testing: When the method is the culprit.
@@ -71,18 +62,11 @@ Brajnik, G. (2009).
 
 \bibitem[Branco, 2009]{branco:09}
 Branco, R. G.~d. (2009).
-\newblock Ferramenta para avaliação de acessibilidade de \textit{Web sites}
-  baseada em métricas: uma abordagem baseada no modelo de acessibilidade para
-  governo eletrônico do brasil (\textit{e-Mag}).
-\newblock Monografia (Graduação em Ciência da Computação), Curso de Ciência da
-  Computação da UFMS.
-
-\bibitem[Branco et~al., 2011]{branco:11}
-Branco, R. G.~d., Freire, A.~P., and Paiva, D. M.~B. (2011).
-\newblock Avaliação de acessibilidade dos sites de municípios brasileiros.
-\newblock In {\em XXXVIII Seminário Integrado de Software e Hardware (SEMISH
-  '11)}, XXXI Congresso da Sociedade Brasileira de Computação (SBC), pages
-  1265--1278, Natal, RN, Brasil.
+\newblock Ferramenta para avaliaï¿½ï¿½o de acessibilidade de \textit{Web sites}
+  baseada em mï¿½tricas: uma abordagem baseada no modelo de acessibilidade para
+  governo eletrï¿½nico do brasil (\textit{e-Mag}).
+\newblock Monografia (Graduaï¿½ï¿½o em Ciï¿½ncia da Computaï¿½ï¿½o), Curso de
+  Ciï¿½ncia da Computaï¿½ï¿½o da UFMS.
 
 \bibitem[B{\"u}hler et~al., 2006]{buhler:06}
 B{\"u}hler, C., Heck, H., Perlick, O., Nietzio, A., and Ulltveit-Moe, N.
@@ -100,7 +84,7 @@ Buzzi, M.~C., Buzzi, M., Leporini, B., and Senette, C. (2008).
 
 \bibitem[Camargo, 2011]{irpf:11}
 Camargo, G. (2011).
-\newblock Irpf -- mudanças nas regras para 2011 -- imposto de renda.
+\newblock Irpf -- mudanï¿½as nas regras para 2011 -- imposto de renda.
 \newblock
   http://www.impostoderenda.org/2011/02/16/irpf-mudancas-nas-regras-para-2011-imposto-de-renda/.
 
@@ -130,23 +114,20 @@ Cook, A.~M. and Hussey, S.~M. (1995).
 \newblock {\em Assistive Technologies: Principles and Practice}.
 \newblock Mosby Year Book.
 
-\bibitem[Deeptimahanti and Babar, 2009]{Deeptimahanti:2009:ATG:1747491.1747583}
-Deeptimahanti, D.~K. and Babar, M.~A. (2009).
-\newblock An automated tool for generating uml models from natural language
-  requirements.
-\newblock In {\em Proceedings of the 2009 IEEE/ACM International Conference on
-  Automated Software Engineering}, ASE '09, pages 680--682, Washington, DC,
-  USA. IEEE Computer Society.
-
 \bibitem[DeGrace and Stahl, 1990]{DeGrace:1990:WPR:83202}
 DeGrace, P. and Stahl, L.~H. (1990).
 \newblock {\em Wicked problems, righteous solutions}.
 \newblock Yourdon Press, Upper Saddle River, NJ, USA.
 
+\bibitem[desRivieres and Wiegand, 2004]{5386785}
+desRivieres, J. and Wiegand, J. (2004).
+\newblock Eclipse: A platform for integrating development tools.
+\newblock {\em IBM Systems Journal}, 43(2):371 --383.
+
 \bibitem[Dias et~al., 2010]{analuizadias:2010}
 Dias, A.~L., de~Mattos~Fortes, R.~P., Masiero, P.~C., and Goularte, R. (2010).
-\newblock Uma revisão sistemática sobre a inserção de acessibilidade nas fases
-  de desenvolvimento da engenharia de de software em sistemas web.
+\newblock Uma revisï¿½o sistemï¿½tica sobre a inserï¿½ï¿½o de acessibilidade
+  nas fases de desenvolvimento da engenharia de de software em sistemas web.
 \newblock In {\em Proceedings of the IX Symposium on Human Factors in Computing
   Systems}, IHC '10, pages 39--48, Porto Alegre, Brazil, Brazil. Brazilian
   Computer Society.
@@ -191,9 +172,9 @@ Ferretti, S., Mirri, S., Muratori, L.~A., Roccetti, M., and Salomoni, P.
 
 \bibitem[{Freire}, 2008]{freire:08}
 {Freire}, A.~P. (2008).
-\newblock Acessibilidade no desenvolvimento de aplicações web: um estudo sobre
-  o cenário brasileiro.
-\newblock Master's thesis, Universidade de São Paulo.
+\newblock Acessibilidade no desenvolvimento de aplicaï¿½ï¿½es web: um estudo
+  sobre o cenï¿½rio brasileiro.
+\newblock Master's thesis, Universidade de Sï¿½o Paulo.
 
 \bibitem[Fuertes et~al., 2011]{Fuertes:2011:DHW:1969289.1969294}
 Fuertes, J.~L., Guti{\'e}rrez, E., and Mart\'{\i}nez, L. (2011).
@@ -245,6 +226,12 @@ IEEE/EIA (1998).
   iso/iec 12207 : 1995.
 \newblock Standard.
 
+\bibitem[Imposto de Renda 2013, 2013]{irpf:13}
+Imposto de Renda 2013 (2013).
+\newblock Declaracao imposto de renda 2013 \- como declarar.
+\newblock
+  http://impostoderenda2013.com/declaracao-imposto-de-renda-2013-como-declarar.html.
+
 \bibitem[Irish, 2011]{irish:11}
 Irish, P. (2011).
 \newblock Semantics in practice and mapping semantic value to its consumers.
@@ -252,8 +239,8 @@ Irish, P. (2011).
 
 \bibitem[IRPF, 2011]{irpf_estacao:11}
 IRPF (2011).
-\newblock Imposto de renda 2011 só poderá ser declarado pela internet imposto
-  de renda 2011 só poderá ser declarado pela internet.
+\newblock Imposto de renda 2011 sï¿½ poderï¿½ ser declarado pela internet
+  imposto de renda 2011 sï¿½ poderï¿½ ser declarado pela internet.
 \newblock
   http://irpf.estacaobr.net/imposto-de-renda-2011-so-podera-ser-declarado-pela-internet/.
 
@@ -270,7 +257,7 @@ Jacobson, I., Booch, G., and Rumbaugh, J. (1999).
 
 \bibitem[JC, 2011]{jc:11}
 JC (2011).
-\newblock Bancos podem oferecer conta sem tarifa a partir desta terça-feira.
+\newblock Bancos podem oferecer conta sem tarifa a partir desta terï¿½a-feira.
 \newblock
   http://jc.uol.com.br/canal/cotidiano/economia/noticia/2011/02/28/bancos-podem-oferecer-conta-sem-tarifa-a-partir-desta-tercafeira-259223.php.
 
@@ -279,13 +266,6 @@ Kavcic, A. (2005).
 \newblock Software accessibility: Recommendations and guidelines.
 \newblock In {\em Computer as a Tool, 2005. EUROCON 2005.The International
   Conference on}, volume~2, pages 1024 --1027.
-
-\bibitem[Kumar and Sanyal, 2008]{Kumar:2008:SUM:1487741.1488136}
-Kumar, D.~D. and Sanyal, R. (2008).
-\newblock Static uml model generator from analysis of requirements (sugar).
-\newblock In {\em Proceedings of the 2008 Advanced Software Engineering and Its
-  Applications}, ASEA '08, pages 77--84, Washington, DC, USA. IEEE Computer
-  Society.
 
 \bibitem[Lazar et~al., 2004]{lazar:04}
 Lazar, J., Dudley-Sponaugle, A., and Greenidge, K.-D. (2004).
@@ -302,7 +282,8 @@ Lee, J., Cho, B., Youn, H., and Lee, E. (2009).
 
 \bibitem[Maia, 2010]{maia:10}
 Maia, L.~S. (2010).
-\newblock Um processo para o desenvolvimento de aplicações web acessíveis.
+\newblock Um processo para o desenvolvimento de aplicaï¿½ï¿½es web
+  acessï¿½veis.
 \newblock Master's thesis, Universidade Federal de Mato Grosso do Sul.
 
 \bibitem[Manohar and Parthasarathy, 2009]{4809825}
@@ -320,8 +301,8 @@ Mart\'{\i}n~Garc\'{\i}a, Y.~S., Miguel~Gonz\'{a}lez, B.~S., and
   Conference on Web Accessibililty (W4A)}, W4A '09, pages 50--53, New York, NY,
   USA. ACM.
 
-\bibitem[Martínez et~al., 2009]{martinez:09}
-Martínez, A.~B., Juan, A.~A., Álvarez, D., and Suárez, M.~C. (2009).
+\bibitem[Martï¿½nez et~al., 2009]{martinez:09}
+Martï¿½nez, A.~B., Juan, A.~A., ï¿½lvarez, D., and Suï¿½rez, M.~C. (2009).
 \newblock Wab*: A quantitative metric based on wab.
 \newblock In {\em ICWE '9: Proceedings of the 9th International Conference on
   Web Engineering}, pages 485--488, Berlin, Heidelberg. Springer-Verlag.
@@ -364,7 +345,7 @@ Mikic, F., Anido, L., Valero, E., and Picos, J. (2007).
   on}, page~32.
 
 \bibitem[Moreno et~al., 2009]{springerlink:10.1007/978-3-642-02713-0}
-Moreno, L., Martínez, P., and Ruiz-Mezcua, B. (2009).
+Moreno, L., Martï¿½nez, P., and Ruiz-Mezcua, B. (2009).
 \newblock Integrating hci in a web accessibility engineering approach.
 \newblock In Stephanidis, C., editor, {\em Universal Access in Human-Computer
   Interaction. Applications and Services}, volume 5616 of {\em Lecture Notes in
@@ -385,7 +366,7 @@ Noy, N.~F., Sintek, M., Decker, S., Crubezy, M., Fergerson, R.~W., and Musen,
 
 \bibitem[Oliveira, 2011]{oliveira:11}
 Oliveira, B. (2011).
-\newblock Conheça as vantagens de vender pela internet.
+\newblock Conheï¿½a as vantagens de vender pela internet.
 \newblock
   http://www.artigonal.com/negocios-online-artigos/conheca-as-vantagens-de-vender-pela-internet-693945.html.
 
@@ -465,13 +446,13 @@ Thinyane, H. and Thinyane, M. (2009).
 
 \bibitem[TJCE, 2011a]{tjce:11}
 TJCE (2011a).
-\newblock Tribunal de justiça do estado do ceará - emissão de certidão criminal
-  negativa.
+\newblock Tribunal de justiï¿½a do estado do cearï¿½ - emissï¿½o de certidï¿½o
+  criminal negativa.
 \newblock http://www4.tjce.jus.br/siscertidao/.
 
 \bibitem[TJCE, 2011b]{tjce_portaria:11}
 TJCE (2011b).
-\newblock Tribunal de justiça do estado do ceará - portaria n.617/2008.
+\newblock Tribunal de justiï¿½a do estado do cearï¿½ - portaria n.617/2008.
 \newblock http://www4.tjce.jus.br/siscertidao/portaria6172008.pdf.
 
 \bibitem[Trewin et~al., 2010]{Trewin:2010:ACT:1805986.1806029}
