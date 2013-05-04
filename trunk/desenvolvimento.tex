@@ -13,12 +13,12 @@ codificação e testes de forma consistente.
 
 Para o trabalho proposto, definimos como escopo apenas os subprocessos 4
 (Análise de Requisitos de Software), 5 (Projeto de Software) e 6 (Construção do
-Software) e suas respectivas tarefas de acessibilidade. As tarefas de testes,
-presentes no subprocesso 6 não serão levadas em consideração.
-
-Essa abordagem foi adotada pois, embora as definições de acessibilidade já
+Software) e suas respectivas tarefas de acessibilidade. Essa abordagem foi adotada pois, embora as definições de acessibilidade já
 começam no subprocesso 1, é no subprocesso 4 que os requisitos são ``lapidados''
 e o artefato de entrada das fases de projeto é gerado.
+
+As tarefas de testes,
+presentes no subprocesso 6, não serão levadas em consideração.
 
 A seguir, serão apresentados os relacionamentos entre os subprocessos citados
 com o rastreio dos requisitos de acessibilidade.
@@ -32,7 +32,8 @@ para capturar os requisitos de acessibilidade no momento conveniente. Isso pode
 ocorrer (e é desejável) no levantamento de requisitos de forma explícita
 (sugerindo possivelmente um requisito funcional), de forma genérica e não
 específica (sugerindo possivelmente um requisito não funcional). O requisito de
-acessibilidade pode não ser encontrado.
+acessibilidade pode não ser encontrado explicitamente neste momento, mas o
+encontro posterir exigirá um refatoramento do modelo.
 
 Requisitos funcionais e não funcionais são abordados no subprocesso 4, ponto de
 partida deste trabalho no modelo MTA. Caso os requisitos não sejam identificados
@@ -112,7 +113,7 @@ o artefato para as fases de projeto e codificação.
  incompatíveis, isso quando permitem a exportação do modelo para o formato
  \gls{xml} (Os arquivos analisados foram gerados pelas ferramentas
  \textit{Astash Professional}\footnote{http://astah.net/download},
- \textit{\gls{emf}}\footnote{http://www.eclipse.org/modeling/emf/} e
+ \gls{emf}\footnote{http://www.eclipse.org/modeling/emf/} e
  \textit{Visual Paradigm}\footnote{http://www.visual-paradigm.com/}).
  Assim, seria preciso considerar uma ou mais ferramentas de modelagem
  específicas devido a quantidade de ferramentas de modelagem disponíveis no mercado. O problema da
@@ -126,9 +127,9 @@ o artefato para as fases de projeto e codificação.
  identificadores da estrutura (por exemplo, se os arquivos forem \gls{rdf}, é
  possível utilizar o atributo \textit{rdf:ID}). É possível também que a
  ferramenta de gerenciamento de requisitos permita que se faça a associação dos
- requisitos e dos modelos, caso os modelos estejam descritos em um determinado
- formato. Esse é o caso utilizado no estudo de caso deste trabalho: os plugins
- utilizados para o gerenciamento de requisitos e modelagem utilizam a formatação
+ requisitos e dos modelos, caso a ferramenta conheça a descrição interna dos
+ modelos.
+ Esse é o caso utilizado no estudo de caso deste trabalho: os plugins utilizados para o gerenciamento de requisitos e modelagem utilizam a formatação
  de arquivos do \gls{emf}, que por sua vez são baseados no \gls{rdf}, sendo
  portanto intercompatíveis.
  
@@ -156,8 +157,9 @@ gerará um artefato de projeto de software no formato XML/XMI, com elementos de
 acessibilidade embutidos.
 
 A proposta deste trabalho enseja que as subtarefas das tarefas pertencentes a
-esse subprocesso já começam a contar com critérios de sucesso do WCAG 2.0. Desta
-forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
+esse subprocesso já comecem a contar com critérios de sucesso do documento de
+diretrizes de acessibilidade escolhido.
+Desta forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
 projeto de interface e navegação nos passos posteriores, principalmente porque
 um software automatizado não consegue fazer algumas verificações levando em
 consideração o contexto semântico (por exemplo, ordem de navegação), e esses
@@ -165,17 +167,17 @@ pontos críticos devem ser revisados posteriormente.
 
 Além disso, é necessário esclarecer que o padrão de conformidade para o projeto
 é definido na tarefa 1.1 do subprocesso 1 (Elicitação dos Requisitos do
-Sistema).
-Contudo, os padrões e ferramentas disponíveis levam em consideração o reconhecido padrão WCAG 2.0. Portanto, ferramentas que seguem
-o padrão WCAG 2.0 deveriam ser acessíveis, mas a necessidade de conformidade com
-outros padrões de acessibilidade leva a necessidade de um monitoramento
-constante por parte do especialista em acessibilidade, pois nem sempre as
+Sistema). Os padrões e ferramentas disponíveis levam em consideração o
+reconhecido padrão WCAG 2.0. Contudo, a necessidade de conformidade com
+outros padrões de acessibilidade leva a necessidade de um
+monitoramento constante por parte do especialista em acessibilidade, pois nem sempre as
 técnicas para a implementação do que é cobrado no padrão estão disponíveis (por
-exemplo, a \textit{Section 508} o que deve ser feito para que os produtos
-estejam em conformidade com este padrão).
+exemplo, é possível que um \textit{software} precise estar em conformidade com o
+modelo \textit{Section 508}, mas esse padrão não explicita o que deve ser
+feito para que o nível de acessibilidade pretendido seja alcançado).
 
 O especialista em acessibilidade deve associar os elementos de interface e
-navegação, utilizando da ferramenta \textit{\gls{case}} aos requisitos
+navegação, utilizando da ferramenta \gls{case} aos requisitos
 provenientes da etapa anterior. Além disso é possível mapear, se aplicável, técnicas de implementação
 de acessibilidade.
 
@@ -210,7 +212,9 @@ será explicado com mais detalhes como elas serão utilizadas.
 
 Ao final deste subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
 itens de interface e navegação (já incluindo a associação com o WCAG 2.0), bem como os outros artefatos modelados 
-no subprocesso anterior. A matriz de rastreabilidade pode ser gerada novamente, dessa vez mais completa.
+no subprocesso anterior. A matriz de rastreabilidade pode ser gerada novamente,
+dessa vez mais completa, pois mais dados estão disponíveis neste ponto do
+processo.
 
 \section{Subprocesso 6 - Construção do Software}
 
@@ -260,7 +264,9 @@ Ferramentas \gls{case}, neste ponto, comumente geram código
 (\textit{stub}), utilizando artefatos como diagramas de classe, de sequência e casos de uso. O código
 gerado já poderia conter traços de documentação associados aos requisitos de acessibilidade.
 Uma maneira imediata de documentar código é adicionando comentários padronizados, de forma que os requisitos
-de acessibilidade possam ser localizados.
+de acessibilidade possam ser localizados. Dependendo da linguagem de programação
+utilizada, podem ser utilizadas anotações para referenciar os modelos (a
+linguagem \textit{Java} permite o uso de anotações).
 
 Para incorporar a rastreabilidade
 dos requisitos no código gerado pelas ferramentas em forma de comentário de código, temos as seguintes abordagens:
@@ -269,10 +275,11 @@ dos requisitos no código gerado pelas ferramentas em forma de comentário de códi
   \item A ferramenta de modelagem gera os códigos, e a partir destes, a ferramenta \gls{case} proposta incluiria os comentários
   de rastreabilidade;
   \item A ferramenta \gls{case} proposta substituiria o gerador de código, realizando todo o trabalho e gerando o código já documentado.
+  \item O gerador de código é customizado para que gere o código e os
+  comentários de associação.
 \end{enumerate}
 
-Como implementar uma nova ferramenta de geração de código foge do escopo deste
-trabalho, a primeira abordagem se mostrou mais atraente.
+\textbf{EXPLICAR A ABORDAGEM ESCOLHIDA E O MOTIVO}
 
 \section{Escolha das Ferramentas e Tecnologias}
 

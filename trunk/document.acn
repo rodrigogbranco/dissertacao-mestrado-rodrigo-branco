@@ -1,146 +1,146 @@
-\glossaryentry{UP?\glossaryentryfield{up}{\glsnamefont{UP}}{Unified Software Development Process}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
-\glossaryentry{RUP?\glossaryentryfield{rup}{\glsnamefont{RUP}}{Rational Unified Process}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
-\glossaryentry{XP?\glossaryentryfield{xp}{\glsnamefont{XP}}{eXtremming Programming}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{UP?\glossaryentryfield{up}{\glsnamefont{UP}}{\textit {Unified Software Development Process}}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{RUP?\glossaryentryfield{rup}{\glsnamefont{RUP}}{\textit {Rational Unified Process}}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{XP?\glossaryentryfield{xp}{\glsnamefont{XP}}{\textit {eXtremming Programming}}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
-\glossaryentry{WWW?\glossaryentryfield{www}{\glsnamefont{WWW}}{World Wide Web}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
-\glossaryentry{DDA?\glossaryentryfield{dda}{\glsnamefont{DDA}}{Disability Discrimination Act}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{IETF?\glossaryentryfield{ietf}{\glsnamefont{IETF}}{The Internet Engineering Task Force}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{W3C?\glossaryentryfield{w3c}{\glsnamefont{W3C}}{World Wide Web Consortium}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{WAI?\glossaryentryfield{wai}{\glsnamefont{WAI}}{Web Accessibility Initiative}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{Authoring Tool Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{User Agent Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{Evaluation and Report Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{CLF?\glossaryentryfield{clf}{\glsnamefont{CLF}}{Common Look and Feel}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{NDA?\glossaryentryfield{nda}{\glsnamefont{NDA}}{National Disability Authority}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WWW?\glossaryentryfield{www}{\glsnamefont{WWW}}{\textit {World Wide Web}}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{DDA?\glossaryentryfield{dda}{\glsnamefont{DDA}}{\textit {Disability Discrimination Act}}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{IETF?\glossaryentryfield{ietf}{\glsnamefont{IETF}}{\textit {The Internet Engineering Task Force}}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{W3C?\glossaryentryfield{w3c}{\glsnamefont{W3C}}{\textit {World Wide Web Consortium}}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{WAI?\glossaryentryfield{wai}{\glsnamefont{WAI}}{\textit {Web Accessibility Initiative}}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{\textit {Authoring Tool Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{\textit {User Agent Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{\textit {Evaluation and Report Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{CLF?\glossaryentryfield{clf}{\glsnamefont{CLF}}{\textit {Common Look and Feel}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{NDA?\glossaryentryfield{nda}{\glsnamefont{NDA}}{\textit {National Disability Authority}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{e-MAG?\glossaryentryfield{emag}{\glsnamefont{e-MAG}}{Modelo de Acessibilidade de Governo Eletrônico}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{e-MAG?\glossaryentryfield{emag}{\glsnamefont{e-MAG}}{Modelo de Acessibilidade de Governo Eletrônico}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{AJAX?\glossaryentryfield{ajax}{\glsnamefont{AJAX}}{Asynchronous JavaScript and XML}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{DHTML?\glossaryentryfield{dhtml}{\glsnamefont{DHTML}}{Dynamic HTML}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
-\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{Authoring Tool Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{Authoring Tool Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{Authoring Tool Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{Synchronized Multimedia Integration Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{User Agent Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{User Agent Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{Evaluation and Report Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{Resource Description Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{LIP?\glossaryentryfield{lip}{\glsnamefont{LIP}}{Learner Information Package}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
-\glossaryentry{ACCLIP?\glossaryentryfield{acclip}{\glsnamefont{ACCLIP}}{Accessibility for LIP}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
-\glossaryentry{ACCMD?\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{AccessForAll Meta-data}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
-\glossaryentry{IMS?\glossaryentryfield{ims}{\glsnamefont{IMS}}{IMS Global Learning Consortium}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{DP?\glossaryentryfield{dp}{\glsnamefont{DP}}{Device Profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{NFR?\glossaryentryfield{nfr}{\glsnamefont{NFR}}{Non-Functional Requeriments}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{AR?\glossaryentryfield{ar}{\glsnamefont{AR}}{Accessibility Requeriments}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{HTTPS?\glossaryentryfield{https}{\glsnamefont{HTTPS}}{HyperText Transfer Protocol Secure}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{Evaluation and Report Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
-\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{XHTML?\glossaryentryfield{xhtml}{\glsnamefont{XHTML}}{eXtensible Hypertext Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{JavaCC?\glossaryentryfield{javacc}{\glsnamefont{JavaCC}}{Java Compiler Compiler}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{RSS?\glossaryentryfield{rss}{\glsnamefont{RSS}}{Really Simple Syndication}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{XPath?\glossaryentryfield{xpath}{\glsnamefont{XPath}}{XML Path Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{Synchronized Multimedia Integration Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{XSLT?\glossaryentryfield{xslt}{\glsnamefont{XSLT}}{eXtensible Stylesheet Language for Transformation}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protocol}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{Resource Description Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{CSS?\glossaryentryfield{css}{\glsnamefont{CSS}}{Cascade Style Sheet}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{J2ME?\glossaryentryfield{j2me}{\glsnamefont{J2ME}}{Java Plataform Micro Edition}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
-\glossaryentry{ACCMD?\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{AccessForAll Meta-data}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{Synchronized Multimedia Integration Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{UGC?\glossaryentryfield{ugc}{\glsnamefont{UGC}}{User-generated Content}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{UWEM?\glossaryentryfield{uwem}{\glsnamefont{UWEM}}{Unified Web Evaluation Methodology}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{Web Accessibility Quantitative Metric}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{Web Accessibility Barriers}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{Page Measurement}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{Web Accessibility Quantitative Metric}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{Page Measurement}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{Web Accessibility Barriers}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{Resource Description Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{Resource Description Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{Web Ontology Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{W3C?\glossaryentryfield{w3c}{\glsnamefont{W3C}}{World Wide Web Consortium}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{Web Ontology Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{BIRT?\glossaryentryfield{birt}{\glsnamefont{BIRT}}{Business Intelligence Reporting Tools}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{AJAX?\glossaryentryfield{ajax}{\glsnamefont{AJAX}}{\textit {Asynchronous JavaScript and XML}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{DHTML?\glossaryentryfield{dhtml}{\glsnamefont{DHTML}}{\textit {Dynamic HTML}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{\textit {Authoring Tool Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{\textit {Authoring Tool Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{ATAG?\glossaryentryfield{atag}{\glsnamefont{ATAG}}{\textit {Authoring Tool Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{\textit {Extensible Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{\textit {User Agent Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{UAAG?\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{\textit {User Agent Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{\textit {Evaluation and Report Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{\textit {Resource Description Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{LIP?\glossaryentryfield{lip}{\glsnamefont{LIP}}{\textit {Learner Information Package}}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{ACCLIP?\glossaryentryfield{acclip}{\glsnamefont{ACCLIP}}{\textit {Accessibility for LIP}}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{ACCMD?\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{\textit {AccessForAll Meta-data}}{\relax }|setentrycounter[]{page}\glsnumberformat}{25}
+\glossaryentry{IMS?\glossaryentryfield{ims}{\glsnamefont{IMS}}{\textit {IMS Global Learning Consortium}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{DP?\glossaryentryfield{dp}{\glsnamefont{DP}}{\textit {Device Profile}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{NFR?\glossaryentryfield{nfr}{\glsnamefont{NFR}}{\textit {Non-Functional Requeriments}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{AR?\glossaryentryfield{ar}{\glsnamefont{AR}}{\textit {Accessibility Requeriments}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{HTTPS?\glossaryentryfield{https}{\glsnamefont{HTTPS}}{\textit {HyperText Transfer Protocol Secure}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{EARL?\glossaryentryfield{earl}{\glsnamefont{EARL}}{\textit {Evaluation and Report Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{WAI-ARIA?\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{\textit {Accessible Rich Internet Applications Suite}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{XHTML?\glossaryentryfield{xhtml}{\glsnamefont{XHTML}}{\textit {eXtensible Hypertext Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{JavaCC?\glossaryentryfield{javacc}{\glsnamefont{JavaCC}}{\textit {Java Compiler Compiler}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{RSS?\glossaryentryfield{rss}{\glsnamefont{RSS}}{\textit {Really Simple Syndication}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{XPath?\glossaryentryfield{xpath}{\glsnamefont{XPath}}{\textit {XML Path Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{XSLT?\glossaryentryfield{xslt}{\glsnamefont{XSLT}}{\textit {eXtensible Stylesheet Language for Transformation}}{\relax }|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{\textit {HyperText Transfer Protocol}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{\textit {Resource Description Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{CSS?\glossaryentryfield{css}{\glsnamefont{CSS}}{\textit {Cascade Style Sheet}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{J2ME?\glossaryentryfield{j2me}{\glsnamefont{J2ME}}{\textit {Java Plataform Micro Edition}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{ACCMD?\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{\textit {AccessForAll Meta-data}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{UGC?\glossaryentryfield{ugc}{\glsnamefont{UGC}}{\textit {User-generated Content}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{UWEM?\glossaryentryfield{uwem}{\glsnamefont{UWEM}}{\textit {Unified Web Evaluation Methodology}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{\textit {Web Accessibility Quantitative Metric}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{\textit {Web Accessibility Barriers}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{\textit {Page Measurement}}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{\textit {Web Accessibility Quantitative Metric}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{\textit {Page Measurement}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{\textit {Web Accessibility Barriers}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{\textit {Extensible Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{XML?\glossaryentryfield{xml}{\glsnamefont{XML}}{\textit {Extensible Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{\textit {Resource Description Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{\textit {Resource Description Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{\textit {Web Ontology Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{W3C?\glossaryentryfield{w3c}{\glsnamefont{W3C}}{\textit {World Wide Web Consortium}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{\textit {Web Ontology Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{BIRT?\glossaryentryfield{birt}{\glsnamefont{BIRT}}{\textit {Business Intelligence Reporting Tools}}{\relax }|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMFT?\glossaryentryfield{emft}{\glsnamefont{EMFT}}{Eclipse Modeling Framework Technology}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{\textit {Integrated Development Environment}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{\textit {Integrated Development Environment}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{\textit {Integrated Development Environment}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{\textit {Application Programming Interface}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{\textit {Integrated Development Environment}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{EMFT?\glossaryentryfield{emft}{\glsnamefont{EMFT}}{\textit {Eclipse Modeling Framework Technology}}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{\textit {Requirements Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{\textit {Requirements Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{RMF?\glossaryentryfield{rmf}{\glsnamefont{RMF}}{\textit {Requirements Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{EMF?\glossaryentryfield{emf}{\glsnamefont{EMF}}{\textit {Eclipse Modeling Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{IDE?\glossaryentryfield{ide}{\glsnamefont{IDE}}{\textit {Integrated Development Environment}}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}
