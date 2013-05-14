@@ -352,3 +352,38 @@ portanto, para permitir uma integração suave entre as ferramentas, o \textit{plu
 1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, assim como a própria \gls{ide}. Dessa forma, é possível
 estudar, alterar e customizar seus componentes para atingir aos objetivos do trabalho.
 
+A Figura \ref{fig:association} mostra o comportamento e relacionamento das
+ferramentas, tecnologias e atores envolvidos no desenvolvimento do produto, que
+deve ser interpretada da seguinte forma:
+
+\begin{itemize}
+  \item O \gls{mta} é o processo de desenvolvimento, e deve permear todas as
+  fases do processo;
+  \item O especialista em acessibilidade (\textit{Accessibility Expert}) deve
+  participar das fases de desenvolvimento especificadas no \gls{mta};
+  \item Os requisitos devem ser coletados e informados na fase de engenharia de
+  requisitos (utilizando a ferramenta \textit{Requirement
+  Designer}), e os modelos e artefatos \gls{uml} devem ser gerados (utilizando a
+  ferramenta \textit{UML Designer}) O especialista em acessibilidade deve
+  auxiliar a alimentação destes dados, filtrando os requisitos de acessibilidade para que eles sejam
+  associados aos modelos \gls{uml} (utilizando a ferramenta
+  \textit{Requirement Designer});
+  \item A ferramenta proposta recupera as associações dos requisitos e modelos
+  \gls{uml} (apenas aos que dizem respeito à acessibilidade), permitindo que o
+  especialista especifique as técnicas de implementações de acessibilidade para
+  cada uma das associações. As técnicas, diretrizes, abordagens e o que mais
+  dizer respeito a implementação técnica da associação estão armazenadas em
+  arquivos \gls{owl} embutidos na ferramenta;
+  \item A ferramenta de geração de código produzirá o código \textit{stub} a
+  partir dos modelos \gls{uml}, adicionando as referências às associações de
+  acessibilidade quando necessário;
+  \item O(s) desenvolvedor(res) refinam o código até que o mesmo esteja apto a
+  se tornar o produto acessível que será entregue.
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/developmentNew.png}
+\caption{Associação das ferramentas e atores no contexto to trabalho}
+\label{fig:association}
+\end{figure}
