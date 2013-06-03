@@ -387,3 +387,43 @@ deve ser interpretada da seguinte forma:
 \caption{Associação das ferramentas e atores no contexto to trabalho}
 \label{fig:association}
 \end{figure}
+
+\section{Construção da Ferramenta}
+
+O \textit{plugin} construído utiliza quatro elementos externos que precisam ser
+detalhados:
+
+\begin{itemize}
+  \item O repositório dos requisitos
+  \item O requisito
+  \item O modelo UML
+  \item A técnica de acessibilidade, representado pela ontologia
+\end{itemize}
+
+O diagrama de classes visualizado na fig \ref{fig:reqdesigner_classdiagram}
+demonstra o núcleo de funcionamento do \textit{plugin Requirement Designer},
+que possui os dois primeiros elementos listados anteriormente.
+Existe um repositório (\textit{Repository}), que pode contar zero ou mais
+categorias principais (\textit{Category}). Cada categoria principal pode conter
+0 ou mais requisitos (\textit{Requirement}), e também pode conter 0 ou mais
+subcategorias (\textit{Category}), recursivamente. Os requisitos podem ser do
+tipo funcionais ou não-funcionais (neste \textit{plugin} tratados como
+requisitos técnicos).
+
+O diagrama de classes foi gerado usando o \gls{emf} (especificamente a
+ferramentas \textit{Ecore Model}), resultando nas classes java representativas
+do modelo (usando a ferramenta de transformação \textit{Ecore Generator Model}).
+Na prática, significa dizer que, uma vez tendo o diagrama de classes no modelo
+\textit{Ecore}, seja possível utilizar as classes java resultantes e,
+principalmente, que o arquivo de saída da ferramenta \textit{Requirement
+Designer} possa ser lido e interpretado de forma simplificada como os objetos
+corretos do \textit{plugin}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/requirement_package_entities.png}
+\caption{Diagrama de classes do \textit{plugin} Requirement Designer}
+\label{fig:reqdesigner_classdiagram}
+\end{figure}
+
+
