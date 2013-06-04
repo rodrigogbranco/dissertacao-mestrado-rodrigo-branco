@@ -396,9 +396,20 @@ detalhados:
 \begin{itemize}
   \item O repositório dos requisitos
   \item O requisito
-  \item O modelo UML
+  \item O modelo \gls{uml}
   \item A técnica de acessibilidade, representado pela ontologia
 \end{itemize}
+
+A figura \ref{fig:reqdesignerexample} mostra a execução da ferramenta
+\textit{Requirement Designer} e o cadastro de algumas categorias e requisitos
+como exemplo.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/requirementDesignerExample.png}
+\caption{Execução da ferramenta \textit{Requirement Designer}}
+\label{fig:reqdesignerexample}
+\end{figure}
 
 O diagrama de classes visualizado na fig \ref{fig:reqdesigner_classdiagram}
 demonstra o núcleo de funcionamento do \textit{plugin Requirement Designer},
@@ -426,4 +437,44 @@ corretos do \textit{plugin}.
 \label{fig:reqdesigner_classdiagram}
 \end{figure}
 
+A ferramenta para gerar os artefatos \gls{uml} é a \textit{UML Designer}. A
+ferramenta usa a \gls{api} do \textit{Eclipse (org.eclipse.uml2.uml)}, que por
+sua vez é persistida usando \gls{emf}. Por esse motivo, a ferramenta de
+gerenciamento de requisitos consegue gerar uma associação entre os requisitos e
+qualquer elemento presente na \gls{api}.
 
+A figura \ref{fig:usecaseexample} mostra um diagrama de casos de uso de exemplo
+gerado pela ferramenta \textit{UML Designer}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/usecaseexample.png}
+\caption{Exemplo de um diagrama de casos de uso gerado pela ferramenta
+\textit{UML Designer}}
+\label{fig:usecaseexample}
+\end{figure}
+
+A ferramenta \textit{Requirement Designer} utiliza referências \gls{emf}
+(elementos \textit{proxy}) para associar os modelos \gls{uml} gerados pela
+ferramenta \textit{UML Designer}, significando que os objetos referenciados não
+são escritos no arquivo \gls{xml} de destino. Assim, o modelo pode ser alterado,
+e o objeto sempre estará atualizado no arquivo referenciado. Essa mesma técnica
+será usada no modelo de dados a ser construído pela ferramenta proposta, com
+exceção dos objetos referentes às ontologias de acessibilidade.
+
+As ontologias de acessibilidade são descritas no padrão \gls{owl}, que tem por
+base o formato \gls{rdf}. Para efetuar a leitura dos arquivos \gls{owl},
+utilizamos a \textit{OWL API}, que por sua vez é utilizado pelo
+\textit{software Protégé}, \textit{software} este muito útil para visualizar de
+forma gráfica os elementos e relacionamentos descritos nas ontologias. Este
+\textit{software} foi usado diversas vezes para descobrir quais os elementos da
+ontologia e como eles deveriam ser acessados através da api. A figura
+\ref{fig:protege} mostra um dos arquivos de ontologias usados no trabalho aberto
+para consulta.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/protege.png}
+\caption{Exemplo do arquivo WCAG2.owl aberto no \textit{software Protégé}}
+\label{fig:protege}
+\end{figure}
