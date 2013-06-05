@@ -400,7 +400,7 @@ detalhados:
   \item A técnica de acessibilidade, representado pela ontologia
 \end{itemize}
 
-A figura \ref{fig:reqdesignerexample} mostra a execução da ferramenta
+A Figura \ref{fig:reqdesignerexample} mostra a execução da ferramenta
 \textit{Requirement Designer} e o cadastro de algumas categorias e requisitos
 como exemplo.
 
@@ -411,15 +411,22 @@ como exemplo.
 \label{fig:reqdesignerexample}
 \end{figure}
 
-O diagrama de classes visualizado na fig \ref{fig:reqdesigner_classdiagram}
+O diagrama de classes visualizado na Figura \ref{fig:reqdesigner_classdiagram}
 demonstra o núcleo de funcionamento do \textit{plugin Requirement Designer},
 que possui os dois primeiros elementos listados anteriormente.
-Existe um repositório (\textit{Repository}), que pode contar zero ou mais
+Existe um repositório (\textit{Repository}), que pode conter zero ou mais
 categorias principais (\textit{Category}). Cada categoria principal pode conter
 0 ou mais requisitos (\textit{Requirement}), e também pode conter 0 ou mais
 subcategorias (\textit{Category}), recursivamente. Os requisitos podem ser do
 tipo funcionais ou não-funcionais (neste \textit{plugin} tratados como
 requisitos técnicos).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/requirement_package_entities.png}
+\caption{Diagrama de classes do \textit{plugin} Requirement Designer}
+\label{fig:reqdesigner_classdiagram}
+\end{figure}
 
 O diagrama de classes foi gerado usando o \gls{emf} (especificamente a
 ferramentas \textit{Ecore Model}), resultando nas classes java representativas
@@ -430,20 +437,13 @@ principalmente, que o arquivo de saída da ferramenta \textit{Requirement
 Designer} possa ser lido e interpretado de forma simplificada como os objetos
 corretos do \textit{plugin}.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.8\textwidth]{./images/requirement_package_entities.png}
-\caption{Diagrama de classes do \textit{plugin} Requirement Designer}
-\label{fig:reqdesigner_classdiagram}
-\end{figure}
-
 A ferramenta para gerar os artefatos \gls{uml} é a \textit{UML Designer}. A
 ferramenta usa a \gls{api} do \textit{Eclipse (org.eclipse.uml2.uml)}, que por
 sua vez é persistida usando \gls{emf}. Por esse motivo, a ferramenta de
 gerenciamento de requisitos consegue gerar uma associação entre os requisitos e
 qualquer elemento presente na \gls{api}.
 
-A figura \ref{fig:usecaseexample} mostra um diagrama de casos de uso de exemplo
+A Figura \ref{fig:usecaseexample} mostra um diagrama de casos de uso de exemplo
 gerado pela ferramenta \textit{UML Designer}.
 
 \begin{figure}[ht]
@@ -478,3 +478,141 @@ para consulta.
 \caption{Exemplo do arquivo WCAG2.owl aberto no \textit{software Protégé}}
 \label{fig:protege}
 \end{figure}
+
+Diante do exposto, é possível apresentar o diagrama de classes da ferramenta
+proposta, aqui denominada como \textit{AccTrace}, visível na Figura
+\ref{fig:acctraceclassdiagram}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/acctraceclassdiagram.png}
+\caption{Diagrama de classes da ferramenta proposta (\textit{AccTrace})}
+\label{fig:acctraceclassdiagram}
+\end{figure}
+
+O diagrama de classes deve ser interpretado da seguinte forma: A classe
+principal é a \textit{AccTraceModel}, que armazena as referências para os
+repositórios dos requisitos (\textit{Repository}), e também objetos de
+referência às associações dos requisitos, modelos e técnicas
+de implementação de acessibilidade (\textit{Reference}). Esse objeto referencia
+um requisito (\textit{Requirement}), um diagrama \gls{uml} (\textit{EObject}) e
+1 ou mais técnicas de implementação de acessibilidade, representadas aqui pela
+seleção das ontologias disponíveis. As referências às ontologias são persistidas
+através de suas \gls{iri} (uma generalização de \gls{uri}) em forma de \textit{String}.
+Além disso, devido ao grande número de requisitos possíveis no projeto e
+considerando o fato de que apenas os requisitos de acessibilidade sejam
+importantes para a associação à técnicas de implementação de acessibilidade, é previsto no modelo também a inclusão de filtros dos requisitos (\textit{RequirementFilter}), para não poluir a
+visualização dos requisitos na ferramenta.
+
+A ferramenta possui três visões principais, de acordo com a Figura
+\ref{fig:acctrace}: o editor (\textit{AccTrace Editor}), onde é possível alterar
+os repositórios dos requisitos e gerar as associações entre os modelos
+\gls{uml}, requisitos e técnicas de implementação; a visão dos requisitos
+(\textit{Requirement Associations}), onde é possível visualizar quais os
+requisitos associados ao modelo \gls{uml} selecionado no editor; e a visão das
+técnicas já implementadas (\textit{Accessibility Specifications View}), onde é
+possível visualizar as técnicas de implementação já associadas, de acordo com o
+modelo \gls{uml} selecionado no editor e o requisito de acessibilidade
+selecionado na visão dos requisitos, bem como remover as técnicas de
+implementação associadas. As três visões são importantes para o correto
+funcionamento da ferramenta.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/acctrace.png}
+\caption{Visualização da ferramenta \textit{AccTrace} na tela principal do
+\textit{Eclipse}}
+\label{fig:acctrace}
+\end{figure}
+
+Uma vez selecionado o modelo \gls{uml} e o requisito, é possível efetuar a
+associação da técnica de implementação de acessibilidade, clicando com o botão
+direito do mouse em cima do modelo \gls{uml}, conforme demonstrado na Figura
+\label{fig:rightclick}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/rightclick.png}
+\caption{Procedimento para efetuar a associação da técnica de implementação de
+acessibilidade}
+\label{fig:rightclick}
+\end{figure}
+
+O menu mostrado na Figura foi projetado levando em conta
+a análise e estudo das ontologias disponíveis, efetuados na ferramenta
+\textit{Protégé}. É possível entender o relacionamento dos elementos e
+ontologias observando a Figura X.
+
+DESENHAR FIGURA X.
+
+Para este trabalho, uma das ontologias mais importantes é a ontologia denominada
+\textit{WCAG 2.0}, pois é esta ontologia que comporta as técnicas de
+implementação de acessibilidade que efetivamente serão utilizadas. As outras
+ontologias, apesar de acessórias, podem ser utilizadas para reforçar as técnicas
+já referenciadas. 
+
+A ontologia \textit{WCAG 2.0} possui 5 grupos a serem escolhidos, conforme
+mostra a Figura \ref{fig:wcag2groups}: abordagens, testes, critérios de
+sucesso, diretrizes ou técnicas. Cada um desses grupos contém os elementos que
+efetivamente devem ser selecionados para que a associação seja concluída.
+Tomando como base a escolha do subgrupo critérios de sucesso, podemos ver as
+opções disponíveis mostradas na Figura \ref{fig:successcriterion}. Os elementos
+internos das ontologias são diferentes, dependendo qual seu tipo e objetivo. A
+Figura \ref{fig:successcriterion127} mostra quais os elementos da ontologia
+escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
+ela possui uma descrição, uma prioridade, um ID e um nome, além de
+relacionamentos com outras ontologias que aqui foram omitidas. Uma vez
+selecionada a ontologia apropriada, um clique no botão OK faz com que a
+associação seja persistida ao modelo.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/wcag2groups.png}
+\caption{Grupos a serem selecionados a partir da ontologia \textit{WCAG 2.0}}
+\label{fig:wcag2groups}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/successcriterion.png}
+\caption{Elementos disponíveis para a ontologia \textit{SuccessCriterion}}
+\label{fig:successcriterion}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/successcriterion127.png}
+\caption{Seleção da ontologia \textit{WCAG2 SuccessCriterion 1.2.7}}
+\label{fig:successcriterion127}
+\end{figure}
+
+É possível rastrear os requisitos, modelos \gls{uml} e técnicas de implementação
+através da geração de uma matriz de rastreabilidade. Neste trabalho foi
+utilizado o \textit{Apache ODF
+Toolkit}\footnote{http://incubator.apache.org/odftoolkit/} para geração do
+documento de rastreamento com formato \gls{ods}, através da \gls{api} de alto
+nível
+\textit{Simple}\footnote{http://incubator.apache.org/odftoolkit/simple/index.html}.
+No documento, são geradas três planilhas: Requerimentos x Modelos, Requerimentos
+x Técnicas e Modelos x Técnicas. A planilha Requerimentos x Modelos lista uma
+matriz de todos os requerimentos associados aos respectivos modelos, mesmo que
+exista algum requerimento que não esteja associado a algum modelo. Essa situação
+está prevista justamente para identificar problemas na associação que devam ser
+corrigidas. Para as planilhas Requerimentos x Técnicas e Modelos x Técnicas,
+apenas os objetos que estão efetivamente referenciados na ferramenta são
+listados.
+
+A Figura \ref{fig:matrixpart} mostra uma parte da matriz de rastreabilidade
+gerada pela ferramenta. A matriz deve ser gerada utilizando o \textit{wizard}
+específico para esse fim, acessando na barra de tarefas as opções \textit{File
+$>$ New $>$ Other\ldots} e selecionando a opção \textit{Traceability Matrix file
+wizard}. Para a geração da matriz ocorrer sem erros, é necessário informar o
+arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/matrixpart.png}
+\caption{Parte da matriz de rastreabilidade gerada pela ferramenta}
+\label{fig:matrixpart}
+\end{figure}
+
