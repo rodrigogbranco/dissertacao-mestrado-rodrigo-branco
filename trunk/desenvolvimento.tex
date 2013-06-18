@@ -621,3 +621,9 @@ arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 \label{fig:matrixpart}
 \end{figure}
 
+\textbf{UML TO JAVA GENERATOR}
+
+Uma vez tendo os comentários personalizados nos código-fonte Java, o \textit{plugin AccTrace} se encarrega de verificar os comentários
+para traduzí-los em informações úteis ao desenvolvedor. O \textit{plugin} usa o ponto de extensão \textit{Compilation Participant} da biblioteca \gls{jdt},
+usado para acompanhar e recuperar informações úteis no processo de compilação do código. No caso deste trabalho, o ambiente entrega a \gls{ast} do modelo Java, e partir dele os comentários são extraídos. Caso o comentário atenda à expressão regular de comentário do \textit{plugin AccTrace}, uma marca (\textit{marker}) é adicionada ao editor, indicando que naquele ponto há um comentário válido. A marca replica o comentário, de modo que ao passsar o mouse sobre a marca, um \textit{popup} surge, conforme mostrado pela Figura
+
