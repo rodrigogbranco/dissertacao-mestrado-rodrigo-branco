@@ -174,3 +174,5 @@
 \glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{ODS?\glossaryentryfield{ods}{\glsnamefont{ODS}}{\textit {OpenDocument Spreadsheet file format}}{\relax }|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{\textit {Application Programming Interface}}{\relax }|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{JDT?\glossaryentryfield{jdt}{\glsnamefont{JDT}}{\textit {Eclipse Java development tools (JDT)}}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{AST?\glossaryentryfield{ast}{\glsnamefont{AST}}{\textit {Abstract Syntax Tree}}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
