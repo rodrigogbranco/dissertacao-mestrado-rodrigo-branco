@@ -625,5 +625,56 @@ arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 
 Uma vez tendo os comentários personalizados nos código-fonte Java, o \textit{plugin AccTrace} se encarrega de verificar os comentários
 para traduzí-los em informações úteis ao desenvolvedor. O \textit{plugin} usa o ponto de extensão \textit{Compilation Participant} da biblioteca \gls{jdt},
-usado para acompanhar e recuperar informações úteis no processo de compilação do código. No caso deste trabalho, o ambiente entrega a \gls{ast} do modelo Java, e partir dele os comentários são extraídos. Caso o comentário atenda à expressão regular de comentário do \textit{plugin AccTrace}, uma marca (\textit{marker}) é adicionada ao editor, indicando que naquele ponto há um comentário válido. A marca replica o comentário, de modo que ao passsar o mouse sobre a marca, um \textit{popup} surge, conforme mostrado pela Figura
+usado para acompanhar e recuperar informações úteis no processo de compilação do código. No caso deste trabalho, 
+o ambiente entrega a \gls{ast} do modelo Java, e partir dele os comentários são extraídos. Caso o comentário 
+atenda à expressão regular de comentário do \textit{plugin AccTrace}, uma marca (\textit{marker}) é adicionada 
+ao editor, indicando que naquele ponto há um comentário válido. A marca replica o comentário, de modo que ao 
+passsar o mouse sobre a marca, um \textit{popup} surge, conforme mostrado pela
+Figura \ref{fig:acctracecomment}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/acctracecomment.png}
+\caption{Comentário padrão AccTrace demonstrado utilizando o evento
+\textit{mouse hover}}
+\label{fig:acctracecomment}
+\end{figure}
+
+Ao clicar na marca, uma visão é notificada para que o conteúdo do comentário
+seja traduzido. A Figura \ref{fig:commentview} mostra um comentário já
+traduzido, onde se pode observar informações como requisito, modelo \gls{uml} e
+quais técnicas estão referenciadas por aquele comentário. A Figura
+\ref{fig:commentrecovery} mostra como recuperar as informações relevantes
+partindo de um comentário no formato AccTrace. O comentário passa por um
+\textit{Regex Match}, sendo decomposto em:
+
+\begin{itemize}
+  \item Caminho relativo do arquivo do modelo AccTrace no \textit{workspace} do
+  \textit{Eclipse};
+  \item Referência (ID) da associação dentro do modelo;
+\end{itemize}
+
+O modelo AccTrace é carregado através do caminho encontrado e logo em seguida a
+referência da associação é recuperada do modelo, usando seu ID como parâmetro de
+busca. A partir da refência é possível recuperar o Requisito, o Modelo UML e as
+técnicas de implementação de acessibilidade. Como no modelo AccTrace apenas as
+referência aos objetos é armazenada, qualquer mudança nos objetos envolvidas é
+vista em tempo real. A atualização da tela da visão pode não ser
+instantânea, dependendo da complexidade dos objetos envolvidos e da quantidade
+de recursos que devem ser recuperados.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/commentview.png}
+\caption{Visão de explicitação do comentário selecionado.}
+\label{fig:commentview}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/commentrecovery.png}
+\caption{Passos para recuperação das informações relevantes através de um
+comentário padrão AccTrace}
+\label{fig:commentrecovery}
+\end{figure}
 
