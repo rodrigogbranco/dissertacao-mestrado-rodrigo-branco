@@ -621,7 +621,105 @@ arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 \label{fig:matrixpart}
 \end{figure}
 
-\textbf{UML TO JAVA GENERATOR}
+Para geração de código, utilizamos o \textit{plugin \gls{uml} to Java
+Generator}, que por sua vez utiliza o ponto de extensão do \textit{plugin
+Acceleo}\footnote{http://www.eclipse.org/acceleo/}. O \textit{plugin
+Acceleo} tem por finalidade transformar os modelos \gls{emf} em uma linguagem
+definida pelo usuário, através de arquivos com a extensão .mtl (\textit{Model
+to Text Language}). Os arquivos .mtl possuem uma sintaxe própria, que pode ser
+vista no trecho de código mostrado a seguir.
+
+\begin{verbatim}
+[comment encoding = UTF-8 /]
+[module classifierJavaFile('http://www.eclipse.org/uml2/4.0.0/UML')]
+
+[import org::obeonetwork::pim::uml2::gen::java::common::documentation /]
+[import org::obeonetwork::pim::uml2::gen::java::common::path /]
+
+[import org::obeonetwork::pim::uml2::gen::java::services::importService /]
+
+[template private classifierJavaFilePath(aClassifier : Classifier)]
+[if (not aClassifier.getNearestPackage().oclIsUndefined())]
+[aClassifier.genPackagePath()/][aClassifier.name/].java
+[else]
+[aClassifier.name.concat('.java')/]
+[/if]
+[/template]
+\end{verbatim}
+
+Enquanto o \textit{Acceleo} tem por finalidade transformar modelos \gls{emf} em
+uma linguagem pré-definida pelo usuário, o plugin \textit{\gls{uml} to Java
+Generator} tem a finalidade específica de transformar modelos \gls{uml}
+(persistidos como modelos \gls{emf}) em linguagem \textit{Java}. Ele não gera
+apenas código \textit{Java}, mas o projeto inteiro no \textit{Eclipse}, criando
+as pastas, arquivos de configuração, informações de importação e exportação,
+ambiente de execução alvo, entre outros. Por este motivo também, o
+\textit{plugin} \textit{\gls{uml} to Java
+Generator} é bastante simples. As partes principais do \textit{plugin} são:
+
+\begin{itemize}
+  \item a \gls{ui},
+especificando opções de configuração, como modelo \gls{uml} a ser utilizado, ambiente de execução
+alvo, entre outras opções;
+  \item as classes de lançamento do \textit{plugin Acceleo}, utilizando as
+  informações da \gls{ui};
+  \item os arquivos .mtl que descrevem como os modelos devem ser gerados, no
+  caso, as informação de geraçãos dos arquivos \textit{Java} e do projeto
+  \textit{Eclipse}.
+\end{itemize} 
+
+As alterações necessárias para que o \textit{plugin \gls{uml} to Java Generator}
+gerasse os comentários personalizados do modelo \textit{AccTrace} foram:
+
+\begin{enumerate}
+  \item alteração da \gls{ui}, para que fosse possível indicar o arquivo
+  .acctrace;
+  \item intervenção nas classes de lançamento, para que o arquivo .acctrace
+  fosse corretamente carregado e recuperado quando necessário;
+  \item alteração dos arquivos .mtl necessários para que o código \textit{Java}
+  gerado incluísse o(s) comentário(s) do modelo \textit{AccTrace}, se houver uma
+  referência para o elemento \gls{uml} avaliado no momento.
+\end{enumerate}
+
+O comentário \textit{AccTrace} é recuperado usando \textit{query
+invoke}\footnote{http://www.obeonetwork.com/page/the-acceleo-queries}, um
+mecanismo utilizado pelo \textit{plugin Acceleo} que encapsula dentro dos
+arquivos .mtl chamadas nativas a funções \textit{Java}. O \textit{query invoke}
+usado foi incluído no arquivo
+\textit{org.obeonetwork.pim.uml2.gen.java.services.typesServices.mtl} e é
+descrito a seguir.
+
+\begin{verbatim}
+[query public getComment(anOclAny : OclAny) : String
+	= invoke('org.obeonetwork.pim.uml2.gen.java.services.AccTraceServices', 
+	'getComment(org.eclipse.emf.ecore.EObject)', Sequence{anOclAny}) /]
+\end{verbatim}
+
+No momento desejado (por exemplo, logo após a construção da especificação de
+uma classe ou interface) o \textit{query invoke} é chamado, passando como
+argumento o objeto \gls{uml} avaliado no momento. Na classe \textit{Java
+AccTraceServices} existe um método \textit{getComment} que recebe como argumento
+um objeto \textit{EObject}, ou seja, qualquer elemento \gls{emf}. Neste método,
+é verificado se o modelo \textit{AccTrace} foi especificado (em caso negativo,
+nada é retornado). Logo em seguida, é verificado se no modelo \textit{AccTrace}
+existe uma referência ao elemento \gls{uml} avaliado (significando que existe
+uma associação entre um requisito, modelo e técnicas), e em caso positivo, o
+comentário é construído e retornado, sendo incluído no corpo do código
+\textit{Java}. Caso o elemento \gls{uml} não seja encontrado no modelo, uma
+\textit{String} vazia é retornada.
+
+O comentário \textit{AccTrace} é construído utilizando a seguinte expressão
+regular \textit{Java}:
+
+\begin{verbatim}
+String regex = "//!ACCTRACE!(/)?([^/\\\\0#]+(/)?)+#([^\\*\\*/])+";
+\end{verbatim}
+
+A opção de se utilizar um comentário de linha (ao invés de comentários de
+bloco, usados por exemplo pela documentação \textit{JavaDoc}) decorreu do fato
+do comentário descrito ser incluído dentro do corpo da classe e métodos, e caso
+o programador decida comentar o trecho de código inteiro, esse comentário não
+atrapalharia essa operação.
 
 Uma vez tendo os comentários personalizados nos código-fonte Java, o \textit{plugin AccTrace} se encarrega de verificar os comentários
 para traduzí-los em informações úteis ao desenvolvedor. O \textit{plugin} usa o ponto de extensão \textit{Compilation Participant} da biblioteca \gls{jdt},
