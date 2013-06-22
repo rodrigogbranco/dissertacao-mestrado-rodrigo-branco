@@ -272,14 +272,27 @@ Para incorporar a rastreabilidade
 dos requisitos no código gerado pelas ferramentas em forma de comentário de código, temos as seguintes abordagens:
 
 \begin{enumerate}
-  \item A ferramenta de modelagem gera os códigos, e a partir destes, a ferramenta \gls{case} proposta incluiria os comentários
-  de rastreabilidade;
-  \item A ferramenta \gls{case} proposta substituiria o gerador de código, realizando todo o trabalho e gerando o código já documentado.
+  \item A ferramenta de modelagem gera os códigos, e posteriormente, a
+  ferramenta \gls{case} proposta incluiria os comentários de rastreabilidade;
+  \item A ferramenta \gls{case} proposta substituiria o gerador de código,
+  realizando todo o trabalho e gerando o código já comentado.
   \item O gerador de código é customizado para que gere o código e os
-  comentários de associação.
+  comentários personalizados no mesmo instante.
 \end{enumerate}
 
-\textbf{EXPLICAR A ABORDAGEM ESCOLHIDA E O MOTIVO}
+A primeira abordagem implica em avaliar todo os arquivos \textit{Java} para
+encontrar o local exato onde o comentário deve ser posicionado. Além de ser
+necessário construir um \textit{parser} complexo para essa situação, pode ser
+difícil encontrar o caminho de retorno (código \textit{Java} para o modelo
+\gls{uml}) desta forma.
+
+A segunda abordagem implica na construção total de uma ferramenta complexa que
+está fora do escopo deste trabalho.
+
+A terceira abordagem, que por sua vez foi a escolhida, foi customizar o gerador
+de código, pois o código fonte deste gerador estava disponível e, devido ao fato do gerador de código usar
+\textit{templates} de construção. Desta forma, as intervenções na ferramenta
+foram mínimas, e pouco código adicional precisou ser incorporado.
 
 \section{Escolha das Ferramentas e Tecnologias}
 
