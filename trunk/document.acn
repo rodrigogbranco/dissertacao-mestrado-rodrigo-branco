@@ -2,6 +2,7 @@
 \glossaryentry{RUP?\glossaryentryfield{rup}{\glsnamefont{RUP}}{\textit {Rational Unified Process}}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{XP?\glossaryentryfield{xp}{\glsnamefont{XP}}{\textit {eXtremming Programming}}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
+\glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{WWW?\glossaryentryfield{www}{\glsnamefont{WWW}}{\textit {World Wide Web}}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{DDA?\glossaryentryfield{dda}{\glsnamefont{DDA}}{\textit {Disability Discrimination Act}}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{IETF?\glossaryentryfield{ietf}{\glsnamefont{IETF}}{\textit {The Internet Engineering Task Force}}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
@@ -117,7 +118,7 @@
 \glossaryentry{W3C?\glossaryentryfield{w3c}{\glsnamefont{W3C}}{\textit {World Wide Web Consortium}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{\textit {Web Ontology Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{OWL?\glossaryentryfield{owl}{\glsnamefont{OWL}}{\textit {Web Ontology Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{CASE?\glossaryentryfield{case}{\glsnamefont{CASE}}{\textit {Computer-Aided Software Engineering}}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
@@ -195,3 +196,9 @@
 \glossaryentry{JDT?\glossaryentryfield{jdt}{\glsnamefont{JDT}}{\textit {Eclipse Java development tools (JDT)}}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{AST?\glossaryentryfield{ast}{\glsnamefont{AST}}{\textit {Abstract Syntax Tree}}{\relax }|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{UML?\glossaryentryfield{uml}{\glsnamefont{UML}}{\textit {Unified Modeling Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{MTA?\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Taferas de Acessibilidade}{\relax }|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{56}
