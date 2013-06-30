@@ -1,0 +1,164 @@
+\chapter{Prova de Conceito}
+
+Como prova de conceito, foi criado um projeto simples, de forma que utilize
+o gls{mta}, bem como o \textit{plugin AccTrace}, assim
+como os outros relacionados neste trabalho. Os atores aqui elencados são
+fictícios, tendo o especialista em acessibilidade os autores deste trabalho.
+Objetivo aqui não é aplicar a prova de conceito no \gls{mta}, por isso nem todos
+os artefados presentes no \gls{mta} serão construídos, e sim os artefatos utilizados por este trabalho.
+
+\section{Definição do projeto}
+
+O cliente solicitou a construção de um \textit{software} buscador. O objetivo
+deste \textit{software} é fazer buscas na \textit{internet} utilizando como
+chave uma ou mais palavras fornecidas pelo usuário.
+
+O buscador será um software \textit{web}, sendo acessado através de navegadores.
+
+\subsection{Subprocesso 1 - Elicitação dos Requisitos do Sistema}
+
+No subprocesso 1 (Elicitação dos Requisitos do Sistema), observando a tarefa 1.1
+do \gls{mta} (Identificar os Requisitos de Acessibilidade do Sistema), o
+especialista em acessibilidade identificou que:
+
+\begin{itemize}
+  \item não existem características específicas do usuário: todos usuários
+  poderão acessar o sistema, independente de habilidade e deficiências dos
+  mesmos;
+  \item como requisitos de domínio, foi identificado que o \textit{software}
+  deve estar disponível para a linguagem nativa do usuário, e caso ele prefira,
+  a linguagem pode ser alterada. A busca deve ser influenciada pela escolha da
+  linguagem;
+  \item não existem requisitos tecnológicos específicos: o sistema deve ser
+  acessado indepentende de dispositivo ou tecnologia;
+  \item requisito de performance: o sistema deve retornar o resultado em menos
+  de 2 segundos, para não prejudicar a percepção do usuário;
+  \item requisito de conformidade: o sistema deve seguir a recomendação de
+  acessibilidade \gls{wcag} 2.0, sem nível definido.
+\end{itemize} 
+
+Nenhum requisito funcional de acessibilidade foi identificado nesta etapa; até
+agora, o sistema deve seguir as boas práticas genéricas de acessibilidade para
+englobar todos os conjuntos de usuários/deficiências.
+
+\subsection{Subprocesso 2 - Análise de Requisitos do Sistema}
+
+Partindo para o subprocesso 2 (Análise de Requisitos do Sistema), na tarefa 2.1
+(Especificar os Requisitos de Acessibilidade do Sistema), o especialista em
+acessibilidade identificou que:
+
+\begin{itemize}
+  \item características do usuário: não existe um público alvo definido. Não é
+  possível inferir qual o nível de experiência do público alvo;
+  \item requisitos de domínio: como ordem de execução de tarefas, o usuário deve
+  informar a chave de pesquisa, recebendo o resultado no passo seguinte;
+  \item requisitos de tecnologia: dependendo da deficiência/impedimento
+  momentâneo do usuário, as tecnologias podem variar desde um leitor de tela até
+  o navegador textual. Isso deve ser considerado na utilização do
+  \textit{software};
+  \item alternativas pré-existentes: serviços como Google, Bing ou Yahoo
+  fornecem buscadores com os mesmo propósitos;
+  \item qualidade das alternativas: o buscador do Google promove a busca
+  acessível levando em consideração alguns aspectos das páginas
+  analisadas\footnote{https://support.google.com/websearch/answer/181196?hl=en},
+  Não foi identificado se o buscador Bing ou Yahoo possui algum mecanismo que
+  avalie a acessibilidade das páginas avaliadas, apesar das duas empresas
+  possuírem áreas que tratam de questões de
+  acessibilidade\footnote{http://yaccessibilityblog.com/ e
+  http://www.microsoft.com/enable/}.
+\end{itemize}
+
+O especialista em acessibilidade constatou que 2 requisitos funcionais de
+acessibilidade estão presentes: o mecanismo de busca será alterado toda vez que
+a linguagem padrão for alterada, e o mecanismo de busca será alterado quando o
+usuário informar suas necessidades específicas, por exemplo, sua deficiência. As
+duas abordagens podem ser desativadas caso o usuário preferir.
+
+Nada mais pode ser dito sobre acessibilidade neste momento. Portanto, o
+especialista me acessibilidade acrescentou como requisito não funcional: os
+elementos do sistema devem ser: perceptíveis, operáveis, compreensíveis e robustos, seguindo os
+princípios do \gls{wcag} 2.0. A avaliação dos requisitos de acessibilidade é
+feita na tarefa 2.2 (Avaliar os Requisitos de Acessibilidade do Sistema) e
+registrada no documento de requisitos de acessibilidade do sistema
+revisado.
+
+\section{Modelagem do Sistema}
+
+Os artefatos para que os desenvolvedores implementem o sistema começam a surgir
+a partir desta etapa.
+
+\subsection{Subprocesso 3 - Projeto Arquitetural do Sistema}
+
+No subprocesso 3 (Projeto Arquitetural do Sistema), as tarefas 3.1 (Alocar
+Requisitos de Acessibilidade aos Elementos do Sistema) e 3.2 (Avaliar o Projeto Arquitetural do 
+Sistema com Relação aos Requisitos de Acessibilidade) tratam da decomposição do
+sistema em componentes menores, assim como a especificação da responsabilidade
+de cada componente. Para os requisitos de acessibilidade descritos
+anteriormente, é definido que, para cada um dos requisitos funcionais
+(alteração do mecanismo de busca), um componente individual será gerado, podendo
+ter um elemento de renderização genérico, ou um ou mais componentes de
+renderização para cada uma das alterações do mecanismo de busca, ou até da
+combinação delas.
+
+O requisito não funcional identificado deve permear todos componentes do
+projeto, inclusive os já descritos anteriormente.
+
+\subsection{Subprocesso 4 - Análise de Requisitos do Software}
+
+No subprocesso 4 (Análise de Requisitos do Software), os requisitos de
+acessibilidade do \textit{software} (interface e código) são estabelecidos.
+
+As taferas 4.1 (Estabelecer os Requisitos de Acessibilidade do Software) e
+4.2 (Avaliar os Requisitos de Acessibilidade do Software) especificar, avaliar
+e documentar os requisitos de sistema em requisitos de \textit{software}.
+Todos os requisitos, tanto os funcionais (RF) como os não-funcionais (RNF), inclusive os d
+e acessibilidade (RA), podem ser vistos abaixo:
+
+\begin{itemize}
+  \item o sistema deve permitir que, dado uma chave de busca (uma ou mais
+  palavras), o resultado da busca seja retornado (RF);
+  \item o sistema deve permitir que o usuário altere a linguagem padrão da
+  ferramenta (RF e RA);
+  \item o sistema deve permitir que o usuário altere o constraste da página
+  (RF e RA);
+  \item o sistema deve permitir que o usuário altere o tamanho da fonte da
+  página (RF e RA);
+  \item o sistema deve utilizar a linguagem especificada como critério de
+  seleção no mecanismo de busca (RF e RA);
+  \item o sistema deve permitir que o usuário informe qual é o tipo de
+  limitação/deficiência possui (RF);
+  \item o sistema deve utilizar o tipo de limitação/deficiência como critério de
+  seleção no mecanismo de busca (RF e RA);
+  \item o sistema deve retornar o resultado da busca em menos de 2 segundos,
+  para não prejudicar a percepção do usuário (RNF);
+  \item o sistema o sistema deve seguir a recomendação de
+  acessibilidade \gls{wcag} 2.0, nível AAA (RNF e RA);
+  \item o sistema deve fornecer componentes perceptíveis, operáveis,
+  compreensíveis e robustos (RNF e RA);
+  \item o sistema deve fornecer atalhos via teclado, para alterar o idioma e a
+  informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
+  de texto principal (RF);
+  \item o sistema deve permitir que todas as funcionalidades sejam acessíveis
+  via teclado (RF e RA);
+  \item o sistema deve permitir que o tempo para ler utilizar o conteúdo seja
+  suficiente (RNF RA);
+  \item o sistema deve entregar um conteúdo que não cause apreensão (RNF e RA);
+  \item o sistema deve permitir que o usuário navegue facilmente e
+  encontre o conteúdo desejado (RNF e RA);
+  \item o sistema deve permitir que, ao ser especificado o tipo de
+  limitação/deficiência, a utilização de métricas de acessibilidade sejam
+  utilizadas para classificar as páginas (RF e RA).
+\end{itemize}
+
+No \textit{plugin Requirement Designer}, os requisitos são agrupados em 2
+categorias principais: Requisitos Funcionais e Requisitos Não Funcionais. A
+Figura \ref{fig:facomsearchrequirementplugin} mostra o cadastro dos requisitos
+na ferramenta.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/facomsearchrequirementplugin.png}
+\caption{Cadastro dos requisitos no \textit{plugin Requirement Designer}}
+\label{fig:facomsearchrequirementplugin}
+\end{figure}
+
