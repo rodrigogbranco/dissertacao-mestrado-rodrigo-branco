@@ -118,11 +118,11 @@ e acessibilidade (RA), podem ser vistos abaixo:
   \item o sistema deve permitir que, dado uma chave de busca (uma ou mais
   palavras), o resultado da busca seja retornado (RF);
   \item o sistema deve permitir que o usuário altere a linguagem padrão da
-  ferramenta (RF e RA);
+  ferramenta (RF);
   \item o sistema deve permitir que o usuário altere o constraste da página
-  (RF e RA);
+  (RF);
   \item o sistema deve permitir que o usuário altere o tamanho da fonte da
-  página (RF e RA);
+  página (RF);
   \item o sistema deve utilizar a linguagem especificada como critério de
   seleção no mecanismo de busca (RF e RA);
   \item o sistema deve permitir que o usuário informe qual é o tipo de
@@ -141,7 +141,7 @@ e acessibilidade (RA), podem ser vistos abaixo:
   \item o sistema deve permitir que todas as funcionalidades sejam acessíveis
   via teclado (RF e RA);
   \item o sistema deve permitir que o tempo para ler utilizar o conteúdo seja
-  suficiente (RNF RA);
+  suficiente (RNF e RA);
   \item o sistema deve entregar um conteúdo que não cause apreensão (RNF e RA);
   \item o sistema deve permitir que o usuário navegue facilmente e
   encontre o conteúdo desejado (RNF e RA);
@@ -151,9 +151,10 @@ e acessibilidade (RA), podem ser vistos abaixo:
 \end{itemize}
 
 No \textit{plugin Requirement Designer}, os requisitos são agrupados em 2
-categorias principais: Requisitos Funcionais e Requisitos Não Funcionais. A
-Figura \ref{fig:facomsearchrequirementplugin} mostra o cadastro dos requisitos
-na ferramenta.
+categorias principais: Requisitos Funcionais e Requisitos Não Funcionais. Cada
+uma dessas categorias possui uma categoria de agrupamento dos requisitos de
+acessibilidade. A Figura \ref{fig:facomsearchrequirementplugin} mostra o
+cadastro dos requisitos na ferramenta.
 
 \begin{figure}[ht]
 \centering
@@ -162,3 +163,33 @@ na ferramenta.
 \label{fig:facomsearchrequirementplugin}
 \end{figure}
 
+O diagrama de casos de uso pode ser visto na Figura
+\ref{fig:facomsearchusescase}, assim como o diagrama de classes pode ser visto
+na Figura \ref{fig:facomsearchclassdiagram}. Como a implementação final deste
+projeto não é o foco deste trabalho, as especificações dos casos de uso, assim
+como outros diagramas \gls{uml} que não são transformados
+no código final não serão construídos. O diagrama de casos de uso aqui
+apresentado também não é usado pelo gerador de código, mas pela importância do
+artefato entendeu-se que era necessário a construção do mesmo.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/facomsearchusescase.png}
+\caption{Diagrama de casos de uso do buscador}
+\label{fig:facomsearchusescase}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/facomsearchclassdiagram.png}
+\caption{Diagrama de classes do buscador}
+\label{fig:facomsearchclassdiagram}
+\end{figure}
+
+Vale notar que o \gls{mta} não especifica exatamente quando os diagramas
+apresentados devem ser construídos. Por este motivo, o momento oportuno para a
+construção dos mesmos foi entre os subprocessos 4 e 5, pela gama de informações
+já levantada.
+
+De posse dos diagramas \gls{uml}, já é possível associá-los aos requisitos,
+utilizando o \textit{plugin Requirement Designer}.
