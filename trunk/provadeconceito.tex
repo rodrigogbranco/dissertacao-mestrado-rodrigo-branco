@@ -192,4 +192,80 @@ construção dos mesmos foi entre os subprocessos 4 e 5, pela gama de informações
 já levantada.
 
 De posse dos diagramas \gls{uml}, já é possível associá-los aos requisitos,
-utilizando o \textit{plugin Requirement Designer}.
+utilizando o \textit{plugin Requirement Designer}. Com os requisitos e modelos
+\gls{uml} já associados, o arquivo .acctrace pode ser criado, recebendo como
+entrada o arquivo .requirement. A Figura \ref{fig:referenciascriadas} mostra os
+modelos \gls{uml}, para o modelo selecionado, os requisitos que a ele estão
+associados.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.8\textwidth]{./images/referenciascriadas.png}
+\caption{Modelos \gls{uml} e requisitos associados}
+\label{fig:referenciascriadas}
+\end{figure}
+
+\subsection{Subprocesso 5 - Projeto de Software}
+
+O subprocesso 5 (Projeto de \textit{Software}) visa fornecer um projeto onde os requisitos do software possam ser
+implementados e verificados. Os elementos de interface são definidos nas
+tarefas seguintes (Tarefa 5.1 - Projetar Interfaces Externas Acessíveis e
+Tarefa 5.2 - Realizar Projeto Navegacional Acessível), e \citet{maia:10}
+consegue estabelecer relacionamentos com o \gls{wcag} 2.0 nestas tarefas. Por
+este motivo, mostrou-se adequado especificar as técnicas de acessibilidade neste
+momento. Na subtarefa 5.2.1 (Estabelecer a disposição dos elementos na
+interface), por exemplo, é citado 3 critérios de sucesso
+
+\begin{itemize}
+  \item \textbf{critério de Sucesso 1.3.1 - Informações e Relacionamento:} A informação,
+estrutura e relacionamento transmitido por meio de apresentação devem ser
+determinados programaticamente;
+  \item \textbf{critério de Sucesso 1.3.2 - Sequência Significativa:} A sequência correta de
+leitura dos elementos da interface deve ser determinada programaticamente;
+  \item \textbf{critério de Sucesso 1.3.3 - Características Sensoriais:} As instruções
+fornecidas para o entendimento e operação do conteúdo não devem confiar
+somente em características sensoriais dos componentes, tais como forma,
+tamanho, localização visual, orientação ou som.
+\end{itemize}
+
+enquanto a subtarefa 5.2.2 (Definir as cores dos elementos), sugere
+um critério de sucesso
+
+\begin{itemize}
+  \item \textbf{critério de Sucesso 1.4.1 - Uso de Cores:} As cores não devem ser usadas
+como único meio para transmitir informação, indicar uma ação, mostrar uma
+resposta ou distinguir um elemento visual.
+\end{itemize}
+
+e a subtarefa 5.2.1 (Definir a ordem de navegação dos objetos) sugere um
+critério de sucesso
+
+\begin{itemize}
+  \item \textbf{critério de Sucesso 2.4.3 - Ordem do Foco:} Se a página Web pode ser
+navegada sequenciamente e a sequência de navegação afeta o entendimento ou
+operação, então os componentes focalizáveis devem receber o foco considerando
+a ordem dos elementos, preservando o entendimento e a operabilidade dos
+mesmos.
+\end{itemize}
+
+\citet{maia:10} não especificou nenhum critério de sucesso para a subtarefa
+subtarefa 5.2.2 (Definir atalhos de navegação), mas é possível sugerir
+genericamente um que sirva como ponto de partida:
+
+\begin{itemize}
+  \item \textbf{critério de Sucesso 2.1.1 - Teclado:} Toda a funcionalidade do conteúdo é operável 
+  através de uma interface de teclado sem requerer temporizações específicas para digitação individual, 
+  exceto quando a função subsequentes requer entrada que depende do caminho do
+  movimento do usuário e não apenas dos pontos finais.
+\end{itemize}
+
+Os critérios de sucesso aqui apresentados são sugestões e podem ou não ser
+utilizados dependendo da situação. Neste ponto, podemos especificar as técnicas
+de acessibilidade no \textit{plugin AccTrace}. É importante notar que não apenas
+critérios de sucesso que estão presentes no \textit{plugin}; todas as
+abordagens, diretrizes, técnicas, entre outros (definidos nos arquivos de
+ontologia) estão disponíveis para a associação, dependendo apenas das
+características específicas do projeto e da maturidade do especialista em
+acessibilidade.
+
+
