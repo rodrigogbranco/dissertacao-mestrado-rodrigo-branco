@@ -156,7 +156,7 @@ uma dessas categorias possui uma categoria de agrupamento dos requisitos de
 acessibilidade. A Figura \ref{fig:facomsearchrequirementplugin} mostra o
 cadastro dos requisitos na ferramenta.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/facomsearchrequirementplugin.png}
 \caption{Cadastro dos requisitos no \textit{plugin Requirement Designer}}
@@ -172,14 +172,14 @@ no código final não serão construídos. O diagrama de casos de uso aqui
 apresentado também não é usado pelo gerador de código, mas pela importância do
 artefato entendeu-se que era necessário a construção do mesmo.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/facomsearchusescase.png}
 \caption{Diagrama de casos de uso do buscador}
 \label{fig:facomsearchusescase}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/facomsearchclassdiagram.png}
 \caption{Diagrama de classes do buscador}
@@ -198,7 +198,7 @@ entrada o arquivo .requirement. A Figura \ref{fig:referenciascriadas} mostra os
 modelos \gls{uml}, para o modelo selecionado, os requisitos que a ele estão
 associados.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/referenciascriadas.png}
 \caption{Modelos \gls{uml} e requisitos associados}
@@ -268,12 +268,168 @@ ontologia) estão disponíveis para a associação, dependendo apenas das
 características específicas do projeto e da maturidade do especialista em
 acessibilidade.
 
-A Figura \ref{fig:tecnicasassociadas}
+A Figura \ref{fig:tecnicasassociadas} mostra, como exemplo de uma das
+associações, a classe \textit{Engine}, presente no diagrama
+de classes, associada ao requisito não funcional RNFA1 (Padrão
+\gls{wcag} 2.0, nível AAA), tendo as diretrizes 1.1, 2.1, 3.1 e 4.1 associadas como técnicas de acessibilidade.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/tecnicasassociadas.png}
 \caption{Associação das técnicas de acessibilidade para um modelo e requisito
 selecionado.}
 \label{fig:tecnicasassociadas}
 \end{figure}
+
+Já é possível gerar a matriz de rastreabilidade. As Figuras \ref{fig:reqtec} e
+\ref{fig:reqtec} mostram uma parte dos dados gerados, para a associação de
+requisitos e técnicas, bem como modelos e técnicas.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{./images/reqtec.png}
+\caption{Parte da matriz de rastreabilidade de requisitos e técnicas}
+\label{fig:reqtec}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{./images/modeltec.png}
+\caption{Parte da matriz de rastreabilidade de modelos e técnicas}
+\label{fig:modeltec}
+\end{figure}
+
+\subsection{Subprocesso 6 - Construção do Software}
+
+A proposta da construção do software é produzir unidades de \textit{software}
+executáveis que apropriadamente refletem o projeto do software. A tarefa 6.1
+(Especificar Técnicas para Implementação da Acessibilidade da Interface e do
+Código), segundo \citet{maia:10}, sugere que técnicas específicas para atender
+aos requisitos de acessibilidade do sistema deverão ser pesquisadas tais como o
+documento de referência do \gls{wcag} que apresenta técnicas suficientes para a
+promoção de acessibilidade. Para a prova de conceito proposta, este passo foi
+feito no final do subprocesso 5, utilizando o \textit{plugin AccTrace} para tal.
+
+A tarefa 6.2 (Codificar cada Unidade de Software de Acordo com Técnicas de
+Acessibilidade) refere-se a construção propriamente dita da solução proposta. O
+\textit{plugin} modificado \textit{\gls{uml} to Java Generator} se encarregará
+de construir os códigos \textit{stub} com os comentários personalizados
+\textit{AccTrace}, recebendo como entrada os modelos \gls{uml} e também o
+arquivo de referências gerados pelo \textit{plugin AccTrace}.
+
+A Figura \ref{fig:generatedcode} ilustra uma parte do código gerado, mostrando também alguma das
+classes geradas na visão \textit{Project Explorer}, dando ênfase na classe
+\textit{ViewRenderer}, observando os comentários \textit{AccTrace}
+personalizados bem como a descrição de um deles na visão \textit{AccTrace
+Comment View}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{./images/generatedcode.png}
+\caption{Visualização do código gerado, com os comentários \textit{AccTrace}
+personalizados}
+\label{fig:generatedcode}
+\end{figure}
+
+Os construtores do \textit{software} podem partir destes códigos \textit{stub}
+e continuar a construção da ferramenta, sendo beneficiados pelos comentários
+\textit{AccTrace} espalhados pelas classes. A prova de conceito termina neste
+ponto, pois prosseguindo com o processo de desenvolvimento \gls{mta}, as
+próximas tarefas são a tarefa 6.3 (Planejar Teste de Acessibilidade para Cada
+Unidade de Software) e a tarefa 6.4 (Executar Teste de Acessibilidade de Cada
+Unidade de Software), que estão fora do escopo desta dissertação. É importante
+notar que as ontologias utilizadas incluem elementos de testes que podem ser
+associados como técnicas de
+acessibilidade\footnote{http://www.w3.org/TR/WCAG20-TECHS/} que podem ser
+utilizadas nas tarefas 6.3 e 6.4, mas a execução das tarefas de maneira efetiva
+não é aqui abordada.
+
+\section{Limitações da Prova de Conceito}
+
+A prova de conceito aqui apresentada visa demostrar como seria a utilização das
+técnicas e ferramentas em um ambiente real. Contudo, não foi possível verificar
+se os passos aqui apresentados seriam realmente utilizados. Apesar de estender a
+ISO/IEC 12207, a utilização efetiva do \gls{mta} não foi encontrada na
+literatura, para servir como base para este trabalho.
+
+A operação dos \textit{plugins} construídos/alterados ao longo deste trabalho se
+mostraram dificultosos em casos pontuais. Algumas dificuldades só foram
+encontradas na execução da prova de conceito, sugerindo que algumas partes
+específicas da ferramenta devem ser adequadas, para que a usabilidade das
+ferramentas seja melhorada.
+
+O volume de dados dos artefatos gerados foi relativamente pequeno. A falta de
+profissionais que efetivamente trabalhem com Engenharia de Requisitos, Modelagem
+e principalmente, a falta de um Especialista em Acessibilidade, profissionais
+estes que poderiam gerar dados mais próximos de um projeto real, impacta
+significativamente na análise do volume de dados \textit{versus} facilidade de
+utilização. As ferramentas geralmente se tornam mais complexas e precisam de
+filtros complexos para entregar os dados corretos no momento certo, escondendo
+os demais, quando o volume de dados é muito grande.
+
+A falta de um especialista em acessibilidade impactou negativamente em perceber
+se as informações apresentadas pela ferramenta eram suficientes ou
+desnecessárias. Não foi possível dizer se os mapeamentos encontrados nas
+ontologias utilizadas eram suficientes para fornecer informações úteis aos
+projetistas/desenvolvedores. Este não é um problema tão sério, já que as
+ontologias podem ser modificadas/aprimoradas utilizando a ferramenta
+\textit{Protegé}, devendo o \textit{plugin AccTrace} ser alterado para que
+comporte a nova realidade do domínio.
+
+Devido a complexidade dos relacionamentos das ontologias utilizadas, apenas as
+diretrizes do modelo de referência \gls{wcag} 2.0 foi utilizada, por já estarem
+previamente mapeadas. O \textit{plugin AccTrace} foi inteiramente construído
+utilizando estes relacionamentos como orientação. Por este motivo, a inclusão de
+novos modelos (como por exemplo, o eMag 3.0) não é uma tarefa simples. Primeiro,
+as ontologias devem ser construídas e depois o \textit{plugin AccTrace} deve ser
+adaptado para refletir a nova realidade do modelo de referência. A consequência
+deste fato é que a atualização dos modelos de referência torna-se uma tarefa
+complexa, inclusive para a atualização do modelo \gls{wcag} 2.0. 
+
+\section{Conclusões da Prova de Conceito}
+
+Apesar das limitações encontradas na execução da prova de conceito, os objetivos
+propostos foram atingidos. Os objetivos propostos foram:
+
+\begin{itemize}
+  \item \textbf{seja orientada ao desenvolvedor (a apresentação dos resultados
+  nas ferramentas tradicionais são adequadas para avaliação e auditoria de
+  \textit{sites}, e não para desenvolvedores):} as ferramentas aqui
+  desenvolvidas foram construídas pensando em engenheiros de requisitos,
+  analistas, arquitetos, programadores e desenvolvedores;
+  \item \textbf{seja integrada ao ambiente de desenvolvimento do
+  desenvolvedor:} não apenas do desenvolvedor, mas todos os profissionais
+  anteriormente elencados utilizam o ambiente de desenvolvimento
+  \textit{Eclipse}, permitindo a total integração das ferramentas. A única
+  ressalva é quanto a visualização da matriz de rastreabilidade, que deve ser
+  visualizada com ferramentas que aceitem arquivos \gls{ods}, notadamente o
+  \textit{LibreOffice}\footnote{http://pt-br.libreoffice.org/};
+  \item \textbf{apresente informações objetivas, e no momento em que o
+  desenvolvedor desejar visualizar:} o especialista em acessibilidade define o
+  que será apresentado ao desenvolvedor, e o desenvolvedor escolhe quando verá
+  as informações, ativando a \textit{view AccTrace Comment View}, clicando nos
+  marcadores para que a informação possa aparecer;
+  \item \textbf{tenha relação direta entre os requisitos e casos de uso com a
+  etapa de codificação:} os \textit{plugins} utilizados são interoperáveis,
+  permitindo a definição e relacionamento dos requisitos e modelos \gls{uml},
+  recuperados na etapda de codificação;
+  \item \textbf{permita que seja feita o rastreamento dos requisitos de
+  acessibilidade, desde a sua concepção até as fases de codificação:} o
+  rastreamento pode ser feito no \textit{plugin AccTrace}, bem como utilizando
+  a matriz de rastreabilidade;
+  \item \textbf{permita que o desenvolvedor consiga verificar, em nível de
+  código, a associação dos requisitos e modelos:} o desenvolvedor consegue, a
+  partir de um comentário \textit{AccTrace} personalizado, recuperar
+  informações sobre o requisito e modelo \gls{uml} associado.
+\end{itemize}
+
+Portanto, foi possível rastrear os requisitos, desde a sua concepção e
+definição, passando pelos modelos e artefatos \gls{uml} e finalmente, sendo recuperados já na fase
+de codificação. A entrega de informações que possam ser úteis ao
+desenvolvedor é efetuada. O especialista em acessibilidade informa qual técnica
+de acessibilidade determinado modelo/requisito deve usar como guia (seja
+abordagens, diretrizes, critérios de sucesso, técnicas, etc), estando estas
+informações disponíveis para consulta pelo desenvolvedor. O desenvolvedor terá,
+então, um ponto de partida para codificar o produto da forma correta. 
+
+\section{Considerações Finais}
