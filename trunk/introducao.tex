@@ -7,11 +7,10 @@ antes eram realizadas presencialmente estão migrando para serviços virtuais que
 podem ser acessados a partir de qualquer dispositivo com acesso à internet.
 
 A Receita Federal Brasileira, por exemplo, só recebe as declarações de Imposto
-de Renda via internet, e as declarações de 2013 (ano de referência: 2012) não
-foi diferente \citep{irpf:13}. As declarações emitidas em
+de Renda via internet \citep{irpf:13}. As declarações emitidas em
 papel foram completamente abandonadas no ano de 2011
 \citep{irpf:11}. Essa decisão foi tomada pois a declaração feita em papel é mais
-vagarosa em todos os aspectos se comparados ao envio da declaração pela Internet e, além disso, é muito grande o número de declarações preenchidas 
+vagarosa em todos os aspectos se comparada ao envio da declaração pela Internet e, além disso, era muito grande o número de declarações preenchidas 
 erroneamente usando os formulários impressos \citep{irpf_estacao:11}.
 
 Alguns Tribunais já instituíram a emissão de certidões apenas por meio
@@ -66,11 +65,11 @@ considerado relativamente recente e está sendo alvo de muitas pesquisas
 é regulamentada em vários países, com diretivas e boas práticas que norteiam sua
 aplicação. Por isso, o papel da Engenharia de \textit{Software} neste contexto é
 fundamental. A falta de metodologia e processos bem definidos específicos para acessibilidade podem
-ocasionar em produtos não acessíveis. Os custos são menores quando a
+gerar produtos não acessíveis. Os custos são menores quando a
 acessibilidade é considerada durante o processo de desenvolvimento do
-\textit{software} \citep{groves:11}. Apesar de existir um custo implícito
+\textit{software} \citep{groves:11}. \textbf{Apesar de existir um custo implícito
 embutido, em geral, os benefícios alcançados pela incorporação da acessibilidade
-nos processos são maiores do que os custos envolvidos necessários para a entrega do produto \citep{sherman:01}.
+nos processos são maiores do que os custos envolvidos necessários para a entrega do produto \citep{sherman:01}}.
 
 Existem propostas para integrar usabilidade
 e acessibilidade nos processos de Engenharia de \textit{Software}
@@ -86,7 +85,7 @@ encontrados na literatura trabalhos que integram acessibilidade a modelos e
 Tão importante quanto integrar acessibilidade no processo de desenvolvimento de
 \textit{software} são as competências técnicas do Engenheiro de
 Software, Analista de Sistemas, Projetista e Desenvolvedor.
-Devido a fatores como a recente exposição do tema e a deficiência no treinamento e formação do desenvolvedores,
+Devido a fatores como a recente exposição do tema nos meios de comunicação e a deficiência no treinamento e formação do desenvolvedores,
 muitos deles sequer sabem como codificar para tornar seus produtos acessíveis
 \citep{1630123, alves:11}. As várias classes de problemas de acessibilidade
 contribuem para tornar o trabalho de codificação ainda mais difícil. A utilização de
@@ -104,8 +103,8 @@ UFMS\footnote{http://www.sien.ufms.br/cursos/grade/1904} e
 IFMS\footnote{http://www.ifms.edu.br/rightsidebar/cursos/graduacao-2/tecnologia-em-sistemas-para-internet/}).
 
 A utilização de ferramentas que apóiam os profissionais na construção de boas
-soluções acessíveis é muito comum, pois aumentam a produtividade, retirando boa
-parte do esforço necessário e diminuindo passos repetivivos que seriam
+soluções acessíveis é muito comum, pois aumenta a produtividade, retirando boa
+parte do esforço necessário e diminuindo passos repetitivos que seriam
 necessários sem o auxílio de tais ferramentas. Em geral, são utilizadas
 ferramentas \textit{CASE, IDEs e frameworks}, mas existem algumas ferramentas
 específicas para o contexto de acessibilidade. Existem várias classes destas
@@ -135,34 +134,35 @@ insatisfeitos em utilizar ferramentas externas a seu ambiente de desenvolvimento
 para efetuar a avaliação \citep{Trewin:2010:ACT:1805986.1806029}.
 
 A situação é agravada pela constatação de que há poucos estudos que abordam a
-engenharia de requisitos e rastreabilidade dos mesmo do ponto de vista do tópico
-acessibilidade \cite{analuizadias:2010}.
+engenharia de requisitos e rastreabilidade do ponto de vista do tópico
+acessibilidade \citep{analuizadias:2010}, ou seja, poucos estudos têm indicado como ocorre a evolução dos requisitos
+de acessibilidade durante o processo de desenvolvimento das aplicações web.
 
 \section{Objetivos}
 
 Diante do exposto, os objetivos gerais deste trabalho são:
 
 \begin{enumerate}
-  \item Estender o modelo \gls{mta} (tratado na seção \ref{chapter:mta}),
+  \item Estender o \gls{mta} (tratado na seção \ref{chapter:mta}),
   propondo uma metologia para a rastreabilidade dos requisitos de acessibilidade
   através do processo de desenvolvimento de \textit{sofware};
   \item Permitir a associação explícita entre os requisitos de
   acessibilidade e os artefatos de documentação e para cada associação,
-  especificar um ou mais técnicas de implementação de acessibilidade em
-  conformidade com o documento de conformidade em acessibilidade escolhido;
-  \item Implementar uma ferramenta de suporte que é integrada ao ambiente de
-  desenvolvimento e que implemente os objetivos listados acima como estudo de
-  caso.
+  especificar um ou mais técnicas de implementação de acessibilidade de acordo com o documento de conformidade em acessibilidade escolhido;
+  \item Implementar uma ferramenta de suporte que seja integrada ao ambiente de
+  desenvolvimento e que implemente os objetivos listados acima.
 \end{enumerate}
 
 Busca-se identificar pontos de integração entre as etapas de Engenharia de
 Requisitos e implementação de código e propor uma ferramenta (\textit{plugin} Eclipse) que represente esta
 integração. Assim, pretende-se que os requisitos de acessibilidade se tornem
-itens de acessibilidades verificáveis, e o desenvolvedor deverá ser
-informado se a associação está ou não sendo feita. A ferramenta deverá
+itens de acessibilidades verificáveis e o desenvolvedor deverá ser
+informado se a associação requisitos, modelos e código está ou não sendo feita. A ferramenta deverá
 apresentar sugestões para que os itens de acessibilidade sejam implementados.
 Com isso, pretende-se desenvolver uma ferramenta de apoio à acessibilidade
-diferente daquelas apresentadas na literatura. Com base na pesquisa de \cite{Trewin:2010:ACT:1805986.1806029}, pretende-se que a
+diferente daquelas apresentadas na literatura, pois terá como foco a acessibilidade durante o processo de desenvolvimento. 
+
+Com base na pesquisa de \cite{Trewin:2010:ACT:1805986.1806029}, pretende-se que a
 ferramenta:
 
 \begin{itemize}
@@ -192,11 +192,11 @@ As atividades necessárias para alcançar os objetivos propostos são:
   \textit{Eclipse};
   \item estudar como técnicas de acessibilidade podem ser associadas aos
   modelos;
-  \item estudar quais tecnologias existem podem ser usadas para efetuar a
+  \item estudar quais tecnologias existentes podem ser usadas para efetuar a
   associação dos requisitos e modelos às técnicas de acessibilidade;
   \item desenvolver a ferramenta;
   \item efetuar uma prova de conceito, criando um projeto utilizando o \gls{mta}
-  e a ferramenta proposta;
+  e a ferramenta proposta.
 \end{enumerate}
 
 \section{Organização do Trabalho}

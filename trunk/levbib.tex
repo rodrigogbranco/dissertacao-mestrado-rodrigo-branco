@@ -28,7 +28,7 @@ este trabalho).
 \section{Requisitos}
 
 \cite{Trewin:2010:ACT:1805986.1806029} realizaram uma pesquisa
-com os desenvolvedores da \textit{IBM}. O objetivo da pesquisa foi
+com os desenvolvedores da \textit{IBM} com o objetivo da pesquisa foi
 verificar como as ferramentas de apoio a acessibilidade podem ajudar os desenvolvedores.
 Quando acessibilidade é envolvida no projeto, algumas estatísticas de
 consumo de tempo foram levantadas nas etapas.
@@ -38,9 +38,10 @@ acessibilidade atrapalham o desenvolvimento, tornando o processo moroso.
 Questões importantes sobre as ferramentas de apoio foram levantadas, tais como:
 
 \begin{itemize}
-  \item Quais funcionalidade a ferramenta de apoio deve oferecer?
+  \item Quais funcionalidades a ferramenta de apoio deve oferecer?
   \item A ferramenta de apoio deve ou não ser integrada à ferramenta de
   desenvolvimento?
+  \item \textbf{Conclusões do trabalho!!!!}
 \end{itemize}
 
 \cite{analuizadias:2010} estudaram o estágio da
@@ -51,7 +52,7 @@ IEEE, Elsevier, Wiley e Scielo}.
 Os artigos relevantes foram classificados de acordo com a norma \textit{ISO/IEC
 12207:1998} (Requisitos, Projeto, Construção, etc) \citep{iso12207:98}. Uma das
 observações dos autores é que a maioria das pesquisas se refere a testes com
-usuários, enquanto nenhuma contempla instalação de \textit{software}. Isso é uma
+usuários, enquanto nenhuma contempla instalação de \textit{software}. Esta é uma
 constatação interessante, visto que usuários com deficiência visual conseguem
 instalar completamente um sistema operacional
 \textit{Linux}\footnote{https://help.ubuntu.com/community/Accessibility
@@ -64,9 +65,7 @@ visuais.
 especificação de requisitos de acessibilidade. Sua proposta é unir os
 requisitos das diretrizes de acessibilidade com os requerimentos da engenharia
 de \textit{software} tradicional, incluindo requerimentos específicos de
-acessibilidade no Documento de Requisitos.
-
-O trabalho é baseado nos \textit{checklists} e \textit{checkpoints}
+acessibilidade no Documento de Requisitos. O trabalho é baseado nos \textit{checklists} e \textit{checkpoints}
 das diretrizes de acessibilidade mais conhecidas. 
  
 A ferramenta, nomeada \textit{AccessOnto}, aproveita a saída de algumas
@@ -92,10 +91,8 @@ proposta de \gls{dp}, estendendo os padrões mencionados.
 
 \cite{5260918} estudaram os princípios e conceitos de
 acessibilidade em \textit{sites} educacionais. Os autores descrevem a
-heteregeonidade dos estudantes (questões como deficiências, equipamentos,
-habilidades, idade, entre outras).
-
-Os autores sugerem que alguns princípios de \textit{design} devem ser assumidos
+heteogeneidade dos estudantes (questões como deficiências, equipamentos,
+habilidades, idade, entre outras). Os autores sugerem que alguns princípios de \textit{design} devem ser assumidos
 (flexibilidade, simplicidade e tolerância a erros. Também sugerem
 aplicar um processo de desenvolvimento \textit{top-down} (Definição $>$ Análise $>$ Protótipo $>$ Testes $>$ Integração $>$ Liberação e
 Manutenção) para atingir os objetivos e prover um produto acessível.
@@ -105,17 +102,17 @@ análise de requisitos. Uma pesquisa inicial foi feita para verificar em que
 estágio de desenvolvimento a acessibilidade é considerada e quanto tempo é
 dedicado a esse fim. Há uma discussão se requisitos de acessibilidade devem
 ser considerados requisitos funcionais ou requisitos não funcionais, já que
-alguns autores consideram acessibilidade como um sub-área de usabilidade.
+alguns autores consideram acessibilidade como uma sub-área de usabilidade.
 
 Os autores trataram requisitos de acessibilidade como requisitos não funcionais.
 Dessa forma, uma alteração no \gls{nfr} \textit{goal graph} foi feita, o transformando em um
 \gls{ar} \textit{graph}. O diagrama de
 casos de uso é alterado para comportar a acessibilidade.
 
-\cite{Akhter:2009:CFE:1632189.1632275} propuseram um \textit{framework}
-conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam leitores de tela.
+\textbf{Verificar este e explicar os grafos!!!!}
 
-Algumas diretrizes são propostas, tais como:
+\cite{Akhter:2009:CFE:1632189.1632275} propuseram um \textit{framework}
+conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam leitores de tela. Algumas diretrizes são propostas, tais como:
 \begin{itemize}
   \item informar que o usuário está em uma página segura (\gls{https});
   \item apresentar, assim que possível, informações sobre certificados e, se
@@ -133,38 +130,12 @@ projeto tem por objetivo eliminar as limitações da ferramenta \textit{Hera 1.0}
 utilizando o \gls{wcag} 2.0.
 
 O trabalho é interessante por fazer comparações com outras ferramentas de
-avaliação, e mostra quais características seriam desejáveis que uma
-ferramenta desse tipo contivesse.
-
-A última versão da ferramenta (\textit{Hera-FFX
-1.7}\footnote{http://www.sidar.org/recur/aplica/heraffx.php}) não é compatível com as versões mais novas do navegador \textit{Firefox} (versão 8 ou
-superior).
-Segundo o manual do usuário, o \textit{plugin} foi testado com sucesso nas
-versões 2 e 3 do navegador.
-
-\cite{Stringer:2007:ETW:1286240.1286249} partiram da
-hipótese que analisando o tráfego de rede, atualizações nas páginas podem ser encontradas, mas o leitor de tela não conseguirá identificá-las, pois
-a leitura da tela normalmente ocorre de cima para baixo, e as atualizações
-ocorrem em qualquer parte do documento.  O tráfego de rede foi analisado usando
-ferramentas conhecidas como
-\textit{wireshark}\footnote{http://www.wireshark.org/}. Os autores questionam ainda que, mesmo que o leitor de tela consiga capturar a atualização, como ele apresentará o
-resultado ao usuário?
-
-O trabalho possui algumas limitações instrínsecas desse tipo de análise. A
-utilização de \textit{cache} e todo processamento \textit{client-side} não geram
-tráfego algum na rede, e podem atualizar o agente do usuário alvo. Intervenções
-de segurança nas requisições do cliente podem afetar a análise do tráfego
-também.
-
-Apesar de não ser tratado no artigo, pode-se observar que o documento
-\gls{wai-aria} tenta endereçar esse problema, definindo papéis para essas
-regiões passíveis de atualização.
+avaliação, e mostrar quais características seriam desejáveis que uma
+ferramenta desse tipo contivesse. Dentre estas características, podem ser citadas \textbf{CITAR}
 
 \cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta em que usuários
 finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
-\textit{WebAnywhere}\footnote{http://webanywhere.cs.washington.edu/}.
-
-Um script \textit{server-side} guarda o conjunto de ações de usuário,
+\textit{WebAnywhere}\footnote{http://webanywhere.cs.washington.edu/}. Um script \textit{server-side} guarda o conjunto de ações de usuário,
 permitindo ao desenvolvedor reproduzi-las posteriormente. Essa ferramenta é útil
 para compensar a deficiência das ferramentas de avaliação automática, que não
 conseguem resolver completamente os problemas presentes no \textit{site}.
@@ -172,19 +143,17 @@ conseguem resolver completamente os problemas presentes no \textit{site}.
 \cite{5564560} estudaram acessibilidade envolvendo
 \textit{web services}. O estudo é baseado na forma como os \textit{web services}
 se comunicam, através do protocolo
-\textit{SOAP}\footnote{http://www.w3.org/TR/2003/REC-soap12-part0-20030624/}.
-
-Antes de entregar o conteúdo, o \textit{web service} ``desempacota'' o mesmo e
+\textit{SOAP}\footnote{http://www.w3.org/TR/2003/REC-soap12-part0-20030624/}. Antes de entregar o conteúdo, o \textit{web service} ``desempacota'' o mesmo e
 analisa utilizando as diretrizes \gls{wcag}. Por esse motivo, as
 funcionalidades são definidas em classes, assim como os níveis de conformidade
 do \gls{wcag}. Um módulo de validação foi desenvolvido, gerando relatórios
-\gls{earl}.
+\gls{earl}. \textbf{VERIFICAR}
 
 \cite{Schaik:2008:MUE:1367153.1367461} estudaram
 a percepção do usuário em relação à qualidade do \textit{site}. Foi realizada uma pesquisa para verificar a percepção do
 usuário com alguns \textit{sites} pré-definidos. Os elementos do \textit{site} eram
 reordenados e seu layout foi modificado. Dessa maneira, os usuários davam
-seu parecer antes e depois da utilização do mesmo.
+seu parecer antes e depois da utilização do mesmo. \textbf{DO SITE? QUE SITE}
 
 A pesquisa considerou alguns princípios básicos, como beleza e qualidade,
 tratando-os como variáveis aleatórias para proceder com o estudo estatístico. O
@@ -219,9 +188,7 @@ centrado no usuário, justamente para entender suas maiores dificuldades.
 
 \cite{4437943} propuseram a personalização da
 interface do usuário, tornando assim o conteúdo acessível. A proposta permite
-que os usuários definam como o conteúdo deve ser apresentado.
-
-Os requisitos que devem ser considerados para alcançar esse grau de
+que os usuários definam como o conteúdo deve ser apresentado. Os requisitos que devem ser considerados para alcançar esse grau de
 flexibilidade são:
 apresentação do conteúdo, navegação e busca. Como exemplo, os autores demonstraram as possibilidades da
 abordagem montando uma linguagem descritiva em
@@ -233,7 +200,7 @@ Os autores detalharam como a transformação ocorre
 \gls{xpath}\footnote{http://www.w3schools.com/xpath/ xpath\_intro.asp},
 \gls{smil} e \gls{xslt}\footnote{http://www.w3.org/TR/xslt}. Segundo os
 autores, é relativamente simples utilizar a proposta sugerida, bastando apenas 3
-utilizações para o usuário conseguir dominar a ferramenta.
+utilizações para o usuário conseguir aprender a usar ferramenta e personalizar a interface que estiver usando.
 
 \cite{Ferres:2007:IAS:1296843.1296857} propuseram um
 método para tornar gráficos acessíveis. A acessibilidade é alcançada da seguinte
