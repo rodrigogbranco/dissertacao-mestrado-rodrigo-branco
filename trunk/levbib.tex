@@ -41,8 +41,14 @@ Questões importantes sobre as ferramentas de apoio foram levantadas, tais como:
   \item Quais funcionalidades a ferramenta de apoio deve oferecer?
   \item A ferramenta de apoio deve ou não ser integrada à ferramenta de
   desenvolvimento?
-  \item \textbf{Conclusões do trabalho!!!!}
 \end{itemize}
+
+A pesquisa constatou que o \textit{design}, testes e encontrar soluções
+tecnológicas para o problema são os aspectos mais difíceis para se produzir uma
+aplicação \textit{web} acessível. A pesquisa mostrou também que os desenvolvedores
+não confiam completamente nos resultados fornecidos pelas pelas ferramentas de
+testes, por causa dos falsos positivos, além de mencionar que as explicações
+fornecidas pelas ferramentas não suficientemente detalhadas.
 
 \cite{analuizadias:2010} estudaram o estágio da
 inserção de acessibilidade nas etapas de desenvolvimento de \textit{software}.
@@ -104,12 +110,14 @@ dedicado a esse fim. Há uma discussão se requisitos de acessibilidade devem
 ser considerados requisitos funcionais ou requisitos não funcionais, já que
 alguns autores consideram acessibilidade como uma sub-área de usabilidade.
 
-Os autores trataram requisitos de acessibilidade como requisitos não funcionais.
-Dessa forma, uma alteração no \gls{nfr} \textit{goal graph} foi feita, o transformando em um
-\gls{ar} \textit{graph}. O diagrama de
-casos de uso é alterado para comportar a acessibilidade.
-
-\textbf{Verificar este e explicar os grafos!!!!}
+Os autores trataram requisitos de acessibilidade como requisitos não funcionais,
+utilizando como base o \textit{NRF Framework}, que representa o requisito não
+funcional através de operacionalizações estáticas e dinâmicas, transformando a
+representação em um grafo \citep{Cysneiros:2001:UUR:782096.782098} e tratando
+os requisitos como objetivos (\textit{goal graph}), que precisam ser
+satisfeitos. No trabalho de \citet{springerlink:10.1007/978-3-642-02713-0_67},
+alterações no \gls{nfr} \textit{goal graph} foram feitas, transformando-o em um
+\gls{ar} \textit{graph}. O diagrama de casos de uso é alterado para comportar a acessibilidade.
 
 \cite{Akhter:2009:CFE:1632189.1632275} propuseram um \textit{framework}
 conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam leitores de tela. Algumas diretrizes são propostas, tais como:
@@ -131,7 +139,22 @@ utilizando o \gls{wcag} 2.0.
 
 O trabalho é interessante por fazer comparações com outras ferramentas de
 avaliação, e mostrar quais características seriam desejáveis que uma
-ferramenta desse tipo contivesse. Dentre estas características, podem ser citadas \textbf{CITAR}
+ferramenta desse tipo contivesse. Dentre estas características, podem ser
+citadas:
+
+\begin{itemize}
+  \item avaliação preliminar automática;
+  \item suporte para preenchimento manual;
+  \item modificação da página de apresentação
+  \item exibição do código anotado;
+  \item avaliação de páginas locais;
+  \item avaliação de páginas com acesso restrito;
+  \item avaliação de renderização de páginas;
+  \item geração de relatórios;
+  \item suporte para treinamento;
+  \item capacidade de multi-sessão;
+  \item flexibilidade.
+\end{itemize}
 
 \cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta em que usuários
 finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
@@ -147,13 +170,13 @@ se comunicam, através do protocolo
 analisa utilizando as diretrizes \gls{wcag}. Por esse motivo, as
 funcionalidades são definidas em classes, assim como os níveis de conformidade
 do \gls{wcag}. Um módulo de validação foi desenvolvido, gerando relatórios
-\gls{earl}. \textbf{VERIFICAR}
+\gls{earl}.
 
 \cite{Schaik:2008:MUE:1367153.1367461} estudaram
-a percepção do usuário em relação à qualidade do \textit{site}. Foi realizada uma pesquisa para verificar a percepção do
-usuário com alguns \textit{sites} pré-definidos. Os elementos do \textit{site} eram
+a percepção do usuário em relação à qualidade de \textit{sites} na internet. Foi
+realizada uma pesquisa para verificar a percepção do usuário com alguns \textit{sites} pré-definidos. Os elementos do \textit{site} eram
 reordenados e seu layout foi modificado. Dessa maneira, os usuários davam
-seu parecer antes e depois da utilização do mesmo. \textbf{DO SITE? QUE SITE}
+seu parecer antes e depois da utilização do mesmo.
 
 A pesquisa considerou alguns princípios básicos, como beleza e qualidade,
 tratando-os como variáveis aleatórias para proceder com o estudo estatístico. O
