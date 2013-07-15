@@ -78,22 +78,22 @@
 \glossaryentry{XHTML?\glossaryentryfield{xhtml}{\glsnamefont{XHTML}}{\textit {eXtensible Hypertext Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{JavaCC?\glossaryentryfield{javacc}{\glsnamefont{JavaCC}}{\textit {Java Compiler Compiler}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{RSS?\glossaryentryfield{rss}{\glsnamefont{RSS}}{\textit {Really Simple Syndication}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{XPath?\glossaryentryfield{xpath}{\glsnamefont{XPath}}{\textit {XML Path Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{XSLT?\glossaryentryfield{xslt}{\glsnamefont{XSLT}}{\textit {eXtensible Stylesheet Language for Transformation}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{XPath?\glossaryentryfield{xpath}{\glsnamefont{XPath}}{\textit {XML Path Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{XSLT?\glossaryentryfield{xslt}{\glsnamefont{XSLT}}{\textit {eXtensible Stylesheet Language for Transformation}}{\relax }|setentrycounter[]{page}\glsnumberformat}{31}
 \glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{\textit {HyperText Transfer Protocol}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{RDF?\glossaryentryfield{rdf}{\glsnamefont{RDF}}{\textit {Resource Description Framework}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{HTML?\glossaryentryfield{html}{\glsnamefont{HTML}}{\textit {HyperText Markup Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{CSS?\glossaryentryfield{css}{\glsnamefont{CSS}}{\textit {Cascade Style Sheet}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{J2ME?\glossaryentryfield{j2me}{\glsnamefont{J2ME}}{\textit {Java Plataform Micro Edition}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{WCAG?\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{\textit {Web Content Accessibility Guidelines}}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{ACCMD?\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{\textit {AccessForAll Meta-data}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{SMIL?\glossaryentryfield{smil}{\glsnamefont{SMIL}}{\textit {Synchronized Multimedia Integration Language}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{UGC?\glossaryentryfield{ugc}{\glsnamefont{UGC}}{\textit {User-generated Content}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{UWEM?\glossaryentryfield{uwem}{\glsnamefont{UWEM}}{\textit {Unified Web Evaluation Methodology}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{\textit {Web Accessibility Quantitative Metric}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{\textit {Web Accessibility Barriers}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{\textit {Page Measurement}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{UWEM?\glossaryentryfield{uwem}{\glsnamefont{UWEM}}{\textit {Unified Web Evaluation Methodology}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{\textit {Web Accessibility Quantitative Metric}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{\textit {Web Accessibility Barriers}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{\textit {Page Measurement}}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{WAQM?\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{\textit {Web Accessibility Quantitative Metric}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{PM?\glossaryentryfield{pm}{\glsnamefont{PM}}{\textit {Page Measurement}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{WAB?\glossaryentryfield{wab}{\glsnamefont{WAB}}{\textit {Web Accessibility Barriers}}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
