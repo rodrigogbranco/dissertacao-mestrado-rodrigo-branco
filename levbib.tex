@@ -76,9 +76,9 @@ das diretrizes de acessibilidade mais conhecidas.
  
 A ferramenta, nomeada \textit{AccessOnto}, aproveita a saída de algumas
 ferramentas \textit{CASE} tais como
-\textit{SELECT}\footnote{http://www.selectbs.com/analysis-and-design/select-architect}
+\textit{SELECT} \citep{select:13}
 e prevê integração com o \textit{IBM Rational Policy Tester
-Accessibility}\footnote{http://www-01.ibm.com/software/awdtools/tester/policy/accessibility/}.
+Accessibility} \citep{bobby:11}.
 Um \textit{XML Schema} provê as descrições, regras e classes, descrevendo as diretrizes, características do usuário e
 objetos no ambiente de interação. A ferramenta é usada para intervir em
 diagramas de caso de uso, diagramas de classes e diagramas de transição de
@@ -91,8 +91,8 @@ autores, há muitas instituições trabalhando na padronização de tecnologias
 conteúdo, informações do estudante, acessibilidade e \textit{Runtime}.
 
 Os autores aprofundaram seus estudos nos padrões \gls{lip}, \gls{acclip} e
-\gls{accmd}\footnote{http://wiki.cetis.ac.uk/ACCMD\_Briefing}, propostos pela
-\gls{ims}\footnote{http://www.imsglobal.org/accessibility/}, e explicaram a
+\gls{accmd} \citep{accmd:13}, propostos pela
+\gls{ims} \citep{ims}, e explicaram a
 proposta de \gls{dp}, estendendo os padrões mencionados.
 
 \cite{5260918} estudaram os princípios e conceitos de
@@ -134,7 +134,7 @@ conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam
 \cite{Fuertes:2011:DHW:1969289.1969294} apresentaram o projeto da
 ferramenta \textit{Hera-FFX}, um plugin para o navegador \textit{Firefox}. O
 projeto tem por objetivo eliminar as limitações da ferramenta \textit{Hera 1.0}
-\footnote{http://www.sidar.org/hera/} e estender sua funcionalidade, realizando as avaliações
+\citep{sidar:13} e estender sua funcionalidade, realizando as avaliações
 utilizando o \gls{wcag} 2.0.
 
 O trabalho é interessante por fazer comparações com outras ferramentas de
@@ -158,16 +158,16 @@ citadas:
 
 \cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta em que usuários
 finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
-\textit{WebAnywhere}\footnote{http://webanywhere.cs.washington.edu/}. Um script \textit{server-side} guarda o conjunto de ações de usuário,
-permitindo ao desenvolvedor reproduzi-las posteriormente. Essa ferramenta é útil
+\textit{WebAnywhere} \citep{webanywhere:13}. Um script \textit{server-side} guarda o
+conjunto de ações de usuário, permitindo ao desenvolvedor reproduzi-las posteriormente. Essa ferramenta é útil
 para compensar a deficiência das ferramentas de avaliação automática, que não
 conseguem resolver completamente os problemas presentes no \textit{site}.
 
 \cite{5564560} estudaram acessibilidade envolvendo
 \textit{web services}. O estudo é baseado na forma como os \textit{web services}
 se comunicam, através do protocolo
-\textit{SOAP}\footnote{http://www.w3.org/TR/2003/REC-soap12-part0-20030624/}. Antes de entregar o conteúdo, o \textit{web service} ``desempacota'' o mesmo e
-analisa utilizando as diretrizes \gls{wcag}. Por esse motivo, as
+\textit{SOAP} \citep{soap:13}. Antes de entregar o conteúdo, o \textit{web service}
+``desempacota'' o mesmo e analisa utilizando as diretrizes \gls{wcag}. Por esse motivo, as
 funcionalidades são definidas em classes, assim como os níveis de conformidade
 do \gls{wcag}. Um módulo de validação foi desenvolvido, gerando relatórios
 \gls{earl}.
@@ -215,13 +215,13 @@ que os usuários definam como o conteúdo deve ser apresentado. Os requisitos que 
 flexibilidade são:
 apresentação do conteúdo, navegação e busca. Como exemplo, os autores demonstraram as possibilidades da
 abordagem montando uma linguagem descritiva em
-\gls{javacc}\footnote{http://javacc.java.net/} para mídia
-\gls{rss}\footnote{http://www.rss-specifications.com/rss-specifications.htm}.
+\gls{javacc} \citep{javacc:11} para mídia
+\gls{rss} \citep{rss:11}.
 
 Os autores detalharam como a transformação ocorre
 \citep{Encelle:2007:PUI:1243441.1243459}, usando
-\gls{xpath}\footnote{http://www.w3schools.com/xpath/ xpath\_intro.asp},
-\gls{smil} e \gls{xslt}\footnote{http://www.w3.org/TR/xslt}. Segundo os
+\gls{xpath} \citep{xpath:11},
+\gls{smil} \cite{smil:13} e \gls{xslt} \citep{xslt:11}. Segundo os
 autores, é relativamente simples utilizar a proposta sugerida, bastando apenas 3
 utilizações para o usuário conseguir aprender a usar ferramenta e personalizar a interface que estiver usando.
 
@@ -238,7 +238,7 @@ um sintetizador de voz embutido.
 \cite{Michail:2007:ABS:1547550.1547666} propuseram a
 personalização da navegação nativa dos \textit{sites}, de acordo com as
 preferências do usuário, através de um \textit{framework} que estende o
-\textit{SeEBrowser}\footnote{http://seebrowser.it.teithe.gr/?q=en/node/32}. O
+\textit{SeEBrowser} \citep{seebrowser:11}. O
 framework permite guardar anotações de acessibilidade através de comandos
 \textit{POST} e \textit{GET} do protocolo \gls{http}. As anotações são
 armazenadas no formato \gls{rdf}.
@@ -327,7 +327,7 @@ complexidade, entre outros parâmetros. Esses parâmetros devem ser considerados
 para determinar em que cenário elas devem ser usadas (validadores desktop,
 validadores \textit{online}, \textit{engine} de busca, etc). O motor de busca do \textit{Google} já utiliza métricas de acessibilidade
 para ``rankear'' os sites (essa métrica não é de conhecimento público)
-\footnote{http://www.google.com/accessibility/labs/search/}.
+\citep{googlelabs:11}.
 
 Algumas métricas são difíceis de implementar e testar por ferramentas
 automáticas. Os autores reforçam que há vários aspectos que devem ser levados em
