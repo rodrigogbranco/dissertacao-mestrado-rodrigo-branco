@@ -27,11 +27,8 @@ com o rastreio dos requisitos de acessibilidade.
 \label{linktocase}
 
 O especialista em acessibilidade é fundamental em todas as etapas descritas a
-seguir, como já reforça o modelo MTA. \textbf{Ele deve ter a experiência e maturidade
-para capturar os requisitos de acessibilidade no momento conveniente. Isso pode
-ocorrer (e é desejável) no levantamento de requisitos de forma explícita
-(sugerindo possivelmente um requisito funcional), de forma genérica e não
-específica (sugerindo possivelmente um requisito não funcional)}. O requisito de
+seguir, como já reforça o modelo MTA. O especialista em acessibilidade deve
+conseguir identificar requisitos funcionais e não funcionais de acessibilidade. O requisito de
 acessibilidade pode não ser encontrado explicitamente neste momento, mas a identificação posterior 
 exigirá um refatoramento do modelo.
 
@@ -74,13 +71,18 @@ o artefato para as fases de projeto e codificação.
  artefatos definidos neste trabalho.
  
 É importante definir como os requisitos serão rastreados dentro do processo
- de desenvolvimento. Embora existam métodos dinâmicos
- \citep{Cleland-Huang:2005:USE:1099549.1100625}, serão considerados apenas
- métodos estáticos neste trabalho \textbf{Explicar porque}. O método estático de rastreabilidade
+ de desenvolvimento. O método de rastreabilidade
  utilizado será uma matriz de rastreabiliade de requisitos
  \citep{guo:2009:OBI:1681515.1682933}. Conforme os artefatos vão sendo
  gerados/atualizados, a matriz também é gerada e atualizada para adequar ao quadro atual do projeto. A ferramenta \gls{case} pode gerar o esqueleto da matriz de rastreabilidade
- para os requisitos de acessibilidade.  
+ para os requisitos de acessibilidade.
+ 
+ O método prosposto pode ser classificado como um método estático de
+ rastreabilidade. Embora existam métodos dinâmicos
+ \citep{Cleland-Huang:2005:USE:1099549.1100625}, para estes métodos, mudanças no
+ artefatos refletem mudanças na matriz. Como neste trabalho nem todos os
+ artefatos são utilizados, e é necessário gerar explicitamente a matriz através
+ de um comando do \textit{Eclipse}, métodos dinâmicos não serão considerados.
  
  A \gls{uml} normalmente é utilizada para discriminar os artefatos posteriores
  ao documento de requisitos, como casos de uso, diagramas de classe, diagramas
@@ -109,9 +111,9 @@ o artefato para as fases de projeto e codificação.
  geram modelos \gls{uml} com formato \gls{xml} variado e quase sempre
  incompatíveis, isso quando permitem a exportação do modelo para o formato
  \gls{xml} (Os arquivos analisados durante o desenvolvimento deste trabalho para se obter esta conclusão foram gerados pelas ferramentas
- \textit{Astash Professional}\footnote{http://astah.net/download},
- \gls{emf}\footnote{http://www.eclipse.org/modeling/emf/} e
- \textit{Visual Paradigm}\footnote{http://www.visual-paradigm.com/}).
+ \textit{Astash Professional} \citep{astah:13},
+ \gls{emf} \citep{emf:13} e
+ \textit{Visual Paradigm} \citep{visualparadigm:13}).
  Assim, seria preciso considerar uma ou mais ferramentas de modelagem
  específicas devido a quantidade de ferramentas de modelagem disponíveis no mercado. O problema da
  segunda abordagem é que o especialista de acessibilidade precisa utilizar a
@@ -178,22 +180,19 @@ navegação, utilizando da ferramenta \gls{case} aos requisitos
 provenientes da etapa anterior. Além disso é possível mapear, se aplicável, técnicas de implementação
 de acessibilidade.
 
-Um projeto útil para essa finalidade é \textit{AEGIS Ontology}
-\footnote{http://www.aegis-project.eu/index.php?option=com\_content\&view=article\&id=107\&Itemid=65},
+Um projeto útil para essa finalidade é \textit{AEGIS Ontology} \citep{aegis:13},
 que define ontologias de acessibilidade na \textit{Web}. O principal objetivo do
 projeto é mapear os conceitos de acessibilidade, e como eles podem ser mapeados
 dentro de um cenário de acessibilidade.
 
-O projeto é apoiado pelo \textit{Accessible Consortium}
-\footnote{http://www.accessible-eu.org/index.php/consortium.html}, que
-disponibiliza uma página para a consulta das novidades da iniciativa
-\footnote{http://www.accessible-eu.org/index.php/ontology.html}. A versão atual
-é a 5.1
+O projeto é apoiado pelo \textit{Accessible Consortium} \citep{accessibleconsortium:13}, que
+disponibiliza uma página para a consulta das novidades da iniciativa \citep{accessibleontology:13}.
+A versão atual é a 5.1
 
 As ontologias são descritas no formato \gls{owl}, padrão definido pela \gls{w3c}
-em 2004\footnote{http://www.w3.org/TR/owl-features/}, que está na versão 1.0
-mas já possui uma versão candidata à 2.0, lançada em 2012
-\footnote{http://www.w3.org/TR/owl2-overview/}. As ontologias descritas estão no padrão 1.0.
+em 2004 \citep{owl:13}, que está na versão 1.0
+mas já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}. As
+ontologias descritas estão no padrão 1.0.
 
 O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
 cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
@@ -302,13 +301,13 @@ desenvolvedores.
 Já existem iniciativas, principalmente corporativas, que permitem agregar os
 requisitos levantados aos artefatos do processo de desenvolvimento.
 \citet{hovater:08} mostra como construir relatórios de rastreabilidade usando os
-programas \textit{IBM Rational Software Architect}\footnote{http://www-142.ibm.com/software/products/br/pt/ratisoftarch/},
-\textit{IBM Rational RequisitePro}\footnote{http://www-142.ibm.com/software/products/br/pt/reqpro/} e \gls{birt}
-para \textit{WebSphere}\footnote{http://www-01.ibm.com/software/websphere/}.
+programas \textit{IBM Rational Software Architect} \citep{ibm:13},
+\textit{IBM Rational RequisitePro} \citep{ibmreq:13} e \gls{birt}
+para \textit{WebSphere} \citep{ibmwebsphere:13}.
 
-O software \textit{Enterprise Architect} da empresa \textit{Sparx Systems}\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/index.html}
-permite utilizar diagramas de requisitos\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/modeling\_languages/requirements\_diagram.html},
-que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a
+O software \textit{Enterprise Architect} da empresa \textit{Sparx Systems}
+\citep{sparx:13} permite utilizar diagramas de
+requisitos\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/modeling\_languages/requirements\_diagram.html}, que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a
 rastreabilidade do
 modelo\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/navigate\_search\_and\_trace/traceability.html}.
 Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de um
@@ -322,14 +321,14 @@ ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}. A seguir
   \item \gls{mta} - Processo de Desenvolvimento de \textit{Software} com tarefas
   de acessibilidade
   \item \textit{Eclipse Juno} - \gls{ide}
-  \item \textit{Requirement Designer v0.8.0}\footnote{http://marketplace.eclipse.org/node/407399\#.UR43GaXC1VJ} - 
+  \item \textit{Requirement Designer v0.8.0} \citep{reqdesigner:13} - 
   \textit{plugin} de gerenciamento de
   requisitos
-  \item \textit{UML Designer v2.1.0}\footnote{http://marketplace.eclipse.org/content/uml-designer-indigo-version\#.UR43OaXC1VI} - 
+  \item \textit{UML Designer v2.1.0} \citep{umldesigner:13} - 
   \textit{plugin} de modelagem \gls{uml}
-  \item \textit{UML to Java Generator v1.0.2}\footnote{http://marketplace.eclipse.org/content/uml-java-generator\#.UR44XKXC1VI} - 
+  \item \textit{UML to Java Generator v1.0.2} \citep{umltojava:13} - 
   \textit{plugin} de geração de código 
-  \item \textit{Java JRE7 e JDK1.7}\footnote{http://www.oracle.com/technetwork/java/index.html} 
+  \item \textit{Java JRE7 e JDK1.7} \citep{java:13} 
   - Linguagem para desenvolvimento de \textit{plugins} e código final do produto
   \item Ontologias para implementação das diretrizes do \gls{wcag} 2.0.
 \end{itemize}
@@ -344,23 +343,24 @@ A linguagem utilizada para o desenvolvimento do \textit{plugin} é linguagem \tex
 pelo \textit{plugin} de exportação.
 
 O pacote de modelagem inicialmente instalado foram os \textit{plugins} \gls{emf} propostos pelo \textit{Eclipse}, notadamente
-o \textit{Ecore Tools}\footnote{http://www.eclipse.org/modeling/emft/?project=ecoretools}, parte integrante do \gls{emft}. Contudo,
+o \textit{Ecore Tools} \citep{ecoretools:13}, parte integrante do \gls{emft}. Contudo,
 os diagramas fornecidos por \textit{default} não satisfizeram aos anseios de modelagem, pois não contemplavam diagramas de sequência ou de 
 casos de uso, por exemplo. Por esse motivo, o \textit{plugin} escolhido foi o \textit{UML Designer}, que utiliza como base o pacote \gls{emf} (portanto gera modelos \gls{emf}), 
 mas extende os modelos existentes para que se adequem aos modelos \gls{uml} na sua versão 2.4. 
 
-O \textit{plugin} inicialmente escolhido para o gerenciamento de requisitos foi o \textit{ProR}\footnote{http://www.eclipse.org/rmf/pror/},
-que por sua vez é parte do projeto \gls{rmf} e \gls{emf} do \textit{Eclipse}. O objetivo do projeto \gls{rmf} é implementar o 
-padrão \textit{OMG ReqIF}\footnote{http://www.omg.org/spec/ReqIF/}
-em forma de modelos \gls{emf}. Contudo, o \gls{rmf} se encontra atualmente na 0.6.0, e o \textit{plugin} não fornecia a 
-funcionalidade de ligação entre os modelos e os requisitos. Assim, modos alternativos de relacionamento entre os modelos e os requisitos
-deveriam ser implementados, tornando inviável o desenvolvimento do trabalho. Portanto, o \textit{plugin} escolhido para o gerenciamento
+O \textit{plugin} inicialmente escolhido para o gerenciamento de requisitos foi
+o \textit{ProR} \citep{rmf:13}, que por sua vez é parte do projeto \gls{rmf} e
+\gls{emf} do
+\textit{Eclipse}. O objetivo do projeto \gls{rmf} é implementar o padrão
+\textit{OMG ReqIF} \citep{reqif:13} em forma de modelos \gls{emf}. Contudo, o
+\gls{rmf} se encontra atualmente na 0.7.1 e o \textit{plugin} não fornecia a funcionalidade de ligação entre os
+modelos e os requisitos. Assim, modos alternativos de relacionamento entre os modelos e os requisitos deveriam ser implementados, tornando inviável o desenvolvimento do trabalho. Portanto, o \textit{plugin} escolhido para o gerenciamento
 de requisitos foi o \textit{Requirement Designer}, que permite realizar a associação dos requisitos com qualquer modelo \gls{emf}.
 
-Os \textit{plugins} de modelagem e gerenciamento de requisitos são desenvolvidos pela \textit{Obeo}\footnote{http://www.eclipse.org/membership/showMember.php?member\_id=863},
-portanto, para permitir uma integração suave entre as ferramentas, o \textit{plugin} escolhido para geração de código foi o 
-\textit{UML to Java Generator}, desenvolvido pela mesma empresa. Os \textit{plugins} são disponibilizados sob a licença \textit{Eclipse Public License v
-1.0}\footnote{http://www.eclipse.org/legal/epl-v10.html}, assim como a própria \gls{ide}. Dessa forma, é possível
+Os \textit{plugins} de modelagem e gerenciamento de requisitos são desenvolvidos
+pela \textit{Obeo} \citep{obeo:13}, portanto, para permitir uma integração suave entre
+as ferramentas, o \textit{plugin} escolhido para geração de código foi o \textit{UML to Java Generator}, desenvolvido pela mesma empresa. Os \textit{plugins} são disponibilizados sob a licença \textit{Eclipse Public License v
+1.0} \citep{eclipselicense:13}, assim como a própria \gls{ide}. Dessa forma, é possível
 estudar, alterar e customizar seus componentes para atingir aos objetivos do trabalho.
 
 A Figura \ref{fig:association} mostra o comportamento e relacionamento das
@@ -605,10 +605,10 @@ associação seja persistida ao modelo.
 É possível rastrear os requisitos, modelos \gls{uml} e técnicas de implementação
 através da geração de uma matriz de rastreabilidade. Neste trabalho foi
 utilizado o \textit{Apache ODF
-Toolkit}\footnote{http://incubator.apache.org/odftoolkit/} para geração do
+Toolkit} \citep{odftoolkit:13} para geração do
 documento de rastreamento com formato \gls{ods}, através da \gls{api} de alto
 nível
-\textit{Simple}\footnote{http://incubator.apache.org/odftoolkit/simple/index.html}.
+\textit{Simple} \citep{odftoolkitsimple:13}.
 No documento, são geradas três planilhas: Requerimentos x Modelos, Requerimentos
 x Técnicas e Modelos x Técnicas. A planilha Requerimentos x Modelos lista uma
 matriz de todos os requerimentos associados aos respectivos modelos, mesmo que
@@ -634,7 +634,7 @@ arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 
 Para geração de código, utilizamos o \textit{plugin \gls{uml} to Java
 Generator}, que por sua vez utiliza o ponto de extensão do \textit{plugin
-Acceleo}\footnote{http://www.eclipse.org/acceleo/}. O \textit{plugin
+Acceleo} \citep{acceleo:13}. O \textit{plugin
 Acceleo} tem por finalidade transformar os modelos \gls{emf} em uma linguagem
 definida pelo usuário, através de arquivos com a extensão .mtl (\textit{Model
 to Text Language}). Os arquivos .mtl possuem uma sintaxe própria, que pode ser
@@ -693,7 +693,7 @@ gerasse os comentários personalizados do modelo \textit{AccTrace} foram:
 \end{enumerate}
 
 O comentário \textit{AccTrace} é recuperado usando \textit{query
-invoke}\footnote{http://www.obeonetwork.com/page/the-acceleo-queries}, um
+invoke} \citep{acceleoquery:13}, um
 mecanismo utilizado pelo \textit{plugin Acceleo} que encapsula dentro dos
 arquivos .mtl chamadas nativas a funções \textit{Java}. O \textit{query invoke}
 usado foi incluído no arquivo
