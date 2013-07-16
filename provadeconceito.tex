@@ -1,19 +1,17 @@
 \chapter{Prova de Conceito}
 
-Como prova de conceito, foi criado um projeto simples, de forma que utilize
-o gls{mta}, bem como o \textit{plugin AccTrace}, assim
+Como prova de conceito, foi criado um projeto simples, de forma a utilizar
+o \gls{mta}, o \textit{plugin AccTrace} e os outros recursos relacionados neste trabalho, assim
 como os outros relacionados neste trabalho. Os atores aqui elencados são
-fictícios, tendo o especialista em acessibilidade os autores deste trabalho.
-Objetivo aqui não é aplicar a prova de conceito no \gls{mta}, por isso nem todos
-os artefados presentes no \gls{mta} serão construídos, e sim os artefatos utilizados por este trabalho.
+fictícios, tendo os autores deste trabalho como especialista em acessibilidade.
+O objetivo aqui não é aplicar a prova de conceito no \gls{mta}, por isso nem todos
+os artefatos presentes no \gls{mta} foram construídos. A ênfase considerada nesta prova de conceito está no modelo de rastreabilidade e na ferramenta proposta neste trabalho.
 
 \section{Definição do projeto}
 
 O cliente solicitou a construção de um \textit{software} buscador. O objetivo
 deste \textit{software} é fazer buscas na \textit{internet} utilizando como
-chave uma ou mais palavras fornecidas pelo usuário.
-
-O buscador será um software \textit{web}, sendo acessado através de navegadores.
+chave uma ou mais palavras fornecidas pelo usuário. O buscador será um software \textit{web}, sendo acessado através de navegadores.
 
 \subsection{Subprocesso 1 - Elicitação dos Requisitos do Sistema}
 
@@ -60,7 +58,7 @@ acessibilidade identificou que:
   fornecem buscadores com os mesmo propósitos;
   \item qualidade das alternativas: o buscador do Google promove a busca
   acessível levando em consideração alguns aspectos das páginas
-  analisadas \citep{google:13},
+  analisadas \citep{google:13}.
   Não foi identificado se o buscador Bing ou Yahoo possui algum mecanismo que
   avalie a acessibilidade das páginas avaliadas, apesar das duas empresas
   possuírem áreas que tratam de questões de
@@ -72,10 +70,10 @@ O especialista em acessibilidade constatou que 2 requisitos funcionais de
 acessibilidade estão presentes: o mecanismo de busca será alterado toda vez que
 a linguagem padrão for alterada, e o mecanismo de busca será alterado quando o
 usuário informar suas necessidades específicas, por exemplo, sua deficiência. As
-duas abordagens podem ser desativadas caso o usuário preferir.
+duas abordagens podem ser desativadas caso o usuário prefira.
 
 Nada mais pode ser dito sobre acessibilidade neste momento. Portanto, o
-especialista me acessibilidade acrescentou como requisito não funcional: os
+especialista em acessibilidade acrescentou como requisito não funcional: os
 elementos do sistema devem ser: perceptíveis, operáveis, compreensíveis e robustos, seguindo os
 princípios do \gls{wcag} 2.0. A avaliação dos requisitos de acessibilidade é
 feita na tarefa 2.2 (Avaliar os Requisitos de Acessibilidade do Sistema) e
@@ -100,19 +98,20 @@ ter um elemento de renderização genérico, ou um ou mais componentes de
 renderização para cada uma das alterações do mecanismo de busca, ou até da
 combinação delas.
 
-O requisito não funcional identificado deve permear todos componentes do
+O requisito não funcional identificado deve permear todos os componentes do
 projeto, inclusive os já descritos anteriormente.
 
 \subsection{Subprocesso 4 - Análise de Requisitos do Software}
 
-No subprocesso 4 (Análise de Requisitos do Software), os requisitos de
+No Subprocesso 4 (Análise de Requisitos do Software), os requisitos de
 acessibilidade do \textit{software} (interface e código) são estabelecidos.
 
-As taferas 4.1 (Estabelecer os Requisitos de Acessibilidade do Software) e
-4.2 (Avaliar os Requisitos de Acessibilidade do Software) especificar, avaliar
-e documentar os requisitos de sistema em requisitos de \textit{software}.
-Todos os requisitos, tanto os funcionais (RF) como os não-funcionais (RNF), inclusive os d
-e acessibilidade (RA), podem ser vistos abaixo:
+\textbf{As Taferas (Estabelecer os Requisitos de Acessibilidade do Software) e
+(Avaliar os Requisitos de Acessibilidade do Software) especifica,, avaliam
+e documentam os requisitos de sistema em requisitos de \textit{software}.
+Todos os requisitos, tanto os funcionais (RF) como os não-funcionais (RNF), inclusive os de acessibilidade (RA), podem ser vistos abaixo: REVISAR}
+
+\textbf{NUMERAR DE ACORDO COM A FIGURA}
 
 \begin{itemize}
   \item o sistema deve permitir que, dado uma chave de busca (uma ou mais
@@ -131,22 +130,22 @@ e acessibilidade (RA), podem ser vistos abaixo:
   seleção no mecanismo de busca (RF e RA);
   \item o sistema deve retornar o resultado da busca em menos de 2 segundos,
   para não prejudicar a percepção do usuário (RNF);
-  \item o sistema o sistema deve seguir a recomendação de
+  \item o sistema deve seguir a recomendação de
   acessibilidade \gls{wcag} 2.0, nível AAA (RNF e RA);
   \item o sistema deve fornecer componentes perceptíveis, operáveis,
   compreensíveis e robustos (RNF e RA);
   \item o sistema deve fornecer atalhos via teclado, para alterar o idioma e a
   informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
-  de texto principal (RF);
+  de texto principal (RF e RA);
   \item o sistema deve permitir que todas as funcionalidades sejam acessíveis
   via teclado (RF e RA);
-  \item o sistema deve permitir que o tempo para ler utilizar o conteúdo seja
+  \item o sistema deve permitir que o tempo para ler e utilizar o conteúdo seja
   suficiente (RNF e RA);
-  \item o sistema deve entregar um conteúdo que não cause apreensão (RNF e RA);
+  \item o sistema deve entregar um conteúdo que não cause convulsão (RNF e RA) \textbf{OLHAR DIREITO};
   \item o sistema deve permitir que o usuário navegue facilmente e
   encontre o conteúdo desejado (RNF e RA);
   \item o sistema deve permitir que, ao ser especificado o tipo de
-  limitação/deficiência, a utilização de métricas de acessibilidade sejam
+  limitação/deficiência, a utilização de métrica de acessibilidade sejam
   utilizadas para classificar as páginas (RF e RA).
 \end{itemize}
 
@@ -195,7 +194,7 @@ De posse dos diagramas \gls{uml}, já é possível associá-los aos requisitos,
 utilizando o \textit{plugin Requirement Designer}. Com os requisitos e modelos
 \gls{uml} já associados, o arquivo .acctrace pode ser criado, recebendo como
 entrada o arquivo .requirement. A Figura \ref{fig:referenciascriadas} mostra os
-modelos \gls{uml}, para o modelo selecionado, os requisitos que a ele estão
+elementos \gls{uml}, e para o modelo selecionado, os requisitos que a ele estão
 associados.
 
 \begin{figure}[htbp]
@@ -209,12 +208,12 @@ associados.
 
 O subprocesso 5 (Projeto de \textit{Software}) visa fornecer um projeto onde os requisitos do software possam ser
 implementados e verificados. Os elementos de interface são definidos nas
-tarefas seguintes (Tarefa 5.1 - Projetar Interfaces Externas Acessíveis e
-Tarefa 5.2 - Realizar Projeto Navegacional Acessível), e \citet{maia:10}
-consegue estabelecer relacionamentos com o \gls{wcag} 2.0 nestas tarefas. Por
+tarefas seguintes (Tarefa Projetar Interfaces Externas Acessíveis e
+Tarefa Realizar Projeto Navegacional Acessível), e \citet{maia:10}
+estabelece relacionamentos com o \gls{wcag} 2.0 nestas tarefas. Por
 este motivo, mostrou-se adequado especificar as técnicas de acessibilidade neste
-momento. Na subtarefa 5.2.1 (Estabelecer a disposição dos elementos na
-interface), por exemplo, é citado 3 critérios de sucesso
+momento. Na Subtarefa Estabelecer a disposição dos elementos na
+interface, por exemplo, são citados três critérios de sucesso:
 
 \begin{itemize}
   \item \textbf{critério de Sucesso 1.3.1 - Informações e Relacionamento:} A informação,
@@ -228,7 +227,7 @@ somente em características sensoriais dos componentes, tais como forma,
 tamanho, localização visual, orientação ou som.
 \end{itemize}
 
-enquanto a subtarefa 5.2.2 (Definir as cores dos elementos), sugere
+A Subtarefa Definir as cores dos elementos sugere
 um critério de sucesso
 
 \begin{itemize}
@@ -237,19 +236,18 @@ como único meio para transmitir informação, indicar uma ação, mostrar uma
 resposta ou distinguir um elemento visual.
 \end{itemize}
 
-e a subtarefa 5.2.1 (Definir a ordem de navegação dos objetos) sugere um
+A Subtarefa Definir a ordem de navegação dos objetos sugere um
 critério de sucesso
 
 \begin{itemize}
   \item \textbf{critério de Sucesso 2.4.3 - Ordem do Foco:} Se a página Web pode ser
-navegada sequenciamente e a sequência de navegação afeta o entendimento ou
+navegada sequencialmente e a sequência de navegação afeta o entendimento ou
 operação, então os componentes focalizáveis devem receber o foco considerando
 a ordem dos elementos, preservando o entendimento e a operabilidade dos
 mesmos.
 \end{itemize}
 
-\citet{maia:10} não especificou nenhum critério de sucesso para a subtarefa
-subtarefa 5.2.2 (Definir atalhos de navegação), mas é possível sugerir
+\citet{maia:10} não especificou nenhum critério de sucesso para a Subtarefa Definir atalhos de navegação, mas é possível sugerir
 genericamente um que sirva como ponto de partida:
 
 \begin{itemize}

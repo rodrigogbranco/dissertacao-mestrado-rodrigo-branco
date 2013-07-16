@@ -147,9 +147,9 @@ o artefato para as fases de projeto e codificação.
 \label{fig:sub5}
 \end{figure}
 
-As três tarefas deste subprocesso são de extrema importância, e impactam
-diretamente na acessibilidade do produto final. O artefato XML/XMI gerado no
-subprocesso anterior passará por cada tarefa deste subprocesso, de forma que,
+As três tarefas deste subprocesso são de extrema importância e impactam
+diretamente na acessibilidade do produto final. O artefato XML/XMI gerado pela ferramenta \gls{case},
+ainda sem acessibilidade, obtido no subprocesso anterior passará por cada tarefa deste subprocesso, de forma que,
 além da saída da tarefa \textbf{Avaliar a acessibilidade do projeto de software}
 e gerar o artefato \textbf{Projeto de software acessível}, esta tarefa também
 gerará um artefato de projeto de software no formato XML/XMI, com elementos de
@@ -157,7 +157,7 @@ acessibilidade embutidos.
 
 A proposta deste trabalho enseja que as subtarefas das tarefas pertencentes a
 esse subprocesso já comecem a contar com critérios de sucesso do documento de
-diretrizes de acessibilidade escolhido.
+diretrizes de acessibilidade escolhido (por exemplo, o \gls{wcag}).
 Desta forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
 projeto de interface e navegação nos passos posteriores, principalmente porque
 um software automatizado não consegue fazer algumas verificações levando em
@@ -165,34 +165,31 @@ consideração o contexto semântico (por exemplo, ordem de navegação), e esses
 pontos críticos devem ser revisados posteriormente.
 
 Além disso, é necessário esclarecer que o padrão de conformidade para o projeto
-é definido na tarefa 1.1 do subprocesso 1 (Elicitação dos Requisitos do
+é definido na Tarefa 1.1 do Subprocesso 1 (Elicitação dos Requisitos do
 Sistema). Os padrões e ferramentas disponíveis levam em consideração o
 reconhecido padrão WCAG 2.0. Contudo, a necessidade de conformidade com
 outros padrões de acessibilidade leva a necessidade de um
 monitoramento constante por parte do especialista em acessibilidade, pois nem sempre as
 técnicas para a implementação do que é cobrado no padrão estão disponíveis (por
 exemplo, é possível que um \textit{software} precise estar em conformidade com o
-modelo \textit{Section 508}, mas esse padrão não explicita o que deve ser
+modelo \textit{Section 508} \citep{section508:09}, mas esse padrão não explicita o que deve ser
 feito para que o nível de acessibilidade pretendido seja alcançado).
 
 O especialista em acessibilidade deve associar os elementos de interface e
-navegação, utilizando da ferramenta \gls{case} aos requisitos
+navegação utilizando a ferramenta \gls{case} aos requisitos
 provenientes da etapa anterior. Além disso é possível mapear, se aplicável, técnicas de implementação
-de acessibilidade.
-
-Um projeto útil para essa finalidade é \textit{AEGIS Ontology} \citep{aegis:13},
+de acessibilidade. Um projeto útil para essa finalidade é \textit{AEGIS Ontology} \citep{aegis:13},
 que define ontologias de acessibilidade na \textit{Web}. O principal objetivo do
-projeto é mapear os conceitos de acessibilidade, e como eles podem ser mapeados
+projeto é mapear os conceitos de acessibilidade e como eles podem ser mapeados
 dentro de um cenário de acessibilidade.
 
 O projeto é apoiado pelo \textit{Accessible Consortium} \citep{accessibleconsortium:13}, que
 disponibiliza uma página para a consulta das novidades da iniciativa \citep{accessibleontology:13}.
-A versão atual é a 5.1
 
-As ontologias são descritas no formato \gls{owl}, padrão definido pela \gls{w3c}
+\textbf{A ontologia é descrita no formato \gls{owl}, padrão definido pela \gls{w3c}
 em 2004 \citep{owl:13}, que está na versão 1.0
-mas já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}. As
-ontologias descritas estão no padrão 1.0.
+mas já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}. A
+ontologia descrita estão no padrão 1.0. ESTÁ AMBIGUO, CONFUSO COM WCAG}
 
 O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
 cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
@@ -203,8 +200,7 @@ navegar pelas ontologias via navegador
 ou explorar os arquivos confortavelmente através do software \textit{Protegé}
 \citep{Noy01creatingsemantic}.
 
-A ferramenta construída utilizou as ontologias definidas por este projeto, onde
-será explicado com mais detalhes como elas serão utilizadas.
+A ferramenta desenvolvida neste trabalho utilizou as ontologias definidas pelo este projeto mencionado, explicado com mais detalhes posteriormente.
 
 Ao final deste subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
 itens de interface e navegação (já incluindo a associação com o WCAG 2.0), bem como os outros artefatos modelados 
@@ -227,7 +223,7 @@ processo.
 \label{fig:sub6}
 \end{figure}
 
-A tarefa 6.1 (Especificar Técnicas para Implementação da Acessibilidade da
+A Tarefa (Especificar Técnicas para Implementação da Acessibilidade da
 Interface e do Código) visa explicitar as técnicas de implementação de
 acessibilidade, refletidas no projeto de software. Como dito anteriormente, o
 padrão de conformidade já deve ter sido escolhido no subprocesso 1. Apesar dos padrões
@@ -242,7 +238,7 @@ em seus respectivos documentos. Esse é o momento de relacionar as
 especificidades do projeto de software com as técnicas de acessibilidade do modelo escolhido. Caso nenhum
 modelo conhecido ou algum modelo não usual tenha sido escolhido, as técnicas de
 implementação de acessibilidade deverão ser explicitamente relacionadas no
-projeto, e, para isso, é fundamental o auxílio de um especialista em
+projeto e, para isso, é fundamental o auxílio de um especialista em
 acessibilidade.
 
 Por conveniência, as técnicas utilizadas serão as do WCAG 2.0, pelo fato de já estarem mapeadas nos arquivos
@@ -253,8 +249,8 @@ Devido ao escopo do trabalho, apesar serem extremamente importantes, as tarefas
 \textbf{Executar teste de acessibilidade de cada unidade de software} não foram
 consideradas.
 
-A tarefa 6.2 (Codificar e documentar cada unidade de software de acordo com as
-técnicas de acessibilidade) recebe benefícios diretos dos passos anteriores,
+A Tarefa (Codificar e documentar cada unidade de software de acordo com as
+técnicas de acessibilidade) recebe os resultados dos passos anteriores,
 pois o projeto já contém os pontos críticos de acessibilidade explicitados. 
 Ferramentas \gls{case}, neste ponto, comumente geram código
 (\textit{stub}), utilizando artefatos como diagramas de classe, de sequência e casos de uso. O código
@@ -263,7 +259,7 @@ Uma maneira imediata de documentar código é adicionando comentários padronizados
 de acessibilidade possam ser localizados. Dependendo da linguagem de programação
 utilizada, podem ser utilizadas anotações para referenciar os modelos (a
 linguagem \textit{Java} permite o uso de anotações), mas esta abordagem não
-será utilizada neste trabalho.
+será utilizada neste trabalho, pois \textbf{EXPLICAR}
 
 Para incorporar a rastreabilidade
 dos requisitos no código gerado pelas ferramentas em forma de comentário de código, temos as seguintes abordagens:
@@ -281,15 +277,17 @@ A primeira abordagem implica em avaliar todo os arquivos \textit{Java} para
 encontrar o local exato onde o comentário deve ser posicionado. Além de ser
 necessário construir um \textit{parser} complexo para essa situação, pode ser
 difícil encontrar o caminho de retorno (código \textit{Java} para o modelo
-\gls{uml}) desta forma.
+\gls{uml}).
 
 A segunda abordagem implica na construção total de uma ferramenta complexa que
 está fora do escopo deste trabalho.
 
 A terceira abordagem, que por sua vez foi a escolhida, foi customizar o gerador
-de código, pois o código fonte deste gerador estava disponível e, devido ao fato do gerador de código usar
+de código, pois o código fonte deste gerador estava disponível e, e o gerador de código usa
 \textit{templates} de construção. Desta forma, as intervenções na ferramenta
 foram mínimas, e pouco código adicional precisou ser incorporado.
+
+\textbf{INSERIR FIGURA MAGICA}
 
 \section{Escolha das Ferramentas e Tecnologias}
 
@@ -310,12 +308,12 @@ O software \textit{Enterprise Architect} da empresa \textit{Sparx Systems}
 requisitos\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/modeling\_languages/requirements\_diagram.html}, que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a
 rastreabilidade do
 modelo\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/navigate\_search\_and\_trace/traceability.html}.
-Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de um
+Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de
 desenvolvimento de \textit{software}.
 
-Dessa forma, para demonstrar a proposta deste trabalho, será construída uma
-ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}. A seguir
-é elencado os principais elementos usados para a demostração deste trabalho.
+Dessa forma, para implementar a abordagem apresentada na Figura \textbf{X}, foi construída uma
+ferramenta \gls{case}, nos moldes descritos na seções \ref{linktocase} \textbf{LINKAR COM AS OUTRAS SEÇÕES}. A seguir
+são elencados os principais elementos usados para a demostração desta proposta:
 
 \begin{itemize}
   \item \gls{mta} - Processo de Desenvolvimento de \textit{Software} com tarefas
@@ -330,21 +328,20 @@ ferramenta \gls{case}, nos moldes descritos na seção \ref{linktocase}. A seguir
   \textit{plugin} de geração de código 
   \item \textit{Java JRE7 e JDK1.7} \citep{java:13} 
   - Linguagem para desenvolvimento de \textit{plugins} e código final do produto
-  \item Ontologias para implementação das diretrizes do \gls{wcag} 2.0.
+  \item ontologia para implementação das diretrizes do \gls{wcag} 2.0.
 \end{itemize}
 
 O \textit{Eclipse} é uma plataforma madura e foi escolhido como \gls{ide} por
 vários motivos. Ele serve como base para para diversos produtos e tecnologias baseadas em uma \gls{ide},
 provendo uma \gls{api} para facilitar a integração \citep{5386785}.
 O desenvolvimento de \textit{plugins} para o \textit{Eclipse} é feito diretamente na \gls{ide}, de forma prática e 
-transparente\footnote{Um tutorial de desenvolvimento de plugins para o Eclipse
-pode ser encontrado em http://www.ibm.com/developerworks/br/library/os-ecplug/}, tendo ampla documentação a respeito. 
-A linguagem utilizada para o desenvolvimento do \textit{plugin} é linguagem \textit{Java}, assim como o código gerado 
+transparente, tendo ampla documentação a respeito. 
+A linguagem utilizada para o desenvolvimento do \textit{plugin} é a linguagem \textit{Java}, assim como o código gerado 
 pelo \textit{plugin} de exportação.
 
 O pacote de modelagem inicialmente instalado foram os \textit{plugins} \gls{emf} propostos pelo \textit{Eclipse}, notadamente
 o \textit{Ecore Tools} \citep{ecoretools:13}, parte integrante do \gls{emft}. Contudo,
-os diagramas fornecidos por \textit{default} não satisfizeram aos anseios de modelagem, pois não contemplavam diagramas de sequência ou de 
+os diagramas fornecidos por \textit{default} não satisfizeram aos anseios de modelagem para o desenvolvimento deste trabalho, pois não contemplavam diagramas de sequência ou de 
 casos de uso, por exemplo. Por esse motivo, o \textit{plugin} escolhido foi o \textit{UML Designer}, que utiliza como base o pacote \gls{emf} (portanto gera modelos \gls{emf}), 
 mas extende os modelos existentes para que se adequem aos modelos \gls{uml} na sua versão 2.4. 
 
@@ -353,7 +350,7 @@ o \textit{ProR} \citep{rmf:13}, que por sua vez é parte do projeto \gls{rmf} e
 \gls{emf} do
 \textit{Eclipse}. O objetivo do projeto \gls{rmf} é implementar o padrão
 \textit{OMG ReqIF} \citep{reqif:13} em forma de modelos \gls{emf}. Contudo, o
-\gls{rmf} se encontra atualmente na 0.7.1 e o \textit{plugin} não fornecia a funcionalidade de ligação entre os
+\gls{rmf} se encontra atualmente na versão 0.7.1 e o \textit{plugin} não fornecia a funcionalidade de ligação entre os
 modelos e os requisitos. Assim, modos alternativos de relacionamento entre os modelos e os requisitos deveriam ser implementados, tornando inviável o desenvolvimento do trabalho. Portanto, o \textit{plugin} escolhido para o gerenciamento
 de requisitos foi o \textit{Requirement Designer}, que permite realizar a associação dos requisitos com qualquer modelo \gls{emf}.
 
@@ -361,29 +358,28 @@ Os \textit{plugins} de modelagem e gerenciamento de requisitos são desenvolvidos
 pela \textit{Obeo} \citep{obeo:13}, portanto, para permitir uma integração suave entre
 as ferramentas, o \textit{plugin} escolhido para geração de código foi o \textit{UML to Java Generator}, desenvolvido pela mesma empresa. Os \textit{plugins} são disponibilizados sob a licença \textit{Eclipse Public License v
 1.0} \citep{eclipselicense:13}, assim como a própria \gls{ide}. Dessa forma, é possível
-estudar, alterar e customizar seus componentes para atingir aos objetivos do trabalho.
+estudar, alterar e customizar seus componentes para atingir os objetivos do trabalho.
 
 A Figura \ref{fig:association} mostra o comportamento e relacionamento das
 ferramentas, tecnologias e atores envolvidos no desenvolvimento do produto, que
 deve ser interpretada da seguinte forma:
 
 \begin{itemize}
-  \item O \gls{mta} é o processo de desenvolvimento, e deve permear todas as
+  \item O \gls{mta} é o processo de desenvolvimento e deve permear todas as
   fases do processo;
   \item O especialista em acessibilidade (\textit{Accessibility Expert}) deve
   participar das fases de desenvolvimento especificadas no \gls{mta};
   \item Os requisitos devem ser coletados e informados na fase de engenharia de
   requisitos (utilizando a ferramenta \textit{Requirement
-  Designer}), e os modelos e artefatos \gls{uml} devem ser gerados (utilizando a
+  Designer}) e os modelos e artefatos \gls{uml} devem ser gerados (utilizando a
   ferramenta \textit{UML Designer}) O especialista em acessibilidade deve
   auxiliar a alimentação destes dados, filtrando os requisitos de acessibilidade para que eles sejam
   associados aos modelos \gls{uml} (utilizando a ferramenta
   \textit{Requirement Designer});
   \item A ferramenta proposta recupera as associações dos requisitos e modelos
   \gls{uml} (apenas aos que dizem respeito à acessibilidade), permitindo que o
-  especialista especifique as técnicas de implementações de acessibilidade para
-  cada uma das associações. As técnicas, diretrizes, abordagens e o que mais
-  dizer respeito a implementação técnica da associação estão armazenadas em
+  especialista especifique as técnicas de implementação de acessibilidade para
+  cada uma das associações. As técnicas, diretrizes, abordagens, dentre outros estão armazenadas em
   arquivos \gls{owl} embutidos na ferramenta;
   \item A ferramenta de geração de código produzirá o código \textit{stub} a
   partir dos modelos \gls{uml}, adicionando as referências às associações de
@@ -392,10 +388,12 @@ deve ser interpretada da seguinte forma:
   se tornar o produto acessível que será entregue.
 \end{itemize}
 
+\textbf{FIGURA ERRO NO QUADRADO ANALYSIS AND DESIGN E INCLUIR ATORES USUARIO FINAL}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/developmentNew.png}
-\caption{Associação das ferramentas e atores no contexto to trabalho}
+\caption{Associação das ferramentas e atores no contexto do trabalho}
 \label{fig:association}
 \end{figure}
 
@@ -424,7 +422,7 @@ como exemplo.
 
 O diagrama de classes visualizado na Figura \ref{fig:reqdesigner_classdiagram}
 demonstra o núcleo de funcionamento do \textit{plugin Requirement Designer},
-que possui os dois primeiros elementos listados anteriormente.
+que possui os dois primeiros elementos listados anteriormente (repositório dos requisitos e os requisitos).
 Existe um repositório (\textit{Repository}), que pode conter zero ou mais
 categorias principais (\textit{Category}). Cada categoria principal pode conter
 0 ou mais requisitos (\textit{Requirement}), e também pode conter 0 ou mais
@@ -439,14 +437,14 @@ requisitos técnicos).
 \label{fig:reqdesigner_classdiagram}
 \end{figure}
 
-O diagrama de classes foi gerado usando o \gls{emf} (especificamente a
+\textbf{O diagrama de classes foi gerado usando o \gls{emf} (especificamente a
 ferramentas \textit{Ecore Model}), resultando nas classes java representativas
 do modelo (usando a ferramenta de transformação \textit{Ecore Generator Model}).
 Na prática, significa dizer que, uma vez tendo o diagrama de classes no modelo
 \textit{Ecore}, seja possível utilizar as classes java resultantes e,
 principalmente, que o arquivo de saída da ferramenta \textit{Requirement
 Designer} possa ser lido e interpretado de forma simplificada como os objetos
-corretos do \textit{plugin}.
+corretos do \textit{plugin}. REAVALIAR}
 
 A ferramenta para gerar os artefatos \gls{uml} é a \textit{UML Designer}. A
 ferramenta usa a \gls{api} do \textit{Eclipse (org.eclipse.uml2.uml)}, que por
@@ -456,6 +454,8 @@ qualquer elemento presente na \gls{api}.
 
 A Figura \ref{fig:usecaseexample} mostra um diagrama de casos de uso de exemplo
 gerado pela ferramenta \textit{UML Designer}.
+
+\textbf{Aumentar a figura}
 
 \begin{figure}[htbp]
 \centering
@@ -473,15 +473,17 @@ e o objeto sempre estará atualizado no arquivo referenciado. Essa mesma técnica
 será usada no modelo de dados a ser construído pela ferramenta proposta, com
 exceção dos objetos referentes às ontologias de acessibilidade.
 
-As ontologias de acessibilidade são descritas no padrão \gls{owl}, que tem por
+A ontologia de acessibilidade é descrita no padrão \gls{owl}, que tem por
 base o formato \gls{rdf}. Para efetuar a leitura dos arquivos \gls{owl},
-utilizamos a \textit{OWL API}, que por sua vez é utilizado pelo
+foi utilizada a \textit{OWL API}, que por sua vez é utilizado pelo
 \textit{software Protégé}, \textit{software} este muito útil para visualizar de
 forma gráfica os elementos e relacionamentos descritos nas ontologias. Este
 \textit{software} foi usado diversas vezes para descobrir quais os elementos da
-ontologia e como eles deveriam ser acessados através da api. A figura
+ontologia e como eles deveriam ser acessados através da \gls{api}. A Figura
 \ref{fig:protege} mostra um dos arquivos de ontologias usados no trabalho aberto
 para consulta.
+
+\textbf{AUMENTAR FIGURAS}
 
 \begin{figure}[htbp]
 \centering
@@ -491,7 +493,7 @@ para consulta.
 \end{figure}
 
 Diante do exposto, é possível apresentar o diagrama de classes da ferramenta
-proposta, aqui denominada como \textit{AccTrace}, visível na Figura
+proposta neste trabalho, aqui denominada como \textit{AccTrace}, visível na Figura
 \ref{fig:acctraceclassdiagram}.
 
 \begin{figure}[htbp]
@@ -501,30 +503,29 @@ proposta, aqui denominada como \textit{AccTrace}, visível na Figura
 \label{fig:acctraceclassdiagram}
 \end{figure}
 
-O diagrama de classes deve ser interpretado da seguinte forma: A classe
+O diagrama de classes deve ser interpretado da seguinte forma: a classe
 principal é a \textit{AccTraceModel}, que armazena as referências para os
 repositórios dos requisitos (\textit{Repository}), e também objetos de
 referência às associações dos requisitos, modelos e técnicas
 de implementação de acessibilidade (\textit{Reference}). Esse objeto referencia
 um requisito (\textit{Requirement}), um diagrama \gls{uml} (\textit{EObject}) e
-1 ou mais técnicas de implementação de acessibilidade, representadas aqui pela
+uma ou mais técnicas de implementação de acessibilidade, representadas aqui pela
 seleção das ontologias disponíveis. As referências às ontologias são persistidas
-através de suas \gls{iri} (uma generalização de \gls{uri}) em forma de \textit{String}.
-Além disso, devido ao grande número de requisitos possíveis no projeto e
+através de sua \gls{iri} (uma generalização de \gls{uri}) em forma de \textit{String}.
+Além disso, devido a possibilidade de existência de inúmeros requisitos no projeto e
 considerando o fato de que apenas os requisitos de acessibilidade sejam
 importantes para a associação à técnicas de implementação de acessibilidade, é previsto no modelo também a inclusão de filtros dos requisitos (\textit{RequirementFilter}), para não poluir a
 visualização dos requisitos na ferramenta.
 
 A ferramenta possui três visões principais, de acordo com a Figura
-\ref{fig:acctrace}: o editor (\textit{AccTrace Editor}), onde é possível alterar
+\ref{fig:acctrace}: no editor (\textit{AccTrace Editor})  é possível alterar
 os repositórios dos requisitos e gerar as associações entre os modelos
-\gls{uml}, requisitos e técnicas de implementação; a visão dos requisitos
-(\textit{Requirement Associations}), onde é possível visualizar quais os
-requisitos associados ao modelo \gls{uml} selecionado no editor; e a visão das
-técnicas já implementadas (\textit{Accessibility Specifications View}), onde é
+\gls{uml}, requisitos e técnicas de implementação. Na visão dos requisitos
+(\textit{Requirement Associations}) é possível visualizar quais requisitos associados ao modelo \gls{uml} foram selecionados no editor. Na visão das
+técnicas já vinculadas (\textit{Accessibility Specifications View}) é
 possível visualizar as técnicas de implementação já associadas, de acordo com o
 modelo \gls{uml} selecionado no editor e o requisito de acessibilidade
-selecionado na visão dos requisitos, bem como remover as técnicas de
+selecionado na visão dos requisitos. Além disso, é possível remover as técnicas de
 implementação associadas. As três visões são importantes para o correto
 funcionamento da ferramenta.
 
@@ -549,15 +550,15 @@ acessibilidade}
 \label{fig:rightclick}
 \end{figure}
 
-O menu mostrado na Figura foi projetado levando em conta
-a análise e estudo das ontologias disponíveis, efetuados na ferramenta
-\textit{Protégé}. É possível entender o relacionamento dos elementos e
-ontologias observando a Figura \ref{fig:ontologyrelationship}.
+O menu mostrado na Figura \ref{fig:rightclick} foi projetado levando em conta
+a análise e o estudo da ontologia disponível, efetuado na ferramenta
+\textit{Protégé}. É possível entender o relacionamento dos elementos da
+ontologia observando a Figura \ref{fig:ontologyrelationship}.
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/ontologyrelationship.png}
-\caption{Relacionamento entre as ontologias}
+\caption{Relacionamento entre os elementos da ontologia}
 \label{fig:ontologyrelationship}
 \end{figure}
 
@@ -565,16 +566,16 @@ Para este trabalho, uma das ontologias mais importantes é a ontologia denominada
 \textit{WCAG 2.0}, pois é esta ontologia que comporta as técnicas de
 implementação de acessibilidade que efetivamente serão utilizadas. As outras
 ontologias, apesar de acessórias, podem ser utilizadas para reforçar as técnicas
-já referenciadas. 
+já referenciadas.
 
-A ontologia \textit{WCAG 2.0} possui 5 grupos a serem escolhidos, conforme
+O elemento \textit{WCAG 2.0} presente na ontologia possui 5 grupos que podem ser escolhidos, conforme
 mostra a Figura \ref{fig:wcag2groups}: abordagens, testes, critérios de
 sucesso, diretrizes ou técnicas. Cada um desses grupos contém os elementos que
 efetivamente devem ser selecionados para que a associação seja concluída.
 Tomando como base a escolha do subgrupo critérios de sucesso, podemos ver as
 opções disponíveis mostradas na Figura \ref{fig:successcriterion}. Os elementos
-internos das ontologias são diferentes, dependendo qual seu tipo e objetivo. A
-Figura \ref{fig:successcriterion127} mostra quais os elementos da ontologia
+internos das ontologias são diferentes, dependendo do seu tipo e objetivo. A
+Figura \ref{fig:successcriterion127} mostra os elementos da ontologia
 escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
 ela possui uma descrição, uma prioridade, um ID e um nome, além de
 relacionamentos com outras ontologias que aqui foram omitidas. Uma vez
@@ -598,7 +599,7 @@ associação seja persistida ao modelo.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/successcriterion127.png}
-\caption{Seleção da ontologia \textit{WCAG2 SuccessCriterion 1.2.7}}
+\caption{Seleção da ontologia \textit{WCAG 2.0 SuccessCriterion 1.2.7}}
 \label{fig:successcriterion127}
 \end{figure}
 
@@ -609,17 +610,17 @@ Toolkit} \citep{odftoolkit:13} para geração do
 documento de rastreamento com formato \gls{ods}, através da \gls{api} de alto
 nível
 \textit{Simple} \citep{odftoolkitsimple:13}.
-No documento, são geradas três planilhas: Requerimentos x Modelos, Requerimentos
-x Técnicas e Modelos x Técnicas. A planilha Requerimentos x Modelos lista uma
-matriz de todos os requerimentos associados aos respectivos modelos, mesmo que
-exista algum requerimento que não esteja associado a algum modelo. Essa situação
+No documento, são geradas três planilhas: Requisitos x Modelos, Requisitos
+x Técnicas e Modelos x Técnicas. A planilha Requisitos x Modelos lista uma
+matriz de todos os Requisitos associados aos respectivos modelos, mesmo que
+exista algum Requisito que não esteja associado a algum modelo. Essa situação
 está prevista justamente para identificar problemas na associação que devam ser
-corrigidas. Para as planilhas Requerimentos x Técnicas e Modelos x Técnicas,
+corrigidas. Para as planilhas Requisitos x Técnicas e Modelos x Técnicas,
 apenas os objetos que estão efetivamente referenciados na ferramenta são
 listados.
 
 A Figura \ref{fig:matrixpart} mostra uma parte da matriz de rastreabilidade
-gerada pela ferramenta. A matriz deve ser gerada utilizando o \textit{wizard}
+gerada automaticamente pela ferramenta \textit{AccTrace}. A matriz deve ser gerada utilizando o \textit{wizard}
 específico para esse fim, acessando na barra de tarefas as opções \textit{File
 $>$ New $>$ Other\ldots} e selecionando a opção \textit{Traceability Matrix file
 wizard}. Para a geração da matriz ocorrer sem erros, é necessário informar o
@@ -632,7 +633,7 @@ arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 \label{fig:matrixpart}
 \end{figure}
 
-Para geração de código, utilizamos o \textit{plugin \gls{uml} to Java
+Para geração de código, foi utilizado o \textit{plugin \gls{uml} to Java
 Generator}, que por sua vez utiliza o ponto de extensão do \textit{plugin
 Acceleo} \citep{acceleo:13}. O \textit{plugin
 Acceleo} tem por finalidade transformar os modelos \gls{emf} em uma linguagem
@@ -675,7 +676,7 @@ alvo, entre outras opções;
   \item as classes de lançamento do \textit{plugin Acceleo}, utilizando as
   informações da \gls{ui};
   \item os arquivos .mtl que descrevem como os modelos devem ser gerados, no
-  caso, as informação de geraçãos dos arquivos \textit{Java} e do projeto
+  caso, as informações de geração dos arquivos \textit{Java} e do projeto
   \textit{Eclipse}.
 \end{itemize} 
 
@@ -735,7 +736,7 @@ atrapalharia essa operação.
 Uma vez tendo os comentários personalizados nos código-fonte Java, o \textit{plugin AccTrace} se encarrega de verificar os comentários
 para traduzí-los em informações úteis ao desenvolvedor. O \textit{plugin} usa o ponto de extensão \textit{Compilation Participant} da biblioteca \gls{jdt},
 usado para acompanhar e recuperar informações úteis no processo de compilação do código. No caso deste trabalho, 
-o ambiente entrega a \gls{ast} do modelo Java, e partir dele os comentários são extraídos. Caso o comentário 
+o ambiente entrega a \gls{ast} do modelo Java, e a partir dele os comentários são extraídos. Caso o comentário 
 atenda à expressão regular de comentário do \textit{plugin AccTrace}, uma marca (\textit{marker}) é adicionada 
 ao editor, indicando que naquele ponto há um comentário válido. A marca replica o comentário, de modo que ao 
 passsar o mouse sobre a marca, um \textit{popup} surge, conforme mostrado pela
@@ -744,7 +745,7 @@ Figura \ref{fig:acctracecomment}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/acctracecomment.png}
-\caption{Comentário padrão AccTrace demonstrado utilizando o evento
+\caption{Comentário padrão \textit{AccTrace} demonstrado utilizando o evento
 \textit{mouse hover}}
 \label{fig:acctracecomment}
 \end{figure}
@@ -763,9 +764,9 @@ partindo de um comentário no formato AccTrace. O comentário passa por um
   \item Referência (ID) da associação dentro do modelo;
 \end{itemize}
 
-O modelo AccTrace é carregado através do caminho encontrado e logo em seguida a
+O modelo \textit{AccTrace} é carregado através do caminho encontrado e logo em seguida a
 referência da associação é recuperada do modelo, usando seu ID como parâmetro de
-busca. A partir da refência é possível recuperar o Requisito, o Modelo UML e as
+busca. A partir da referência é possível recuperar o Requisito, o Modelo UML e as
 técnicas de implementação de acessibilidade. Como no modelo AccTrace apenas as
 referência aos objetos é armazenada, qualquer mudança nos objetos envolvidas é
 vista em tempo real. A atualização da tela da visão pode não ser
@@ -775,7 +776,7 @@ de recursos que devem ser recuperados.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.8\textwidth]{./images/commentview.png}
-\caption{Visão de explicitação do comentário selecionado.}
+\caption{Explicitação do comentário selecionado}
 \label{fig:commentview}
 \end{figure}
 
@@ -786,4 +787,6 @@ de recursos que devem ser recuperados.
 comentário padrão AccTrace}
 \label{fig:commentrecovery}
 \end{figure}
+
+\textbf{FECHAR O CAPITULO}
 
