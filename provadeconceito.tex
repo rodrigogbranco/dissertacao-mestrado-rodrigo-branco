@@ -106,47 +106,47 @@ projeto, inclusive os já descritos anteriormente.
 No Subprocesso 4 (Análise de Requisitos do Software), os requisitos de
 acessibilidade do \textit{software} (interface e código) são estabelecidos.
 
-\textbf{As Taferas (Estabelecer os Requisitos de Acessibilidade do Software) e
-(Avaliar os Requisitos de Acessibilidade do Software) especifica,, avaliam
-e documentam os requisitos de sistema em requisitos de \textit{software}.
-Todos os requisitos, tanto os funcionais (RF) como os não-funcionais (RNF), inclusive os de acessibilidade (RA), podem ser vistos abaixo: REVISAR}
-
-\textbf{NUMERAR DE ACORDO COM A FIGURA}
+Nas Taferas (Estabelecer os Requisitos de Acessibilidade do Software) e
+(Avaliar os Requisitos de Acessibilidade do Software) os requisitos de sistema
+são especificados, avaliados e documentados em requisitos de \textit{software}.
+Todos os requisitos, tanto os funcionais (RF) como os não-funcionais 
+(RNF), inclusive os de acessibilidade (RA), podem ser vistos abaixo:
 
 \begin{itemize}
-  \item o sistema deve permitir que, dado uma chave de busca (uma ou mais
+  \item RF1: o sistema deve permitir que, dado uma chave de busca (uma ou mais
   palavras), o resultado da busca seja retornado (RF);
-  \item o sistema deve permitir que o usuário altere a linguagem padrão da
+  \item RF2: o sistema deve permitir que o usuário altere a linguagem padrão da
   ferramenta (RF);
-  \item o sistema deve permitir que o usuário altere o constraste da página
+  \item RF3: o sistema deve permitir que o usuário altere o constraste da página
   (RF);
-  \item o sistema deve permitir que o usuário altere o tamanho da fonte da
+  \item RF4: o sistema deve permitir que o usuário altere o tamanho da fonte da
   página (RF);
-  \item o sistema deve utilizar a linguagem especificada como critério de
-  seleção no mecanismo de busca (RF e RA);
-  \item o sistema deve permitir que o usuário informe qual é o tipo de
+  \item RF6: o sistema deve permitir que o usuário informe qual é o tipo de
   limitação/deficiência possui (RF);
-  \item o sistema deve utilizar o tipo de limitação/deficiência como critério de
+  \item RF8: o sistema deve fornecer atalhos via teclado, para alterar o idioma
+  e a informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
+  de texto principal (RF e RA);  
+  \item RFA1: o sistema deve utilizar a linguagem especificada como critério de
   seleção no mecanismo de busca (RF e RA);
-  \item o sistema deve retornar o resultado da busca em menos de 2 segundos,
-  para não prejudicar a percepção do usuário (RNF);
-  \item o sistema deve seguir a recomendação de
-  acessibilidade \gls{wcag} 2.0, nível AAA (RNF e RA);
-  \item o sistema deve fornecer componentes perceptíveis, operáveis,
-  compreensíveis e robustos (RNF e RA);
-  \item o sistema deve fornecer atalhos via teclado, para alterar o idioma e a
-  informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
-  de texto principal (RF e RA);
-  \item o sistema deve permitir que todas as funcionalidades sejam acessíveis
-  via teclado (RF e RA);
-  \item o sistema deve permitir que o tempo para ler e utilizar o conteúdo seja
-  suficiente (RNF e RA);
-  \item o sistema deve entregar um conteúdo que não cause convulsão (RNF e RA) \textbf{OLHAR DIREITO};
-  \item o sistema deve permitir que o usuário navegue facilmente e
-  encontre o conteúdo desejado (RNF e RA);
-  \item o sistema deve permitir que, ao ser especificado o tipo de
+  \item RFA2: o sistema deve utilizar o tipo de limitação/deficiência como
+  critério de seleção no mecanismo de busca (RF e RA);
+   \item RFA3: o sistema deve permitir que todas as funcionalidades sejam
+   acessíveis via teclado (RF e RA);
+  \item RFA4: o sistema deve permitir que, ao ser especificado o tipo de
   limitação/deficiência, a utilização de métrica de acessibilidade sejam
-  utilizadas para classificar as páginas (RF e RA).
+  utilizadas para classificar as páginas (RF e RA).    
+  \item RNF1: o sistema deve retornar o resultado da busca em menos de 2
+  segundos, para não prejudicar a percepção do usuário (RNF);
+  \item RNFA1: o sistema deve seguir a recomendação de
+  acessibilidade \gls{wcag} 2.0, nível AAA (RNF e RA);
+  \item RNFA2: o sistema deve fornecer componentes perceptíveis, operáveis,
+  compreensíveis e robustos (RNF e RA);
+  \item RNFA3: o sistema deve permitir que o tempo para ler e utilizar o
+  conteúdo seja suficiente (RNF e RA);
+  \item RNFA4: o sistema deve entregar um conteúdo que não cause convulsão (RNF
+  e RA);
+  \item RNFA5: o sistema deve permitir que o usuário navegue facilmente e
+  encontre o conteúdo desejado (RNF e RA);
 \end{itemize}
 
 No \textit{plugin Requirement Designer}, os requisitos são agrupados em 2
@@ -383,6 +383,14 @@ a ontologia deve ser construída e depois o \textit{plugin AccTrace} deve ser
 adaptado para refletir a nova realidade do modelo de referência. A consequência
 deste fato é que a atualização dos modelos de referência torna-se uma tarefa
 complexa, inclusive para a atualização do modelo \gls{wcag} 2.0. 
+
+Um limitação, que deve ser tratada em trabalhos futuros, é que o sistema
+atualmente não trata o caso de remoção de requisitos/modelos \gls{uml} dos
+artefatos iniciais. Mudanças nos requisitos e modelos \gls{uml} são automaticamente atualizados (visto que apenas as referências a esses objetos são armazenadas).
+Contudo, as remoções dos elementos nos artefatos causam um comportamento
+inesperado no sistema, obrigando o modelo \textit{AccTrace} a ser atualizado
+manualmente (com comandos explícitos de remoção das associações no
+\textit{plugin}).
 
 \section{Conclusões da Prova de Conceito}
 
