@@ -24,7 +24,7 @@ A seguir, serão apresentados os relacionamentos entre os subprocessos citados
 com o rastreio dos requisitos de acessibilidade.
 
 \section{Subprocesso 4 - Análise de Requisitos de Software}
-\label{linktocase}
+\label{linktocase1}
 
 O especialista em acessibilidade é fundamental em todas as etapas descritas a
 seguir, como já reforça o modelo MTA. O especialista em acessibilidade deve
@@ -133,6 +133,7 @@ o artefato para as fases de projeto e codificação.
  portanto compatíveis entre si.
  
  \section{Subprocesso 5 - Projeto de Software}
+ \label{linktocase2}
  
  O objetivo do subprocesso 5 é fornecer um projeto onde os requisitos do
  software possam ser implementados e verificados \citep{maia:10}.
@@ -186,10 +187,8 @@ dentro de um cenário de acessibilidade.
 O projeto é apoiado pelo \textit{Accessible Consortium} \citep{accessibleconsortium:13}, que
 disponibiliza uma página para a consulta das novidades da iniciativa \citep{accessibleontology:13}.
 
-\textbf{A ontologia é descrita no formato \gls{owl}, padrão definido pela \gls{w3c}
-em 2004 \citep{owl:13}, que está na versão 1.0
-mas já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}. A
-ontologia descrita estão no padrão 1.0. ESTÁ AMBIGUO, CONFUSO COM WCAG}
+A ontologia é descrita no formato \gls{owl}, padrão definido pela \gls{w3c}
+em 2004 \citep{owl:13}, está na versão 1.0. O formato \gls{owl} já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}, que até o momento de escrita deste trabalho não foi oficializada como versão oficial. As versões aqui descritas em nada influem na versão do \gls{wcag} mapeado na ontologia utilizada, que é a versão 2.0 do mesmo.
 
 O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
 cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
@@ -209,6 +208,7 @@ dessa vez mais completa, pois mais dados estão disponíveis neste ponto do
 processo.
 
 \section{Subprocesso 6 - Construção do Software}
+\label{linktocase3}
 
  O objetivo do subprocesso 6 é produzir unidades de software executáveis que
  apropriadamente refletem o projeto de software \citep{maia:10}.
@@ -258,18 +258,18 @@ gerado já poderia conter traços de documentação associados aos requisitos de ace
 Uma maneira imediata de documentar código é adicionando comentários padronizados, de forma que os requisitos
 de acessibilidade possam ser localizados. Dependendo da linguagem de programação
 utilizada, podem ser utilizadas anotações para referenciar os modelos (a
-linguagem \textit{Java} permite o uso de anotações), mas esta abordagem não
-será utilizada neste trabalho, pois \textbf{EXPLICAR}
+linguagem \textit{Java} permite o uso de anotações), mas como este método é dependente de uma linguagem de programação que forneça tal funcionalidade
+e devido a complexidade envolvida neste processo, esta abordagem não será utilizada.
 
 Para incorporar a rastreabilidade
 dos requisitos no código gerado pelas ferramentas em forma de comentário de código, temos as seguintes abordagens:
 
 \begin{enumerate}
-  \item A ferramenta de modelagem gera os códigos, e posteriormente, a
+  \item a ferramenta de modelagem gera os códigos, e posteriormente, a
   ferramenta \gls{case} proposta incluiria os comentários de rastreabilidade;
-  \item A ferramenta \gls{case} proposta substituiria o gerador de código,
+  \item a ferramenta \gls{case} proposta substituiria o gerador de código,
   realizando todo o trabalho e gerando o código já comentado.
-  \item O gerador de código é customizado para que gere o código e os
+  \item a gerador de código é customizado para que gere o código e os
   comentários personalizados no mesmo instante.
 \end{enumerate}
 
@@ -312,7 +312,7 @@ Contudo, não foi encontrado na literatura trabalhos que tratem especificamente d
 desenvolvimento de \textit{software}.
 
 Dessa forma, para implementar a abordagem apresentada na Figura \textbf{X}, foi construída uma
-ferramenta \gls{case}, nos moldes descritos na seções \ref{linktocase} \textbf{LINKAR COM AS OUTRAS SEÇÕES}. A seguir
+ferramenta \gls{case}, nos moldes descritos na seções \ref{linktocase1}, \ref{linktocase2} e \ref{linktocase3}. A seguir
 são elencados os principais elementos usados para a demostração desta proposta:
 
 \begin{itemize}
