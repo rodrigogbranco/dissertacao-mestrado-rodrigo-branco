@@ -179,7 +179,7 @@ O especialista em acessibilidade deve associar os elementos de interface e
 navegação utilizando a ferramenta \gls{case} aos requisitos
 provenientes da etapa anterior. Além disso é possível mapear, se aplicável, técnicas de implementação
 de acessibilidade. Um projeto útil para essa finalidade é \textit{AEGIS Ontology} \citep{aegis:13},
-que define ontologias de acessibilidade na \textit{Web}. O principal objetivo do
+que define uma ontologia de acessibilidade na \textit{Web}. O principal objetivo do
 projeto é mapear os conceitos de acessibilidade e como eles podem ser mapeados
 dentro de um cenário de acessibilidade.
 
@@ -195,12 +195,12 @@ O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
 cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
 técnicas de implementação, critérios de sucesso e falha, etc), leitores de tela,
 navegadores textuais, lentes de aumento, WAI/ARIA, entre outros. É possível
-navegar pelas ontologias via navegador
+navegar pela ontologia via navegador
 \footnote{http://160.40.50.89/Accessible\_Ontology/Version5.1/AccessibleOntologyOWLDoc/index.html},
 ou explorar os arquivos confortavelmente através do software \textit{Protegé}
 \citep{Noy01creatingsemantic}.
 
-A ferramenta desenvolvida neste trabalho utilizou as ontologias definidas pelo este projeto mencionado, explicado com mais detalhes posteriormente.
+A ferramenta desenvolvida neste trabalho utilizou a ontologia definida pelo projeto mencionado, explicado com mais detalhes posteriormente.
 
 Ao final deste subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
 itens de interface e navegação (já incluindo a associação com o WCAG 2.0), bem como os outros artefatos modelados 
@@ -471,16 +471,16 @@ ferramenta \textit{UML Designer}, significando que os objetos referenciados não
 são escritos no arquivo \gls{xml} de destino. Assim, o modelo pode ser alterado,
 e o objeto sempre estará atualizado no arquivo referenciado. Essa mesma técnica
 será usada no modelo de dados a ser construído pela ferramenta proposta, com
-exceção dos objetos referentes às ontologias de acessibilidade.
+exceção dos objetos referentes à ontologia de acessibilidade.
 
 A ontologia de acessibilidade é descrita no padrão \gls{owl}, que tem por
 base o formato \gls{rdf}. Para efetuar a leitura dos arquivos \gls{owl},
 foi utilizada a \textit{OWL API}, que por sua vez é utilizado pelo
 \textit{software Protégé}, \textit{software} este muito útil para visualizar de
-forma gráfica os elementos e relacionamentos descritos nas ontologias. Este
+forma gráfica os elementos e relacionamentos descritos na ontologia. Este
 \textit{software} foi usado diversas vezes para descobrir quais os elementos da
 ontologia e como eles deveriam ser acessados através da \gls{api}. A Figura
-\ref{fig:protege} mostra um dos arquivos de ontologias usados no trabalho aberto
+\ref{fig:protege} mostra um dos arquivos da ontologia usado no trabalho aberto
 para consulta.
 
 \textbf{AUMENTAR FIGURAS}
@@ -510,7 +510,7 @@ referência às associações dos requisitos, modelos e técnicas
 de implementação de acessibilidade (\textit{Reference}). Esse objeto referencia
 um requisito (\textit{Requirement}), um diagrama \gls{uml} (\textit{EObject}) e
 uma ou mais técnicas de implementação de acessibilidade, representadas aqui pela
-seleção das ontologias disponíveis. As referências às ontologias são persistidas
+seleção da ontologia disponível. As referências à ontologia são persistidas
 através de sua \gls{iri} (uma generalização de \gls{uri}) em forma de \textit{String}.
 Além disso, devido a possibilidade de existência de inúmeros requisitos no projeto e
 considerando o fato de que apenas os requisitos de acessibilidade sejam
@@ -562,10 +562,10 @@ ontologia observando a Figura \ref{fig:ontologyrelationship}.
 \label{fig:ontologyrelationship}
 \end{figure}
 
-Para este trabalho, uma das ontologias mais importantes é a ontologia denominada
-\textit{WCAG 2.0}, pois é esta ontologia que comporta as técnicas de
-implementação de acessibilidade que efetivamente serão utilizadas. As outras
-ontologias, apesar de acessórias, podem ser utilizadas para reforçar as técnicas
+Para este trabalho, um dos elementos mais importantes da ontologia é o elemento denominado
+\textit{WCAG 2.0}, pois é este elemento que comporta as técnicas de
+implementação de acessibilidade que efetivamente serão utilizadas. Os outros
+elementos, apesar de acessórios, podem ser utilizados para reforçar as técnicas
 já referenciadas.
 
 O elemento \textit{WCAG 2.0} presente na ontologia possui 5 grupos que podem ser escolhidos, conforme
@@ -574,11 +574,11 @@ sucesso, diretrizes ou técnicas. Cada um desses grupos contém os elementos que
 efetivamente devem ser selecionados para que a associação seja concluída.
 Tomando como base a escolha do subgrupo critérios de sucesso, podemos ver as
 opções disponíveis mostradas na Figura \ref{fig:successcriterion}. Os elementos
-internos das ontologias são diferentes, dependendo do seu tipo e objetivo. A
+internos da ontologia são diferentes, dependendo do seu tipo e objetivo. A
 Figura \ref{fig:successcriterion127} mostra os elementos da ontologia
 escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
 ela possui uma descrição, uma prioridade, um ID e um nome, além de
-relacionamentos com outras ontologias que aqui foram omitidas. Uma vez
+relacionamentos com outros elementos da ontologia que aqui foram omitidos. Uma vez
 selecionada a ontologia apropriada, um clique no botão OK faz com que a
 associação seja persistida ao modelo.
 
