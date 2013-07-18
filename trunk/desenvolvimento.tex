@@ -287,7 +287,16 @@ de código, pois o código fonte deste gerador estava disponível e, e o gerador de
 \textit{templates} de construção. Desta forma, as intervenções na ferramenta
 foram mínimas, e pouco código adicional precisou ser incorporado.
 
-\textbf{INSERIR FIGURA MAGICA}
+A Figura \ref{fig:figuramagica} mostra a macroabordagem escolhida que, partindo da Engenharia de Requisitos e chegando na construção do \textit{software},
+proverá a rastreabilidade dos requisitos e das técnicas de implementação de acessibilidade. A próxima seção explicitará as ferramentas, técnicas e métodos envolvidos para construir a ferramenta de apoio proposta por este trabalho.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{./images/figuramagica.png}
+\caption{Detalhamento dos subprocessos do \gls{mta} para prover a rastreabilidade dos requisitos de acessibilidade
+de acordo com a abordagem adotada neste trabalho}
+\label{fig:figuramagica}
+\end{figure}
 
 \section{Escolha das Ferramentas e Tecnologias}
 
@@ -311,7 +320,7 @@ modelo\footnote{http://www.sparxsystems.com/enterprise\_architect\_user\_guide/n
 Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de
 desenvolvimento de \textit{software}.
 
-Dessa forma, para implementar a abordagem apresentada na Figura \textbf{X}, foi construída uma
+Dessa forma, para implementar a abordagem apresentada na Figura \ref{fig:figuramagica}, foi construída uma
 ferramenta \gls{case}, nos moldes descritos na seções \ref{linktocase1}, \ref{linktocase2} e \ref{linktocase3}. A seguir
 são elencados os principais elementos usados para a demostração desta proposta:
 
@@ -790,8 +799,6 @@ comentário padrão AccTrace}
 \label{fig:commentrecovery}
 \end{figure}
 
-A recuperação dos comentários personalizados encerra a proposta deste trabalho.
-O próximo capítulo apresentará uma prova de conceito, que utilizará o \gls{mta}
-e os \textit{plugins} e ferramentas aqui elencados para demonstrar a
+A recuperação dos comentários personalizados encerra a proposta deste trabalho. Os passos aqui descritos descrevem a construção da ferramenta, seguindo a abordagem da Figura \ref{fig:figuramagica} e detalhada na Figura \ref{fig:developmentNew}. O próximo capítulo apresentará uma prova de conceito, que utilizará o \gls{mta} e os \textit{plugins} e ferramentas aqui elencados para demonstrar a
 rastreabilidade dos requisitos de acessibilidade, e sua conexão com as técnicas
 de implementação de acessibilidade.
