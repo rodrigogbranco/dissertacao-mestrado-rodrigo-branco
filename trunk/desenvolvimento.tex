@@ -11,16 +11,16 @@ Os requisitos de acessibilidade devem ser propagados desde o início do processo
 (levantamento e confecção do documento de requisitos) até as etapas finais de
 codificação e testes de forma consistente.
 
-Para o trabalho proposto, foi definido como escopo apenas os subprocessos 4
+Para o trabalho proposto, foi definido como escopo apenas os Subprocessos 4
 (Análise de Requisitos de Software), 5 (Projeto de Software) e 6 (Construção do
 Software) e suas respectivas tarefas de acessibilidade propostas no \gls{mta}. Essa abordagem foi adotada pois, embora as definições de acessibilidade já
-comecem no subprocesso 1, é no subprocesso 4 que os requisitos são ``lapidados''
+comecem no Subprocesso 1, é no Subprocesso 4 que os requisitos são ``lapidados''
 e o artefato de entrada das fases de projeto é gerado.
 
 As tarefas de testes,
-presentes no subprocesso 6, não serão levadas em consideração.
+presentes no Subprocesso 6, não serão levadas em consideração.
 
-A seguir, serão apresentados os relacionamentos entre os subprocessos citados
+A seguir, serão apresentados os relacionamentos entre os Subprocessos citados
 com o rastreio dos requisitos de acessibilidade.
 
 \section{Subprocesso 4 - Análise de Requisitos de Software}
@@ -32,13 +32,13 @@ conseguir identificar requisitos funcionais e não funcionais de acessibilidade. 
 acessibilidade pode não ser encontrado explicitamente neste momento, mas a identificação posterior 
 exigirá um refatoramento do modelo.
 
-Requisitos funcionais e não funcionais são abordados no subprocesso 4, ponto de
+Requisitos funcionais e não funcionais são abordados no Subprocesso 4, ponto de
 partida deste trabalho no modelo MTA. Caso os requisitos não sejam identificados
-nesta etapa, o especialista em acessibilidade deverá, no subprocesso 5,
+nesta etapa, o especialista em acessibilidade deverá, no Subprocesso 5,
 especificar nos projetos de interface e navegação os itens que merecem um
 tratamento de acessibilidade específico.
 
-O objetivo do subprocesso 4 é estabelecer os requisitos dos elementos de
+O objetivo do Subprocesso 4 é estabelecer os requisitos dos elementos de
 software do sistema. Elementos aqui são considerados interface e código
 \citep{maia:10}.
 
@@ -53,8 +53,8 @@ O MTA insere duas tarefas de acessibilidade, conforme mostrado na Figura
 \end{figure}
 
 É importante ressaltar que os requisitos já são parcialmente coletados em
-subprocessos anteriores, mas é apenas nesse subprocesso que os requisitos de
-interface e código são considerados. É nesse subprocesso também que irá originar
+Subprocessos anteriores, mas é apenas nesse Subprocesso que os requisitos de
+interface e código são considerados. É nesse Subprocesso também que irá originar
 o artefato para as fases de projeto e codificação.
 
  A saída da tarefa \textbf{Avaliar os requisitos de acessibilidade de software}
@@ -135,7 +135,7 @@ o artefato para as fases de projeto e codificação.
  \section{Subprocesso 5 - Projeto de Software}
  \label{linktocase2}
  
- O objetivo do subprocesso 5 é fornecer um projeto onde os requisitos do
+ O objetivo do Subprocesso 5 é fornecer um projeto onde os requisitos do
  software possam ser implementados e verificados \citep{maia:10}.
  
  O MTA insere três tarefas de acessibilidade, conforme mostrado na Figura
@@ -144,20 +144,20 @@ o artefato para as fases de projeto e codificação.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./images/subprocesso5.png}
-\caption{Tarefas para o subprocesso de projeto de software \citep{maia:10}}
+\caption{Tarefas para o Subprocesso de projeto de software \citep{maia:10}}
 \label{fig:sub5}
 \end{figure}
 
-As três tarefas deste subprocesso são de extrema importância e impactam
+As três tarefas deste Subprocesso são de extrema importância e impactam
 diretamente na acessibilidade do produto final. O artefato XML/XMI gerado pela ferramenta \gls{case},
-ainda sem acessibilidade, obtido no subprocesso anterior passará por cada tarefa deste subprocesso, de forma que,
+ainda sem acessibilidade, obtido no Subprocesso anterior passará por cada tarefa deste Subprocesso, de forma que,
 além da saída da tarefa \textbf{Avaliar a acessibilidade do projeto de software}
 e gerar o artefato \textbf{Projeto de software acessível}, esta tarefa também
 gerará um artefato de projeto de software no formato XML/XMI, com elementos de
 acessibilidade embutidos.
 
-A proposta deste trabalho enseja que as subtarefas das tarefas pertencentes a
-esse subprocesso já comecem a contar com critérios de sucesso do documento de
+A proposta deste trabalho enseja que as Subtarefas das tarefas pertencentes a
+esse Subprocesso já comecem a contar com critérios de sucesso do documento de
 diretrizes de acessibilidade escolhido (por exemplo, o \gls{wcag}).
 Desta forma, torna-se mais fácil relacionar os pontos críticos de acessibilidade do
 projeto de interface e navegação nos passos posteriores, principalmente porque
@@ -166,8 +166,8 @@ consideração o contexto semântico (por exemplo, ordem de navegação), e esses
 pontos críticos devem ser revisados posteriormente.
 
 Além disso, é necessário esclarecer que o padrão de conformidade para o projeto
-é definido na Tarefa 1.1 do Subprocesso 1 (Elicitação dos Requisitos do
-Sistema). Os padrões e ferramentas disponíveis levam em consideração o
+é definido na Tarefa do Subprocesso 1 (Elicitação dos Requisitos do
+Sistema) \citep{maia:10}. Os padrões e ferramentas disponíveis levam em consideração o
 reconhecido padrão WCAG 2.0. Contudo, a necessidade de conformidade com
 outros padrões de acessibilidade leva a necessidade de um
 monitoramento constante por parte do especialista em acessibilidade, pois nem sempre as
@@ -201,16 +201,16 @@ ou explorar os arquivos confortavelmente através do software \textit{Protegé}
 
 A ferramenta desenvolvida neste trabalho utilizou a ontologia definida pelo projeto mencionado, explicado com mais detalhes posteriormente.
 
-Ao final deste subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
+Ao final deste Subprocesso, a ferramenta \gls{case} já deve ter as associações dos requisitos de acessibilidade com os
 itens de interface e navegação (já incluindo a associação com o WCAG 2.0), bem como os outros artefatos modelados 
-no subprocesso anterior. A matriz de rastreabilidade pode ser gerada novamente,
+no Subprocesso anterior. A matriz de rastreabilidade pode ser gerada novamente,
 dessa vez mais completa, pois mais dados estão disponíveis neste ponto do
 processo.
 
 \section{Subprocesso 6 - Construção do Software}
 \label{linktocase3}
 
- O objetivo do subprocesso 6 é produzir unidades de software executáveis que
+ O objetivo do Subprocesso 6 é produzir unidades de software executáveis que
  apropriadamente refletem o projeto de software \citep{maia:10}.
  
  O MTA insere quatro tarefas de acessibilidade, conforme mostrado na Figura
@@ -226,7 +226,7 @@ processo.
 A Tarefa (Especificar Técnicas para Implementação da Acessibilidade da
 Interface e do Código) visa explicitar as técnicas de implementação de
 acessibilidade, refletidas no projeto de software. Como dito anteriormente, o
-padrão de conformidade já deve ter sido escolhido no subprocesso 1. Apesar dos padrões
+padrão de conformidade já deve ter sido escolhido no Subprocesso 1. Apesar dos padrões
 de acessibilidade serem diferentes em essência, existe uma grande intersecção no que se
 refere as técnicas utilizadas para implementação efetiva da acessibilidade no produto.
 As regras para implementação do padrão e-Mag 3.0 são muito parecidas com as do padrão WCAG 2.0,
@@ -293,7 +293,7 @@ proverá a rastreabilidade dos requisitos e das técnicas de implementação de aces
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./images/figuramagica.png}
-\caption{Detalhamento dos subprocessos do \gls{mta} para prover a rastreabilidade dos requisitos de acessibilidade
+\caption{Detalhamento dos Subprocessos do \gls{mta} para prover a rastreabilidade dos requisitos de acessibilidade
 de acordo com a abordagem adotada neste trabalho}
 \label{fig:figuramagica}
 \end{figure}
