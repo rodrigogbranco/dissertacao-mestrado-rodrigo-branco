@@ -1,7 +1,5 @@
 \chapter{Conclusões}
 
-\section{Considerações Iniciais}
-
 Este capítulo apresenta as conclusões gerais desta dissertação, bem como as
 contribuições e trabalhos futuros.
 
@@ -26,15 +24,14 @@ técnicas de implementação anteriormente ditas para abordagens, diretrizes,
 critérios de sucesso, entre outros.
 
 Este estudo não tem por objetivo entregar uma ferramenta \gls{case} que atenda
-às exigências aqui descritas; o objetivo principal é discutir as maneiras em que
-a rastreabiliade pode ser promovida (utilizando técnicas já descritas na
+às exigências aqui descritas; o objetivo principal é discutir as alternativas para promover a rastreabilidade (utilizando técnicas já descritas na
 literatura e utilizadas em outros trabalhos), e a partir das várias opções
-disponíveis, escolher a mais adequada, levando em considerações a ferramentas
+disponíveis, escolher a mais adequada, levando em consideração as ferramentas
 disponíveis, contexto abordado e limitações inerentes.
 
-Como já dito por \citet{maia:10}, este trabalho pressupõe que um especialista
+Como mencionado por \citet{maia:10}, este trabalho pressupõe que um especialista
 em acessibilidade participe do processo de desenvolvimento, principalmente nas
-subtarefas de acessibilidades proposta pelo \gls{mta}. A proposta deste trabalho
+Subtarefas de acessibilidade propostas pelo \gls{mta}. A proposta deste trabalho
 pode se estender para outras áreas (por exemplo, usabilidade, segurança, etc),
 desde que haja um especialista e que o domínio esteja mapeado na forma de uma
 ontologia, ou outro formato que possa ser interpretado por uma ferramenta
@@ -51,15 +48,14 @@ trabalho:
   de desenvolvimento que inclui tarefas de acessibilidade (\gls{mta});
   \item permitir a especificação de técnicas de implementação de acessibilidade, 
   mapeadas em uma ontologia pré-definida;
-  \item fornecer uma ferramenta como prova de conceito que possa ser
-  alterada/aprimorada para trabalhos futuros.
+  \item fornecer uma ferramenta como prova de conceito.
 \end{enumerate}
 
-\section{Participações em eventos}
+\section{Participação em evento}
 
 Este trabalho teve sua importância reconhecida através da seleção para
 participação, como trabalho de pós-graduação em andamento, e apresentação de
-poster no \textit{PASQI Workshop}, realizado em Costa Rica e patrocinado por:
+poster no \textit{PASQI Workshop}, realizado em Costa Rica e patrocinado por
 \textit{Michigan Technological University, Pontificia Universidad Católica de
 Chile, Miami University, Universidad de Buenos Aires, Universidad de Chile e
 Universidad de Costa Rica}.
@@ -71,7 +67,7 @@ Universidad de Costa Rica}.
 \begin{itemize}
   \item efetuar um estudo de caso com um projeto real, que utilize o \gls{mta} e
   use os \textit{plugins} aqui elencados, inclusive os \textit{plugins}
-  construídos e customizados para promover a rastreabilidade e geração de
+  construídos e customizados para promover a rastreabilidade e gera]ção de
   código;
   \item efetuar um estudo de caso com usuários reais, utilizando o
   \textit{software} construído no item anterior e avaliar a acessibilidade do
@@ -84,8 +80,8 @@ Universidad de Costa Rica}.
   melhorando as mensagens apresentadas, aproveitando o relacionamento da
   ontologia do projeto \citet{aegis:13};
   \item estender o escopo deste trabalho, incluíndo tarefas de testes e
-  integração do \textit{software} e do sistema (subtarefas 7, 8, 9 e 10 do
-  \gls{mta});
+  integração do \textit{software} e do sistema (Subtarefas 7, 8, 9 e 10 do
+  \gls{mta} \citep{maia:10});
   \item tratar o caso de remoção de requisitos/modelos \gls{uml} já relacionados
   no modelo \textit{AccTrace};
   \item estender a matriz de rastreabilidade dos requisitos aqui construída,
@@ -95,3 +91,5 @@ Universidad de Costa Rica}.
 \end{itemize}
 
 O código fonte do trabalho pode ser encontrado em: \url{https://github.com/rodrigogbranco/acctrace.git}. No mesmo repositório é possível encontrar, dentro da pasta \textit{umlToJavaPlugins}, o código fonte do \textit{plugin UML to Java Generator} com as alterações efetuadas neste trabalho.
+
+Existem muitas perspectivas de melhoria. Contudo, este trabalho contribuiu com um pequeno passo, porém importante, na tentativa de promover a rastreabilidade dos requisitos de acessibilidade e também na tentativa de informar ao desenvolvedor, de forma objetiva, quais técnicas devem ser levadas em consideração no desenvolvimento de suas aplicações \textit{web}. 
