@@ -1,7 +1,2 @@
-This is makeindex, version 2.15 [MiKTeX 2.9 64-bit] (kpathsea + Thai support).
-Scanning style file F:/workspaceEclipse/dissertacaoMestrado/document.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file document.acn....done (246 entries accepted, 0 rejected).
-Sorting entries.....done (2110 comparisons).
-Generating output file document.acr....done (196 lines written, 0 warnings).
-Output written in document.acr.
-Transcript written in document.alg.
+Warning: File 'document.acn' is empty.
+Have you used any entries defined in glossary 'acronym'?
