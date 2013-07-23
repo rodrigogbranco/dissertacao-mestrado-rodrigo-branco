@@ -1,0 +1,1052 @@
+\begin{thebibliography}{}
+
+\bibitem[{$\!\!$}, 2001]{2001:SPL:501065}
+{$\!\!$} (2001).
+\newblock {\em Software product lines: practices and patterns}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA.
+
+\bibitem[Accessible Consortium, 2013a]{accessibleconsortium:13}
+Accessible Consortium (2013a).
+\newblock Accessible - applications design and development.
+\newblock http://www.accessible-eu.org/index.php/consortium.html.
+
+\bibitem[Accessible Consortium, 2013b]{accessibleontology:13}
+Accessible Consortium (2013b).
+\newblock Accessible - applications design and development - ontology.
+\newblock http://www.accessible-eu.org/index.php/ontology.html.
+
+\bibitem[Aegis, 2013]{aegis:13}
+Aegis (2013).
+\newblock Aegis ontology.
+\newblock
+  http://www.aegis-project.eu/index.php?option=com\_content\&view=article\&id=107\&Itemid=65.
+
+\bibitem[Akhter et~al., 2009]{Akhter:2009:CFE:1632189.1632275}
+Akhter, F., Buzzi, M.~C., Buzzi, M., and Leporini, B. (2009).
+\newblock Conceptual framework: How to engineer online trust for disabled
+  users.
+\newblock In {\em Proceedings of the 2009 IEEE/WIC/ACM International Joint
+  Conference on Web Intelligence and Intelligent Agent Technology - Volume 03},
+  WI-IAT '09, pages 614--617, Washington, DC, USA. IEEE Computer Society.
+
+\bibitem[Ali et~al., 2011]{5970169}
+Ali, N., Gueheneuc, Y., and Antoniol, G. (2011).
+\newblock Trust-based requirements traceability.
+\newblock In {\em Program Comprehension (ICPC), 2011 IEEE 19th International
+  Conference on}, pages 111--120.
+
+\bibitem[{Alves}, 2011]{alves:11}
+{Alves}, D.~D. (2011).
+\newblock Acessibilidade no desenvolvimento de software livre.
+\newblock Master's thesis, Universidade Federal de Mato Grosso do Sul.
+
+\bibitem[Apache, 2013a]{odftoolkit:13}
+Apache (2013a).
+\newblock Apache odf toolkit (incubating).
+\newblock http://incubator.apache.org/odftoolkit/.
+
+\bibitem[Apache, 2013b]{odftoolkitsimple:13}
+Apache (2013b).
+\newblock Apache odf toolkit(incubating) - simple api.
+\newblock http://incubator.apache.org/odftoolkit/simple/index.html.
+
+\bibitem[Assawamekin et~al., 2009]{5223183}
+Assawamekin, N., Sunetnanta, T., and Pluempitiwiriyawej, C. (2009).
+\newblock Mupret: An ontology-driven traceability tool for multiperspective
+  requirements artifacts.
+\newblock In {\em Computer and Information Science, 2009. ICIS 2009. Eighth
+  IEEE/ACIS International Conference on}, pages 943--948.
+
+\bibitem[Astah, 2013]{astah:13}
+Astah (2013).
+\newblock Astah professional.
+\newblock http://astah.net/editions/professional.
+
+\bibitem[ATAG, 2013a]{atag10:13}
+ATAG (2013a).
+\newblock Authoring tool accessibility guidelines 1.0.
+\newblock http://www.w3.org/TR/ATAG10/.
+
+\bibitem[ATAG, 2013b]{atag20:13}
+ATAG (2013b).
+\newblock Authoring tool accessibility guidelines (atag) 2.0.
+\newblock http://www.w3.org/TR/ATAG20/.
+
+\bibitem[Baguma et~al., 2009]{springerlink:10.1007/978-3-642-02713-0_67}
+Baguma, R., Stone, R., Lubega, J., and van~der Weide, T. (2009).
+\newblock Integrating accessibility and functional requirements.
+\newblock In Stephanidis, C., editor, {\em Universal Access in Human-Computer
+  Interaction. Applications and Services}, volume 5616 of {\em Lecture Notes in
+  Computer Science}, pages 635--644. Springer Berlin / Heidelberg.
+
+\bibitem[Bailey and Burd, 2007]{4380248}
+Bailey, J. and Burd, E. (2007).
+\newblock Towards more mature web maintenance practices for accessibility.
+\newblock In {\em Web Site Evolution, 2007. WSE 2007. 9th IEEE International
+  Workshop on}, pages 81 -- 87.
+
+\bibitem[Beck, 2000]{Beck:1999:EPE:318762}
+Beck, K. (2000).
+\newblock {\em Extreme programming explained: embrace change}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA.
+
+\bibitem[Belani et~al., 2009]{5068459}
+Belani, H., Car, Z., and Caric, A. (2009).
+\newblock Rup-based process model for security requirements engineering in
+  value-added service development.
+\newblock In {\em Software Engineering for Secure Systems, 2009. SESS '09. ICSE
+  Workshop on}, pages 54 --60.
+
+\bibitem[Bigham et~al., 2010]{Bigham:2010:ADE:1878803.1878812}
+Bigham, J.~P., Brudvik, J.~T., and Zhang, B. (2010).
+\newblock Accessibility by demonstration: enabling end users to guide
+  developers to web accessibility solutions.
+\newblock In {\em Proceedings of the 12th international ACM SIGACCESS
+  conference on Computers and accessibility}, ASSETS '10, pages 35--42, New
+  York, NY, USA. ACM.
+
+\bibitem[Bittar et~al., 2013]{bittar:13}
+Bittar, T.~J., Lobato, L.~L., and de~Mattos~Fortes, R.~P. (2013).
+\newblock Accessibility approach to web applications development: An
+  experimental study.
+\newblock In {\em 12º Simpósio Brasileiro de Qualidade de Software (SBQS)}.
+
+\bibitem[Bonacin et~al., 2010]{Bonacin:2010:AIE:1746356.1746361}
+Bonacin, R., Melo, A.~M., Simoni, C. A.~C., and Baranauskas, M. C.~C. (2010).
+\newblock Accessibility and interoperability in e-government systems: outlining
+  an inclusive development process.
+\newblock {\em Univers. Access Inf. Soc.}, 9(1):17--33.
+
+\bibitem[Bonacin et~al., 2006]{bonacin:06}
+Bonacin, R., Simoni, C. A.~C., Melo, A.~M., and Baranauskas, M. C.~C. (2006).
+\newblock Organisational semiotics: Guiding a service-oriented architecture for
+  e-government.
+\newblock In {\em International Conference on Organisational Semiotics (ICOS)},
+  pages 47--58.
+
+\bibitem[Brajnik, 2006]{brajnik:06}
+Brajnik, G. (2006).
+\newblock Web accessibility testing: When the method is the culprit.
+\newblock In Miesenberger, K., Klaus, J., Zagler, W.~L., and Karshmer, A.~I.,
+  editors, {\em ICCHP}, volume 4061 of {\em Lecture Notes in Computer Science},
+  pages 156--163. Springer.
+
+\bibitem[Brajnik, 2009]{Brajnik:2009:VRW:1639642.1639666}
+Brajnik, G. (2009).
+\newblock Validity and reliability of web accessibility guidelines.
+\newblock In {\em Proceedings of the 11th international ACM SIGACCESS
+  conference on Computers and accessibility}, Assets '09, pages 131--138, New
+  York, NY, USA. ACM.
+
+\bibitem[Branco, 2009]{branco:09}
+Branco, R. G.~d. (2009).
+\newblock Ferramenta para avaliação de acessibilidade de \textit{Web sites}
+  baseada em métricas: uma abordagem baseada no modelo de acessibilidade para
+  governo eletrônico do brasil (\textit{e-Mag}).
+\newblock Monografia (Graduação em Ciência da Computação), Curso de Ciência da
+  Computação da UFMS.
+
+\bibitem[B{\"u}hler et~al., 2006]{buhler:06}
+B{\"u}hler, C., Heck, H., Perlick, O., Nietzio, A., and Ulltveit-Moe, N.
+  (2006).
+\newblock Interpreting results from large scale automatic evaluation of web
+  accessibility.
+\newblock In {\em ICCHP}, pages 184--191.
+
+\bibitem[Buzzi et~al., 2008]{Buzzi:2008:MWE:1463160.1463210}
+Buzzi, M.~C., Buzzi, M., Leporini, B., and Senette, C. (2008).
+\newblock Making wikipedia editing easier for the blind.
+\newblock In {\em Proceedings of the 5th Nordic conference on Human-computer
+  interaction: building bridges}, NordiCHI '08, pages 423--426, New York, NY,
+  USA. ACM.
+
+\bibitem[Camargo, 2011]{irpf:11}
+Camargo, G. (2011).
+\newblock Irpf -- mudanças nas regras para 2011 -- imposto de renda.
+\newblock
+  http://www.impostoderenda.org/2011/02/16/irpf-mudancas-nas-regras-para-2011-imposto-de-renda/.
+
+\bibitem[Carromeu et~al., 2010]{Carromeu:2010:CAE:1796182.1796987}
+Carromeu, C., Paiva, D. M.~B., Cagnin, M.~I., Rubinsztejn, H. K.~S., Turine, M.
+  A.~S., and Breitman, K. (2010).
+\newblock Component-based architecture for e-gov web systems development.
+\newblock In {\em Proceedings of the 2010 17th IEEE International Conference
+  and Workshops on the Engineering of Computer-Based Systems}, ECBS '10, pages
+  379--385, Washington, DC, USA. IEEE Computer Society.
+
+\bibitem[Clark, 2011]{clark:11}
+Clark, J. (2011).
+\newblock To hell with wcag 2.
+\newblock http://www.alistapart.com/articles/tohellwithwcag2.
+
+\bibitem[Cleland-Huang et~al., 2005]{Cleland-Huang:2005:USE:1099549.1100625}
+Cleland-Huang, J., Settimi, R., Duan, C., and Zou, X. (2005).
+\newblock Utilizing supporting evidence to improve dynamic requirements
+  traceability.
+\newblock In {\em Proceedings of the 13th IEEE International Conference on
+  Requirements Engineering}, RE '05, pages 135--144, Washington, DC, USA. IEEE
+  Computer Society.
+
+\bibitem[Cook and Hussey, 1995]{cook:95}
+Cook, A.~M. and Hussey, S.~M. (1995).
+\newblock {\em Assistive Technologies: Principles and Practice}.
+\newblock Mosby Year Book.
+
+\bibitem[Cysneiros and do~Prado~Leite, 2001]{Cysneiros:2001:UUR:782096.782098}
+Cysneiros, L.~M. and do~Prado~Leite, J. C.~S. (2001).
+\newblock Using uml to reflect non-functional requirements.
+\newblock In {\em Proceedings of the 2001 conference of the Centre for Advanced
+  Studies on Collaborative research}, CASCON '01, pages 2--. IBM Press.
+
+\bibitem[DeGrace and Stahl, 1990]{DeGrace:1990:WPR:83202}
+DeGrace, P. and Stahl, L.~H. (1990).
+\newblock {\em Wicked problems, righteous solutions}.
+\newblock Yourdon Press, Upper Saddle River, NJ, USA.
+
+\bibitem[desRivieres and Wiegand, 2004]{5386785}
+desRivieres, J. and Wiegand, J. (2004).
+\newblock Eclipse: A platform for integrating development tools.
+\newblock {\em IBM Systems Journal}, 43(2):371 --383.
+
+\bibitem[Dias et~al., 2010]{analuizadias:2010}
+Dias, A.~L., de~Mattos~Fortes, R.~P., Masiero, P.~C., and Goularte, R. (2010).
+\newblock Uma revisão sistemática sobre a inserção de acessibilidade nas fases
+  de desenvolvimento da engenharia de de software em sistemas web.
+\newblock In {\em Proceedings of the IX Symposium on Human Factors in Computing
+  Systems}, IHC '10, pages 39--48, Porto Alegre, Brazil, Brazil. Brazilian
+  Computer Society.
+
+\bibitem[Dojo, 2013]{dojo:13}
+Dojo (2013).
+\newblock Unbeatable javascript tools - the dojo toolkit.
+\newblock http://dojotoolkit.org/.
+
+\bibitem[Drupal, 2013]{drupal:13}
+Drupal (2013).
+\newblock Drupal brasil.
+\newblock http://drupal-br.org/.
+
+\bibitem[EARL, 2013a]{earl10:13}
+EARL (2013a).
+\newblock Evaluation and report language (earl) 1.0 schema.
+\newblock http://www.w3.org/TR/EARL10-Schema/.
+
+\bibitem[EARL, 2013b]{earl:13}
+EARL (2013b).
+\newblock Evaluation and report language (earl) overview.
+\newblock http://www.w3.org/WAI/intro/earl.
+
+\bibitem[Eclipse, 2013a]{acceleo:13}
+Eclipse (2013a).
+\newblock Acceleo - transforming models into code.
+\newblock http://www.eclipse.org/acceleo/.
+
+\bibitem[Eclipse, 2013b]{emf:13}
+Eclipse (2013b).
+\newblock Eclipse modeling framework project (emf).
+\newblock http://www.eclipse.org/modeling/emf/.
+
+\bibitem[Eclipse, 2013c]{eclipselicense:13}
+Eclipse (2013c).
+\newblock Eclipse public license - v 1.0.
+\newblock http://www.eclipse.org/legal/epl-v10.html.
+
+\bibitem[Eclipse, 2013d]{obeo:13}
+Eclipse (2013d).
+\newblock Obeo.
+\newblock http://www.eclipse.org/membership/showMember.php?member\_id=863.
+
+\bibitem[Eclipse Marketplace, 2013a]{reqdesigner:13}
+Eclipse Marketplace (2013a).
+\newblock Requirement designer (indigo version) 1.0.
+\newblock http://marketplace.eclipse.org/node/407399/\#.UeNytI2HvJK.
+
+\bibitem[Eclipse Marketplace, 2013b]{umldesigner:13}
+Eclipse Marketplace (2013b).
+\newblock Uml designer (indigo version) 1.5.
+\newblock
+  http://marketplace.eclipse.org/content/uml-designer-indigo-version/\#.UeNzD42HvJJ.
+
+\bibitem[Eclipse Marketplace, 2013c]{umltojava:13}
+Eclipse Marketplace (2013c).
+\newblock Uml to java generator 2.0.2.
+\newblock
+  http://marketplace.eclipse.org/content/uml-java-generator/\#.UeNzWI2HvJJ.
+
+\bibitem[Eclispe, 2013a]{ecoretools:13}
+Eclispe (2013a).
+\newblock Ecore tools.
+\newblock http://wiki.eclipse.org/index.php/Ecore\_Tools.
+
+\bibitem[Eclispe, 2013b]{rmf:13}
+Eclispe (2013b).
+\newblock Pror - requirement engineering platform.
+\newblock http://www.eclipse.org/rmf/pror/.
+
+\bibitem[Encelle and Baptiste-Jessel, 2007a]{4437943}
+Encelle, B. and Baptiste-Jessel, N. (2007a).
+\newblock Generating adaptable user interfaces for browsing xml documents user
+  interfaces adaptation using user profiles of applications policies.
+\newblock In {\em Autonomic and Autonomous Systems, 2007. ICAS07. Third
+  International Conference on}, page~66.
+
+\bibitem[Encelle and Baptiste-Jessel, 2007b]{Encelle:2007:PUI:1243441.1243459}
+Encelle, B. and Baptiste-Jessel, N. (2007b).
+\newblock Personalization of user interfaces for browsing xml content using
+  transformations built on end-user requirements.
+\newblock In {\em Proceedings of the 2007 international cross-disciplinary
+  conference on Web accessibility (W4A)}, W4A '07, pages 58--64, New York, NY,
+  USA. ACM.
+
+\bibitem[Faulkner, 2011]{faulkner:11}
+Faulkner, S. (2011).
+\newblock Html5 and the myth of wai-aria redundance.
+\newblock
+  http://www.paciellogroup.com/blog/2010/04/html5-and-the-myth-of-wai-aria-redundance/.
+
+\bibitem[Ferres et~al., 2007]{Ferres:2007:IAS:1296843.1296857}
+Ferres, L., Verkhogliad, P., Lindgaard, G., Boucher, L., Chretien, A., and
+  Lachance, M. (2007).
+\newblock Improving accessibility to statistical graphs: the igraph-lite
+  system.
+\newblock In {\em Proceedings of the 9th international ACM SIGACCESS conference
+  on Computers and accessibility}, Assets '07, pages 67--74, New York, NY, USA.
+  ACM.
+
+\bibitem[Ferretti et~al., 2008]{Ferretti:2008:EYW:1368044.1368070}
+Ferretti, S., Mirri, S., Muratori, L.~A., Roccetti, M., and Salomoni, P.
+  (2008).
+\newblock E-learning 2.0: you are we-lcome!
+\newblock In {\em Proceedings of the 2008 international cross-disciplinary
+  conference on Web accessibility (W4A)}, W4A '08, pages 116--125, New York,
+  NY, USA. ACM.
+
+\bibitem[Freedom Scientific, 2013a]{freedom_jaws:13}
+Freedom Scientific (2013a).
+\newblock Jaws.
+\newblock http://www.freedomscientific.com/jaws-hq.asp.
+
+\bibitem[Freedom Scientific, 2013b]{freedom_magic:13}
+Freedom Scientific (2013b).
+\newblock Magic screen magnification software.
+\newblock
+  http://www.freedomscientific.com/products/lv/magic-bl-product-page.asp.
+
+\bibitem[{Freire}, 2008]{freire:08}
+{Freire}, A.~P. (2008).
+\newblock Acessibilidade no desenvolvimento de aplicações web: um estudo sobre
+  o cenário brasileiro.
+\newblock Master's thesis, Universidade de São Paulo.
+
+\bibitem[Freire, 2012]{freire:12}
+Freire, A.~P. (2012).
+\newblock {\em Disabled people and the Web: User-based measurement of
+  accessibility}.
+\newblock {PhD} in {C}omputer {S}cience, University of York.
+
+\bibitem[Fuertes et~al., 2011]{Fuertes:2011:DHW:1969289.1969294}
+Fuertes, J.~L., Guti{\'e}rrez, E., and Mart\'{\i}nez, L. (2011).
+\newblock Developing hera-ffx for wcag 2.0.
+\newblock In {\em Proceedings of the International Cross-Disciplinary
+  Conference on Web Accessibility}, W4A '11, pages 3:1--3:9, New York, NY, USA.
+  ACM.
+
+\bibitem[Giakoumis et~al., 2010]{5564560}
+Giakoumis, D., Votis, K., Tzovaras, D., Likothanassis, S., and Hassapis, G.
+  (2010).
+\newblock Introducing accessibility in the web services domain.
+\newblock In {\em Computer Science and Information Technology (ICCSIT), 2010
+  3rd IEEE International Conference on}, volume~2, pages 18 --22.
+
+\bibitem[Google, 2011]{googlelabs:11}
+Google (2011).
+\newblock Google accessibility.
+\newblock http://www.google.com/accessibility/\-labs/search/.
+
+\bibitem[Google, 2013]{google:13}
+Google (2013).
+\newblock Accessibility in google search.
+\newblock https://support.google.com/websearch/answer/181196?hl=en.
+
+\bibitem[Gotel and Finkelstein, 1994]{292398}
+Gotel, O. C.~Z. and Finkelstein, A. C.~W. (1994).
+\newblock An analysis of the requirements traceability problem.
+\newblock In {\em Requirements Engineering, 1994., Proceedings of the First
+  International Conference on}, pages 94--101.
+
+\bibitem[Governo Eletrônico, 2013]{emag:13}
+Governo Eletrônico (2013).
+\newblock e-mag - modelo de acessibilidade de governo eletrônico.
+\newblock http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG.
+
+\bibitem[Groves, 2011]{groves:11}
+Groves, K. (2011).
+\newblock How expensive is web accessibility?
+\newblock http://www.karlgroves.com/2011/11/30/how-expensive-is-accessibility/.
+
+\bibitem[Groves, 2012]{groves:12}
+Groves, K. (2012).
+\newblock Web accessibility testing: Do automatic testing first.
+\newblock
+  http://www.karlgroves.com/2012/02/02/web-accessibility-testing-do-automatic-testing-first/.
+
+\bibitem[guo et~al., 2009a]{guo:2009:OBI:1681515.1682933}
+guo, Y., Yang, M., Wang, J., Yang, P., and Li, F. (2009a).
+\newblock An ontology based improved software requirement traceability matrix.
+\newblock In {\em Proceedings of the 2009 Second International Symposium on
+  Knowledge Acquisition and Modeling - Volume 01}, KAM '09, pages 160--163,
+  Washington, DC, USA. IEEE Computer Society.
+
+\bibitem[guo et~al., 2009b]{5362244}
+guo, Y., Yang, M., Wang, J., Yang, P., and Li, F. (2009b).
+\newblock An ontology based improved software requirement traceability matrix.
+\newblock In {\em Knowledge Acquisition and Modeling, 2009. KAM '09. Second
+  International Symposium on}, volume~1, pages 160--163.
+
+\bibitem[Halbach, 2010]{Halbach:2010:TCA:1747589.1747607}
+Halbach, T. (2010).
+\newblock Towards cognitively accessible web pages.
+\newblock In {\em Proceedings of the 2010 Third International Conference on
+  Advances in Computer-Human Interactions}, ACHI '10, pages 19--24, Washington,
+  DC, USA. IEEE Computer Society.
+
+\bibitem[Hovater, 2008]{hovater:08}
+Hovater, S. (2008).
+\newblock Uml-requirements traceability using ibm rational requisitepro, ibm
+  rational software architect, and birt, part 1: Reporting requirements.
+
+\bibitem[IBM, 2011]{bobby:11}
+IBM (2011).
+\newblock Rational policy tester accessibility edition.
+\newblock http://www-01.ibm.com/software/awdtools/tester/policy/accessibility/.
+
+\bibitem[IBM, 2013a]{accmd:13}
+IBM (2013a).
+\newblock Accmd briefing.
+\newblock http://wiki.cetis.ac.uk/ACCMD\_Briefing.
+
+\bibitem[IBM, 2013b]{rup:13}
+IBM (2013b).
+\newblock Ibm rational unified process (rup).
+\newblock http://www-01.ibm.com/software/awdtools/rup/.
+
+\bibitem[IBM, 2013c]{ibmreq:13}
+IBM (2013c).
+\newblock Rational requisitepro.
+\newblock http://www-03.ibm.com/software/products/br/pt/reqpro/.
+
+\bibitem[IBM, 2013d]{ibm:13}
+IBM (2013d).
+\newblock Rational software architect.
+\newblock http://www-03.ibm.com/software/products/br/pt/ratisoftarch/.
+
+\bibitem[IBM, 2013e]{ibmwebsphere:13}
+IBM (2013e).
+\newblock Websphere software.
+\newblock http://www-01.ibm.com/software/websphere/.
+
+\bibitem[IEEE/EIA, 1998]{ieeeeia12207:1998}
+IEEE/EIA (1998).
+\newblock Ieee/eia 12207 - industry implementation of international standard
+  iso/iec 12207 : 1995.
+\newblock Standard.
+
+\bibitem[IETF, 2013]{ietf:13}
+IETF (2013).
+\newblock The internet engineering task force (ietf).
+\newblock http://www.ietf.org/.
+
+\bibitem[Imposto de Renda 2013, 2013]{irpf:13}
+Imposto de Renda 2013 (2013).
+\newblock Declaracao imposto de renda 2013 \- como declarar.
+\newblock
+  http://impostoderenda2013.com/declaracao-imposto-de-renda-2013-como-declarar.html.
+
+\bibitem[IMS, 2013]{ims:13}
+IMS (2013).
+\newblock Ims access for all v2.0 final specification.
+\newblock http://www.imsglobal.org/accessibility/.
+
+\bibitem[Irish, 2011]{irish:11}
+Irish, P. (2011).
+\newblock Semantics in practice and mapping semantic value to its consumers.
+\newblock http://paulirish.com/2011/semantics/.
+
+\bibitem[IRPF, 2011]{irpf_estacao:11}
+IRPF (2011).
+\newblock Imposto de renda 2011 só poderá ser declarado pela internet.
+\newblock
+  http://irpf.estacaobr.net/imposto-de-renda-2011-so-podera-ser-declarado-pela-internet/.
+
+\bibitem[ISO, 1998]{iso12207:98}
+ISO (1998).
+\newblock {\em {ISO/IEC} 12207 - Standard for Informational Technology -
+  Software Lifecycle Processes}.
+\newblock 1, ch. de la Voie-Creuse - CP 56 - CH-1211 Geneva 20 - Switzerland.
+
+\bibitem[Jacobson et~al., 1999]{Jacobson:1999:USD:309683}
+Jacobson, I., Booch, G., and Rumbaugh, J. (1999).
+\newblock {\em The unified software development process}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA.
+
+\bibitem[JavaCC, 2011]{javacc:11}
+JavaCC (2011).
+\newblock Java compiler compiler [tm] (javacc [tm]) - the java parser
+  generator.
+\newblock http://javacc.java.net/.
+
+\bibitem[JC, 2011]{jc:11}
+JC (2011).
+\newblock Bancos podem oferecer conta sem tarifa a partir desta terça-feira.
+\newblock
+  http://jc.uol.com.br/canal/cotidiano/economia/noticia/2011/02/28/bancos-podem-oferecer-conta-sem-tarifa-a-partir-desta-tercafeira-259223.php.
+
+\bibitem[Joomla, 2013]{joomla:13}
+Joomla (2013).
+\newblock Joomla!
+\newblock http://www.joomla.org/.
+
+\bibitem[jQuery, 2013]{jquery:13}
+jQuery (2013).
+\newblock jquery: The write less, do more, javascript library.
+\newblock http://jquery.com.
+
+\bibitem[Kavcic, 2005]{1630123}
+Kavcic, A. (2005).
+\newblock Software accessibility: Recommendations and guidelines.
+\newblock In {\em Computer as a Tool, 2005. EUROCON 2005.The International
+  Conference on}, volume~2, pages 1024 --1027.
+
+\bibitem[Lazar et~al., 2004]{lazar:04}
+Lazar, J., Dudley-Sponaugle, A., and Greenidge, K.-D. (2004).
+\newblock {Improving web accessibility: a study of webmaster perceptions}.
+\newblock {\em Computers in Human Behavior}, 20(2):269--288.
+
+\bibitem[Lee et~al., 2009]{Joonhoon:09}
+Lee, J., Cho, B., Youn, H., and Lee, E. (2009).
+\newblock Reliability analysis method for supporting traceability using uml.
+\newblock In Slezak, D., Kim, T.-h., Kiumi, A., Jiang, T., Verner, J., and
+  Abrahão, S., editors, {\em Advances in Software Engineering}, volume~59 of
+  {\em Communications in Computer and Information Science}, pages 94--101.
+  Springer Berlin Heidelberg.
+
+\bibitem[Libre Office, 2013]{libreoffice:13}
+Libre Office (2013).
+\newblock Libre office.
+\newblock http://pt-br.libreoffice.org/.
+
+\bibitem[Lobato et~al., 2013]{lobato:13}
+Lobato, L.~L., do~Carmo~Machado, I., da~Mota Silveira~Neto, P.~A., Bittar,
+  T.~J., de~Almeida, E.~S., and de~Lemos~Meira, S.~R. (2013).
+\newblock Risk management in software product lines: An expert opinion survey.
+\newblock In {\em 12º Simpósio Brasileiro de Qualidade de Software (SBQS)}.
+
+\bibitem[LYNX, 2013]{lynx:13}
+LYNX (2013).
+\newblock Lynx.
+\newblock http://lynx.browser.org/.
+
+\bibitem[Mader and Egyed, 2012]{6405269}
+Mader, P. and Egyed, A. (2012).
+\newblock Assessing the effect of requirements traceability for software
+  maintenance.
+\newblock In {\em Software Maintenance (ICSM), 2012 28th IEEE International
+  Conference on}, pages 171--180.
+
+\bibitem[Maia, 2010]{maia:10}
+Maia, L.~S. (2010).
+\newblock Um processo para o desenvolvimento de aplicações web acessíveis.
+\newblock Master's thesis, Universidade Federal de Mato Grosso do Sul.
+
+\bibitem[Manohar and Parthasarathy, 2009]{4809825}
+Manohar, P. and Parthasarathy, A. (2009).
+\newblock An innovative braille system keyboard for the visually impaired.
+\newblock In {\em Computer Modelling and Simulation, 2009. UKSIM '09. 11th
+  International Conference on}, pages 559 --562.
+
+\bibitem[Mart\'{\i}n~Garc\'{\i}a et~al.,
+  2009]{MartinGarcia:2009:PAE:1535654.1535665}
+Mart\'{\i}n~Garc\'{\i}a, Y.~S., Miguel~Gonz\'{a}lez, B.~S., and
+  Yelmo~Garc\'{\i}a, J.~C. (2009).
+\newblock Prosumers and accessibility: how to ensure a productive interaction.
+\newblock In {\em Proceedings of the 2009 International Cross-Disciplinary
+  Conference on Web Accessibililty (W4A)}, W4A '09, pages 50--53, New York, NY,
+  USA. ACM.
+
+\bibitem[Martins and Machado, 2012]{6511842}
+Martins, J. and Machado, R. (2012).
+\newblock Ontologies for product and process traceability at manufacturing
+  organizations: A software requirements approach.
+\newblock In {\em Quality of Information and Communications Technology
+  (QUATIC), 2012 Eighth International Conference on the}, pages 353--358.
+
+\bibitem[Martínez et~al., 2009]{martinez:09}
+Martínez, A.~B., Juan, A.~A., Álvarez, D., and Suárez, M.~C. (2009).
+\newblock Wab*: A quantitative metric based on wab.
+\newblock In {\em ICWE '9: Proceedings of the 9th International Conference on
+  Web Engineering}, pages 485--488, Berlin, Heidelberg. Springer-Verlag.
+
+\bibitem[Masuwa-Morgan, 2008]{4756193}
+Masuwa-Morgan, K. (2008).
+\newblock Introducing accessonto: Ontology for accessibility requirements
+  specification.
+\newblock In {\em Ontologies in Interactive Systems, 2008. ONTORACT '08. First
+  International Workshop on}, pages 33 --38.
+
+\bibitem[{McPherson}, 2009]{mcpherson2009tim}
+{McPherson}, S.~S. (2009).
+\newblock {\em {Tim Berners-Lee: Inventor of the World Wide Web}}.
+\newblock USA Today Lifeline Biographies. Twenty First Century Books.
+
+\bibitem[Melo and Baranauskas, 2006]{Melo:2006:DPI:1298023.1298026}
+Melo, A.~M. and Baranauskas, M. C.~C. (2006).
+\newblock Design para a inclusão: desafios e proposta.
+\newblock In {\em Proceedings of VII Brazilian symposium on Human factors in
+  computing systems}, IHC '06, pages 11--20, New York, NY, USA. ACM.
+
+\bibitem[Michail and Christos, 2007]{Michail:2007:ABS:1547550.1547666}
+Michail, S. and Christos, K. (2007).
+\newblock Adaptive browsing shortcuts: Personalising the user interface of a
+  specialised voice web browser for blind people.
+\newblock In {\em Proceedings of the 2007 IEEE 23rd International Conference on
+  Data Engineering Workshop}, pages 818--825, Washington, DC, USA. IEEE
+  Computer Society.
+
+\bibitem[Microsoft, 2009]{microsoft:09}
+Microsoft (2009).
+\newblock {\em Engineering Software for Accessibility}.
+\newblock O'Reilly Media, Inc.
+
+\bibitem[Mikic et~al., 2007]{4196334}
+Mikic, F., Anido, L., Valero, E., and Picos, J. (2007).
+\newblock Accessibility and mobile learning standardization.
+\newblock In {\em Systems, 2007. ICONS '07. Second International Conference
+  on}, page~32.
+
+\bibitem[Moodle, 2013]{moodle:13}
+Moodle (2013).
+\newblock Moodle.
+\newblock http://moodle.org/.
+
+\bibitem[MooTools, 2013]{mootools:13}
+MooTools (2013).
+\newblock Mootools - a compact javascript framework.
+\newblock http://mootools.net/.
+
+\bibitem[Moreno et~al., 2009]{springerlink:10.1007/978-3-642-02713-0}
+Moreno, L., Martínez, P., and Ruiz-Mezcua, B. (2009).
+\newblock Integrating hci in a web accessibility engineering approach.
+\newblock In Stephanidis, C., editor, {\em Universal Access in Human-Computer
+  Interaction. Applications and Services}, volume 5616 of {\em Lecture Notes in
+  Computer Science}, pages 745--754. Springer Berlin / Heidelberg.
+\newblock 10.1007/978-3-642-02713-0\_79.
+
+\bibitem[Moulin and Sbodio, 2010]{5599835}
+Moulin, C. and Sbodio, M. (2010).
+\newblock Improving the accessibility and efficiency of e-government processes.
+\newblock In {\em Cognitive Informatics (ICCI), 2010 9th IEEE International
+  Conference on}, pages 603--610.
+
+\bibitem[Mozilla Corporation, 2013]{ttv:13}
+Mozilla Corporation (2013).
+\newblock Text to voice.
+\newblock https://addons.mozilla.org/pt-br/firefox/addon/text-to-voice/.
+
+\bibitem[Mozilla Developer Network, 2013]{javascript:13}
+Mozilla Developer Network (2013).
+\newblock Javascript.
+\newblock https://developer.mozilla.org/en-US/docs/Web/JavaScript.
+
+\bibitem[NCE-UFRJ, 2013]{nce-ufrj:13}
+NCE-UFRJ (2013).
+\newblock Projeto dosvox.
+\newblock http://intervox.nce.ufrj.br/dosvox/.
+
+\bibitem[NCSU, 2011]{ncuniversity:11}
+NCSU (2011).
+\newblock New ``principles of universal'' design posters available.
+\newblock
+  http://www.ncsu.edu/project/design-projects/udi/2011/05/09/newprinciplesposters/.
+
+\bibitem[NDA, 2013]{nda:13}
+NDA (2013).
+\newblock The national disability authority.
+\newblock http://www.nda.ie/.
+
+\bibitem[Noll and Ribeiro, 2007]{4148940}
+Noll, R. and Ribeiro, M. (2007).
+\newblock Ontological traceability over the unified process.
+\newblock In {\em Engineering of Computer-Based Systems, 2007. ECBS '07. 14th
+  Annual IEEE International Conference and Workshops on the}, pages 249--255.
+
+\bibitem[Noy et~al., 2001]{Noy01creatingsemantic}
+Noy, N.~F., Sintek, M., Decker, S., Crubezy, M., Fergerson, R.~W., and Musen,
+  M.~A. (2001).
+\newblock Creating semantic web contents with protege-2000.
+\newblock In {\em Protegé-2000. IEEE Intelligent Systems (2001}, pages 60--71.
+
+\bibitem[Obeo Network, 2013]{acceleoquery:13}
+Obeo Network (2013).
+\newblock Queries.
+\newblock http://www.obeonetwork.com/page/the-acceleo-queries.
+
+\bibitem[Oliveira, 2011]{oliveira:11}
+Oliveira, B. (2011).
+\newblock Conheça as vantagens de vender pela internet.
+\newblock
+  http://www.artigonal.com/negocios-online-artigos/conheca-as-vantagens-de-vender-pela-internet-693945.html.
+
+\bibitem[OMG, 2013]{reqif:13}
+OMG (2013).
+\newblock Requirements interchange format (reqif).
+\newblock http://www.omg.org/spec/ReqIF/.
+
+\bibitem[Open Source Software, 2013]{lea:13}
+Open Source Software (2013).
+\newblock Lea - lightweight eyetracking algorithm.
+\newblock http://lea-eyetracking.sourceforge.net/.
+
+\bibitem[Opera Software, 2013]{opera:13}
+Opera Software (2013).
+\newblock Opera version history.
+\newblock http://www.opera.com/docs/history/\#o10.
+
+\bibitem[Oracle, 2013]{java:13}
+Oracle (2013).
+\newblock Java.
+\newblock http://www.oracle.com/technetwork/java/index.html.
+
+\bibitem[Parmanto and Zeng, 2005]{zeng:05}
+Parmanto, B. and Zeng, X. (2005).
+\newblock Metric for web accessibility evaluation.
+\newblock {\em JASIST}, 56(13):1394--1404.
+
+\bibitem[Pauwels et~al., 2009]{Pauwels:2009:EPO:1618879.1619082}
+Pauwels, S.~L., H\"{u}bscher, C., Leuthold, S., Bargas-Avila, J.~A., and Opwis,
+  K. (2009).
+\newblock Error prevention in online forms: Use color instead of asterisks to
+  mark required-fields.
+\newblock {\em Interact. Comput.}, 21:257--262.
+
+\bibitem[Planalto, 2013a]{d5296:04}
+Planalto (2013a).
+\newblock Decreto nº 5.296 de 2 de dezembro de 2004.
+\newblock
+  http://www.planalto.gov.br/ccivil/\_ato2004-2006/2004/decreto/d5296.htm.
+
+\bibitem[Planalto, 2013b]{l10048:00}
+Planalto (2013b).
+\newblock Lei no 10.048, de 8 de novembro de 2000.
+\newblock http://www.planalto.gov.br/ccivil\_03/leis/l10048.htm.
+
+\bibitem[Planalto, 2013c]{l10098:00}
+Planalto (2013c).
+\newblock Lei no 10.098, de 19 de dezembro de 2000.
+\newblock http://www.planalto.gov.br/ccivil\_03/Leis/L10098.htm.
+
+\bibitem[Plone, 2013]{plone:13}
+Plone (2013).
+\newblock Plone.
+\newblock http://plone.org/.
+
+\bibitem[Prototype, 2013]{prototype:13}
+Prototype (2013).
+\newblock Prototype javascript framework: Easy ajax and dom manipulation for
+  dynamic web applications.
+\newblock http://www.prototypejs.org/.
+
+\bibitem[RSS, 2011]{rss:11}
+RSS (2011).
+\newblock Rss specifications.
+\newblock http://www.rss-specifications.com/rss-specifications.htm.
+
+\bibitem[Sandim, 2009]{sandim:09}
+Sandim, H. d.~C. (2009).
+\newblock Pantaneiro: Um framework para desenvolvimento de webapps em uma
+  plataforma e-gov.
+\newblock Master's thesis, Universidade Federal de Mato Grosso do Sul.
+
+\bibitem[Sarcar et~al., 2010]{5469165}
+Sarcar, S., Ghosh, S., Saha, P., and Samanta, D. (2010).
+\newblock Virtual keyboard design: State of the arts and research issues.
+\newblock In {\em Students' Technology Symposium (TechSym), 2010 IEEE}, pages
+  289 --299.
+
+\bibitem[Section 508, 2009]{section508:09}
+Section 508 (2009).
+\newblock Section 508: 508 law.
+\newblock http://www.section508.gov/index.cfm?FuseAction=Content\&ID=3.
+
+\bibitem[SeEBrowser, 2011]{seebrowser:11}
+SeEBrowser (2011).
+\newblock Seebrowser (semantically enhanced browser).
+\newblock http://seebrowser.it.teithe.gr/?q=en/node/32.
+
+\bibitem[Select, 2013]{select:13}
+Select (2013).
+\newblock Select architect (bmm, bpmn, uml).
+\newblock http://www.selectbs.com/analysis-and-design/select-architect.
+
+\bibitem[Sherman, 2001]{sherman:01}
+Sherman, P. (2001).
+\newblock Cost-justifying accessibility. austin: Austin usability.
+\newblock
+  http://www.gslis.utexas.edu/~I385t21/AU\_WP\_Cost\_Justifying\_Accessibility.pdf.
+
+\bibitem[Sidar, 2013]{sidar:13}
+Sidar (2013).
+\newblock Revendo a acessibilidade com estilo.
+\newblock http://www.sidar.org/hera/.
+
+\bibitem[Sirithumgul et~al., 2009]{t1:09}
+Sirithumgul, P., Suchato, A., and Punyabukkana, P. (2009).
+\newblock Quantitative evaluation for web accessibility with respect to
+  disabled groups.
+\newblock In {\em W4A '09: Proceedings of the 2009 International
+  Cross-Disciplinary Conference on Web Accessibililty (W4A)}, pages 136--141,
+  New York, NY, USA. ACM.
+
+\bibitem[SMIL, 2013]{smil:13}
+SMIL (2013).
+\newblock Synchronized multimedia integration language (smil 3.0).
+\newblock http://www.w3.org/TR/smil/.
+
+\bibitem[SOAP, 2013]{soap:13}
+SOAP (2013).
+\newblock Soap version 1.2 part 0: Primer.
+\newblock http://www.w3.org/TR/2003/REC-soap12-part0-20030624/.
+
+\bibitem[Soonsongtanee and Limpiyakorn, 2010]{5485417}
+Soonsongtanee, S. and Limpiyakorn, Y. (2010).
+\newblock Enhancement of requirements traceability with state diagrams.
+\newblock In {\em Computer Engineering and Technology (ICCET), 2010 2nd
+  International Conference on}, volume~2, pages V2--248--V2--252.
+
+\bibitem[Sparx Systems, 2013]{sparx:13}
+Sparx Systems (2013).
+\newblock Sparx systems.
+\newblock
+  http://www.sparxsystems.com/enterprise\_architect\_user\_guide/index.html.
+
+\bibitem[Sun and Zhang, 2009]{5260918}
+Sun, Z. and Zhang, J. (2009).
+\newblock On accessibility of concept, principle and model of educational web
+  sites design.
+\newblock In {\em New Trends in Information and Service Science, 2009. NISS
+  '09. International Conference on}, pages 730 --733.
+
+\bibitem[Tarr, 2011]{html5aria:11}
+Tarr, A. (2011).
+\newblock Wai-aria roles in accessible admin template.
+\newblock
+  http://community.joomla.org/blogs/community/963-wai-aria-roles-in-accessible-admin-template.html.
+
+\bibitem[Thatcher et~al., 2006]{thatcher:06}
+Thatcher, J., Burks, M.~R., and Heilmann, C. (2006).
+\newblock {\em Web Accessibility: Web Standards and Regulatory Compliance}.
+\newblock Friends of Ed.
+
+\bibitem[The National Archives, 2011]{dda:95}
+The National Archives (2011).
+\newblock Disability discrimination act 1995.
+\newblock http://www.legislation.gov.uk/ukpga/1995/50/contents.
+
+\bibitem[Thinyane and Thinyane, 2009]{5338903}
+Thinyane, H. and Thinyane, M. (2009).
+\newblock Icansee: A sim based application for digital inclusion of the
+  visually impaired community.
+\newblock In {\em Innovations for Digital Inclusions, 2009. K-IDI 2009. ITU-T
+  Kaleidoscope:}, pages 1 --6.
+
+\bibitem[TinyMCE, 2013]{tinymce:13}
+TinyMCE (2013).
+\newblock Tinymce - home.
+\newblock http://www.tinymce.com.
+
+\bibitem[TJCE, 2011a]{tjce:11}
+TJCE (2011a).
+\newblock Tribunal de justiça do estado do ceará - emissão de certidão criminal
+  negativa.
+\newblock http://www4.tjce.jus.br/siscertidao/.
+
+\bibitem[TJCE, 2011b]{tjce_portaria:11}
+TJCE (2011b).
+\newblock Tribunal de justiça do estado do ceará - portaria n.617/2008.
+\newblock http://www4.tjce.jus.br/siscertidao/portaria6172008.pdf.
+
+\bibitem[Treasury Board of Canada Secretariat, 2013]{clf:13}
+Treasury Board of Canada Secretariat (2013).
+\newblock Common look and feel for the internet 2.0.
+\newblock http://www.tbs-sct.gc.ca/clf2-nsi2/index-eng.asp.
+
+\bibitem[Trewin et~al., 2010]{Trewin:2010:ACT:1805986.1806029}
+Trewin, S., Cragun, B., Swart, C., Brezin, J., and Richards, J. (2010).
+\newblock Accessibility challenges and tool features: an ibm web developer
+  perspective.
+\newblock In {\em Proceedings of the 2010 International Cross Disciplinary
+  Conference on Web Accessibility (W4A)}, W4A '10, pages 32:1--32:10, New York,
+  NY, USA. ACM.
+
+\bibitem[UAAG, 2013a]{uaag10:13}
+UAAG (2013a).
+\newblock User agent accessibility guidelines 1.0.
+\newblock http://www.w3.org/TR/UAAG10/guidelines.html\#Guidelines.
+
+\bibitem[UAAG, 2013b]{uaag20:13}
+UAAG (2013b).
+\newblock User agent accessibility guidelines (uaag) 2.0.
+\newblock http://www.w3.org/TR/UAAG20/.
+
+\bibitem[UAAG, 2013c]{uaag:13}
+UAAG (2013c).
+\newblock User agent accessibility guidelines (uaag) overview.
+\newblock http://www.w3.org/WAI/intro/uaag.php.
+
+\bibitem[U.S. Department of Justice, 2011]{section508:98}
+U.S. Department of Justice (2011).
+\newblock Section 508.
+\newblock http://www.justice.gov/crt/508/.
+
+\bibitem[van Schaik and Ling, 2008]{Schaik:2008:MUE:1367153.1367461}
+van Schaik, P. and Ling, J. (2008).
+\newblock Modelling user experience with web sites: Usability, hedonic value,
+  beauty and goodness.
+\newblock {\em Interact. Comput.}, 20:419--432.
+
+\bibitem[Vigo et~al., 2007]{vigo:07}
+Vigo, M., Arrue, M., Brajnik, G., Lomuscio, R., and Abascal, J. (2007).
+\newblock Quantitative metrics for measuring web accessibility.
+\newblock In {\em W4A '07: Proceedings of the 2007 international
+  cross-disciplinary conference on Web accessibility (W4A)}, pages 99--107, New
+  York, NY, USA. ACM.
+
+\bibitem[Vigo and Brajnik, 2011]{Vigo:2011:AWA:1963660.1963798}
+Vigo, M. and Brajnik, G. (2011).
+\newblock Automatic web accessibility metrics: Where we are and where we can
+  go.
+\newblock {\em Interact. Comput.}, 23:137--155.
+
+\bibitem[Visual Paradigm, 2013]{visualparadigm:13}
+Visual Paradigm (2013).
+\newblock Visual paradigm.
+\newblock http://www.visual-paradigm.com/.
+
+\bibitem[Votis et~al., 2009]{5358165}
+Votis, K., Oikonomou, T., Korn, P., Tzovaras, D., and Likothanassis, S. (2009).
+\newblock A visual impaired simulator to achieve embedded accessibility
+  designs.
+\newblock In {\em Intelligent Computing and Intelligent Systems, 2009. ICIS
+  2009. IEEE International Conference on}, volume~3, pages 368 --372.
+
+\bibitem[W3 Schools, 2011]{xpath:11}
+W3 Schools (2011).
+\newblock Xpath introduction.
+\newblock http://www.w3schools.com/xpath/ xpath\_intro.asp.
+
+\bibitem[W3C, 2011]{xslt:11}
+W3C (2011).
+\newblock Xsl transformations (xslt).
+\newblock http://www.w3.org/TR/xslt.
+
+\bibitem[W3C, 2013a]{atag:13}
+W3C (2013a).
+\newblock Authoring tool accessibility guidelines (atag) overview.
+\newblock http://www.w3.org/WAI/intro/atag.php.
+
+\bibitem[W3C, 2013b]{owl2draft:13}
+W3C (2013b).
+\newblock Owl 2 web ontology language document overview (second edition).
+\newblock http://www.w3.org/TR/owl2-overview/.
+
+\bibitem[W3C, 2013c]{owl:13}
+W3C (2013c).
+\newblock Owl web ontology language overview.
+\newblock http://www.w3.org/TR/owl-features/.
+
+\bibitem[W3C, 2013d]{rdf:13}
+W3C (2013d).
+\newblock Resource description framework (rdf).
+\newblock http://www.w3.org/RDF/.
+
+\bibitem[W3C, 2013e]{wcagtech:13}
+W3C (2013e).
+\newblock Techniques for wcag 2.0.
+\newblock http://www.w3.org/TR/WCAG20-TECHS/.
+
+\bibitem[W3C, 2013f]{wcag10:13}
+W3C (2013f).
+\newblock Web content accessibility guidelines 1.0.
+\newblock http://www.w3.org/TR/WCAG10/.
+
+\bibitem[W3C, 2013g]{w3c:13}
+W3C (2013g).
+\newblock World wide web consortium.
+\newblock http://www.w3.org/.
+
+\bibitem[W3Schools, 2013a]{ajax:13}
+W3Schools (2013a).
+\newblock Ajax tutorial.
+\newblock http://www.w3schools.com/ajax/default.asp.
+
+\bibitem[W3Schools, 2013b]{dhtml:13}
+W3Schools (2013b).
+\newblock Dhtml tutorial.
+\newblock http://www.w3schools.com/dhtml/.
+
+\bibitem[WAB Cluster, 2009]{cluster2:09}
+WAB Cluster (2009).
+\newblock Unified web evaluation methodology version 0.5.
+\newblock http://www.wabcluster.org/uwem05/.
+
+\bibitem[WAI, 2013]{wai:13}
+WAI (2013).
+\newblock Web accessibility initiative (wai).
+\newblock http://www.w3.org/WAI/.
+
+\bibitem[WAI-ARIA, 2013]{ariaover:13}
+WAI-ARIA (2013).
+\newblock Wai-aria overview.
+\newblock http://www.w3.org/WAI/intro/aria.php.
+
+\bibitem[WCAG, 2013a]{wcagdiff:13}
+WCAG (2013a).
+\newblock How wcag 2.0 differs from wcag 1.0.
+\newblock http://www.w3.org/WAI/WCAG20/from10/diff.php.
+
+\bibitem[WCAG, 2013b]{wcagover:13}
+WCAG (2013b).
+\newblock Wcag overview.
+\newblock http://www.w3.org/WAI/intro/wcag.
+
+\bibitem[WCAG, 2013c]{wcag20:13}
+WCAG (2013c).
+\newblock Web content accessibility guidelines (wcag) 2.0.
+\newblock http://www.w3.org/TR/WCAG20/.
+
+\bibitem[WCAG Samurai, 2011]{wcagsamurai:11}
+WCAG Samurai (2011).
+\newblock Wcag samurai.
+\newblock http://wcagsamurai.org/.
+
+\bibitem[WebAnywhere, 2013]{webanywhere:13}
+WebAnywhere (2013).
+\newblock Webanywhere - a screen reader on the go.
+\newblock http://webanywhere.cs.washington.edu/.
+
+\bibitem[Webcredible, 2011]{webcredible:11}
+Webcredible (2011).
+\newblock Disability discrimination act (dda) \& web accessibility.
+\newblock
+  http://www.webcredible.co.uk/user-friendly-resources/web-accessibility/uk-website-legal-requirements.shtml.
+
+\bibitem[Wikipedia, 2013]{wiki:13}
+Wikipedia (2013).
+\newblock List of wiki software.
+\newblock http://en.wikipedia.org/wiki/List\_of\_wiki\_software.
+
+\bibitem[Wordpress, 2013]{wordpress:13}
+Wordpress (2013).
+\newblock Wordpress | brasil.
+\newblock http://br.wordpress.org/.
+
+\end{thebibliography}
