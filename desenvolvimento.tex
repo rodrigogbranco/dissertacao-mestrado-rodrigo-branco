@@ -27,18 +27,13 @@ com o rastreio dos requisitos de acessibilidade.
 \label{linktocase1}
 
 O especialista em acessibilidade é fundamental em todas as etapas descritas a
-seguir, como já reforça o modelo MTA. O especialista em acessibilidade deve
+seguir, como já reforça o modelo \gls{mta}. O especialista em acessibilidade deve
 conseguir identificar requisitos funcionais e não funcionais de acessibilidade. O requisito de
 acessibilidade pode não ser encontrado explicitamente neste momento, mas a identificação posterior 
 exigirá um refatoramento do modelo.
 
 Requisitos funcionais e não funcionais são abordados no Subprocesso 4, ponto de
-partida deste trabalho no modelo MTA. Caso os requisitos não sejam identificados
-nesta etapa, o especialista em acessibilidade deverá, no Subprocesso 5,
-especificar nos projetos de interface e navegação os itens que merecem um
-tratamento de acessibilidade específico.
-
-O objetivo do Subprocesso 4 é estabelecer os requisitos dos elementos de
+partida deste trabalho no modelo \gls{mta}. O objetivo do Subprocesso 4 é estabelecer os requisitos dos elementos de
 software do sistema. Elementos aqui são considerados interface e código
 \citep{maia:10}.
 
@@ -64,20 +59,16 @@ o artefato para as fases de projeto e codificação.
  \gls{case}, que será utilizado nos passos subsequentes para rastreamento dos
  requisitos de acessibilidade. Foi adotado neste trabalho o formato
  XMI/XML, principalmente por ser o principal formato para descrever elementos
- \gls{uml}. Apesar de ser possível a utilização de outros
- formatos para atingir o mesmo objetivo, devido as características deste
- trabalho bem como das ferramentas utilizadas que serão elencadas
- posteriormente, o formato XMI/XML será o formato utilizado para descrever os
- artefatos definidos neste trabalho.
+ \gls{uml}, apesar de ser possível utilizar outros formatos para atingir o mesmo objetivo.
  
 É importante definir como os requisitos serão rastreados dentro do processo
  de desenvolvimento. O método de rastreabilidade
  utilizado será uma matriz de rastreabiliade de requisitos
  \citep{guo:2009:OBI:1681515.1682933}. Conforme os artefatos vão sendo
- gerados/atualizados, a matriz também é gerada e atualizada para adequar ao quadro atual do projeto. A ferramenta \gls{case} pode gerar o esqueleto da matriz de rastreabilidade
+ gerados/atualizados, a matriz também é gerada e atualizada para se adequar à evolução do projeto. A ferramenta \gls{case} pode gerar o esqueleto da matriz de rastreabilidade
  para os requisitos de acessibilidade.
  
- O método prosposto pode ser classificado como um método estático de
+ O método proposto pode ser classificado como um método estático de
  rastreabilidade. Embora existam métodos dinâmicos
  \citep{Cleland-Huang:2005:USE:1099549.1100625}, para estes métodos, mudanças no
  artefatos refletem mudanças na matriz. Como neste trabalho nem todos os
@@ -116,7 +107,7 @@ o artefato para as fases de projeto e codificação.
  \textit{Visual Paradigm} \citep{visualparadigm:13}).
  Assim, seria preciso considerar uma ou mais ferramentas de modelagem
  específicas devido a quantidade de ferramentas de modelagem disponíveis no mercado. O problema da
- segunda abordagem é que o especialista de acessibilidade precisa utilizar a
+ segunda abordagem é que o especialista em acessibilidade precisa utilizar a
  ferramenta \gls{case} de modelagem e incluir as notas na sintaxe específica.
  
  Uma alternativa à utilização de notas é a utilização de um arquivo externo de
@@ -187,11 +178,11 @@ dentro de um cenário de acessibilidade.
 O projeto é apoiado pelo \textit{Accessible Consortium} \citep{accessibleconsortium:13}, que
 disponibiliza uma página para a consulta das novidades da iniciativa \citep{accessibleontology:13}.
 
-A ontologia é descrita no formato \gls{owl}, padrão definido pela \gls{w3c}
-em 2004 \citep{owl:13}, está na versão 1.0. O formato \gls{owl} já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}, que até o momento de escrita deste trabalho não foi oficializada como versão oficial. As versões aqui descritas em nada influem na versão do \gls{wcag} mapeado na ontologia utilizada, que é a versão 2.0 do mesmo.
+A ontologia versão 1.0 é descrita no formato \gls{owl}, padrão definido pela \gls{w3c}
+em 2004 \citep{owl:13}. O formato \gls{owl} já possui uma versão candidata à 2.0, lançada em 2012 \citep{owl2draft:13}, que até o momento de escrita deste trabalho não foi oficializada como versão oficial. As versões aqui descritas em nada influem na versão do \gls{wcag} mapeado na ontologia utilizada, que é a versão 2.0 do mesmo.
 
 O projeto vai além de realizar o mapeamento dos conceitos de acessibilidade e
-cenários. Os arquivos disponibilizados mapeam o modelo WCAG 2.0 (incluindo
+cenários. Os arquivos disponibilizados mapeiam o modelo WCAG 2.0 (incluindo
 técnicas de implementação, critérios de sucesso e falha, etc), leitores de tela,
 navegadores textuais, lentes de aumento, WAI/ARIA, entre outros. É possível
 navegar pela ontologia via navegador
@@ -231,7 +222,7 @@ de acessibilidade serem diferentes em essência, existe uma grande intersecção no
 refere as técnicas utilizadas para implementação efetiva da acessibilidade no produto.
 As regras para implementação do padrão e-Mag 3.0 são muito parecidas com as do padrão WCAG 2.0,
 e a tendência é que haja uma homogeneização dos esforços em desenvolver produtos acessíveis, principalmente
-como a evolução do \gls{html} 5. 
+com a evolução do \gls{html} 5. 
 
 Os modelos WCAG 2.0 e e-Mag 3.0 já possuem técnicas de acessibilidade presentes
 em seus respectivos documentos. Esse é o momento de relacionar as
@@ -283,11 +274,11 @@ A segunda abordagem implica na construção total de uma ferramenta complexa que
 está fora do escopo deste trabalho.
 
 A terceira abordagem, que por sua vez foi a escolhida, foi customizar o gerador
-de código, pois o código fonte deste gerador estava disponível e, e o gerador de código usa
+de código, pois o código fonte deste gerador estava disponível e o gerador de código usa
 \textit{templates} de construção. Desta forma, as intervenções na ferramenta
 foram mínimas, e pouco código adicional precisou ser incorporado.
 
-A Figura \ref{fig:figuramagica} mostra a macroabordagem escolhida que, partindo da Engenharia de Requisitos e chegando na construção do \textit{software},
+A Figura \ref{fig:figuramagica} mostra a abordagem escolhida que, partindo da Engenharia de Requisitos e chegando na construção do \textit{software},
 proverá a rastreabilidade dos requisitos e das técnicas de implementação de acessibilidade. A próxima seção explicitará as ferramentas, técnicas e métodos envolvidos para construir a ferramenta de apoio proposta por este trabalho.
 
 \begin{figure}[htbp]
@@ -381,7 +372,7 @@ deve ser interpretada da seguinte forma:
   \item Os requisitos devem ser coletados e informados na fase de engenharia de
   requisitos (utilizando a ferramenta \textit{Requirement
   Designer}) e os modelos e artefatos \gls{uml} devem ser gerados (utilizando a
-  ferramenta \textit{UML Designer}) O especialista em acessibilidade deve
+  ferramenta \textit{UML Designer}). O especialista em acessibilidade deve
   auxiliar a alimentação destes dados, filtrando os requisitos de acessibilidade para que eles sejam
   associados aos modelos \gls{uml} (utilizando a ferramenta
   \textit{Requirement Designer});
@@ -393,7 +384,7 @@ deve ser interpretada da seguinte forma:
   \item A ferramenta de geração de código produzirá o código \textit{stub} a
   partir dos modelos \gls{uml}, adicionando as referências às associações de
   acessibilidade quando necessário;
-  \item O(s) desenvolvedor(res) refinam o código até que o mesmo esteja apto a
+  \item O(s) desenvolvedor(es) refinam o código até que o mesmo esteja apto a
   se tornar o produto acessível que será entregue.
 \end{itemize}
 
@@ -437,6 +428,8 @@ subcategorias (\textit{Category}), recursivamente. Os requisitos podem ser do
 tipo funcionais ou não-funcionais (neste \textit{plugin} tratados como
 requisitos técnicos).
 
+\textbf{ARRUMAR TRAÇOS DIAGRAMA}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./images/requirement_package_entities.png}
@@ -454,7 +447,7 @@ representativas do modelo, utilizando uma ferramenta de transformação, como a
 Na prática, significa dizer que, uma vez tendo o diagrama de classes no modelo
 \textit{Ecore}\footnote{O código fonte e os modelos/diagramas pode ser
 baixados em
-https://github.com/ObeoNetwork/InformationSystem/tree/master/designs/requirement}, seja possível utilizar as classes java resultantes e, principalmente, que o arquivo de saída da ferramenta \textit{Requirement Designer} possa ser lido e interpretado de forma simplificada como os objetos
+https://github.com/ObeoNetwork/InformationSystem/tree/master/designs/requirement}, será possível utilizar as classes \textit{Java} resultantes e, principalmente, que o arquivo de saída da ferramenta \textit{Requirement Designer} possa ser lido e interpretado de forma simplificada como os objetos
 corretos do \textit{plugin}.
 
 A ferramenta para gerar os artefatos \gls{uml} é a \textit{UML Designer}. A
@@ -619,10 +612,9 @@ nível
 \textit{Simple} \citep{odftoolkitsimple:13}.
 No documento, são geradas três planilhas: Requisitos x Modelos, Requisitos
 x Técnicas e Modelos x Técnicas. A planilha Requisitos x Modelos lista uma
-matriz de todos os Requisitos associados aos respectivos modelos, mesmo que
-exista algum Requisito que não esteja associado a algum modelo. Essa situação
+matriz de todos os Requisitos associados aos respectivos modelos. Requisitos que não estão associados a um modelo também são listados. Essa situação
 está prevista justamente para identificar problemas na associação que devam ser
-corrigidas. Para as planilhas Requisitos x Técnicas e Modelos x Técnicas,
+corrigidos. Para as planilhas Requisitos x Técnicas e Modelos x Técnicas,
 apenas os objetos que estão efetivamente referenciados na ferramenta são
 listados.
 
