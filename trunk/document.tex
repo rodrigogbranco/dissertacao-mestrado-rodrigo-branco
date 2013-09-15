@@ -7,7 +7,7 @@
 \usepackage{hyperref}
 \usepackage[round]{natbib}
 \usepackage{plain}
-\usepackage[acronym,toc]{glossaries}
+\usepackage[nomain,acronym,toc]{glossaries}
 \usepackage{tabularx}
  
 \makeglossaries
@@ -80,8 +80,9 @@ Dissertação de Mestrado em Ciência da Computação \\
 % Aqui começa a inclusão dos seus textos
 %
 \renewcommand{\contentsname}{Sumário} % renomeando o contentsname
-\renewcommand*{\glossaryname}{Glossário}
-\deftranslation{Glossary}{Glossário}
+\renewcommand*{\glossaryname}{Lista de siglas}
+\deftranslation{Glossary}{Lista de siglas}
+\deftranslation{Acronyms}{Lista de siglas}
 \tableofcontents
 %---- O comando abaixo deve ser usado caso queira incluir o conteúdo
 %como bookmark, visando facilitar a navegação no Acrobat Reader
@@ -94,7 +95,7 @@ Dissertação de Mestrado em Ciência da Computação \\
 
 %\addcontentsline{toc}{chapter}{Glossário}\label{glossario}
 
-\printglossary
+\printglossary[type=\acronymtype]
 
 \listoffigures
 

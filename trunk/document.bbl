@@ -1,10 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[{$\!\!$}, 2001]{2001:SPL:501065}
-{$\!\!$} (2001).
-\newblock {\em Software product lines: practices and patterns}.
-\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA.
-
 \bibitem[Accessible Consortium, 2013a]{accessibleconsortium:13}
 Accessible Consortium (2013a).
 \newblock Accessible - applications design and development.
@@ -530,17 +525,6 @@ Lee, J., Cho, B., Youn, H., and Lee, E. (2009).
   {\em Communications in Computer and Information Science}, pages 94--101.
   Springer Berlin Heidelberg.
 
-\bibitem[Libre Office, 2013]{libreoffice:13}
-Libre Office (2013).
-\newblock Libre office.
-\newblock http://pt-br.libreoffice.org/.
-
-\bibitem[Lobato et~al., 2013]{lobato:13}
-Lobato, L.~L., do~Carmo~Machado, I., da~Mota Silveira~Neto, P.~A., Bittar,
-  T.~J., de~Almeida, E.~S., and de~Lemos~Meira, S.~R. (2013).
-\newblock Risk management in software product lines: An expert opinion survey.
-\newblock In {\em 12º Simpósio Brasileiro de Qualidade de Software (SBQS)}.
-
 \bibitem[LYNX, 2013]{lynx:13}
 LYNX (2013).
 \newblock Lynx.
@@ -845,6 +829,11 @@ Tarr, A. (2011).
 Thatcher, J., Burks, M.~R., and Heilmann, C. (2006).
 \newblock {\em Web Accessibility: Web Standards and Regulatory Compliance}.
 \newblock Friends of Ed.
+
+\bibitem[The Document Foundation, 2013]{libreoffice:13}
+The Document Foundation (2013).
+\newblock Libre office.
+\newblock http://pt-br.libreoffice.org/.
 
 \bibitem[The National Archives, 2011]{dda:95}
 The National Archives (2011).

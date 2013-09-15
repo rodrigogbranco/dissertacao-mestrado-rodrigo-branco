@@ -1,1 +1,221 @@
-\null
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossaryentryfield{acclip}{\glsnamefont{ACCLIP}}{Accessibility for LIP}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}%
+\glossaryentryfield{accmd}{\glsnamefont{ACCMD}}{AccessForAll Meta-data}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{35}}}%
+\glossaryentryfield{ajax}{\glsnamefont{AJAX}}{Asynchronous JavaScript and XML}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{25}}}%
+\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55\delimN 56}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{59}}}%
+\glossaryentryfield{ar}{\glsnamefont{AR}}{Accessibility Requeriments}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}%
+\glossaryentryfield{ast}{\glsnamefont{AST}}{Abstract Syntax Tree}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{65}}}%
+\glossaryentryfield{atag}{\glsnamefont{ATAG}}{Authoring Tool Accessibility Guidelines}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+\glsgroupheading{B}\relax \glsresetentrylist %
+\glossaryentryfield{birt}{\glsnamefont{BIRT}}{Business Intelligence Reporting Tools}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{48}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{42\delimR 46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{82\delimN 83}}}%
+\glossaryentryfield{clf}{\glsnamefont{CLF}}{Common Look and Feel}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{25}}}%
+\glossaryentryfield{cms}{\glsnamefont{CMS}}{Content Management System}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}}}%
+\glossaryentryfield{css}{\glsnamefont{CSS}}{Cascade Style Sheet}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{34}}}\glsgroupskip
+\glsgroupheading{D}\relax \glsresetentrylist %
+\glossaryentryfield{dda}{\glsnamefont{DDA}}{Disability Discrimination Act}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
+\glossaryentryfield{dhtml}{\glsnamefont{DHTML}}{Dynamic HTML}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{25}}}%
+\glossaryentryfield{dp}{\glsnamefont{DP}}{Device Profile}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}%
+\glossaryentryfield{dr}{\glsnamefont{DR}}{Design Rationale}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{37}}}\glsgroupskip
+\glsgroupheading{E}\relax \glsresetentrylist %
+\glossaryentryfield{emag}{\glsnamefont{e-MAG}}{Modelo de Acessibilidade de Governo Eletrônico}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{25}}}%
+\glossaryentryfield{earl}{\glsnamefont{EARL}}{Evaluation and Report Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{28}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
+\glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{43\delimN 44}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{63\delimN 64}}}%
+\glossaryentryfield{emft}{\glsnamefont{EMFT}}{Eclipse Modeling Framework Technology}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossaryentryfield{html}{\glsnamefont{HTML}}{HyperText Markup Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{34}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46}}}%
+\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protocol}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{34}}}%
+\glossaryentryfield{https}{\glsnamefont{HTTPS}}{HyperText Transfer Protocol Secure}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
+\glsgroupheading{I}\relax \glsresetentrylist %
+\glossaryentryfield{ide}{\glsnamefont{IDE}}{Integrated Development Environment}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}}}%
+\glossaryentryfield{ietf}{\glsnamefont{IETF}}{The Internet Engineering Task Force}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{23}}}%
+\glossaryentryfield{ims}{\glsnamefont{IMS}}{IMS Global Learning Consortium}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}%
+\glossaryentryfield{iri}{\glsnamefont{IRI}}{Internationalized Resource Identifier}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{56}}}\glsgroupskip
+\glsgroupheading{J}\relax \glsresetentrylist %
+\glossaryentryfield{j2me}{\glsnamefont{J2ME}}{Java Plataform Micro Edition}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{34}}}%
+\glossaryentryfield{javacc}{\glsnamefont{JavaCC}}{Java Compiler Compiler}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\glossaryentryfield{jdt}{\glsnamefont{JDT}}{Eclipse Java development tools}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{65}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossaryentryfield{lip}{\glsnamefont{LIP}}{Learner Information Package}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Tarefas de Acessibilidade}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{18\delimN 19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{41\delimN 42}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{49\delimR 51}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{66}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{68}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{74}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{81}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{83\delimN 84}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossaryentryfield{nda}{\glsnamefont{NDA}}{National Disability Authority}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{25}}}%
+\glossaryentryfield{nfr}{\glsnamefont{NFR}}{Non-Functional Requeriments}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{ods}{\glsnamefont{ODS}}{OpenDocument Spreadsheet file format}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{59}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{81}}}%
+\glossaryentryfield{owl}{\glsnamefont{OWL}}{Web Ontology Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{45\delimN 46}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{51}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{56}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{pam}{\glsnamefont{PAM}}{Problem Articulation}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{36}}}%
+\glossaryentryfield{pm}{\glsnamefont{PM}}{Page Measurement}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{rdf}{\glsnamefont{RDF}}{Resource Description Framework}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{28}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{34}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{44}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{56}}}%
+\glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}}}%
+\glossaryentryfield{rss}{\glsnamefont{RSS}}{Really Simple Syndication}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\glossaryentryfield{rup}{\glsnamefont{RUP}}{Rational Unified Process}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{smil}{\glsnamefont{SMIL}}{Synchronized Multimedia Integration Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{33}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{35}}}\glsgroupskip
+\glsgroupheading{U}\relax \glsresetentrylist %
+\glossaryentryfield{uaag}{\glsnamefont{UAAG}}{User Agent Accessibility Guidelines}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{28}}}%
+\glossaryentryfield{ugc}{\glsnamefont{UGC}}{User-generated Content}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35}}}%
+\glossaryentryfield{ui}{\glsnamefont{UI}}{User Interface}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{64}}}%
+\glossaryentryfield{uml}{\glsnamefont{UML}}{Unified Modeling Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55\delimR 57}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{59}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{63\delimR 65}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{74}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{80\delimN 81}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{84}}}%
+\glossaryentryfield{up}{\glsnamefont{UP}}{Unified Software Development Process}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{16}}}%
+\glossaryentryfield{uri}{\glsnamefont{URI}}{Uniform Resource Identifier}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{56}}}%
+\glossaryentryfield{uwem}{\glsnamefont{UWEM}}{Unified Web Evaluation Methodology}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossaryentryfield{w3c}{\glsnamefont{W3C}}{World Wide Web Consortium}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23\delimN 24}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{45}}}%
+\glossaryentryfield{wab}{\glsnamefont{WAB}}{Web Accessibility Barriers}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}}}%
+\glossaryentryfield{wai}{\glsnamefont{WAI}}{Web Accessibility Initiative}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23\delimN 24}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}}}%
+\glossaryentryfield{wai-aria}{\glsnamefont{WAI-ARIA}}{Accessible Rich Internet Applications Suite}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{25\delimN 26}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{31}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\glossaryentryfield{waqm}{\glsnamefont{WAQM}}{Web Accessibility Quantitative Metric}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35\delimN 36}}}%
+\glossaryentryfield{wcag}{\glsnamefont{WCAG}}{Web Content Accessibility Guidelines}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23\delimR 25}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{34}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{45}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{69\delimR 71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{74\delimN 75}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{80}}}%
+\glossaryentryfield{www}{\glsnamefont{WWW}}{World Wide Web}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{20}}}%
+\glossaryentryfield{wysiwyg}{\glsnamefont{WYSIWYG}}{What You See Is What You Get}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+\glsgroupheading{X}\relax \glsresetentrylist %
+\glossaryentryfield{xhtml}{\glsnamefont{XHTML}}{eXtensible Hypertext Markup Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{56}}}%
+\glossaryentryfield{xp}{\glsnamefont{XP}}{eXtremming Programming}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{16}}}%
+\glossaryentryfield{xpath}{\glsnamefont{XPath}}{XML Path Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\glossaryentryfield{xslt}{\glsnamefont{XSLT}}{eXtensible Stylesheet Language for Transformation}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
+\end{theglossary}\glossarypostamble
