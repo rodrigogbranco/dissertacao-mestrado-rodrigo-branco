@@ -6,11 +6,11 @@ Berners-Lee criou a \gls{www}, mais conhecida como
 através da Internet \citep{mcpherson2009tim}. Em sua
 concepção inicial, a \textit{Web} foi explicitamente criada para poder ser utilizada sem o mouse, e
 até sem usar os olhos, se necessário \citep{thatcher:06}. Portanto, a maneira
-como o usuário acessa o recurso na \textit{Web} pouco ou nada pode influenciar
+como o usuário acessa um recurso na \textit{Web} pouco ou nada pode influenciar
 na aquisição da informação.
 
 A fim de tornar os \textit{sites} mais atrativos, várias tecnologias surgiram,
-como \textit{JavaScript} \citep{javascript:13}, etc.
+como \textit{JavaScript} \citep{goodman2001javascript}, etc.
 Todavia, o uso indiscriminado dessas tecnologias podem, ao mesmo tempo, facilitar, inibir ou impedir o acesso aos
 recursos de alguns usuários, principalmente dos usuários com algum tipo de
 deficiência.
@@ -73,8 +73,8 @@ assistivas.
 Tecnologia assistiva é, portanto, o conjunto de equipamentos, serviços,
 estratégias e práticas concebidas para atenuar os problemas encontrados pelas pessoas com necessidades especiais \citep{cook:95}.
 
-Existem diversos tipos de tecnologias assistivas, dependendo da necessidade do
-usuário. É importante considerar que a dificuldade no acesso pode ser
+Existem diversos tipos de tecnologias assistivas, a escolha depende da
+necessidade do usuário. É importante considerar que a dificuldade no acesso pode ser
 permanente ou momentânea. A seguir serão apresentadas algumas tecnologias
 assistivas para certas deficiências:
 
@@ -83,10 +83,10 @@ assistivas para certas deficiências:
   	\begin{itemize}
   	  \item Leitor de tela: software que lê o que está na tela do computador e
   	  informa a saída, seja em um sintetizador de voz, ou um display \textit{braille}. Ex:
-	  \textit{JAWS} \citep{freedom_jaws:13} e \textit{DOSVOX} \citep{nce-ufrj:13}
+	  \textit{JAWS} \citep{freedom_jaws:13} e \textit{DOSVOX} \citep{nce-ufrj:13};
   	  \item Navegador textual: navegador que não carrega imagens. Deve ser usado
   	  em conjunto com o Leitor de Tela. Ex: \textit{Lynx} \citep{lynx:13}
-  	  \item Navegador com voz: Permite a navegação por meio da voz. Ex:
+  	  \item Navegador com voz: permite a navegação por meio da voz. Ex:
   	  \textit{Opera} \citep{opera:13} e
   	  \textit{Firefox} com o plugin \textit{Text to Voice} \citep{ttv:13}
   	\end{itemize}
@@ -233,14 +233,15 @@ breve comparativo dos dois documentos e constatou que a Tabela \ref{tab:wcag} é 
 
 É válido observar que nem todos os desenvolvedores concordam com as
 diretrizes ou recomendações do \gls{wcag} 1.0 ou mesmo \gls{wcag} 2.0
-\citep{clark:11}. De fato, um grupo fechado de desenvolvedores preparou uma
-versão de extensão/atualização/correção não oficial do \gls{wcag} 1.0,
+\citep{clark:11}, apesar deste último ter se tornado um padrão internacional
+\citep{ISO:40500:2012}.
+De fato, um grupo fechado de desenvolvedores preparou uma versão de extensão/atualização/correção não oficial do \gls{wcag} 1.0,
 denominada \gls{wcag} Samurai \citep{wcagsamurai:11}.
 
 Existem diversas diretrizes de acessibilidade, cada qual com suas
 particularidades e voltadas para realidades específicas. Alguns exemplos são:
-\gls{clf}, do Canadá \citep{clf:13}, \gls{nda}, da
-Irlanda \citep{nda:13} e as diretrizes de \textit{design} de
+\gls{clf}, substituída pelo documento \textit{Web Standards for the Government
+of Canada}, do Canadá \citep{clf:13}, \gls{nda}, da Irlanda \citep{nda:13} e as diretrizes de \textit{design} de
 acessibilidade da \textit{Microsoft} \citep{microsoft:09}.
 
 O governo brasileiro possui um padrão próprio, denominado \gls{emag}.
@@ -269,7 +270,7 @@ possuem nenhum tipo de deficiência, mas possuem alguma barreira tecnológica, por
 A atualização de determinadas regiões do \textit{site} pelas tecnologias citadas
 também são um grande problema para as tecnologias assistivas (principalmente para o
 \textit{Screen Reader}). Exemplos de tecnologias desse tipo são: \gls{ajax}
-\citep{ajax:13} e \gls{dhtml} \citep{dhtml:13}.
+\citep{garrett:05} e \gls{dhtml} \citep{teague2001dhtml}.
 
 O documento \gls{wai-aria} pretende
 resolver esses desafios de acessibilidade definindo como a informação sobre a
@@ -306,7 +307,7 @@ desenvolvedores de tecnologias \textit{Web 2.0} e desenvolvedores de
 
 \subsection{\textit{ATAG}}
 
-\textit{Authoring Tools} (Ferramentas de Autoria) são \textit{softwares} e
+Ferramentas de Autoria são \textit{softwares} e
 serviços que permitem a qualquer pessoa produzir \textit{sites} e conteúdo
 \textit{web}. Esse tipo de ferramenta geralmente possui uma \textit{engine} que exibe o conteúdo fornecido pelo
 usuário utilizando padrões e \textit{templates} previamente configurados
@@ -316,7 +317,7 @@ usúarios (principalmente usuários leigos em computação) utilizam ferramentas des
 Existem várias ferramentas de autoria e cada uma tem sua
 particularidade. Existem ferramentas para produção de \textit{blogs}, para
 produção de portais chamadas \gls{cms}, de criação
-de páginas \textit{wiki}, entre várias outras. Alguns exemplos de ferramentas
+de páginas \textit{wiki}, entre outras. Alguns exemplos de ferramentas
 são: \textit{Wordpress} \citep{wordpress:13},
 \textit{Joomla} \citep{joomla:13},
 \textit{Drupal} \citep{drupal:13},
@@ -395,15 +396,14 @@ O conjunto de \textit{checkpoints} que o \gls{uaag} 1.0 cobre são:
   disparados por ações de teclado e \textit{mouse};
   \item controle de usuário sobre a maneira como o conteúdo é
   renderizado\footnote{Renderização é o processo de geração de uma imagem
-  através do processamento de um modelo computacional};
+  por meio do processamento de um modelo computacional};
   \item controle de usuário sobre a interface, com informações sobre as
   características de acessibilidade;
   \item interface de programação padrão, para prover interação com tecnologias
   assistivas.
 \end{itemize}
 
-O documento é destinado a desenvolvedores de \textit{User
-Agents}.
+O documento é destinado a desenvolvedores de Agentes de Usuário.
 
 \subsection{\textit{EARL}}
 
@@ -425,5 +425,7 @@ das seguintes ferramentas:
 	\item descrição de conteúdo Web.
 \end{itemize}
 
-Neste capítulo, foram apresentados a legislação, documentos e tecnologias de maior relevância para o contexto de acessibilidade na \textit{Web}. O próximo
-apresentará a pesquisa bibliográfica realizada neste trabalho.
+\subsection{Conclusão}
+
+Neste capítulo foram apresentados a legislação, documentos e tecnologias de
+maior relevância para o contexto de acessibilidade na \textit{Web}. O próximo apresentará a pesquisa bibliográfica realizada neste trabalho.

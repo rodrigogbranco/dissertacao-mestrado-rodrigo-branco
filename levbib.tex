@@ -98,8 +98,9 @@ acessibilidade em \textit{sites} educacionais. Os autores descrevem a
 heteogeneidade dos estudantes (questões como deficiências, equipamentos,
 habilidades, idade, entre outras). Os autores sugerem que alguns princípios de \textit{design} devem ser assumidos
 (flexibilidade, simplicidade e tolerância a erros. Também sugerem
-aplicar um processo de desenvolvimento \textit{top-down} (Definição $>$ Análise $>$ Protótipo $>$ Testes $>$ Integração $>$ Liberação e
-Manutenção) para atingir os objetivos e prover um produto acessível.
+aplicar um processo de desenvolvimento \textit{top-down}, partindo da etapa de
+Definição e passando pelas etapas de Análise, Protótipo, Testes, Integração, Liberação e
+Manutenção, para portanto atingir os objetivos e prover um produto acessível.
 
 \cite{springerlink:10.1007/978-3-642-02713-0_67} estudaram como incorporar acessibilidade junto a
 análise de requisitos. Uma pesquisa inicial foi feita para verificar em que
@@ -129,33 +130,8 @@ conceitual para aumentar a confiança de \textit{sites} por usuários que utilizam
  
 \section{Arquitetura}
 
-\cite{Fuertes:2011:DHW:1969289.1969294} apresentaram o projeto da
-ferramenta \textit{Hera-FFX}, um plugin para o navegador \textit{Firefox}. O
-projeto tem por objetivo eliminar as limitações da ferramenta \textit{Hera 1.0}
-\citep{sidar:13} e estender sua funcionalidade, realizando as avaliações
-utilizando o \gls{wcag} 2.0.
-
-O trabalho é interessante por fazer comparações com outras ferramentas de
-avaliação, e mostrar quais características seriam desejáveis que uma
-ferramenta desse tipo contivesse. Dentre estas características, podem ser
-citadas:
-
-\begin{itemize}
-  \item avaliação preliminar automática;
-  \item suporte para preenchimento manual;
-  \item modificação da página de apresentação
-  \item exibição do código anotado;
-  \item avaliação de páginas locais;
-  \item avaliação de páginas com acesso restrito;
-  \item avaliação de renderização de páginas;
-  \item geração de relatórios;
-  \item suporte para treinamento;
-  \item capacidade de multi-sessão;
-  \item flexibilidade.
-\end{itemize}
-
-\cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta em que usuários
-finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
+\cite{Bigham:2010:ADE:1878803.1878812} propuseram uma ferramenta para que
+usuários finais apontem problemas de acessibilidade. A ferramenta é uma extensão do leitor de tela
 \textit{WebAnywhere} \citep{webanywhere:13}. Um script \textit{server-side} guarda o
 conjunto de ações de usuário, permitindo ao desenvolvedor reproduzi-las posteriormente. Essa ferramenta é útil
 para compensar a deficiência das ferramentas de avaliação automática, que não
@@ -199,10 +175,8 @@ questões como foco nos elementos;
 
 \cite{5358165} construíram um \textit{plugin}
 para \textit{NetBeans} que simula algumas deficiências visuais, para testar
-principalmente aplicações \textit{Java Swing}.
-
-Os autores mencionam que existem vários simuladores de deficiências físicas na
-literatura, sendo que o simulador proposto por eles cobre vários tipos de
+principalmente aplicações \textit{Java Swing}. Os autores mencionam que existem
+vários simuladores de deficiências físicas na literatura, sendo que o simulador proposto por eles cobre vários tipos de
 deficiência visual (tais como catarata, hipermetropia, entre outras). Os resultados obtidos foram comparados com outros
 simuladores da mesma categoria. A implementação foi projetada usando um design
 centrado no usuário, justamente para entender suas maiores dificuldades.
@@ -214,28 +188,25 @@ flexibilidade são:
 apresentação do conteúdo, navegação e busca. Como exemplo, os autores demonstraram as possibilidades da
 abordagem montando uma linguagem descritiva em
 \gls{javacc} \citep{javacc:11} para mídia
-\gls{rss} \citep{rss:11}.
-
-Os autores detalharam como a transformação ocorre
+\gls{rss} \citep{rss:11}. Os autores detalharam como a transformação ocorre
 \citep{Encelle:2007:PUI:1243441.1243459}, usando
-\gls{xpath} \citep{xpath:11},
-\gls{smil} \cite{smil:13} e \gls{xslt} \citep{xslt:11}. Segundo os
+\gls{smil} \cite{smil:13}, \gls{xpath} e \gls{xslt} \citep{xpath:11}. Segundo os
 autores, é relativamente simples utilizar a proposta sugerida, bastando apenas 3
 utilizações para o usuário conseguir aprender a usar ferramenta e personalizar a interface que estiver usando.
 
 \cite{Ferres:2007:IAS:1296843.1296857} propuseram um
 método para tornar gráficos acessíveis. A acessibilidade é alcançada da seguinte
-maneira: os gráficos são confeccionados no \textit{Excel}, através de um \textit{plugin} feito para esse fim. Depois de publicado, um \textit{plugin} instalado no
-navegador reconhece o gráfico acessível, fornecendo a interação necessária para que o
+maneira: os gráficos são confeccionados no \textit{Excel}, por meio de um
+\textit{plugin} feito para esse fim. Depois de publicado, um \textit{plugin} instalado no navegador reconhece o gráfico acessível, fornecendo a interação necessária para que o
 usuário consiga extrair toda a informação necessária.
 
 A navegação no gráfico foi inspirada em leitores de tela, portanto é feita
-através do teclado. Além disso, o \textit{software} de leitura do gráfico possui
-um sintetizador de voz embutido.
+por meio do teclado. Além disso, o \textit{software} de leitura do gráfico
+possui um sintetizador de voz embutido.
 
 \cite{Michail:2007:ABS:1547550.1547666} propuseram a
 personalização da navegação nativa dos \textit{sites}, de acordo com as
-preferências do usuário, através de um \textit{framework} que estende o
+preferências do usuário, por meio de um \textit{framework} que estende o
 \textit{SeEBrowser} \citep{seebrowser:11}. O
 framework permite guardar anotações de acessibilidade através de comandos
 \textit{POST} e \textit{GET} do protocolo \gls{http}. As anotações são
@@ -251,7 +222,7 @@ informações previamente cadastradas, através das estatísticas coletadas.
 \cite{5338903} propuseram a possibilidade de customização
 das interfaces de aplicativos \textit{web} (baseados em \gls{html} e
 \gls{css}) de celulares de acordo com as preferências do usuário. O grande diferencial dessa proposta é que, utilizando \textit{Java Card} e
-\gls{j2me}, as preferências são gravadas no \textit{chip SIM}, e não na
+\gls{j2me}, as preferências são gravadas no \gls{sim} \textit{chip}, e não na
 memória do celular, como a maioria das aplicações fazem. Dessa forma, é possível
 alterar o aparelho físico, mas as informações da interface não são perdidas.
 
@@ -282,7 +253,7 @@ com problemas de mémoria, principalmente idosos.
 
 \section{Conteúdo}
 
-\cite{Ferretti:2008:EYW:1368044.1368070} propuseram, através de objetos
+\cite{Ferretti:2008:EYW:1368044.1368070} propuseram, por meio de objetos
 \gls{accmd}, uma forma
 compartilhada para prover acessibilidade em ambientes \textit{e-Learning 2.0}, principalmente para objetos multimídia
 \gls{smil}.
@@ -314,6 +285,31 @@ Os autores explicitam algumas formas de tornar esse processo possível:
 \end{itemize}
 
 \section{Avaliação}
+
+\cite{Fuertes:2011:DHW:1969289.1969294} apresentaram o projeto da
+ferramenta \textit{Hera-FFX}, um plugin para o navegador \textit{Firefox}. O
+projeto tem por objetivo eliminar as limitações da ferramenta \textit{Hera 1.0}
+\citep{sidar:13} e estender sua funcionalidade, realizando as avaliações
+utilizando o \gls{wcag} 2.0.
+
+O trabalho é interessante por fazer comparações com outras ferramentas de
+avaliação, e mostrar quais características seriam desejáveis que uma
+ferramenta desse tipo contivesse. Dentre estas características, podem ser
+citadas:
+
+\begin{itemize}
+  \item avaliação preliminar automática;
+  \item suporte para preenchimento manual;
+  \item modificação da página de apresentação
+  \item exibição do código anotado;
+  \item avaliação de páginas locais;
+  \item avaliação de páginas com acesso restrito;
+  \item avaliação de renderização de páginas;
+  \item geração de relatórios;
+  \item suporte para treinamento;
+  \item capacidade de multi-sessão;
+  \item flexibilidade.
+\end{itemize}
 
 \cite{Vigo:2011:AWA:1963660.1963798} trataram de
 questões relativas a métricas de acessibilidade. Existem muitas métricas propostas na literatura, tais como
@@ -357,7 +353,7 @@ técnicas. As principais perguntas efetuadas pelo autor foram:
 
 \begin{itemize}
   \item quais são as características principais dos problemas de acessibilidade
-  encontrado pelo grupo de usuários supra citado quando tentam acessar os
+  encontrados pelo grupo de usuários supra citado quando tentam acessar os
   \textit{sites};
   \item qual a relação entre utilizar uma medição de acessibilidade utilizando
   uma abordagem baseada no usuário e uma medição técnica baseada nas diretrizes
@@ -397,8 +393,9 @@ Como lições aprendidas, os autores elencaram:
   \item a identificação de \textit{stakeholders} se torna um problema quando o público alvo é uma população inteira;
   \item a identificação de \textit{stakeholders} não é suficiente. Estratégias e técnicas precisam ser definidas para promover a 
   participação de pelo menos alguns \textit{stakeholders} considerados chave durante todo o processo;
-  \item discussões exigem estruturação cuidadosa, devido à natureza complexa do e-Gov, pois acessibilidade no contexto e-Gov normalmente envolve
-  muitos problemas complexos, incluindo tecnológicos, políticos, legais e sociais.
+  \item discussões exigem estruturação cuidadosa, devido à natureza complexa do
+  e-Gov, pois acessibilidade nesse contexto normalmente envolve muitos
+  problemas complexos, incluindo tecnológicos, políticos, legais e sociais.
 \end{itemize}
 
 \citet{bittar:13} desenvolveram uma abordagem para prover suporte e facilitar o
@@ -407,9 +404,9 @@ abordagem foi proposta para solucionar os problemas identificados pela falta de
 consideração de questões relacionadas a acessibilidade para \textit{web} e foi
 baseada em princípios teóricos (conceitos envolvidos) e em resultados de estudos
 práticos (estudos empíricos), utilizando \gls{dr} como suporte. A abordagem é
-estruturada em três camadas, onde atividades relacionadas são agrupadas. As camadas são: (1) Treinamento em
-acessibilidade, (2) Gerenciamento de decisões e (3) Desenvolvimento e
-Ferramentas.
+estruturada em três eixos, onde atividades relacionadas são agrupadas. Os
+eixos são: (1) Treinamento em acessibilidade, (2) Gerenciamento de decisões e
+(3) Desenvolvimento e Ferramentas.
 
 Os autores efetuaram um estudo experimental com 6 grupos, usando a abordagem
 sugerida. A pesquisa demonstrou que os grupos usando a aborgagem apresentaram
@@ -421,8 +418,8 @@ usar a abordagem não implica necessariamente em um mau desenvolvimento.
 \citet{Melo:2006:DPI:1298023.1298026} consideram importante apoiar o
 desenvolvimento de sistemas acessíveis utilizando métodos e técnicas que possam
 explicitá-los e representá-los. Com o objetivo de amparar o desenvolvimento de
-\textit{software} seguindo padrões e \textit{frameworks} de desenvolvimento já existentes, \citet{maia:10} propôs o
-MTA (Modelo de Tarefas de Acessibilidade).
+\textit{software} seguindo padrões e \textit{frameworks} de desenvolvimento já
+existentes, \citet{maia:10} propôs o \gls{mta}.
 
 O modelo proposto sugere tarefas de acessibilidade a serem empregadas nos
 Subprocessos do Processo de Desenvolvimento da Norma ISO/IEC 12207
@@ -431,7 +428,7 @@ do produto final seja melhorada.
 
 \subsection{ISO/IEC 12207}
 
-A norma ISO/IEC 12007 \citep{ieeeeia12207:1998} tem como objetivo prover um
+A norma ISO/IEC 12207 \citep{ieeeeia12207:1998} tem como objetivo prover um
 padrão para desenvolvimento e acompanhamento dos processos do ciclo de vida de
 softwares. Os processos são separados por fundamentais, de apoio,
 organizacionais e de adaptação.
@@ -447,23 +444,31 @@ processos se relacionam com outros processos. Pode-se citar, por exemplo, tarefa
 Desenvolvimento que requeiram a documentação de suas saídas e, portanto, o
 Processo de Documentação deveria ser utilizado \citep{maia:10}.
 
-O MTA foi desenvolvido focado no \textit{Processo de Desenvolvimento} da norma ISO/IEC 12007. Neste processo,
-encontram-se os seguintes Subprocessos:
+O MTA foi desenvolvido focado no \textit{Processo de Desenvolvimento} da norma
+ISO/IEC 12207. Neste processo, encontram-se os seguintes Subprocessos:
 
 \begin{enumerate}
   \item Eliciação dos requisitos do sistema;
   \item Análise dos requisitos do sistema;
   \item Projeto Arquitetural do sistema;
-  \item Análise de Requisitos do software;
-  \item Projeto de software;
-  \item Construção do software (código e teste de unidade);
-  \item Integração do software;
-  \item Teste do software;
+  \item Análise de Requisitos do \textit{software};
+  \item Projeto de \textit{software};
+  \item Construção do \textit{software} (código e teste de unidade);
+  \item Integração do \textit{software};
+  \item Teste do \textit{software};
   \item Integração do sistema; e
   \item Teste do sistema.
 \end{enumerate}
 
-\subsection{MTA integrado ao Processo de Desenvolvimento - ISO/IEC 12007}
+É importante ressaltar a diferença de sistema e \textit{software}, que constam
+na descrição dos subprocessos. Sistema trata do escopo da solução, incluíndo
+estímulos externos, variantes tecnológicas, entre outros. Esse sistema é
+dividido em partes menores (componentes de \textit{software}), onde as
+funcionalidades da solução são especificadas e construídas. Por fim, estes
+componentes de \textit{software} são reunidos para construírem a solução,
+novamente referenciada aqui como sistema.
+
+\subsection{MTA integrado ao Processo de Desenvolvimento - ISO/IEC 12207}
 
 Em cada Subprocesso do Processo de Desenvolvimento, foram inseridas uma ou mais
 tarefas de acessibilidade. A Tabela \ref{table:isomta} relaciona os Subprocessos
@@ -508,7 +513,7 @@ Certificar a conformidade com os requisitos do sistema \\
 \hline
 \end{tabularx}
 \end{center}
-\caption{Subprocessos e tarefas de acessibilidade do MTA}
+\caption{Subprocessos e tarefas de acessibilidade do \gls{mta} \cite{maia:10}}
 \label{table:isomta}
 \end{table}
 
@@ -539,3 +544,10 @@ desenvolvimento de \textit{software} com requisitos específicos (por exemplo,
 segurança da informação \citep{5068459}), os requisitos de acessibilidade ainda são
 negligenciados no processo de desenvolvimento de sistemas e no escopo de
 Engenharia de \textit{Software}.
+
+No próximo capítulo serão apresentadas abordagens para permitir a integração de
+requisitos de acessibilidade ao processo de desenvolvimento de
+\textit{software}, especificando como a rastreabilidade dos requisitos é
+alcançada e como as técnicas de implementação são vinculadas, e dentre as
+abordagens possíveis, quais foram as escolhidas para a construção da ferramenta
+\gls{case} proposta por este trabalho.
