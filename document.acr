@@ -21,11 +21,13 @@
 		\setentrycounter[]{page}\glsnumberformat{23\delimN 24}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossaryentryfield{birt}{\glsnamefont{BIRT}}{Business Intelligence Reporting Tools}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{45}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{47}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{case}{\glsnamefont{CASE}}{Computer-Aided Software Engineering}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{39\delimR 43}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{40\delimR 43}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{45}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{79}}}%
 \glossaryentryfield{clf}{\glsnamefont{CLF}}{Common Look and Feel}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
@@ -50,9 +52,9 @@
 		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{29}}}%
 \glossaryentryfield{emf}{\glsnamefont{EMF}}{Eclipse Modeling Framework}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{40\delimN 41}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{47}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{51\delimN 52}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{41}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{47\delimN 48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{52\delimN 53}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{60\delimN 61}}}%
 \glossaryentryfield{emft}{\glsnamefont{EMFT}}{Eclipse Modeling Framework Technology}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{47}}}\glsgroupskip
@@ -87,7 +89,8 @@
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mta}{\glsnamefont{MTA}}{Modelo de Tarefas de Acessibilidade}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{37\delimR 39}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{34}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36\delimR 39}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{46\delimR 48}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{63}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{65}\delimN 
@@ -103,6 +106,8 @@
 \glossaryentryfield{ods}{\glsnamefont{ODS}}{OpenDocument Spreadsheet file format}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{78}}}%
+\glossaryentryfield{omg}{\glsnamefont{OMG}}{Object Management Group}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossaryentryfield{owl}{\glsnamefont{OWL}}{Web Ontology Language}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42\delimN 43}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
@@ -119,7 +124,7 @@
 		\setentrycounter[]{page}\glsnumberformat{41}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{53}}}%
 \glossaryentryfield{rmf}{\glsnamefont{RMF}}{Requirements Modeling Framework}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{47}}}%
+		\setentrycounter[]{page}\glsnumberformat{47\delimN 48}}}%
 \glossaryentryfield{rss}{\glsnamefont{RSS}}{Really Simple Syndication}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{29}}}%
 \glossaryentryfield{rup}{\glsnamefont{RUP}}{Rational Unified Process}{\relax }{\glossaryentrynumbers{\relax 
@@ -143,6 +148,7 @@
 		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{45}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{47\delimN 48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{50}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{52\delimR 54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{60\delimR 62}\delimN 
@@ -154,7 +160,7 @@
 \glossaryentryfield{up}{\glsnamefont{UP}}{Unified Software Development Process}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}}}%
 \glossaryentryfield{uri}{\glsnamefont{URI}}{Uniform Resource Identifier}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{53}}}%
+		\setentrycounter[]{page}\glsnumberformat{54}}}%
 \glossaryentryfield{uwem}{\glsnamefont{UWEM}}{Unified Web Evaluation Methodology}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
@@ -178,7 +184,7 @@
 		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{33}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{42}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{47}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{66\delimR 68}\delimN 
@@ -193,10 +199,12 @@
 \glsgroupheading{X}\relax \glsresetentrylist %
 \glossaryentryfield{xhtml}{\glsnamefont{XHTML}}{eXtensible Hypertext Markup Language}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{29}}}%
+\glossaryentryfield{xmi}{\glsnamefont{XMI}}{XML Metadata Interchange}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossaryentryfield{xml}{\glsnamefont{XML}}{Extensible Markup Language}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{24}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{52}}}%
+		\setentrycounter[]{page}\glsnumberformat{53}}}%
 \glossaryentryfield{xp}{\glsnamefont{XP}}{eXtremming Programming}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}}}%
 \glossaryentryfield{xpath}{\glsnamefont{XPath}}{XML Path Language}{\relax }{\glossaryentrynumbers{\relax 
