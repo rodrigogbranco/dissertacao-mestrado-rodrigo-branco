@@ -158,11 +158,11 @@ Casos de Teste \citep{jain:13}}
 \end{figure}
 
 As três tarefas deste Subprocesso são de extrema importância e impactam
-diretamente na acessibilidade do produto final. O artefato XML/XMI gerado pela ferramenta \gls{case},
-ainda sem acessibilidade, obtido no Subprocesso anterior passará por cada tarefa deste Subprocesso, de forma que,
+diretamente na acessibilidade do produto final. O artefato \textit{Documento de requisitos de acessibilidade do software avaliados e aprovados} gerado pela ferramenta \gls{case} no formato \gls{xml}/\gls{xmi},
+ainda sem as especificações de técnicas de implementação de acessibilidade, obtido no Subprocesso anterior passará por cada tarefa deste Subprocesso, de forma que,
 além da saída da tarefa \textbf{Avaliar a acessibilidade do projeto de software}
 e gerar o artefato \textbf{Projeto de software acessível}, esta tarefa também
-gerará um artefato de projeto de software no formato XML/XMI, com elementos de
+gerará um artefato de projeto de \textit{software} no formato \gls{xml}/\gls{xmi}, com elementos de
 acessibilidade embutidos.
 
 A proposta deste trabalho enseja que as Subtarefas das tarefas pertencentes a
@@ -255,7 +255,7 @@ acessibilidade.
 Por conveniência, as técnicas utilizadas serão as do WCAG 2.0, pelo fato de já estarem mapeadas nos arquivos
 \gls{owl} descritos anteriormente.
 
-Devido ao escopo do trabalho, apesar serem extremamente importantes, as tarefas
+Devido ao escopo do trabalho, apesar de serem extremamente importantes, as tarefas
 \textbf{Planejar teste de acessibilidade para cada unidade de software} e
 \textbf{Executar teste de acessibilidade de cada unidade de software} não foram
 consideradas.
@@ -356,7 +356,7 @@ são elencados os principais elementos usados para a demostração desta proposta:
 \end{itemize}
 
 O \textit{Eclipse} é uma plataforma madura e foi escolhido como \gls{ide} por
-vários motivos. Ele serve como base para para diversos produtos e tecnologias baseadas em uma \gls{ide},
+vários motivos. Ele serve como base para diversos produtos e tecnologias baseadas em uma \gls{ide},
 provendo uma \gls{api} para facilitar a integração \citep{5386785}.
 O desenvolvimento de \textit{plugins} para o \textit{Eclipse} é feito diretamente na \gls{ide}, de forma prática e 
 transparente, tendo ampla documentação a respeito. 
@@ -366,7 +366,7 @@ pelo \textit{plugin} de exportação.
 O pacote de modelagem inicialmente instalado foi composto pelos \textit{plugins}
 \gls{emf} propostos pelo \textit{Eclipse}, notadamente o \textit{Ecore Tools} \citep{ecoretools:13}, parte integrante do \gls{emft}. Contudo, os diagramas fornecidos por \textit{default} não satisfizeram aos anseios de modelagem para o desenvolvimento deste trabalho, pois não contemplavam diagramas de sequência ou de 
 casos de uso, por exemplo. Por esse motivo, o \textit{plugin} escolhido foi o \textit{UML Designer}, que utiliza como base o pacote \gls{emf} (portanto gera modelos \gls{emf}), 
-mas extende os modelos existentes para que se adequem aos modelos \gls{uml} na sua versão 2.4. 
+mas estende os modelos existentes para que se adequem aos modelos \gls{uml} na sua versão 2.4. 
 
 O \textit{plugin} inicialmente escolhido para o gerenciamento de requisitos foi
 o \textit{ProR} \citep{rmf:13}, que por sua vez é parte do projeto \gls{rmf} e
@@ -600,7 +600,7 @@ Figura \ref{fig:successcriterion127} mostra os elementos da ontologia
 escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
 ela possui uma descrição, uma prioridade, um ID e um nome, além de
 relacionamentos com outros elementos da ontologia que aqui foram omitidos. Uma vez
-selecionada a ontologia apropriada, um clique no botão OK faz com que a
+selecionada o item apropriado da ontologia, um clique no botão OK faz com que a
 associação seja persistida ao modelo.
 
 \begin{figure}[htbp]
@@ -620,7 +620,7 @@ associação seja persistida ao modelo.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./images/successcriterion127.png}
-\caption{Seleção da ontologia \textit{WCAG 2.0 SuccessCriterion 1.2.7}}
+\caption{Seleção do elemento \textit{WCAG 2.0 SuccessCriterion 1.2.7} da ontologia}
 \label{fig:successcriterion127}
 \end{figure}
 
@@ -747,6 +747,9 @@ regular \textit{Java}:
 String regex = "//!ACCTRACE!(/)?([^/\\\\0#]+(/)?)+#([^\\*\\*/])+";
 \end{verbatim}
 
+A expressão regular foi construída de modo a permitir, através de uma \textit{string} pré-definida, a recuperação do arquivo \textit{Acctrace},
+bem como do elemento de associação referenciado.
+
 A opção de se utilizar um comentário de linha (ao invés de comentários de
 bloco, usados por exemplo pela documentação \textit{JavaDoc}) decorreu do fato
 do comentário descrito ser incluído dentro do corpo da classe e métodos, e caso
@@ -812,7 +815,7 @@ A recuperação dos comentários personalizados encerra a proposta deste trabalho.
 Os passos aqui descritos descrevem a construção da ferramenta, seguindo a
 abordagem da Figura \ref{fig:figuramagica} e detalhada na Figura \ref{fig:association}.
 
-\subsection{Conclusão}
+\section{Considerações Finais}
 
 Este capítulo apresentou as tecnologias, ferramentas e abordagens utilizadas
 para a construção do \textit{plugin Acctrace}, ferramenta \gls{case} proposta
