@@ -380,9 +380,10 @@ novos modelos (como por exemplo, o eMag 3.0) não é uma tarefa simples. Primeiro,
 a ontologia deve ser construída e depois o \textit{plugin AccTrace} deve ser
 adaptado para refletir a nova realidade do modelo de referência. A consequência
 deste fato é que a atualização dos modelos de referência torna-se uma tarefa
-complexa, inclusive para a atualização do modelo \gls{wcag} 2.0. 
+complexa, inclusive para a atualização do modelo \gls{wcag} 2.0, se houver diferenças na estrutura já utilizada na ontologia usada neste trabalho.
+Caso a estrutura entre os elementos da ontologia não seja alterada, não é necessário fazer alterações no \textit{plugin AccTrace}.
 
-Um limitação, que deve ser tratada em trabalhos futuros, é que o sistema
+Uma limitação, que deve ser tratada em trabalhos futuros, é que o sistema
 atualmente não trata o caso de remoção de requisitos/modelos \gls{uml} dos
 artefatos iniciais. Mudanças nos requisitos e modelos \gls{uml} são automaticamente atualizados (visto que apenas as referências a esses objetos são armazenadas).
 Contudo, as remoções dos elementos nos artefatos causam um comportamento
@@ -434,7 +435,9 @@ desenvolvedor é efetuada. O especialista em acessibilidade informa qual técnica
 de acessibilidade determinado modelo/requisito deve usar como guia (seja
 abordagens, diretrizes, critérios de sucesso, técnicas, etc), estando estas
 informações disponíveis para consulta pelo desenvolvedor. O desenvolvedor terá,
-então, um ponto de partida para codificar o produto da forma correta. 
+então, um ponto de partida para codificar o produto da forma correta.
+
+\section{Considerações Finais}
 
 Este capítulo apresentou a execução da prova de conceito, demonstrando a
 utilização das ferramentas construídas e alteradas ao longo deste trabalho,

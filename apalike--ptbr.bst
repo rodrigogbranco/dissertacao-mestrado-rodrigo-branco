@@ -221,7 +221,7 @@ FUNCTION {format.names}
                 'skip$
               if$
               t "others" =
-                { " et~al." * }
+                { " \emph{et~al.}" * }
                 { " e " * t * }
               if$
             }
@@ -264,7 +264,7 @@ FUNCTION {format.editors}
 FUNCTION {format.title}
 { title empty$
     { "" }
-    { title "t" change.case$ }
+    { title }
   if$
 }
 
@@ -843,11 +843,11 @@ FUNCTION {format.lab.names}
   s #1 "{vv~}{ll}" format.name$
   s num.names$ duplicate$
   #2 >
-    { pop$ " et~al." * }
+    { pop$ " \emph{et~al.}" * }
     { #2 <
         'skip$
         { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
-            { " et~al." * }
+            { " \emph{et~al.}" * }
             { " e " * s #2 "{vv~}{ll}" format.name$ * }
           if$
         }
