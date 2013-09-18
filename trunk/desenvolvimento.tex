@@ -311,12 +311,19 @@ de acordo com a abordagem adotada neste trabalho}
 \label{fig:figuramagica}
 \end{figure}
 
-\section{Escolha das Ferramentas e Tecnologias}
+\section{Requisitos da ferramenta de rastreabilidade de requisitos de acessibilidade}
 
-A proposta deste trabalho é demonstrar a rastreabilidade dos requisitos de
-acessibilidade no processo de desenvolvimento de \textit{software},
-independente de ferramenta ou tecnologia adotada pelos analistas e
-desenvolvedores.
+É desejável que uma ferramenta \gls{case} que apóie a rastreabilidade dos requisitos de acessibilidade permita:
+
+\begin{itemize}
+  \item Associar os requisitos de acessibilidade e os modelos \gls{uml};
+  \item Visualizar e gerenciar as associações descritas anteriormente;
+  \item Vincular as técnicas de implementação para os elementos associados anteriormente;
+  \item Gerar a matriz de rastreabilidade dos elementos associados;
+  \item Recuperar as informações de rastreabilidade entre as fases de engenharia de requisitos e codificação. 
+\end{itemize}
+
+\section{Alternativas disponíveis} 
 
 Já existem iniciativas, principalmente corporativas, que permitem agregar os
 requisitos levantados aos artefatos do processo de desenvolvimento.
@@ -330,10 +337,12 @@ O software \textit{Enterprise Architect} da empresa \textit{Sparx Systems}
 requisitos\footnote{\url{http://www.sparxsystems.com/enterprise_architect_user_guide/modeling_languages/requirements_diagram.html}},
 que são extensões dos diagramas tradicionais da \gls{uml}, permitindo a rastreabilidade do
 modelo\footnote{\url{http://www.sparxsystems.com/enterprise_architect_user_guide/navigate_search_and_trace/traceability.html}}.
-Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de
-desenvolvimento de \textit{software}.
+Contudo, não foi encontrado na literatura trabalhos que tratem especificamente da rastreabilidade dos requisitos de acessibilidade dentro do processo de desenvolvimento de \textit{software}. Além disso, não foi encontrado como essas alternativas permitem, partindo do código fonte da solução, recuperar as informações de rastreabilidade dos requisitos.
 
-Dessa forma, para implementar a abordagem apresentada na Figura \ref{fig:figuramagica}, foi construída uma
+\section{Escolha das Ferramentas e Tecnologias}
+
+A proposta deste trabalho é demonstrar a rastreabilidade dos requisitos de
+acessibilidade no processo de desenvolvimento de \textit{software}. Dessa forma, para implementar a abordagem apresentada na Figura \ref{fig:figuramagica}, foi construída uma
 ferramenta \gls{case}, nos moldes descritos na seções \ref{linktocase1}, \ref{linktocase2} e \ref{linktocase3}. A seguir
 são elencados os principais elementos usados para a demostração desta proposta:
 
@@ -504,7 +513,7 @@ forma gráfica os elementos e relacionamentos descritos na ontologia. Este
 \textit{software} foi usado diversas vezes para descobrir quais os elementos da
 ontologia e como eles deveriam ser acessados através da \gls{api}. A Figura
 \ref{fig:protege} mostra um dos arquivos da ontologia usado no trabalho, aberto
-para visualização.
+para visualização na ferramenta \textit{Protégé}.
 
 \begin{figure}[htbp]
 \centering
