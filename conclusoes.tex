@@ -56,11 +56,22 @@ trabalho:
 
 \section{Limitações}
 
-xx
+Baseado nos estudos realizados e nos resultados da execução da prova de conceito, foi possível observar a necessidade de efetuar estudos empíricos, com o intuito de observar a validação da abordagem fornecida por este trabalho.
+
+A abordagem apresentada apresenta a limitação de não permitir efetuar Engenharia Reversa em projetos que não tenham sido preparados para tal fim. Isto significa que não é possível recuperar, a partir de códigos fontes arbitrários, as informações sobre a rastreabilidade dos requisitos, modelos \gls{uml} e técnicas de implementação, já que em nível de código, a informação necessária para a recuperação dos dados é justamente o comentário \textit{AccTrace} personalizado, que não estará presente em tais projetos.
+
+O \gls{mta} é um processo de desenvolvimento de \textit{software} acadêmico, e por não ter uma grande aderência na indústria, implica em uma limitação direta para este trabalho. Contudo, a abordagem apresentada, apesar de usar o \gls{mta} como ponto de partida, não está fortemente vinculada a tal processo de desenvolvimento, dando indícios que outros processos podem ser utilizados. Ainda assim, esta abordagem ainda necessita do acompanhamento de um Especialista em Acessibilidade para que o lançamento das informações seja feito no momento correto.
 
 \section{Dificuldades encontradas}
 
-xx
+Este trabalho apresentou vários desafios. O primeiro deles foi descobrir como os requisitos de acessibilidade poderiam ser propagados desde seu levantamento até a fase de codificação, consequentemente sua vinculação com os modelos \gls{uml}. Escolher a maneira como as informações são persistidas (neste caso, \gls{xmi}/\gls{xml}) também influenciou no planejamento e execução da abordagem aqui descrita.
+
+A vinculação das técnicas de implementação de acessibilidade aos requisitos/modelos \gls{uml} é uma inovação deste trabalho. Portanto, optou-se por utilizar \gls{xmi}/\gls{xml}, usando modelos \gls{emf}/\textit{ECore} para gerenciamento destas informações.
+
+A escolha das ferramentas tecnológicas foi de fundamental importância, e por isso foi um grande desafio descobrir quais eram as ferramentas mais apropriadas. Como em cada fase do processo de desenvolvimento ferramentas diferentes são usadas, era importante que as ferramentas fosses intercompatíveis.
+
+Por fim, foi preciso encontrar um ``repositório'' com informações de acessibilidade úteis ao desenvolvedor, caso contrário este deveria ser construído. O projeto \textit{Aegis} \citep{aegis:13} foi de extrema importância, fornecendo uma ontologia de acessibilidade com as informações sobre o domínio acessibilidade e o documento de referência \gls{wcag} 2.0.
+
 
 \section{Participação em evento}
 
