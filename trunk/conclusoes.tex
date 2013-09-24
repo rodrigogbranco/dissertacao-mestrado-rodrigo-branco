@@ -23,9 +23,9 @@ do projeto \citet{aegis:13} ajudou a alcançar tal objetivo, estendendo as
 técnicas de implementação anteriormente ditas para abordagens, diretrizes,
 critérios de sucesso, entre outros.
 
-Este estudo não tem por objetivo entregar uma ferramenta \gls{case} que atenda
-às exigências aqui descritas; o objetivo principal é discutir as alternativas para promover a rastreabilidade (utilizando técnicas já descritas na
-literatura e utilizadas em outros trabalhos), e a partir das várias opções
+Este estudo não teve por objetivo entregar uma ferramenta \gls{case} que atenda
+às exigências aqui descritas; o objetivo principal foi discutir as alternativas
+para promover a rastreabilidade (utilizando técnicas já descritas na literatura e utilizadas em outros trabalhos), e a partir das várias opções
 disponíveis, escolher a mais adequada, levando em consideração as ferramentas
 disponíveis, contexto abordado e limitações inerentes.
 
@@ -42,7 +42,7 @@ ferramenta em si, mas sim possuir o especialista e o domínio mapeado.
 
 As alternativas disponíveis promovem a rastreabilidade entre requisitos \textit{versus} modelos \gls{uml}. Contudo, não foi encontrado como é possível utilizar as alternativas para recuperar informações de rastreabilidade dos requisitos partindo do código fonte do programa. Também não foi possível identificar se essas alternativas permitem a associação de técnicas de implementação aos requisitos e modelos \gls{uml}.
 
-É possível apontar, portanto, três grandes contribuições fornecidas por este
+É possível apontar, portanto, quatro grandes contribuições fornecidas por este
 trabalho:
 
 \begin{enumerate}
@@ -58,7 +58,8 @@ trabalho:
 
 Baseado nos estudos realizados e nos resultados da execução da prova de conceito, foi possível observar a necessidade de efetuar estudos empíricos, com o intuito de observar a validação da abordagem fornecida por este trabalho.
 
-A abordagem apresentada apresenta a limitação de não permitir efetuar Engenharia Reversa em projetos que não tenham sido preparados para tal fim. Isto significa que não é possível recuperar, a partir de códigos fontes arbitrários, as informações sobre a rastreabilidade dos requisitos, modelos \gls{uml} e técnicas de implementação, já que em nível de código, a informação necessária para a recuperação dos dados é justamente o comentário \textit{AccTrace} personalizado, que não estará presente em tais projetos.
+A abordagem utilizada apresentou a limitação de não permitir efetuar
+Engenharia Reversa em projetos que não tenham sido preparados para tal fim. Isto significa que não é possível recuperar, a partir de códigos fontes arbitrários, as informações sobre a rastreabilidade dos requisitos, modelos \gls{uml} e técnicas de implementação, já que em nível de código, a informação necessária para a recuperação dos dados é justamente o comentário \textit{AccTrace} personalizado, que não estará presente em tais projetos.
 
 O \gls{mta} é um processo de desenvolvimento de \textit{software} acadêmico, e por não ter uma grande aderência na indústria, implica em uma limitação direta para este trabalho. Contudo, a abordagem apresentada, apesar de usar o \gls{mta} como ponto de partida, não está fortemente vinculada a tal processo de desenvolvimento, dando indícios que outros processos podem ser utilizados. Ainda assim, esta abordagem ainda necessita do acompanhamento de um Especialista em Acessibilidade para que o lançamento das informações seja feito no momento correto.
 
