@@ -316,11 +316,30 @@ de acordo com a abordagem adotada neste trabalho}
 É desejável que uma ferramenta \gls{case} que apóie a rastreabilidade dos requisitos de acessibilidade permita:
 
 \begin{itemize}
-  \item Associar os requisitos de acessibilidade e os modelos \gls{uml};
-  \item Visualizar e gerenciar as associações descritas anteriormente;
-  \item Vincular as técnicas de implementação para os elementos associados anteriormente;
-  \item Gerar a matriz de rastreabilidade dos elementos associados;
-  \item Recuperar as informações de rastreabilidade entre as fases de engenharia de requisitos e codificação. 
+  \item Associar os requisitos de acessibilidade e os modelos \gls{uml}. A
+  ferramenta deve permitir a associação bidirecional, ou seja, deve ser possível
+  partir dos requisitos e chegar nos modelos \gls{uml} e vice-versa;
+  \item Visualizar e gerenciar as associações descritas anteriormente. A
+  ferramenta deve permitir que as associações sejam gerenciadas, ou seja, que
+  tais associações sejam inseridas, atualizadas e removidas;
+  \item Vincular as técnicas de implementação para os elementos associados
+  anteriormente. Para cada vinculação de requisito e modelo gls{uml}, a
+  ferramenta deve permitir a associação de uma ou mais técnica de
+  implementação, com informações relevantes que serão recuperadas
+  posteriormente;
+  \item Gerar a matriz de rastreabilidade dos elementos associados. A
+  ferramenta deve permitir a geração da matriz de rastreabilidade, de forma
+  automática, mostrando de forma explícita o relacionamento entre os
+  requisitos, modelos \gls{uml} e técnicas de implementação de acessibilidade;
+  \item Gerar código fonte com as informações necessárias que permita efetuar a
+  rastreabilidade dos requisitos, modelos e técnicas de implementação de
+  acessibilidade. A ferramenta deve, partindo as associações entre requisitos,
+  modelos \gls{uml} e técnicas de implementação, gerar códigos \textit{stub}
+  preparados para que estas informações sejam recuperadas posteriormente;
+  \item Recuperar as informações de rastreabilidade entre as fases de engenharia
+  de requisitos e codificação. O código fonte precisa ter informações embutidas
+  que permitam referenciar os requisitos, modelos \gls{uml} e técnicas de
+  implementação de acessibilidade, e uma vez de posse dessas informações
 \end{itemize}
 
 \section{Alternativas disponíveis} 
@@ -825,6 +844,19 @@ Os passos aqui descritos descrevem a construção da ferramenta, seguindo a
 abordagem da Figura \ref{fig:figuramagica} e detalhada na Figura \ref{fig:association}.
 
 \section{Considerações Finais}
+
+Foi possível observar, por meio da pesquisa bibliográfica apresentada no
+Capítulo \ref{levbib}, que a rastreabilidade dos requisitos, aliada ao processo
+de desenvolvimento de \textit{software}, é um tema pouco explorado nos trabalhos
+anteriores. Por este motivo, foram utilizadas as abordagens aqui descritas para
+o desenvolvimento deste trabalho. A grande maioria dos trabalhos aqui
+relacionados dizem respeito ao produto pronto, focando em sua interface,
+navegação, arquitetura e avaliação. Dos trabalhos que tratam de rastreabilidade
+de requisitos e processos de desenvolvimento, não foram encontrados trabalhos
+que permitam a recuperação das informações de rastreabilidade do código da
+solução. E, principalmente, não foram encontrados trabalhos que vinculem aos
+requisitos/modelos \gls{uml} suas respectivas técnicas de implementação de
+acessibilidade.
 
 Este capítulo apresentou as tecnologias, ferramentas e abordagens utilizadas
 para a construção do \textit{plugin Acctrace}, ferramenta \gls{case} proposta
