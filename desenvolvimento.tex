@@ -482,7 +482,7 @@ demonstra o núcleo de funcionamento do \textit{plugin Requirement Designer},
 que possui os dois primeiros elementos listados anteriormente (repositório dos requisitos e os requisitos).
 Existe um repositório (\textit{Repository}), que pode conter zero ou mais
 categorias principais (\textit{Category}). Cada categoria principal pode conter
-0 ou mais requisitos (\textit{Requirement}), e também pode conter 0 ou mais
+0 ou mais requisitos (\textit{Requirement}), e também pode conter zero ou mais
 subcategorias (\textit{Category}), recursivamente. Os requisitos podem ser do
 tipo funcionais ou não-funcionais (neste \textit{plugin} tratados como
 requisitos técnicos).
@@ -625,15 +625,6 @@ O elemento \textit{WCAG 2.0} presente na ontologia possui 5 grupos que podem ser
 mostra a Figura \ref{fig:wcag2groups}: abordagens, testes, critérios de
 sucesso, diretrizes ou técnicas. Cada um desses grupos contém os elementos que
 efetivamente devem ser selecionados para que a associação seja concluída.
-Tomando como base a escolha do subgrupo critérios de sucesso, podemos ver as
-opções disponíveis mostradas na Figura \ref{fig:successcriterion}. Os elementos
-internos da ontologia são diferentes, dependendo do seu tipo e objetivo. A
-Figura \ref{fig:successcriterion127} mostra os elementos da ontologia
-escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
-ela possui uma descrição, uma prioridade, um ID e um nome, além de
-relacionamentos com outros elementos da ontologia que aqui foram omitidos. Uma vez
-selecionada o item apropriado da ontologia, um clique no botão OK faz com que a
-associação seja persistida ao modelo.
 
 \begin{figure}[h]
 \centering
@@ -641,6 +632,18 @@ associação seja persistida ao modelo.
 \caption{Grupos a serem selecionados a partir da ontologia \textit{WCAG 2.0}}
 \label{fig:wcag2groups}
 \end{figure}
+
+
+Tomando como base a escolha do subgrupo critérios de sucesso, podemos ver as
+opções disponíveis mostradas na Figura \ref{fig:successcriterion}. Os elementos
+internos da ontologia são diferentes, dependendo do seu tipo e objetivo. 
+
+A Figura \ref{fig:successcriterion127} mostra os elementos da ontologia
+escolhida como exemplo (\textit{WCAG2 SuccessCriterion 1.2.7}):
+ela possui uma descrição, uma prioridade, um ID e um nome, além de
+relacionamentos com outros elementos da ontologia que aqui foram omitidos. Uma vez
+selecionada o item apropriado da ontologia, um clique no botão OK faz com que a
+associação seja persistida ao modelo.
 
 \begin{figure}[h]
 \centering
@@ -651,7 +654,7 @@ associação seja persistida ao modelo.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.35]{./images/successcriterion127.png}
+\includegraphics[scale=0.3]{./images/successcriterion127.png}
 \caption{Seleção do elemento \textit{WCAG 2.0 SuccessCriterion 1.2.7} da ontologia}
 \label{fig:successcriterion127}
 \end{figure}
@@ -678,10 +681,11 @@ específico para esse fim, acessando na barra de tarefas as opções \textit{File},
 wizard}. Para a geração da matriz ocorrer sem erros, é necessário informar o
 arquivo que armazena o modelo da ferramenta, com a extensão .acctrace.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./images/matrixpart.png}
-\caption{Parte da matriz de rastreabilidade gerada pela ferramenta}
+\includegraphics[scale=0.45]{./images/matrixpart.png}
+\caption{Parte da matriz de rastreabilidade gerada pela ferramenta
+\textit{AccTrace}}
 \label{fig:matrixpart}
 \end{figure}
 
@@ -703,11 +707,11 @@ vista no trecho de código mostrado a seguir.
 [import org::obeonetwork::pim::uml2::gen::java::services::importService /]
 
 [template private classifierJavaFilePath(aClassifier : Classifier)]
-[if (not aClassifier.getNearestPackage().oclIsUndefined())]
-[aClassifier.genPackagePath()/][aClassifier.name/].java
-[else]
-[aClassifier.name.concat('.java')/]
-[/if]
+    [if (not aClassifier.getNearestPackage().oclIsUndefined())]
+        [aClassifier.genPackagePath()/][aClassifier.name/].java
+    [else]
+        [aClassifier.name.concat('.java')/]
+    [/if]
 [/template]
 \end{verbatim}
 
