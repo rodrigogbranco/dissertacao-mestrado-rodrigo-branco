@@ -1,7 +1,57 @@
 \chapter{Conclusões}
 
-Este capítulo apresenta as conclusões gerais desta dissertação, bem como as
-contribuições e trabalhos futuros.
+Este capítulo apresenta as conclusões gerais desta dissertação. Ele apresenta o
+resgate de desenvolvimento deste trabalho, sua principais contribuições,
+limitações, dificuldades e diretrizes para a execução de trabalhos futuros.
+
+\section{Considerações Iniciais}
+
+Este trabalho teve por objetivo entender como acontece o processo de propagação
+dos requisitos de acessibilidade, desde a fase de Engenharia de Requisitos até a
+fase de codificação, e entender como os desenvolvedores utilizam esta informação
+para construir um produto genuinamente acessível.
+
+Ao logo do desenvolvimento deste trabalho, a pesquisa revelou que,
+primeiramente, poucos processos de desenvolvimento de \textit{software} adotam
+medidas para incluir tópicos de acessibilidade em sua execução. Foi possível
+notar também que a rastreabilidade dos requisitos não acontece em nível de
+código.
+
+Por este motivo, o \gls{mta} \citep{maia:10} foi utilizado como diretriz
+principal para o estudo do processo de rastreabilidade dos requisitos de
+acessibilidade. O estudo revelou que várias abordagens poderiam ser executadas;
+a adoção de uma delas ocorreu principalmente devido a fatores como complexidade
+e ferramentas tecnológicas de apoio disponíveis e utilizadas.
+
+A rastreabilidade de requisitos foi obtida através de matrizes de
+rastreabilidade (para requisitos e modelos \gls{uml}) e comentários
+personalizados (para o código fonte).
+
+Como ponto adicional, foi inserido às associações entre requisitos e modelos
+\gls{uml} técnicas de implementação de acessibilidade, para apoiar o
+desenvolvedor, já que nem todos possuem as habilidades necessárias para
+construir um produto acessível \citep{1630123}. Desta forma, os desenvolvedores
+podem, no momento da codificação, recuperar informações sobre os requisitos,
+modelos \gls{uml} e técnicas de implementação para a efetiva implementação de
+acessibilidade em seu produto.
+
+A pesquisa de \citet{Trewin:2010:ACT:1805986.1806029} mostrou que os
+desenvolvedores estão insatisfeitos com as informações entregues pelas
+ferramentas de apoio à acessibilidade (geralmente ferramentas de avaliação). Por
+isso, foi utilizada a ontologia do Projeto \citet{aegis:13}, que mapeia o
+documento de referência \gls{wcag} 2.0, e este fornece valiosas contribuições
+para a construção de produtos acessíveis, especificando abordagens, testes,
+critérios de sucesso, técnicas de implementação, entre outros, entregando assim
+informações úteis e que realmente ajudarão os desenvolvedores na tarefa de
+construção de seu produto.
+
+Por fim, a pesquisa de \citet{Trewin:2010:ACT:1805986.1806029} mostrou também
+que os desenvolvedores estão insatisfeitos com a utilização de ferramentas
+externas a seu ambiente de desenvolvimento para avaliação dos produtos. Por
+isso, a ferramenta construída neste trabalho foi um \textit{plugin} para o
+\textit{Eclipse}, permitindo manter em um mesmo ecossistema de tecnologias as
+ferramentas de Engenharia de Requisitos, Modelagem \gls{uml} e codificação,
+permitindo a integração destas com o \textit{plugin} desenvolvido.
 
 \section{Contribuições do Trabalho}
 
