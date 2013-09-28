@@ -34,7 +34,7 @@ No Subprocesso 1 (Elicitação dos Requisitos do Sistema), observando a Tarefa
   acessibilidade \gls{wcag} 2.0, sem nível definido.
 \end{itemize} 
 
-Nenhum requisito funcional de acessibilidade foi identificado nesta etapa; até
+Nenhum requisito de acessibilidade foi identificado nesta etapa; até
 agora, o sistema deve seguir as boas práticas genéricas de acessibilidade para
 englobar todos os conjuntos de usuários/deficiências.
 
@@ -65,7 +65,7 @@ especialista em acessibilidade identificou que:
   http://www.microsoft.com/enable/}.
 \end{itemize}
 
-O especialista em acessibilidade constatou que 2 requisitos funcionais de
+O especialista em acessibilidade constatou que 2 requisitos não funcionais de
 acessibilidade estão presentes: o mecanismo de busca será alterado toda vez que
 a linguagem padrão for alterada, e o mecanismo de busca será alterado quando o
 usuário informar suas necessidades específicas, por exemplo, sua deficiência. As
@@ -91,14 +91,14 @@ Requisitos de Acessibilidade aos Elementos do Sistema) e 3.2 (Avaliar o Projeto
 Arquitetural do Sistema com Relação aos Requisitos de Acessibilidade) \citep{maia:10} tratam da decomposição do
 sistema em componentes menores, assim como a especificação da responsabilidade
 de cada componente. Para os requisitos de acessibilidade descritos
-anteriormente, é definido que, para cada um dos requisitos funcionais
+anteriormente, é definido que, para cada um dos requisitos não funcionais
 (alteração do mecanismo de busca), um componente individual será gerado, podendo
 ter um elemento de renderização genérico, ou um ou mais componentes de
 renderização para cada uma das alterações do mecanismo de busca, ou até da
 combinação delas.
 
-O requisito não funcional identificado deve permear todos os componentes do
-projeto, inclusive os já descritos anteriormente.
+O requisito não funcional ``os elementos do sistema devem ser: perceptíveis,
+operáveis, compreensíveis e robustos'' deve permear todos os componentes do projeto, inclusive os já descritos anteriormente.
 
 \subsection{Subprocesso 4 - Análise de Requisitos do Software}
 
@@ -109,54 +109,53 @@ Nas Taferas (Estabelecer os Requisitos de Acessibilidade do Software) e
 (Avaliar os Requisitos de Acessibilidade do Software) os requisitos de sistema
 são especificados, avaliados e documentados em requisitos de \textit{software}.
 Todos os requisitos, tanto os funcionais (RF) como os não-funcionais 
-(RNF), inclusive os de acessibilidade (RA), podem ser vistos abaixo:
+(RNF), inclusive os de acessibilidade (RNFA), podem ser vistos abaixo:
 
 \begin{itemize}
   \item RF1: o sistema deve permitir que, dado uma chave de busca (uma ou mais
-  palavras), o resultado da busca seja retornado (RF);
-  \item RF2: o sistema deve permitir que o usuário altere a linguagem padrão da
-  ferramenta (RF);
-  \item RF3: o sistema deve permitir que o usuário altere o constraste da página
-  (RF);
-  \item RF4: o sistema deve permitir que o usuário altere o tamanho da fonte da
-  página (RF);
-  \item RF6: o sistema deve permitir que o usuário informe qual é o tipo de
-  limitação/deficiência possui (RF);
-  \item RF8: o sistema deve fornecer atalhos via teclado, para alterar o idioma
-  e a informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
-  de texto principal (RF e RA);  
-  \item RFA1: o sistema deve utilizar a linguagem especificada como critério de
-  seleção no mecanismo de busca (RF e RA);
-  \item RFA2: o sistema deve utilizar o tipo de limitação/deficiência como
-  critério de seleção no mecanismo de busca (RF e RA);
-   \item RFA3: o sistema deve permitir que todas as funcionalidades sejam
-   acessíveis via teclado (RF e RA);
-  \item RFA4: o sistema deve permitir que, ao ser especificado o tipo de
-  limitação/deficiência, a utilização de métrica de acessibilidade sejam
-  utilizadas para classificar as páginas (RF e RA).    
+  palavras), o resultado da busca seja retornado;
   \item RNF1: o sistema deve retornar o resultado da busca em menos de 2
-  segundos, para não prejudicar a percepção do usuário (RNF);
-  \item RNFA1: o sistema deve seguir a recomendação de
-  acessibilidade \gls{wcag} 2.0, nível AAA (RNF e RA);
+  segundos, para não prejudicar a percepção do usuário;  
+  \item RNF2: o sistema deve permitir que o usuário altere a linguagem padrão da
+  ferramenta;  
+  \item RNF3: o sistema deve permitir que o usuário altere o constraste da
+  página;  
+   \item RNF4: o sistema deve permitir que o usuário altere o tamanho da fonte
+   da página; 
+   \item RNF5: o sistema deve permitir que o usuário informe qual é o tipo de
+  limitação/deficiência possui; 
+   \item RNF6: o sistema deve fornecer atalhos via teclado, para alterar o
+   idioma e a informação sobre a limitação/deficiência, sempre voltando o foco para a caixa
+  de texto principal; 
+   \item RNFA1: o sistema deve seguir a recomendação de
+  acessibilidade \gls{wcag} 2.0, nível AAA; 
   \item RNFA2: o sistema deve fornecer componentes perceptíveis, operáveis,
-  compreensíveis e robustos (RNF e RA);
+  compreensíveis e robustos;
   \item RNFA3: o sistema deve permitir que o tempo para ler e utilizar o
-  conteúdo seja suficiente (RNF e RA);
-  \item RNFA4: o sistema deve entregar um conteúdo que não cause convulsão (RNF
-  e RA);
+  conteúdo seja suficiente;
+  \item RNFA4: o sistema deve entregar um conteúdo que não cause convulsão;
   \item RNFA5: o sistema deve permitir que o usuário navegue facilmente e
-  encontre o conteúdo desejado (RNF e RA).
+  encontre o conteúdo desejado.  
+  \item RNFA6: o sistema deve utilizar a linguagem especificada como critério de
+  seleção no mecanismo de busca;
+  \item RNFA7: o sistema deve utilizar o tipo de limitação/deficiência como
+  critério de seleção no mecanismo de busca;
+   \item RNFA8: o sistema deve permitir que todas as funcionalidades sejam
+   acessíveis via teclado;
+  \item RNFA9: o sistema deve permitir que, ao ser especificado o tipo de
+  limitação/deficiência, a utilização de métrica de acessibilidade sejam
+  utilizadas para classificar as páginas.    
 \end{itemize}
 
 No \textit{plugin Requirement Designer}, os requisitos são agrupados em 2
-categorias principais: Requisitos Funcionais e Requisitos Não Funcionais. Cada
-uma dessas categorias possui uma categoria de agrupamento dos requisitos de
-acessibilidade. A Figura \ref{fig:facomsearchrequirementplugin} mostra o
-cadastro dos requisitos na ferramenta.
+categorias principais: Requisitos Funcionais e Requisitos Não Funcionais. A
+categoria de Requisitos Não Funcionais possui um Subcategoria (Requisitos Não
+Funcionais de Acessibilidade). A Figura \ref{fig:facomsearchrequirementplugin}
+mostra o cadastro dos requisitos na ferramenta.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./images/facomsearchrequirementplugin.png}
+\includegraphics[scale=0.5]{./images/facomsearchrequirementplugin.png}
 \caption{Cadastro dos requisitos no \textit{plugin Requirement Designer}}
 \label{fig:facomsearchrequirementplugin}
 \end{figure}
@@ -170,16 +169,16 @@ no código final não serão construídos. O diagrama de casos de uso aqui
 apresentado também não é usado pelo gerador de código, mas pela importância do
 artefato entendeu-se que era necessário a construção do mesmo.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./images/facomsearchusescase.png}
+\includegraphics[scale=0.5]{./images/facomsearchusescase.png}
 \caption{Diagrama de casos de uso do buscador}
 \label{fig:facomsearchusescase}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./images/facomsearchclassdiagram.png}
+\includegraphics[scale=0.5]{./images/facomsearchclassdiagram.png}
 \caption{Diagrama de classes do buscador}
 \label{fig:facomsearchclassdiagram}
 \end{figure}
@@ -196,9 +195,9 @@ entrada o arquivo .requirement. A Figura \ref{fig:referenciascriadas} mostra os
 elementos \gls{uml}, e para o modelo selecionado, os requisitos que a ele estão
 associados.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./images/referenciascriadas.png}
+\includegraphics[scale=0.5]{./images/referenciascriadas.png}
 \caption{Modelos \gls{uml} e requisitos associados}
 \label{fig:referenciascriadas}
 \end{figure}
@@ -271,9 +270,9 @@ associações, a classe \textit{Engine}, presente no diagrama
 de classes, associada ao requisito não funcional RNFA1 (Padrão
 \gls{wcag} 2.0, nível AAA), tendo as diretrizes 1.1, 2.1, 3.1 e 4.1 associadas como técnicas de acessibilidade.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth,height=15cm]{./images/tecnicasassociadas.png}
+\includegraphics[scale=0.5]{./images/tecnicasassociadas.png}
 \caption{Associação das técnicas de acessibilidade para um modelo e requisito
 selecionado.}
 \label{fig:tecnicasassociadas}
@@ -283,16 +282,16 @@ Neste ponto é possível gerar a matriz de rastreabilidade. As Figuras \ref{fig:re
 \ref{fig:modeltec} mostram uma parte dos dados gerados, para a associação de
 requisitos e técnicas, bem como modelos e técnicas.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth,height=7cm]{./images/reqtec.png}
+\includegraphics[scale=0.5]{./images/reqtec.png}
 \caption{Parte da matriz de rastreabilidade de requisitos e técnicas}
 \label{fig:reqtec}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth,,height=8cm]{./images/modeltec.png}
+\includegraphics[scale=0.5]{./images/modeltec.png}
 \caption{Parte da matriz de rastreabilidade de modelos e técnicas}
 \label{fig:modeltec}
 \end{figure}
@@ -320,9 +319,9 @@ classes geradas na visão \textit{Project Explorer}, dando ênfase na classe
 personalizados bem como a descrição de um deles na visão \textit{AccTrace
 Comment View}.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth,,height=13cm]{./images/generatedcode.png}
+\includegraphics[scale=0.5]{./images/generatedcode.png}
 \caption{Visualização do código gerado, com os comentários \textit{AccTrace}
 personalizados}
 \label{fig:generatedcode}
